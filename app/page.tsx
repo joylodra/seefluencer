@@ -1,91 +1,62 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from './page.module.css'
+"use client";
 
-const inter = Inter({ subsets: ['latin'] })
+// React & Next Hooks
+import Link from "next/link";
+
+// Icons & Images
+import Title from "./components/Global/Title";
+import { benefits } from "./libs/utils";
+import Hero from "./components/Global/Hero";
+import Cta from "./components/Global/Cta";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    <div className="mx-auto max-w-5xl flex flex-col py-5 gap-14">
+      <Hero
+        customTitle={
+          <>
+            see the difference{" "}
+            <span className="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 inline-block text-transparent bg-clip-text">
+              influencers
+            </span>{" "}
+            can make with seefluencer
+          </>
+        }
+        description="Our goal is to help your business increase brand awareness and sales through the power of influencer 
+        marketing. With us, you can see the impact of your brand through our carefully selected network of influencers."
+        href="https://wa.me/6285174259955"
+        buttonText="contact us"
+      />
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
+      <div className="flex flex-col gap-10 text-center font-serif justify-center items-center">
+        <Title
+          title="why us? 👋"
+          description="At seefluencer, we prioritize transparency and authenticity in all of our partnerships. 
+          Our platform provides a seamless experience for brands to connect with the most relevant influencers 
+          in their niche, ensuring that every collaboration is tailored to your unique needs."
         />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+          {benefits.map((item) => (
+            <div key={item.title} className="flex flex-col items-center gap-3">
+              <div className="p-4 rounded-full bg-blue-400 shadow-lg">
+                {item.icon}
+              </div>
+              <h2 className="text-2xl font-bold">{item.title}</h2>
+              <p>{item.description}</p>
+            </div>
+          ))}
         </div>
       </div>
 
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+      <Cta
+        title="so, what are you waiting for?"
+        description="We understand that starting an influencer marketing campaign can be daunting, especially if 
+        you're new to the industry. That's why we're here to guide you every step of the way. So, don't hesitate to 
+        reach out and ask us anything."
+        href="https://wa.me/6285174259955"
+        buttonText="contact us"
+      />
+    </div>
+  );
 }
