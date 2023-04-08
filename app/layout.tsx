@@ -38,6 +38,9 @@ export const metadata: Metadata = {
   icons: {
     shortcut: "/favicon.ico",
   },
+  verification: {
+    google: "GUaL-xc9P-5moe4H_kE06hkN8xhLGW8ilWjJrAzyQd0",
+  },
 };
 
 export default function RootLayout({
