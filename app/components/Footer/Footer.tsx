@@ -9,7 +9,7 @@ import { socials } from "@/app/libs/utils";
 const Footer = () => {
   return (
     <footer className="flex flex-col md:flex-row justify-between items-center text-center p-4 border-t mx-auto max-w-5xl gap-3">
-      <div className="flex flex-row gap-2">
+      <div className="flex flex-row gap-2 items-center justify-center">
         {socials.map((item) => (
           <Link
             key={item.url}

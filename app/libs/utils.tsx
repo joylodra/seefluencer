@@ -11,6 +11,7 @@ import {
 import { IoPeopleCircle } from "react-icons/io5";
 import { BsFillCameraVideoFill } from "react-icons/bs";
 import { HiDocumentReport } from "react-icons/hi";
+import { MdEmail } from "react-icons/md";
 
 export const socials = [
   {
@@ -28,6 +29,10 @@ export const socials = [
   {
     icon: <FaTwitter className="text-white" size={20} />,
     url: "https://twitter.com/seefluencer",
+  },
+  {
+    icon: <MdEmail className="text-white" size={20} />,
+    url: "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=seefluencer@gmail.com",
   },
 ];
 
