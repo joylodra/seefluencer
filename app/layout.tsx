@@ -1,5 +1,6 @@
 // React & Next Hooks
 import { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
 
 // Custom Components
 import Navbar from "./components/Navbar/Navbar";
@@ -54,6 +55,7 @@ export default function RootLayout({
         <Navbar />
         <main className="mx-auto max-w-5xl px-3">{children}</main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
