@@ -54,6 +54,7 @@ const Navbar = () => {
         <div className="hidden md:flex flex-row gap-5 items-center">
           {menu.map((item) => (
             <Link
+              key={item.href}
               href={item.href}
               className={`hover:underline decoration-blue-400 decoration-4 ${
                 pathname === item.href ? "underline" : ""
@@ -84,6 +85,7 @@ const Navbar = () => {
             <div className="flex flex-col">
               {menu.map((item) => (
                 <div
+                  key={item.href}
                   onClick={() => {
                     router.push(item.href);
                     setIsMenuOpen(false);
