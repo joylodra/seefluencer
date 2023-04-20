@@ -3,14 +3,21 @@
 interface TitleProps {
   title: string;
   description?: string;
+  secondary?: boolean;
 }
 
-const Title = ({ title, description }: TitleProps) => {
+const Title = ({ title, description, secondary }: TitleProps) => {
   return (
     <div className="flex flex-col gap-2">
-      <h2 className="text-4xl font-bold font-serif">{title}</h2>
+      <h2
+        className={`font-bold font-serif ${secondary ? "text-xl" : "text-4xl"}`}
+      >
+        {title}
+      </h2>
 
-      <p>{description}</p>
+      <p className={secondary ? "text-sm text-neutral-600" : ""}>
+        {description}
+      </p>
     </div>
   );
 };

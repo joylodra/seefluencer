@@ -1,10 +1,11 @@
+// Custom Components
 import Hero from "../components/Global/Hero";
+import BlogCard from "../components/Blog/BlogCard";
 
 export const metadata = {
-  title: "for influencers",
-  keywords: ["joyplannr", "social media", "scheduling", "planning"],
-  description:
-    "elevate your social media game with joyplannr, a powerful social media management tool 💥",
+  title: "blog",
+  keywords: ["blog page", "social media", "influencer", "content creator"],
+  description: "see the difference influencers can make with seefluencer 💙",
 };
 
 const Blog = () => {
@@ -21,6 +22,48 @@ const Blog = () => {
         }
         description="Equip with knowledge immensive, to make yourself expensive."
       />
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <BlogCard
+          href="/blog/post"
+          src="/images/influencer.png"
+          alt="Blog Image"
+          title="how to become a great influencer?"
+          description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt
+            cum esse veniam laudantium sit nisi earum ea expedita soluta eius.
+            Omnis enim quas repellat sed, dicta sapiente totam ea cupiditate."
+        />
+
+        <BlogCard
+          href="/blog/post"
+          src="/images/influencer.png"
+          alt="Blog Image"
+          title="how to become a great influencer?"
+          description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt
+            cum esse veniam laudantium sit nisi earum ea expedita soluta eius.
+            Omnis enim quas repellat sed, dicta sapiente totam ea cupiditate."
+        />
+
+        <BlogCard
+          href="/blog/post"
+          src="/images/influencer.png"
+          alt="Blog Image"
+          title="how to become a great influencer?"
+          description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt
+            cum esse veniam laudantium sit nisi earum ea expedita soluta eius.
+            Omnis enim quas repellat sed, dicta sapiente totam ea cupiditate."
+        />
+
+        <BlogCard
+          href="/blog/post"
+          src="/images/influencer.png"
+          alt="Blog Image"
+          title="how to become a great influencer?"
+          description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt
+            cum esse veniam laudantium sit nisi earum ea expedita soluta eius.
+            Omnis enim quas repellat sed, dicta sapiente totam ea cupiditate."
+        />
+      </div>
     </div>
   );
 };

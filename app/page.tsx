@@ -3,6 +3,8 @@
 // Icons & Images
 import Title from "./components/Global/Title";
 import { benefits } from "./libs/utils";
+
+// Custom Components
 import Hero from "./components/Global/Hero";
 import Cta from "./components/Global/Cta";
 
@@ -21,7 +23,7 @@ export default function Home() {
         }
         description="Our goal is to help your business increase brand awareness and sales through the power of influencers."
         href="https://wa.me/6285174259955"
-        buttonText="contact us"
+        buttonText="get in touch"
       />
 
       <div className="aspect-w-16 aspect-h-9">
@@ -56,7 +58,7 @@ export default function Home() {
         That's why we're here to guide you every step of the way. So, don't hesitate to 
         reach out and ask us anything."
         href="https://wa.me/6285174259955"
-        buttonText="contact us"
+        buttonText="get in touch"
       />
     </div>
   );

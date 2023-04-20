@@ -6,7 +6,7 @@ import Link from "next/link";
 interface HeroProps {
   href?: string;
   buttonText?: string;
-  description: string;
+  description?: string;
   title?: string;
   customTitle?: React.ReactNode;
 }

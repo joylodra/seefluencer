@@ -1,7 +1,7 @@
 "use client";
 
 // React & Next Hooks
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import { usePathname, useRouter } from "next/navigation";
 
 // Custom Components
@@ -13,8 +13,8 @@ import { HiMenuAlt4 } from "react-icons/hi";
 import { GrFormClose } from "react-icons/gr";
 
 export const menu = [
-  { title: "influencers", href: "/influencers" },
   { title: "brands & agencies", href: "/brands" },
+  { title: "creators & influencers", href: "/influencers" },
   { title: "blog", href: "/blog" },
 ];
 
@@ -41,10 +41,25 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", scrollHandler);
   }, [top]);
 
+  const menuRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+        setIsMenuOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [menuRef]);
+
   return (
     <div className={`sticky top-0 z-50 bg-white ${!top && `shadow-lg`}`}>
       <div className="mx-auto max-w-5xl p-5 flex flex-row justify-between items-center">
-        <Link className="text-xl font-bold" href="/">
+        <Link className="text-xl font-bold" href={`/`}>
           <span className="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 inline-block text-transparent bg-clip-text">
             see
           </span>
@@ -55,7 +70,7 @@ const Navbar = () => {
           {menu.map((item) => (
             <Link
               key={item.href}
-              href={item.href}
+              href={`${item.href}`}
               className={`hover:underline decoration-blue-400 decoration-4 ${
                 pathname === item.href ? "underline" : ""
               }`}
@@ -69,7 +84,7 @@ const Navbar = () => {
             href="https://wa.me/6285174259955"
             className="px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
           >
-            contact us
+            get in touch
           </Link>
         </div>
 
@@ -81,13 +96,16 @@ const Navbar = () => {
         </div>
 
         {isMenuOpen && (
-          <div className="md:hidden absolute rounded-xl shadow-3xl w-3/4 bg-white right-0 top-20 text-sm overflow-hidden">
+          <div
+            ref={menuRef}
+            className="md:hidden absolute rounded-xl shadow-3xl w-3/4 bg-white right-2 top-[88px] text-sm overflow-hidden"
+          >
             <div className="flex flex-col">
               {menu.map((item) => (
                 <div
                   key={item.href}
                   onClick={() => {
-                    router.push(item.href);
+                    router.push(`${item.href}`);
                     setIsMenuOpen(false);
                   }}
                   className="px-4 py-2 hover:bg-blue-400 hover:text-white transition cursor-pointer"
@@ -101,7 +119,7 @@ const Navbar = () => {
                 href="https://wa.me/6285174259955"
                 className="border-t px-4 py-2 hover:bg-blue-400 hover:text-white transition cursor-pointer"
               >
-                contact us
+                get in touch
               </Link>
             </div>
           </div>
