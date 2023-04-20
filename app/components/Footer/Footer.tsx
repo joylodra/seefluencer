@@ -117,7 +117,7 @@ const Footer = () => {
             </span>
             fluencer
           </Link>{" "}
-          // made with 💙 in 🇮🇩
+          {`// made with 💙 in 🇮🇩`}
         </p>
       </div>
     </footer>
