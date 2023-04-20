@@ -13,7 +13,7 @@ import { MdEmail } from "react-icons/md";
 const Footer = () => {
   return (
     <footer className="flex flex-col p-4 mx-auto max-w-5xl gap-3 z-30 relative">
-      <div className="grid grid-cols-1 text-center md:text-left md:grid-cols-4 gap-5 border-t py-10">
+      <div className="grid grid-cols-1 text-center md:text-left md:grid-cols-4 gap-3 border-t py-10">
         <div>
           <Link className="text-3xl font-bold" href="/">
             <span className="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 inline-block text-transparent bg-clip-text">
@@ -22,7 +22,9 @@ const Footer = () => {
             fluencer
           </Link>
 
-          <p>see the difference influencers can make with seefluencer</p>
+          <p className="text-sm">
+            see the difference influencers can make with seefluencer
+          </p>
         </div>
 
         <div className="flex flex-col gap-3">
@@ -30,14 +32,14 @@ const Footer = () => {
 
           <Link
             href="/brands"
-            className="hover:underline decoration-blue-400 decoration-4"
+            className="md:hover:underline decoration-blue-400 decoration-4 text-sm"
           >
             for brands & agencies
           </Link>
 
           <Link
             href="/influencers"
-            className="hover:underline decoration-blue-400 decoration-4"
+            className="md:hover:underline decoration-blue-400 decoration-4 text-sm"
           >
             for influencers & creators
           </Link>
@@ -48,35 +50,35 @@ const Footer = () => {
 
           <Link
             href="/case-studies"
-            className="hover:underline decoration-blue-400 decoration-4"
+            className="md:hover:underline decoration-blue-400 decoration-4 text-sm"
           >
             case studies
           </Link>
 
           <Link
             href="/blog"
-            className="hover:underline decoration-blue-400 decoration-4"
+            className="md:hover:underline decoration-blue-400 decoration-4 text-sm"
           >
             blog
           </Link>
 
           <Link
             href="/terms-and-conditions"
-            className="hover:underline decoration-blue-400 decoration-4"
+            className="md:hover:underline decoration-blue-400 decoration-4 text-sm"
           >
             terms and conditions
           </Link>
 
           <Link
             href="/privacy-policy"
-            className="hover:underline decoration-blue-400 decoration-4"
+            className="md:hover:underline decoration-blue-400 decoration-4 text-sm"
           >
             privacy policy
           </Link>
 
           <Link
             href="/faq"
-            className="hover:underline decoration-blue-400 decoration-4"
+            className="md:hover:underline decoration-blue-400 decoration-4 text-sm"
           >
             FAQ
           </Link>
@@ -85,11 +87,11 @@ const Footer = () => {
         <div className="flex flex-col items-center md:items-start gap-3">
           <h3 className="font-bold">get in touch</h3>
 
-          <p className="flex flex-row gap-2 items-center">
-            <MdEmail size={24} /> seefluencers@gmail.com
+          <p className="flex flex-row gap-2 items-center text-sm">
+            <MdEmail size={24} /> seefluencer@gmail.com
           </p>
 
-          <p className="flex flex-row gap-2 items-center">
+          <p className="flex flex-row gap-2 items-center text-sm">
             <FaWhatsapp size={24} /> +6285174259955
           </p>
         </div>
@@ -109,7 +111,7 @@ const Footer = () => {
           ))}
         </div>
 
-        <p>
+        <p className="text-sm">
           copyright © 2023{" "}
           <Link className="hover:opacity-75 font-semibold" href="/">
             <span className="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 inline-block text-transparent bg-clip-text">

@@ -71,7 +71,7 @@ const Navbar = () => {
             <Link
               key={item.href}
               href={`${item.href}`}
-              className={`hover:underline decoration-blue-400 decoration-4 ${
+              className={`md:hover:underline decoration-blue-400 decoration-4 ${
                 pathname === item.href ? "underline" : ""
               }`}
             >
