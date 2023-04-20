@@ -101,10 +101,10 @@ const Terms = () => {
 
         <p className="font-bold">9. Governing Law </p>
         <p className="ml-4">
-          These Terms shall be governed by and construed in accordance with the
+          {`These Terms shall be governed by and construed in accordance with the
           laws of [insert governing law jurisdiction]. Any disputes arising out
           of or in connection with these Terms shall be resolved in the courts
-          of [insert governing law jurisdiction].
+          of [insert governing law jurisdiction].`}
         </p>
 
         <p className="font-bold">10. Change to Terms</p>
