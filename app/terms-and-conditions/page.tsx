@@ -77,10 +77,10 @@ const Terms = () => {
 
         <p className="font-bold">6. Disclaimer of Warranties</p>
         <p className="ml-4">
-          The Service is provided on an "as is" and "as available" basis,
+          {`The Service is provided on an "as is" and "as available" basis,
           without warranties of any kind, either express or implied, including
           but not limited to warranties of merchantability, fitness for a
-          particular purpose, or non-infringement.
+          particular purpose, or non-infringement.`}
         </p>
 
         <p className="font-bold">7. Limitation of Liability</p>
@@ -93,10 +93,10 @@ const Terms = () => {
 
         <p className="font-bold">8. Indemnification</p>
         <p className="ml-4">
-          You agree to indemnify and hold Seefluencer and its affiliates,
+          {`You agree to indemnify and hold Seefluencer and its affiliates,
           officers, agents, and employees harmless from any claim or demand,
           including reasonable attorneys' fees, arising out of your use of the
-          Service or violation of these Terms.
+          Service or violation of these Terms.`}
         </p>
 
         <p className="font-bold">9. Governing Law </p>
