@@ -25,9 +25,9 @@ const Terms = () => {
           Effective Date: April 14th, 2023
         </p>
         <p>
-          Please read these terms and conditions ("Terms") carefully before
+          {`Please read these terms and conditions ("Terms") carefully before
           using the Seefluencer website (the "Service") operated by Seefluencer
-          ("us", "we", or "our").
+          ("us", "we", or "our").`}
         </p>
         <p>
           By accessing or using the Service, you agree to be bound by these
