@@ -15,23 +15,33 @@ import { MdEmail } from "react-icons/md";
 
 export const socials = [
   {
+    platform: "instagram",
     icon: <FaInstagram className="text-white" size={20} />,
+    iconBlack: <FaInstagram size={20} />,
     url: "https://instagram.com/seefluencer",
   },
   {
+    platform: "tiktok",
     icon: <FaTiktok className="text-white" size={20} />,
+    iconBlack: <FaTiktok size={20} />,
     url: "https://tiktok.com/@seefluencer",
   },
   {
+    platform: "youtube",
     icon: <FaYoutube className="text-white" size={20} />,
+    iconBlack: <FaYoutube size={20} />,
     url: "https://youtube.com/@seefluencer",
   },
   {
+    platform: "twitter",
     icon: <FaTwitter className="text-white" size={20} />,
+    iconBlack: <FaTwitter size={20} />,
     url: "https://twitter.com/seefluencer",
   },
   {
+    platform: "email",
     icon: <MdEmail className="text-white" size={20} />,
+    iconBlack: <MdEmail size={20} />,
     url: "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=seefluencer@gmail.com",
   },
 ];

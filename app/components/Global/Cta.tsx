@@ -19,8 +19,9 @@ const Cta = ({ title, description, href, buttonText }: CtaProps) => {
         <p>{description}</p>
 
         <Link
+          target="_blank"
           href={href}
-          className="text-blue-400 bg-white px-5 py-3 font-bold rounded-md hover:shadow-lg transition-all"
+          className="text-blue-400 bg-white px-5 py-2 font-bold rounded-md hover:shadow-lg transition-all"
         >
           {buttonText}
         </Link>

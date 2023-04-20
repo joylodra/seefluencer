@@ -6,7 +6,7 @@ import Link from "next/link";
 interface HeroProps {
   href?: string;
   buttonText?: string;
-  description: string;
+  description?: string;
   title?: string;
   customTitle?: React.ReactNode;
 }
@@ -36,7 +36,7 @@ const Hero = ({
         <Link
           target="_blank"
           href={href}
-          className="mt-5 px-5 py-3 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
+          className="mt-5 px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
         >
           {buttonText}
         </Link>

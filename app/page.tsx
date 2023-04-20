@@ -1,17 +1,16 @@
 "use client";
 
-// React & Next Hooks
-import Link from "next/link";
-
 // Icons & Images
 import Title from "./components/Global/Title";
 import { benefits } from "./libs/utils";
+
+// Custom Components
 import Hero from "./components/Global/Hero";
 import Cta from "./components/Global/Cta";
 
 export default function Home() {
   return (
-    <div className="mx-auto max-w-5xl flex flex-col py-5 gap-14">
+    <div className="flex flex-col gap-16">
       <Hero
         customTitle={
           <>
@@ -22,18 +21,22 @@ export default function Home() {
             can make with seefluencer
           </>
         }
-        description="Our goal is to help your business increase brand awareness and sales through the power of influencer 
-        marketing. With us, you can see the impact of your brand through our carefully selected network of influencers."
+        description="Our goal is to help your business increase brand awareness and sales through the power of influencers."
         href="https://wa.me/6285174259955"
-        buttonText="contact us"
+        buttonText="get in touch"
       />
 
-      <div className="flex flex-col gap-10 text-center font-serif justify-center items-center">
+      <div className="aspect-w-16 aspect-h-9">
+        <iframe
+          allow="fullscreen;"
+          src="https://www.youtube.com/embed/tygLJPp2wT8"
+        />
+      </div>
+
+      <div className="flex flex-col gap-10 text-center justify-center items-center">
         <Title
           title="why us? 👋"
-          description="At seefluencer, we prioritize transparency and authenticity in all of our partnerships. 
-          Our platform provides a seamless experience for brands to connect with the most relevant influencers 
-          in their niche, ensuring that every collaboration is tailored to your unique needs."
+          description="At seefluencer, we prioritize transparency and authenticity in all of our partnerships."
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
@@ -42,7 +45,7 @@ export default function Home() {
               <div className="p-4 rounded-full bg-blue-400 shadow-lg">
                 {item.icon}
               </div>
-              <h2 className="text-2xl font-bold">{item.title}</h2>
+              <h2 className="text-2xl font-bold font-serif">{item.title}</h2>
               <p>{item.description}</p>
             </div>
           ))}
@@ -51,11 +54,11 @@ export default function Home() {
 
       <Cta
         title="so, what are you waiting for?"
-        description="We understand that starting an influencer marketing campaign can be daunting, especially if 
-        you're new to the industry. That's why we're here to guide you every step of the way. So, don't hesitate to 
+        description="We understand that starting an influencer marketing campaign can be daunting. 
+        That's why we're here to guide you every step of the way. So, don't hesitate to 
         reach out and ask us anything."
         href="https://wa.me/6285174259955"
-        buttonText="contact us"
+        buttonText="get in touch"
       />
     </div>
   );
