@@ -29,7 +29,7 @@ const Feature = ({
     >
       <div
         className={`flex-1 flex flex-col gap-7 justify-center items-center md:items-start ${
-          reverse ? "text-left" : "text-right"
+          reverse ? "md:text-left" : "md:text-right"
         }`}
       >
         <Title title={title} description={description} />
