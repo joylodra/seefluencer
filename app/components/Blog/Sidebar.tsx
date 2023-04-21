@@ -12,7 +12,7 @@ import Title from "../Global/Title";
 
 const Sidebar = () => {
   return (
-    <div className="md:sticky md:top-24 shadow-3xl h-fit rounded-lg w-full flex flex-col overflow-hidden">
+    <div className="md:sticky md:top-24 border border-neutral-200 h-fit rounded-lg w-full flex flex-col overflow-hidden">
       <div className="p-3">
         <Title
           secondary
