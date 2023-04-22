@@ -13,7 +13,7 @@ import { MdEmail } from "react-icons/md";
 const Footer = () => {
   return (
     <footer className="flex flex-col p-4 mx-auto max-w-5xl gap-3 z-30 relative">
-      <div className="grid grid-cols-1 text-center md:text-left md:grid-cols-4 gap-3 border-t py-10">
+      <div className="grid grid-cols-1 text-center md:text-left md:grid-cols-4 gap-8 md:gap-3 border-t py-10">
         <div>
           <Link className="text-3xl font-bold" href="/">
             <span className="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 inline-block text-transparent bg-clip-text">
@@ -88,11 +88,13 @@ const Footer = () => {
           <h3 className="font-bold">get in touch</h3>
 
           <p className="flex flex-row gap-2 items-center text-sm">
-            <MdEmail size={24} /> seefluencer@gmail.com
+            {/* <MdEmail size={24} />  */}
+            seefluencer@gmail.com
           </p>
 
           <p className="flex flex-row gap-2 items-center text-sm">
-            <FaWhatsapp size={24} /> +6285174259955
+            {/* <FaWhatsapp size={24} />  */}
+            +6285174259955
           </p>
         </div>
       </div>
