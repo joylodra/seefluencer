@@ -25,7 +25,7 @@ const Influencers = () => {
         }
         description="Layanan kami sangat mengutamakan kualitas untuk memberikan hasil terbaik kepada para klien kami. Dengan menggunakan strategi yang efektif, kami bertekad untuk memberikan hasil yang memuaskan dan memuaskan kebutuhan bisnis Anda."
         buttonText="hubungi kami"
-        href="/"
+        href="https://wa.me/6285174259955"
       />
 
       <div className="flex flex-col gap-10 text-center justify-center items-center">
@@ -39,10 +39,9 @@ const Influencers = () => {
 
       <Cta
         title="ready to start growing your business with us?"
-        description="
-        Di Seefluencer, kami memahami bahwa setiap bisnis memiliki kebutuhan yang berbeda-beda. Hubungi kami sekarang untuk membicarakan bagaimana kami dapat mengembangkan bisnis Anda melalui influencer marketing."
+        description="Di Seefluencer, kami memahami bahwa setiap bisnis memiliki kebutuhan yang berbeda-beda. Hubungi kami sekarang untuk membicarakan bagaimana kami dapat mengembangkan bisnis Anda melalui influencer marketing."
         href="https://wa.me/6285174259955"
-        buttonText="hubungi kai"
+        buttonText="hubungi kami"
       />
     </div>
   );

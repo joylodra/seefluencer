@@ -15,56 +15,22 @@ export const metadata = {
 
 const FAQ = () => {
   return (
-    <div className="flex flex-col gap-16">
+    <div className="flex flex-col gap-8">
       <Hero
         title="frequently asked questions"
-        description="We build every campaign to meet your needs, no matter the complexity."
+        description="Berikut adalah beberapa pertanyaan yang sering diajukan tentang Seefluencer. Jika masih ada pertanyaan yang belum terjawab, jangan ragu untuk menghubungi tim kami. Kami siap membantu Anda!"
       />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-        <div className="flex flex-col gap-5">
-          <Accordion
-            question="question #1"
-            answer="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-            reprehenderit cumque, dolorum ea, porro, iure enim aperiam
-            reiciendis eos molestias quos eum nisi provident beatae nam. Nihil
-            tempore assumenda ducimus!"
-          />
+      <div className="flex flex-col gap-5 w-full max-w-3xl mx-auto">
+        <Accordion
+          question="apa itu seefluencer?"
+          answer="Seefluencer merupakan sebuah influencer marketing platform yang menghubungkan brand dengan influencer. Kami membantu bisnis meningkatkan brand awareness dan sales dengan menghubungkan influencer terbaik. Kami membantu influencer mendapatkan pendapatan lebih melalui tawaran brand."
+        />
 
-          <Accordion
-            question="question #2"
-            answer="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-            reprehenderit cumque, dolorum ea, porro, iure enim aperiam
-            reiciendis eos molestias quos eum nisi provident beatae nam. Nihil
-            tempore assumenda ducimus!"
-          />
-
-          <Accordion
-            question="question #3"
-            answer="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-            reprehenderit cumque, dolorum ea, porro, iure enim aperiam
-            reiciendis eos molestias quos eum nisi provident beatae nam. Nihil
-            tempore assumenda ducimus!"
-          />
-        </div>
-
-        <div className="flex flex-col gap-5">
-          <Accordion
-            question="question #4"
-            answer="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-            reprehenderit cumque, dolorum ea, porro, iure enim aperiam
-            reiciendis eos molestias quos eum nisi provident beatae nam. Nihil
-            tempore assumenda ducimus!"
-          />
-
-          <Accordion
-            question="question #5"
-            answer="Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-            reprehenderit cumque, dolorum ea, porro, iure enim aperiam
-            reiciendis eos molestias quos eum nisi provident beatae nam. Nihil
-            tempore assumenda ducimus!"
-          />
-        </div>
+        <Accordion
+          question="bagaimana cara menghubungi seefluencer?"
+          answer="Jika kamu butuh bantuan bisa langsung hubungi kami di seefluencer@gmail.com atau langsung kirim WA ke kami di +6285174259955"
+        />
       </div>
     </div>
   );
