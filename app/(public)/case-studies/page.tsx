@@ -33,6 +33,7 @@ const CaseStudies = () => {
         description="Jangan ragu untuk menghubungi kami dan melihat portofolio kerja kami sebelum memulai kerja sama. Kami siap memperlihatkan hasil kerja terbaik kami untuk memastikan bahwa Anda merasa percaya dan nyaman dalam memilih Seefluencer sebagai mitra bisnis Anda."
         href="https://wa.me/6285174259955"
         buttonText="contact us here"
+        external
       />
     </div>
   );

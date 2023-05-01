@@ -11,6 +11,7 @@ interface HeroProps {
   description?: string;
   title?: string;
   customTitle?: React.ReactNode;
+  external?: boolean;
 }
 
 const Hero = ({
@@ -21,6 +22,7 @@ const Hero = ({
   secondaryButtonText,
   title,
   customTitle,
+  external,
 }: HeroProps) => {
   return (
     <div className="mt-5 mx-auto max-w-2xl flex flex-col gap-4 justify-center items-center text-center">
@@ -39,7 +41,7 @@ const Hero = ({
       <div className="mt-5 flex flex-col gap-2 sm:flex-row">
         {href && buttonText && (
           <Link
-            target="_blank"
+            target={external ? "_blank" : ""}
             href={href}
             className="px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
           >
@@ -49,7 +51,7 @@ const Hero = ({
 
         {secondaryHref && secondaryButtonText && (
           <Link
-            target="_blank"
+            target={external ? "_blank" : ""}
             href={secondaryHref}
             className="px-5 py-2 border-2 border-blue-400 text-blue-400 rounded-lg transition-all font-bold"
           >

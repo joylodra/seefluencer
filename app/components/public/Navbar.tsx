@@ -77,14 +77,6 @@ const Navbar = () => {
               {item.title}
             </Link>
           ))}
-
-          {/* <Link
-            target="_blank"
-            href="https://wa.me/6285174259955"
-            className="px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
-          >
-            get in touch
-          </Link> */}
         </div>
 
         <div
@@ -112,14 +104,6 @@ const Navbar = () => {
                   {item.title}
                 </div>
               ))}
-
-              {/* <Link
-                target="_blank"
-                href="https://wa.me/6285174259955"
-                className="border-t px-4 py-2 hover:bg-blue-400 hover:text-white transition cursor-pointer"
-              >
-                get in touch
-              </Link> */}
             </div>
           </div>
         )}
