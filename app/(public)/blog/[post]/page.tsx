@@ -29,7 +29,7 @@ export async function generateMetadata({
   params,
 }: PostProps): Promise<Metadata | undefined> {
   const posts = await getPosts();
-  const post = posts.find((post) => post.slug === params.slug);
+  const post = posts.find((post) => post.slug === params.post);
 
   if (!post) {
     return;
