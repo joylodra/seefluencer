@@ -50,25 +50,25 @@ export const benefits = [
   {
     title: "influencer identification",
     description:
-      "Creators that have authentic affinity for your brand, anywhere in the world and with any size following.",
+      "Kami akan memilih influencer yang memiliki keterikatan yang kuat dengan merek Anda dengan jumlah followers berapapun yang Anda butuhkan.",
     icon: <FaMicrophoneAlt size={50} className="text-white" />,
   },
   {
     title: "campaign consulting",
     description:
-      "Our full-service approach saves your team an average of 85% of their time per campaign.",
+      "Pelayanan kami dapat menghemat waktu tim Anda rata-rata hingga 85% per kampanye.",
     icon: <IoPeopleCircle size={50} className="text-white" />,
   },
   {
     title: "high-quality content",
     description:
-      "The captivating photo, video, and narrative content you need to tell your brand story.",
+      "Kami pastikan untuk menyediakan konten foto, video, dan naratif yang menarik yang Anda butuhkan untuk menceritakan kisah merek Anda..",
     icon: <BsFillCameraVideoFill size={50} className="text-white" />,
   },
   {
     title: "reporting & analysis",
     description:
-      "We analyze every data point to develop robust insights that will improve your marketing.",
+      "Kami menganalisis setiap titik data untuk mengembangkan wawasan yang kuat dalam meningkatkan pemasaran Anda.",
     icon: <HiDocumentReport size={50} className="text-white" />,
   },
 ];
