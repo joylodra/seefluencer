@@ -5,7 +5,6 @@ import { useState, useEffect, useCallback, useRef } from "react";
 import { usePathname, useRouter } from "next/navigation";
 
 // Custom Components
-import Logo from "./Navbar/Logo";
 import Link from "next/link";
 
 // Icons & Images
