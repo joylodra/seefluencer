@@ -75,9 +75,9 @@ const Post = async ({ params }: PostProps) => {
           </h1>
 
           <p className="opacity-50 text-sm mt-0">
-            by {post.author.name} //{" "}
+            by {post.author.name} //
             <time dateTime={post.publishedAt}>
-              {format(parseISO(post.publishedAt), "LLLL d, yyyy")}
+              {" " + format(parseISO(post.publishedAt), "LLLL d, yyyy")}
             </time>
           </p>
 
