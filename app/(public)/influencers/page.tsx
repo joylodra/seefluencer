@@ -34,20 +34,20 @@ const Influencers = () => {
       <Feature
         title="connect"
         description="Temukan dan terhubung dengan brand-brand terbaik melalui Seefluencer. Platform kami memberikan akses mudah ke jaringan luas brand-brand ternama, sehingga kamu dapat terhubung dengan mereka dengan lebih cepat dan efektif. Dapatkan lebih banyak kesempatan kerja sama dengan bergabung bersama kami."
-        src="/images/influencer.png"
+        src="/images/connect.png"
         reverse
       />
 
       <Feature
         title="create"
         description="Berkarya dan kembangkan kemampuan kamu sebagai influencer dengan platform Seefluencer. Dapatkan kesempatan untuk membuat konten-konten yang kreatif dan unik untuk brand-brand terbaik. Kami memberikan kebebasan dalam berekspresi, sehingga kamu dapat membuat konten dengan gaya yang sesuai dengan kepribadian kamu sendiri."
-        src="/images/influencer.png"
+        src="/images/create.png"
       />
 
       <Feature
         title="collaborate"
         description="Di Seefluencer, kamu tidak hanya bekerja sama dengan brand-brand ternama, tapi juga dengan influencer-influencer lain dalam komunitas kami. Bergabunglah dengan komunitas Seefluencer dan dapatkan kesempatan untuk bertukar pikiran dengan influencer lainnya. Kembangkan diri kamu sebagai influencer yang sukses dengan berkolaborasi bersama kami!"
-        src="/images/influencer.png"
+        src="/images/collaborate.png"
         reverse
       />
 

@@ -50,7 +50,7 @@ const Feature = ({
         alt="Feature Description Image"
         width={250}
         height={250}
-        className="rounded-lg shadow-lg"
+        className="rounded-lg shadow-lg h-52 w-full md:w-52 object-cover"
       />
     </div>
   );
