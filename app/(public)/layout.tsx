@@ -53,7 +53,7 @@ export default function RootLayout({
     <html>
       <body>
         <Navbar />
-        <main className="mx-auto max-w-5xl p-5">{children}</main>
+        <main className="mx-auto max-w-5xl p-3">{children}</main>
         <Footer />
         <Analytics />
       </body>

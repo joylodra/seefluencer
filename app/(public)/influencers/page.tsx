@@ -53,7 +53,7 @@ const Influencers = () => {
 
       <Cta
         title="influencer? bergabunglah bersama kami"
-        description="Tunggu apa lagi? Daftarkan dirimu sekarang juga dengan klik tombol daftar di bawah."
+        description="Tunggu apa lagi? Daftarkan dirimu sekarang juga dengan klik tombol daftar di bawah!"
         href="/form"
         buttonText="daftar jadi seefluencer"
       />

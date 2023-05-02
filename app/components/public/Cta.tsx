@@ -17,7 +17,11 @@ const Cta = ({ title, description, href, buttonText, external }: CtaProps) => {
       <div className="mx-auto max-w-xl py-10 px-5 flex flex-col gap-6 items-center justify-center">
         <h2 className="text-3xl font-bold font-serif">{title}</h2>
 
-        <p>{description}</p>
+        <div>
+          <p>{description}</p>
+
+          <p className="animate-pulse text-3xl font-bold">↓</p>
+        </div>
 
         <Link
           target={external ? "_blank" : ""}

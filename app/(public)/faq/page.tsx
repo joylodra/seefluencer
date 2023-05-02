@@ -15,12 +15,7 @@ export const metadata = {
 
 const FAQ = () => {
   return (
-    <div className="flex flex-col gap-8">
-      <Hero
-        title="frequently asked questions"
-        description="Berikut adalah beberapa pertanyaan yang sering diajukan tentang Seefluencer. Jika masih ada pertanyaan yang belum terjawab, jangan ragu untuk menghubungi tim kami. Kami siap membantu Anda!"
-      />
-
+    <div className="flex flex-col gap-16">
       <div className="flex flex-col gap-5 w-full max-w-3xl mx-auto">
         <Accordion
           question="apa itu seefluencer?"

@@ -26,12 +26,11 @@ export default function Home() {
         secondaryButtonText="saya influencer"
       />
 
-      <div className="aspect-w-16 aspect-h-9">
-        <iframe
-          allow="fullscreen;"
-          src="https://www.youtube.com/embed/M5PLJeb2Oz0"
-        />
-      </div>
+      <iframe
+        allow="fullscreen;"
+        src="https://www.youtube.com/embed/M5PLJeb2Oz0"
+        className="aspect-video w-full"
+      />
     </div>
   );
 }

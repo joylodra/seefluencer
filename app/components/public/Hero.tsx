@@ -12,6 +12,7 @@ interface HeroProps {
   title?: string;
   customTitle?: React.ReactNode;
   external?: boolean;
+  downArrow?: boolean;
 }
 
 const Hero = ({
@@ -23,6 +24,7 @@ const Hero = ({
   title,
   customTitle,
   external,
+  downArrow,
 }: HeroProps) => {
   return (
     <div className="mt-5 mx-auto max-w-2xl flex flex-col gap-4 justify-center items-center text-center">
@@ -38,8 +40,14 @@ const Hero = ({
 
       <p>{description}</p>
 
-      <div className="mt-5 flex flex-col gap-2 sm:flex-row">
-        {href && buttonText && (
+      {downArrow ? (
+        <p className="animate-pulse text-4xl font-bold">↓</p>
+      ) : (
+        <></>
+      )}
+
+      {href && buttonText && (
+        <div className="mt-5 flex flex-col gap-2 sm:flex-row">
           <Link
             target={external ? "_blank" : ""}
             href={href}
@@ -47,18 +55,18 @@ const Hero = ({
           >
             {buttonText}
           </Link>
-        )}
 
-        {secondaryHref && secondaryButtonText && (
-          <Link
-            target={external ? "_blank" : ""}
-            href={secondaryHref}
-            className="px-5 py-2 border-2 border-blue-400 text-blue-400 rounded-lg transition-all font-bold"
-          >
-            {secondaryButtonText}
-          </Link>
-        )}
-      </div>
+          {secondaryHref && secondaryButtonText && (
+            <Link
+              target={external ? "_blank" : ""}
+              href={secondaryHref}
+              className="px-5 py-2 border-2 border-blue-400 text-blue-400 rounded-lg transition-all font-bold"
+            >
+              {secondaryButtonText}
+            </Link>
+          )}
+        </div>
+      )}
     </div>
   );
 };

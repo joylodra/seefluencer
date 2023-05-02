@@ -32,7 +32,7 @@ const Feature = ({
           reverse ? "md:text-left" : "md:text-right"
         }`}
       >
-        <Title title={title} description={description} />
+        <Title title={title} description={description} underline />
 
         {href && buttonText && (
           <Link
@@ -50,7 +50,7 @@ const Feature = ({
         alt="Feature Description Image"
         width={250}
         height={250}
-        className="rounded-lg shadow-lg h-52 w-full md:w-52 object-cover"
+        className="rounded-lg shadow-lg h-52 w-full md:w-52 object-cover hover:shadow-3xl hover:shadow-neutral-500 transition-all"
       />
     </div>
   );
