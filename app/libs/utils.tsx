@@ -56,19 +56,19 @@ export const benefits = [
   {
     title: "campaign consulting",
     description:
-      "Pelayanan kami dapat menghemat waktu tim Anda rata-rata hingga 85% per kampanye.",
+      "Pelayanan kami dapat menghemat waktu tim Anda rata-rata hingga 85% per campaign.",
     icon: <IoPeopleCircle size={50} className="text-white" />,
   },
   {
     title: "high-quality content",
     description:
-      "Kami pastikan untuk menyediakan konten foto, video, dan naratif yang menarik yang Anda butuhkan untuk menceritakan kisah merek Anda..",
+      "Kami pastikan untuk menyediakan konten foto, video, dan naratif yang menarik yang Anda butuhkan untuk menciptakan story dari brand Anda.",
     icon: <BsFillCameraVideoFill size={50} className="text-white" />,
   },
   {
     title: "reporting & analysis",
     description:
-      "Kami menganalisis setiap titik data untuk mengembangkan wawasan yang kuat dalam meningkatkan pemasaran Anda.",
+      "Kami menganalisis setiap titik data untuk mengembangkan wawasan yang kuat dalam meningkatkan performa marketing brand Anda.",
     icon: <HiDocumentReport size={50} className="text-white" />,
   },
 ];
