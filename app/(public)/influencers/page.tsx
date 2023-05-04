@@ -28,7 +28,8 @@ const Influencers = () => {
         }
         description="Kamu seorang influencer atau konten kreator? Bergabunglah dengan Seefluencer. Di sini, kami akan berusaha keras memberikan tawaran endorsement dari brand-brand ternama. Daftar sekarang untuk meningkatkan penghasilan dan jangkauan kamu!"
         buttonText="daftar jadi seefluencer"
-        href="/form"
+        href="https://forms.gle/hpDtMSAvnCRNGV9L8"
+        external
       />
 
       <Feature
@@ -54,8 +55,9 @@ const Influencers = () => {
       <Cta
         title="influencer? bergabunglah bersama kami"
         description="Tunggu apa lagi? Daftarkan dirimu sekarang juga dengan klik tombol daftar di bawah!"
-        href="/form"
+        href="https://forms.gle/hpDtMSAvnCRNGV9L8"
         buttonText="daftar jadi seefluencer"
+        external
       />
     </div>
   );
