@@ -22,7 +22,7 @@ const Accordion = ({ question, answer }: AccordionProps) => {
     <div>
       <div
         onClick={toggleOpen}
-        className="p-3 text-xl shadow-3xl flex flex-row justify-between items-center gap-5 rounded-lg font-bold bg-blue-400 text-white cursor-pointer hover:opacity-90"
+        className="p-3 text-xl shadow-3xl flex flex-row justify-between items-center gap-5 rounded-lg font-bold bg-blue-400 text-white cursor-pointer hover:opacity-90 transition-all"
       >
         {question}
         {isOpen ? <BsChevronUp /> : <BsChevronDown />}

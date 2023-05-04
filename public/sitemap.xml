@@ -9,4 +9,59 @@
     <loc>https://www.seefluencer.com</loc>
     <priority>1.00</priority>
 </url>
+
+<url>
+    <loc>https://www.seefluencer.com/brands</loc>
+    <priority>0.80</priority>
+</url>
+
+<url>
+    <loc>https://www.seefluencer.com/influencers</loc>
+    <priority>0.80</priority>
+</url>
+
+<url>
+    <loc>https://www.seefluencer.com/blog</loc>
+    <priority>0.80</priority>
+</url>
+
+<url>
+    <loc>https://www.seefluencer.com/case-studies</loc>
+    <priority>0.80</priority>
+</url>
+
+<url>
+    <loc>https://www.seefluencer.com/faq</loc>
+    <priority>0.80</priority>
+</url>
+
+<url>
+    <loc>https://www.seefluencer.com/form</loc>
+    <priority>0.80</priority>
+</url>
+
+<url>
+    <loc>https://www.seefluencer.com/blog/brands</loc>
+    <priority>0.80</priority>
+</url>
+
+<url>
+    <loc>https://www.seefluencer.com/blog/influencers</loc>
+    <priority>0.80</priority>
+</url>
+
+<url>
+    <loc>https://www.seefluencer.com/blog/bagaimana-menjadi-influencer-sukses-di-tengah-persaingan-yang-ketat</loc>
+    <priority>0.64</priority>
+</url>
+
+<url>
+    <loc>https://www.seefluencer.com/blog/menentukan-tujuan-dan-strategi-yang-tepat-untuk-kampanye-influencer-marketing-anda</loc>
+    <priority>0.64</priority>
+</url>
+
+<url>
+    <loc>https://www.seefluencer.com/blog/pentingnya-pemilihan-influencer-yang-tepat-untuk-meningkatkan-keberhasilan-kampanye-anda</loc>
+    <priority>0.64</priority>
+</url>
 </urlset>

@@ -16,6 +16,11 @@ export const metadata = {
 const FAQ = () => {
   return (
     <div className="flex flex-col gap-16">
+      <Hero
+        title="frequently asked questions"
+        description="Di bawah ini adalah jawaban dari pertanyaan-pertanyaan yang paling sering ditanyakan tentang kami. Jika ada pertanyaan lain, jangan sungkan untuk hubungi kami!"
+      />
+
       <div className="flex flex-col gap-5 w-full max-w-3xl mx-auto">
         <Accordion
           question="apa itu seefluencer?"
@@ -24,7 +29,7 @@ const FAQ = () => {
 
         <Accordion
           question="bagaimana cara menghubungi seefluencer?"
-          answer="Jika kamu butuh bantuan bisa langsung hubungi kami di seefluencer@gmail.com atau langsung kirim WA ke kami di +6285174259955"
+          answer="Jika kamu butuh bantuan, bisa langsung hubungi kami di seefluencer@gmail.com atau langsung kirim WA ke kami di +6285174259955"
         />
       </div>
     </div>

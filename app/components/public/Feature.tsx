@@ -23,14 +23,10 @@ const Feature = ({
   buttonText,
 }: FeatureProps) => {
   return (
-    <div
-      className={`text-center items-center flex flex-col-reverse gap-6 md:text-left
-        ${reverse ? "md:flex-row" : "md:flex-row-reverse"}`}
-    >
+    <div className={`grid grid-cols-1 gap-3 items-center md:grid-cols-2`}>
       <div
-        className={`flex-1 flex flex-col gap-7 justify-center items-center md:items-start ${
-          reverse ? "md:text-left" : "md:text-right"
-        }`}
+        className={`col-span-1 text-center order-last
+        ${reverse ? "md:text-right" : "md:order-first md:text-left"}`}
       >
         <Title title={title} description={description} underline />
 
@@ -45,13 +41,15 @@ const Feature = ({
         )}
       </div>
 
-      <Image
-        src={src}
-        alt="Feature Description Image"
-        width={250}
-        height={250}
-        className="rounded-lg shadow-lg h-52 w-full md:w-52 object-cover hover:shadow-3xl hover:shadow-neutral-500 transition-all"
-      />
+      <div className="col-span-1">
+        <Image
+          src={src}
+          alt="Feature Description Image"
+          width={250}
+          height={250}
+          className="rounded-lg shadow-lg h-52 w-full object-cover hover:shadow-3xl hover:shadow-neutral-500 transition-all"
+        />
+      </div>
     </div>
   );
 };

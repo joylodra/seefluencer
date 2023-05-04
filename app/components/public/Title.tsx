@@ -13,7 +13,7 @@ const Title = ({ title, description, secondary, underline }: TitleProps) => {
       <h2
         className={`font-bold font-serif 
         ${secondary ? "text-xl" : "text-4xl"} 
-        ${underline ? "underline decoration-4 decoration-blue-400" : ""}`}
+        ${underline ? "underline decoration-4 decoration-blue-400 " : ""}`}
       >
         {title}
       </h2>
