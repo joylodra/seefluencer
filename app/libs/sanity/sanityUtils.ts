@@ -35,6 +35,7 @@ export async function getPost(slug: string): Promise<Post> {
             ...,
             author->,
             categories[]->,
+            audience[]->,
             "slug": slug.current,
       }`,
     { slug }

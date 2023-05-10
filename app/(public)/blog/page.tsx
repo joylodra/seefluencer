@@ -34,8 +34,6 @@ const Blog = async () => {
           <AudienceCard
             key={audience.title}
             href={`/blog/${audience.slug}`}
-            src={urlFor(audience.image).url()}
-            alt={audience.title}
             title={audience.title}
             description={audience.description}
           />

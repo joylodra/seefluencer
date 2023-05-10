@@ -10,6 +10,7 @@ interface Post extends Base {
   author: Author;
   body: Block[];
   categories: Array;
+  audience: Array;
   mainImage: string;
   slug: string;
   title: string;
