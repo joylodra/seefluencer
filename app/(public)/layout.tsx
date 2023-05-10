@@ -32,10 +32,6 @@ export const metadata: Metadata = {
     locale: "en-US",
     type: "website",
   },
-  twitter: {
-    title: "seefluencer",
-    card: "summary_large_image",
-  },
   icons: {
     shortcut: "/favicon.ico",
   },
