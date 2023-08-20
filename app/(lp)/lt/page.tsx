@@ -169,9 +169,9 @@ const LaunchTrack = () => {
             <h2 className="text-2xl font-bold">Niko Julius</h2>
 
             <div className="italic text-gray-500">
-              "Temukan dan terhubung dengan brand-brand terbaik melalui
+              {`"Temukan dan terhubung dengan brand-brand terbaik melalui
               Seefluencer. Platform kami memberikan akses mudah ke jaringan luas
-              brand-brand ternama."
+              brand-brand ternama."`}
             </div>
           </div>
 
@@ -183,9 +183,9 @@ const LaunchTrack = () => {
             <h2 className="text-2xl font-bold">LeBron James</h2>
 
             <div className="italic text-gray-500">
-              "Temukan dan terhubung dengan brand-brand terbaik melalui
+              {`"Temukan dan terhubung dengan brand-brand terbaik melalui
               Seefluencer. Platform kami memberikan akses mudah ke jaringan luas
-              brand-brand ternama."
+              brand-brand ternama."`}
             </div>
           </div>
 
@@ -197,11 +197,11 @@ const LaunchTrack = () => {
             <h2 className="text-2xl font-bold">Vanessa Nathalie</h2>
 
             <div className="italic text-gray-500">
-              "Temukan dan terhubung dengan brand-brand terbaik melalui
+              {`"Temukan dan terhubung dengan brand-brand terbaik melalui
               Seefluencer. Platform kami memberikan akses mudah ke jaringan luas
               brand-brand ternama. Platform kami memberikan akses mudah ke
               jaringan luas brand-brand ternama. Platform kami memberikan akses
-              mudah ke jaringan luas brand-brand ternama."
+              mudah ke jaringan luas brand-brand ternama."`}
             </div>
           </div>
 
@@ -213,8 +213,8 @@ const LaunchTrack = () => {
             <h2 className="text-2xl font-bold">Samuel Christ</h2>
 
             <div className="italic text-gray-500">
-              "Temukan dan terhubung dengan brand-brand terbaik melalui
-              Seefluencer. Platform kami."
+              {`"Temukan dan terhubung dengan brand-brand terbaik melalui
+              Seefluencer. Platform kami."`}
             </div>
           </div>
 
@@ -226,8 +226,8 @@ const LaunchTrack = () => {
             <h2 className="text-2xl font-bold">Joy Lodra</h2>
 
             <div className="italic text-gray-500">
-              "Temukan dan terhubung dengan brand-brand terbaik melalui
-              Seefluencer."
+              {`"Temukan dan terhubung dengan brand-brand terbaik melalui
+              Seefluencer."`}
             </div>
           </div>
 
@@ -239,10 +239,10 @@ const LaunchTrack = () => {
             <h2 className="text-2xl font-bold">Damian Lillard</h2>
 
             <div className="italic text-gray-500">
-              "Temukan dan terhubung dengan brand-brand terbaik melalui
+              {`"Temukan dan terhubung dengan brand-brand terbaik melalui
               Seefluencer. Platform kami memberikan akses mudah ke jaringan luas
               brand-brand ternama. Platform kami memberikan akses mudah ke
-              jaringan luas brand-brand ternama."
+              jaringan luas brand-brand ternama."`}
             </div>
           </div>
         </div>
