@@ -13,6 +13,7 @@ interface HeroProps {
   customTitle?: React.ReactNode;
   external?: boolean;
   downArrow?: boolean;
+  fullWidth?: boolean;
 }
 
 const Hero = ({
@@ -25,26 +26,21 @@ const Hero = ({
   customTitle,
   external,
   downArrow,
+  fullWidth,
 }: HeroProps) => {
   return (
-    <div className="mt-5 mx-auto max-w-2xl flex flex-col gap-4 justify-center items-center text-center">
-      {title && (
-        <h1 className="text-4xl md:text-6xl font-bold font-serif">{title}</h1>
-      )}
+    <div
+      className={`mt-5 mx-auto ${
+        fullWidth ? "max-w-full" : "max-w-2xl"
+      } flex flex-col gap-4 justify-center items-center text-center`}
+    >
+      {title && <h1 className="text-4xl md:text-5xl font-bold">{title}</h1>}
 
       {customTitle && (
-        <h1 className="text-4xl md:text-6xl font-bold font-serif">
-          {customTitle}
-        </h1>
+        <h1 className="text-4xl md:text-5xl font-bold">{customTitle}</h1>
       )}
 
       <p>{description}</p>
-
-      {downArrow ? (
-        <p className="animate-pulse text-4xl font-bold">↓</p>
-      ) : (
-        <></>
-      )}
 
       {href && buttonText && (
         <div className="mt-5 flex flex-col gap-2 sm:flex-row">
@@ -66,6 +62,12 @@ const Hero = ({
             </Link>
           )}
         </div>
+      )}
+
+      {downArrow ? (
+        <p className="animate-pulse text-4xl font-bold text-blue-400">↓</p>
+      ) : (
+        <></>
       )}
     </div>
   );

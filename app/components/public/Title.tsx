@@ -5,22 +5,27 @@ interface TitleProps {
   description?: string;
   secondary?: boolean;
   underline?: boolean;
+  center?: boolean;
 }
 
-const Title = ({ title, description, secondary, underline }: TitleProps) => {
+const Title = ({
+  title,
+  description,
+  secondary,
+  underline,
+  center,
+}: TitleProps) => {
   return (
-    <div className="flex flex-col gap-2">
-      <h2
-        className={`font-bold font-serif 
-        ${secondary ? "text-xl" : "text-4xl"} 
+    <div className={`flex flex-col gap-2 ${center ? "text-center" : ""}`}>
+      <div
+        className={`font-bold 
+        ${secondary ? "text-2xl" : "text-4xl"} 
         ${underline ? "underline decoration-4 decoration-blue-400 " : ""}`}
       >
         {title}
-      </h2>
+      </div>
 
-      <p className={secondary ? "text-sm text-neutral-600" : ""}>
-        {description}
-      </p>
+      <div className={secondary ? "text-neutral-600" : ""}>{description}</div>
     </div>
   );
 };

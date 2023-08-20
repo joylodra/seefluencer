@@ -29,7 +29,7 @@ const BlogCard = ({ title, description, image, slug, key }: BlogCardProps) => {
       </Link>
 
       <div className="flex flex-col gap-2">
-        <h3 className="font-bold text-xl font-serif">{title}</h3>
+        <h3 className="font-bold text-xl">{title}</h3>
         <p className="text-sm text-neutral-500">{description}</p>
         <Link
           className="w-fit flex flex-row gap-2 items-center mt-5 px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"

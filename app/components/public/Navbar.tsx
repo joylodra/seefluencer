@@ -12,9 +12,9 @@ import { HiMenuAlt4 } from "react-icons/hi";
 import { GrFormClose } from "react-icons/gr";
 
 export const menu = [
-  { title: "brands & agencies", href: "/brands" },
-  { title: "creators & influencers", href: "/influencers" },
-  { title: "blog", href: "/blog" },
+  { title: "Seefluencer University", href: "/university" },
+  { title: "KOL Management", href: "/kol" },
+  // { title: "Blog", href: "/blog" },
 ];
 
 const Navbar = () => {
@@ -70,9 +70,7 @@ const Navbar = () => {
             <Link
               key={item.href}
               href={`${item.href}`}
-              className={`md:hover:underline decoration-blue-400 decoration-4 ${
-                pathname === item.href ? "underline" : ""
-              }`}
+              className={`hover:underline ${pathname === item.href ? "" : ""}`}
             >
               {item.title}
             </Link>

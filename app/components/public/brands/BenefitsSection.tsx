@@ -11,7 +11,7 @@ const BenefitsSection = () => {
           <div className="p-4 rounded-full bg-blue-400 shadow-lg">
             {item.icon}
           </div>
-          <h2 className="text-2xl font-bold font-serif">{item.title}</h2>
+          <h2 className="text-2xl font-bold">{item.title}</h2>
           <p>{item.description}</p>
         </div>
       ))}

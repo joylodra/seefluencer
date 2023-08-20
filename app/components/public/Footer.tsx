@@ -19,65 +19,42 @@ const Footer = () => {
           </Link>
 
           <p className="text-sm">
-            see the difference influencers can make with seefluencer
+            see the difference influencers can make with seefluencer 💙
           </p>
         </div>
 
         <div className="flex flex-col gap-3">
-          <h3 className="font-bold">seefluencers</h3>
+          <h3 className="font-bold">products & services</h3>
 
-          <Link
-            href="/brands"
-            className="md:hover:underline decoration-blue-400 decoration-4 text-sm"
-          >
-            for brands & agencies
+          <Link href="/university" className="text-sm hover:underline">
+            Seefluencer University
           </Link>
 
-          <Link
-            href="/influencers"
-            className="md:hover:underline decoration-blue-400 decoration-4 text-sm"
-          >
-            for influencers & creators
+          <Link href="/kol" className="text-sm hover:underline">
+            KOL Management
           </Link>
         </div>
 
         <div className="flex flex-col gap-3">
           <h3 className="font-bold">information</h3>
-
-          <Link
-            href="/case-studies"
-            className="md:hover:underline decoration-blue-400 decoration-4 text-sm"
-          >
-            case studies
-          </Link>
-
-          <Link
-            href="/blog"
-            className="md:hover:underline decoration-blue-400 decoration-4 text-sm"
-          >
+          {/* <Link href="/blog" className="text-sm">
             blog
-          </Link>
+          </Link> */}
 
           <Link
             href="/terms-and-conditions"
-            className="md:hover:underline decoration-blue-400 decoration-4 text-sm"
+            className="text-sm hover:underline"
           >
             terms and conditions
           </Link>
 
-          <Link
-            href="/privacy-policy"
-            className="md:hover:underline decoration-blue-400 decoration-4 text-sm"
-          >
+          <Link href="/privacy-policy" className="text-sm hover:underline">
             privacy policy
           </Link>
 
-          <Link
-            href="/faq"
-            className="md:hover:underline decoration-blue-400 decoration-4 text-sm"
-          >
+          {/* <Link href="/faq" className="text-sm hover:underline">
             FAQ
-          </Link>
+          </Link> */}
         </div>
 
         <div className="flex flex-col items-center md:items-start gap-3">

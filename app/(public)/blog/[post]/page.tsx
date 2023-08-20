@@ -53,11 +53,6 @@ export async function generateMetadata({
       publishedTime,
       url: `https://seefluencer.com/blog/${slug}`,
     },
-    twitter: {
-      card: "summary_large_image",
-      title,
-      description,
-    },
     keywords: keywords,
   };
 }
@@ -70,9 +65,7 @@ const Post = async ({ params }: PostProps) => {
     <div className="grid grid-cols-1 space-y-5 md:grid-cols-4 md:gap-5 md:space-y-0">
       <article className="col-span-3 prose prose-neutral w-full max-w-max">
         <div>
-          <h1 className="text-4xl font-serif tracking-tight mb-2">
-            {post.title}
-          </h1>
+          <h1 className="text-4xl tracking-tight mb-2">{post.title}</h1>
 
           <p>{post.audience.map((item: any) => item.title)}</p>
 

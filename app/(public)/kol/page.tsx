@@ -23,7 +23,7 @@ const Influencers = () => {
             results
           </>
         }
-        description="Layanan kami sangat mengutamakan kualitas untuk memberikan hasil terbaik kepada para klien kami. Dengan menggunakan strategi yang efektif, kami bertekad untuk memberikan hasil yang memuaskan dan memuaskan kebutuhan bisnis Anda."
+        description="Layanan kami sangat mengutamakan kualitas untuk memberikan hasil terbaik kepada para klien kami."
         buttonText="hubungi kami"
         href="https://wa.me/6285174259955"
         external
@@ -40,7 +40,7 @@ const Influencers = () => {
 
       <Cta
         title="ready to start growing your business with us?"
-        description="Di Seefluencer, kami memahami bahwa setiap bisnis memiliki kebutuhan yang berbeda-beda. Hubungi kami sekarang untuk membicarakan bagaimana kami dapat mengembangkan bisnis Anda melalui influencer marketing."
+        description="Di Seefluencer, kami memahami bahwa setiap bisnis memiliki kebutuhan yang berbeda-beda. Hubungi kami sekarang juga."
         href="https://wa.me/6285174259955"
         buttonText="hubungi kami"
         external

@@ -12,7 +12,7 @@ interface AccordionProps {
 }
 
 const Accordion = ({ question, answer }: AccordionProps) => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   const toggleOpen = useCallback(() => {
     setIsOpen((value) => !value);

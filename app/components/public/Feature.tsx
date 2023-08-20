@@ -28,17 +28,19 @@ const Feature = ({
         className={`col-span-1 text-center order-last
         ${reverse ? "md:text-right" : "md:order-first md:text-left"}`}
       >
-        <Title title={title} description={description} underline />
+        <Title title={title} description={description} secondary />
 
-        {href && buttonText && (
-          <Link
-            target="_blank"
-            href={href}
-            className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
-          >
-            {buttonText}
-          </Link>
-        )}
+        <div className="mt-5">
+          {href && buttonText && (
+            <Link
+              target="_blank"
+              href={href}
+              className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
+            >
+              {buttonText}
+            </Link>
+          )}
+        </div>
       </div>
 
       <div className="col-span-1">

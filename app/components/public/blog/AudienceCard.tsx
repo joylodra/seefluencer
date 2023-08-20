@@ -1,11 +1,11 @@
 "use client";
 
 // Next & React Hooks
-import Image from "next/image";
 import Link from "next/link";
 
 // Icons & Images
-import { RiArrowRightUpLine } from "react-icons/ri";
+import { RiArrowRightUpLine, RiPhoneCameraFill } from "react-icons/ri";
+import { IoBusiness } from "react-icons/io5";
 
 interface AudienceCardProps {
   href: string;
@@ -18,6 +18,8 @@ const AudienceCard = ({ href, title, description, key }: AudienceCardProps) => {
   return (
     <div key={key} className="flex flex-col gap-3 rounded-lg shadow-3xl p-5">
       <div className="flex flex-col gap-3 p-1">
+        {/* <IoBusiness size={32} /> */}
+
         <h2 className="font-bold text-2xl">{title}</h2>
 
         <p className="text-sm text-neutral-500">{description}</p>
