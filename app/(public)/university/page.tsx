@@ -42,7 +42,13 @@ const Influencers = () => {
       />
 
       {/* TITLE */}
-      <div className="flex flex-col gap-10">
+      <div className="flex flex-col gap-10 text-center justify-center items-center">
+        <Title
+          title="Penghasilan Konten Kreator"
+          underline
+          description="Video di bawah merupakan bukti nyata tentang bagaimana cara Samuel Christ, salah satu instruktur Seefluencer, mendapatkan salah satu sumber penghasilan sebagai konten kreator."
+        />
+
         <iframe
           allow="fullscreen;"
           src="https://www.youtube.com/embed/bfQrBQAk1Ks"
@@ -253,7 +259,10 @@ const Influencers = () => {
 
         <Feature
           title="apa yang kamu akan dapatkan?"
-          description={"✅ Live Class"}
+          description="Temukan dan terhubung dengan brand-brand terbaik melalui
+          Seefluencer. Platform kami memberikan akses mudah ke jaringan luas
+          brand-brand ternama. Platform kami memberikan akses mudah ke
+          jaringan luas brand-brand ternama."
           src="/images/connect-sam.png"
           reverse
         />
@@ -271,8 +280,8 @@ const Influencers = () => {
           </div>
 
           <div className="flex flex-col gap-3">
-            <p className="line-through italic text-xl">Rp. 7.499.999</p>
-            <h1 className="text-5xl text-white font-bold rounded-lg text-center animate-bounce">
+            <p className="line-through italic text-lg">Rp. 7.499.999</p>
+            <h1 className="text-4xl text-white font-bold rounded-lg text-center animate-bounce">
               Rp. 4.999.999
             </h1>
           </div>

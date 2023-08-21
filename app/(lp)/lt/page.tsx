@@ -278,8 +278,8 @@ const LaunchTrack = () => {
           </div>
 
           <div className="flex flex-col gap-3">
-            <p className="line-through italic text-xl">Rp. 7.499.999</p>
-            <h1 className="text-5xl text-white font-bold rounded-lg text-center animate-bounce">
+            <p className="line-through italic text-lg">Rp. 7.499.999</p>
+            <h1 className="text-4xl text-white font-bold rounded-lg text-center animate-bounce">
               Rp. 4.999.999
             </h1>
           </div>

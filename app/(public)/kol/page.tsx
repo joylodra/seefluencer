@@ -31,7 +31,22 @@ const Influencers = () => {
 
       <div className="flex flex-col gap-10 text-center justify-center items-center">
         <Title
-          title="why us? 👋"
+          underline
+          title="Pengalaman Pitching Kami 🎙"
+          description="Video di bawah menggambarkan cara kami secara profesional mengunjungi korporat-korporat untuk pitching."
+        />
+
+        <iframe
+          allow="fullscreen;"
+          src="https://www.youtube.com/embed/bfQrBQAk1Ks"
+          className="aspect-video w-full"
+        />
+      </div>
+
+      <div className="flex flex-col gap-10 text-center justify-center items-center">
+        <Title
+          title="Why Us? 👋"
+          underline
           description="Di Seefluencer, transparansi dan kejujuran menjadi prioritas utama dalam setiap kemitraan yang kami bangun."
         />
 

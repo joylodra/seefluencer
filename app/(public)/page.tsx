@@ -3,6 +3,9 @@ import Hero from "../components/public/Hero";
 import Feature from "../components/public/Feature";
 import Title from "../components/public/Title";
 
+// Icons & Images
+import { BiUser } from "react-icons/bi";
+
 export default function Home() {
   return (
     <div className="flex flex-col gap-16">
@@ -29,7 +32,7 @@ export default function Home() {
 
       <div className="flex flex-col gap-5">
         <Title
-          title="Our Products & Services"
+          title="Our Products & Services 💼"
           description="Temukan dan terhubung dengan brand-brand terbaik melalui Seefluencer. Platform kami memberikan akses mudah ke jaringan luas brand-brand ternama."
           center
           underline
@@ -51,6 +54,102 @@ export default function Home() {
           href="/kol"
           buttonText="lihat selengkapnya"
         />
+      </div>
+
+      <div className="flex flex-col gap-10">
+        <Title
+          title="Apa Kata Mereka? 💬"
+          description="Temukan dan terhubung dengan brand-brand terbaik melalui Seefluencer. Platform kami memberikan akses mudah ke jaringan luas brand-brand ternama."
+          center
+          underline
+        />
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+          <div className="flex flex-col items-center text-center gap-3">
+            <div className="p-4 rounded-full bg-blue-400 shadow-lg">
+              <BiUser className="text-white" size={40} />
+            </div>
+
+            <h2 className="text-2xl font-bold">Niko Julius</h2>
+
+            <div className="italic text-gray-500">
+              {`"Temukan dan terhubung dengan brand-brand terbaik melalui
+              Seefluencer. Platform kami memberikan akses mudah ke jaringan luas
+              brand-brand ternama."`}
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center text-center gap-3">
+            <div className="p-4 rounded-full bg-blue-400 shadow-lg">
+              <BiUser className="text-white" size={40} />
+            </div>
+
+            <h2 className="text-2xl font-bold">LeBron James</h2>
+
+            <div className="italic text-gray-500">
+              {`"Temukan dan terhubung dengan brand-brand terbaik melalui
+              Seefluencer. Platform kami memberikan akses mudah ke jaringan luas
+              brand-brand ternama."`}
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center text-center gap-3">
+            <div className="p-4 rounded-full bg-blue-400 shadow-lg">
+              <BiUser className="text-white" size={40} />
+            </div>
+
+            <h2 className="text-2xl font-bold">Vanessa Nathalie</h2>
+
+            <div className="italic text-gray-500">
+              {`"Temukan dan terhubung dengan brand-brand terbaik melalui
+              Seefluencer. Platform kami memberikan akses mudah ke jaringan luas
+              brand-brand ternama. Platform kami memberikan akses mudah ke
+              jaringan luas brand-brand ternama. Platform kami memberikan akses
+              mudah ke jaringan luas brand-brand ternama."`}
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center text-center gap-3">
+            <div className="p-4 rounded-full bg-blue-400 shadow-lg">
+              <BiUser className="text-white" size={40} />
+            </div>
+
+            <h2 className="text-2xl font-bold">Samuel Christ</h2>
+
+            <div className="italic text-gray-500">
+              {`"Temukan dan terhubung dengan brand-brand terbaik melalui
+              Seefluencer. Platform kami."`}
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center text-center gap-3">
+            <div className="p-4 rounded-full bg-blue-400 shadow-lg">
+              <BiUser className="text-white" size={40} />
+            </div>
+
+            <h2 className="text-2xl font-bold">Joy Lodra</h2>
+
+            <div className="italic text-gray-500">
+              {`"Temukan dan terhubung dengan brand-brand terbaik melalui
+              Seefluencer."`}
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center text-center gap-3">
+            <div className="p-4 rounded-full bg-blue-400 shadow-lg">
+              <BiUser className="text-white" size={40} />
+            </div>
+
+            <h2 className="text-2xl font-bold">Damian Lillard</h2>
+
+            <div className="italic text-gray-500">
+              {`"Temukan dan terhubung dengan brand-brand terbaik melalui
+              Seefluencer. Platform kami memberikan akses mudah ke jaringan luas
+              brand-brand ternama. Platform kami memberikan akses mudah ke
+              jaringan luas brand-brand ternama."`}
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
