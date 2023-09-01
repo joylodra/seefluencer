@@ -71,7 +71,9 @@ const Coaching = () => {
 
             <Link
               target="_blank"
-              href={"https://wa.me/6285175449955"}
+              href={
+                "https://wa.me/6285175449955?text=Halo,%20nama%20saya%20[NAMA%20KAMU].%20Saya%20ingin%20melakukan%201-on-1%20coaching%20dengan%20Samuel%20Christ.%20Gimana%20prosesnya%20ya?"
+              }
               className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
             >
               konsultasi sekarang
@@ -268,7 +270,7 @@ const Coaching = () => {
         <Link
           target="_blank"
           href={
-            "https://wa.me/6285175449955?text=Halo,%20nama%20saya%20[ISI%20NAMA%20KAMU].%20Saya%20ingin%20konsultasi%20kelas%20intensif%20Creator%20Accelerator%20Program.%20Gimana%20prosesnya%20ya?"
+            "https://wa.me/6285175449955?text=Halo,%20nama%20saya%20[NAMA%20KAMU].%20Saya%20ingin%20melakukan%201-on-1%20coaching%20dengan%20Samuel%20Christ.%20Gimana%20prosesnya%20ya?"
           }
           className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
         >
@@ -310,7 +312,7 @@ const Coaching = () => {
         <Link
           target="_blank"
           href={
-            "https://wa.me/6285175449955?text=Halo,%20nama%20saya%20[ISI%20NAMA%20KAMU].%20Saya%20ingin%20konsultasi%20kelas%20intensif%20Creator%20Accelerator%20Program.%20Gimana%20prosesnya%20ya?"
+            "https://wa.me/6285175449955?text=Halo,%20nama%20saya%20[NAMA%20KAMU].%20Saya%20ingin%20melakukan%201-on-1%20coaching%20dengan%20Samuel%20Christ.%20Gimana%20prosesnya%20ya?"
           }
           className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
         >
