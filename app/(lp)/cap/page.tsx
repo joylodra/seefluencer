@@ -74,7 +74,7 @@ const LaunchTrack = () => {
           }
           buttonText="daftar sekarang"
           external
-          href="https://wa.me/6282330423003"
+          href="https://wa.me/6285175449955?text=Halo,%20nama%20saya%20[ISI%20NAMA%20KAMU].%20Saya%20ingin%20daftar%20kelas%20intensif%20Creator%20Accelerator%20Program.%20Gimana%20prosesnya%20ya?"
         />
       </div>
 
@@ -182,7 +182,9 @@ const LaunchTrack = () => {
 
         <Link
           target="_blank"
-          href={"https://wa.me/6282330423003"}
+          href={
+            "https://wa.me/6285175449955?text=Halo,%20nama%20saya%20[ISI%20NAMA%20KAMU].%20Saya%20ingin%20daftar%20kelas%20intensif%20Creator%20Accelerator%20Program.%20Gimana%20prosesnya%20ya?"
+          }
           className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
         >
           daftar sekarang
@@ -247,7 +249,9 @@ const LaunchTrack = () => {
 
         <Link
           target="_blank"
-          href={"https://wa.me/6282330423003"}
+          href={
+            "https://wa.me/6285175449955?text=Halo,%20nama%20saya%20[ISI%20NAMA%20KAMU].%20Saya%20ingin%20daftar%20kelas%20intensif%20Creator%20Accelerator%20Program.%20Gimana%20prosesnya%20ya?"
+          }
           className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
         >
           daftar sekarang
@@ -282,7 +286,9 @@ const LaunchTrack = () => {
 
         <Link
           target="_blank"
-          href={"https://wa.me/6282330423003"}
+          href={
+            "https://wa.me/6285175449955?text=Halo,%20nama%20saya%20[ISI%20NAMA%20KAMU].%20Saya%20ingin%20daftar%20kelas%20intensif%20Creator%20Accelerator%20Program.%20Gimana%20prosesnya%20ya?"
+          }
           className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
         >
           daftar sekarang
@@ -325,7 +331,9 @@ const LaunchTrack = () => {
 
         <Link
           target="_blank"
-          href={"https://wa.me/6282330423003"}
+          href={
+            "https://wa.me/6285175449955?text=Halo,%20nama%20saya%20[ISI%20NAMA%20KAMU].%20Saya%20ingin%20daftar%20kelas%20intensif%20Creator%20Accelerator%20Program.%20Gimana%20prosesnya%20ya?"
+          }
           className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
         >
           daftar sekarang
@@ -421,7 +429,9 @@ const LaunchTrack = () => {
 
         <Link
           target="_blank"
-          href={"https://wa.me/6282330423003"}
+          href={
+            "https://wa.me/6285175449955?text=Halo,%20nama%20saya%20[ISI%20NAMA%20KAMU].%20Saya%20ingin%20daftar%20kelas%20intensif%20Creator%20Accelerator%20Program.%20Gimana%20prosesnya%20ya?"
+          }
           className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
         >
           daftar sekarang
@@ -520,7 +530,9 @@ const LaunchTrack = () => {
 
         <Link
           target="_blank"
-          href={"https://wa.me/6282330423003"}
+          href={
+            "https://wa.me/6285175449955?text=Halo,%20nama%20saya%20[ISI%20NAMA%20KAMU].%20Saya%20ingin%20daftar%20kelas%20intensif%20Creator%20Accelerator%20Program.%20Gimana%20prosesnya%20ya?"
+          }
           className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
         >
           daftar sekarang
@@ -589,7 +601,9 @@ const LaunchTrack = () => {
 
         <Link
           target="_blank"
-          href={"https://wa.me/6282330423003"}
+          href={
+            "https://wa.me/6285175449955?text=Halo,%20nama%20saya%20[ISI%20NAMA%20KAMU].%20Saya%20ingin%20daftar%20kelas%20intensif%20Creator%20Accelerator%20Program.%20Gimana%20prosesnya%20ya?"
+          }
           className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
         >
           daftar sekarang
@@ -614,7 +628,9 @@ const LaunchTrack = () => {
 
             <Link
               target="_blank"
-              href={"https://wa.me/6282330423003"}
+              href={
+                "https://wa.me/6285175449955?text=Halo,%20nama%20saya%20[ISI%20NAMA%20KAMU].%20Saya%20ingin%20daftar%20kelas%20intensif%20Creator%20Accelerator%20Program.%20Gimana%20prosesnya%20ya?"
+              }
               className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
             >
               daftar sekarang
