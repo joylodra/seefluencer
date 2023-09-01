@@ -78,7 +78,7 @@ const LaunchTrack = () => {
         />
       </div>
 
-      {/* PROGRAM OVERVIEW */}
+      {/* PROBLEM */}
       <div className="flex flex-col gap-5">
         <Title
           title="Coba Kamu Renungkan, Seberapa Sering Kamu Mengalami Masalah Ini? 🤔"

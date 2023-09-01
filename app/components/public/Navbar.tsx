@@ -13,6 +13,7 @@ import { GrFormClose } from "react-icons/gr";
 
 export const menu = [
   { title: "Seefluencer University", href: "/university" },
+  { title: "1-On-1 Coaching", href: "/coaching" },
   { title: "KOL Management", href: "/kol" },
   // { title: "Blog", href: "/blog" },
 ];

@@ -47,7 +47,7 @@ export default function Home() {
           title="1-On-1 Creator Coaching with Samuel Christ 💁‍♂️"
           description="Sekolah konten kreator yang dijalankan selama 12 minggu secara live."
           src="/images/cap-coaching.png"
-          href="/university"
+          href="/coaching"
           buttonText="lihat selengkapnya"
           notExternal
         />
