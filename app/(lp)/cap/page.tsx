@@ -35,7 +35,7 @@ const LaunchTrack = () => {
 
               <div>
                 <div>
-                  dapatkan{" "}
+                  Dapatkan{" "}
                   <span className="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 inline-block text-transparent bg-clip-text">
                     10.000 followers
                   </span>{" "}
@@ -300,7 +300,7 @@ const LaunchTrack = () => {
 
       {/* PENGENALAN PROGRAM */}
       <div className="flex flex-col gap-10 text-center justify-center items-center">
-        <div className="text-4xl font-bold">
+        <div className="text-2xl md:text-4xl font-bold">
           Memperkenalkan,{" "}
           <span className="bg-yellow-200 italic">
             creator accelerator program
