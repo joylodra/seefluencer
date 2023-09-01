@@ -44,28 +44,19 @@ const Influencers = () => {
               </div>
 
               <div>
-                <div>
-                  dapatkan{" "}
-                  <span className="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 inline-block text-transparent bg-clip-text">
-                    10.000 followers
-                  </span>{" "}
-                  pertamamu
-                </div>
-
-                <div>
-                  hasilkan{" "}
-                  <span className="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 inline-block text-transparent bg-clip-text">
-                    cuan
-                  </span>{" "}
-                  & bangun
-                </div>
-
-                <div>
-                  <span className="underline decoration-3 italic decoration-blue-400">
-                    personal branding
-                  </span>{" "}
-                  dari sekarang!
-                </div>
+                Dapatkan{" "}
+                <span className="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 inline-block text-transparent bg-clip-text">
+                  10.000 followers
+                </span>{" "}
+                pertamamu, hasilkan{" "}
+                <span className="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 inline-block text-transparent bg-clip-text">
+                  cuan
+                </span>
+                , & bangun{" "}
+                <span className="underline decoration-3 italic decoration-blue-400">
+                  personal branding
+                </span>{" "}
+                dari sekarang!
               </div>
 
               <div className="text-2xl font-normal">
@@ -108,9 +99,10 @@ const Influencers = () => {
         <div className="flex flex-col gap-3 text-center">
           <Feature
             description={
-              <div className="text-xl flex flex-col gap-3">
+              <div className="flex flex-col gap-3">
                 <div className="flex gap-3 items-center text-left">
                   <div className="text-2xl">❌</div>
+
                   <div>
                     Sudah{" "}
                     <span className="underline decoration-3 italic decoration-blue-400">
@@ -217,7 +209,7 @@ const Influencers = () => {
 
         <Feature
           description={
-            <div className="text-xl">
+            <div>
               <span className="text-4xl font-bold">{`1)`} </span> Dikutip dari{" "}
               <span className="italic">katadata.co.id</span>,{" "}
               <span className="underline decoration-3 italic decoration-blue-400">
@@ -233,7 +225,7 @@ const Influencers = () => {
         <Feature
           reverse
           description={
-            <div className="text-xl">
+            <div>
               <span className="text-4xl font-bold">{`2)`}</span> Jumlah{" "}
               <span className="underline decoration-3 italic decoration-blue-400">
                 pengguna
@@ -281,7 +273,7 @@ const Influencers = () => {
             underline
           />
 
-          <div className="text-xl">
+          <div>
             "Pelajari bagaimana cara Samuel Christ bisa menghasilkan{" "}
             <span className="bg-yellow-200 italic">Rp250.000.000</span> dari
             Media Sosial dalam{" "}
@@ -307,9 +299,9 @@ const Influencers = () => {
         </Link>
       </div>
 
-      {/* PROGRAM OVERVIEW */}
+      {/* PENGENALAN PROGRAM */}
       <div className="flex flex-col gap-10 text-center justify-center items-center">
-        <div className="text-4xl font-bold">
+        <div className="text-2xl md:text-4xl font-bold">
           Memperkenalkan,{" "}
           <span className="bg-yellow-200 italic">
             creator accelerator program
@@ -328,7 +320,7 @@ const Influencers = () => {
           className="rounded-lg shadow-lg h-64 w-full max-w-xl object-cover hover:shadow-3xl hover:shadow-neutral-500 transition-all"
         />
 
-        <div className="text-xl">
+        <div>
           "
           <span className="underline decoration-3 italic decoration-blue-400">
             Kelas intensif
@@ -350,7 +342,7 @@ const Influencers = () => {
         </Link>
       </div>
 
-      {/* PROGRAM OVERVIEW */}
+      {/* KURIKULUM */}
       <div className="flex flex-col gap-10 items-center justify-center">
         <Title
           title="Apa Saja Yang Akan Kamu Pelajari Selama 12 Minggu Ini? 👨‍💻"
@@ -426,7 +418,7 @@ const Influencers = () => {
                 <span className="underline decoration-3 italic decoration-blue-400">
                   aktivitas harian yang padat?
                 </span>{" "}
-                Temukan cara yang lebih
+                Temukan cara yang lebih{" "}
                 <span className="underline decoration-3 italic decoration-blue-400">
                   cepat & tepat
                 </span>{" "}
@@ -446,7 +438,7 @@ const Influencers = () => {
         </Link>
       </div>
 
-      {/* PROGRAM OVERVIEW */}
+      {/* FASILITAS */}
       <div className="flex flex-col gap-10 items-center justify-center">
         <Title
           title="Fasilitas Apa Saja yang Kamu Dapatkan di Kelas Ini? ⛱"
@@ -456,7 +448,7 @@ const Influencers = () => {
 
         <Feature
           description={
-            <div className="flex flex-col gap-3 text-xl">
+            <div className="flex flex-col gap-3">
               <div className="font-bold">
                 <span className="text-4xl">{`1) `}</span>
                 <span className="text-xl underline decoration-3 decoration-blue-400">
@@ -482,7 +474,7 @@ const Influencers = () => {
 
         <Feature
           description={
-            <div className="flex flex-col gap-3 text-xl">
+            <div className="flex flex-col gap-3">
               <div className="text-xl font-bold">
                 <span className="text-4xl">{`2) `}</span>
                 <span className="underline decoration-3 decoration-blue-400">
@@ -509,7 +501,7 @@ const Influencers = () => {
 
         <Feature
           description={
-            <div className="flex flex-col gap-3 text-xl">
+            <div className="flex flex-col gap-3">
               <div className="text-xl font-bold">
                 <span className="text-4xl">{`3) `}</span>
                 <span className="underline decoration-3 decoration-blue-400">
@@ -545,7 +537,7 @@ const Influencers = () => {
         </Link>
       </div>
 
-      {/* PRICING */}
+      {/* PRICING SECTION */}
       <div
         id="pricing"
         className="flex flex-col gap-10 text-center items-center justify-center"
@@ -553,9 +545,9 @@ const Influencers = () => {
         <Title title="Berapa Investasi Kelas Ini? 🤑" center underline />
 
         <div className="flex flex-col gap-3 text-center">
-          <div className="line-through text-xl">Rp. 7.499.999</div>
+          <div className="line-through text-xl">Rp7.499.999</div>
           <h1 className="text-4xl text-red-500 font-bold rounded-lg animate-bounce">
-            Rp. 4.999.999
+            Rp4.999.999
           </h1>
           <div className="italic text-sm">
             *Ini adalah harga pre-order dan hanya kita buka untuk 20 orang saja.{" "}
@@ -563,7 +555,7 @@ const Influencers = () => {
         </div>
 
         <div className="flex flex-col gap-5">
-          <div className="text-xl text-left">
+          <div className="text-left">
             <span className="text-4xl font-bold">{`1.`}</span>
             <div>
               Kamu hanya perlu menyimpan{" "}
@@ -575,7 +567,7 @@ const Influencers = () => {
             </div>
           </div>
 
-          <div className="text-xl text-right">
+          <div className="text-right">
             <span className="text-4xl font-bold">{`2.`}</span>
             <div>
               Perlu diingat, ini{" "}
@@ -589,7 +581,7 @@ const Influencers = () => {
             </div>
           </div>
 
-          <div className="text-xl text-left">
+          <div className="text-left">
             <span className="text-4xl font-bold">{`3.`}</span>
             <div>
               Seefluencer University adalah Kelas Intensif yang akan memberikan
@@ -614,6 +606,7 @@ const Influencers = () => {
         </Link>
       </div>
 
+      {/* MERCH SECTION */}
       <div className="flex flex-col gap-10">
         <div
           className={`grid grid-cols-1 gap-3 items-center md:grid-cols-2 text-center md:text-left`}

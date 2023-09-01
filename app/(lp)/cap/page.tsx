@@ -34,28 +34,19 @@ const LaunchTrack = () => {
               </div>
 
               <div>
-                <div>
-                  Dapatkan{" "}
-                  <span className="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 inline-block text-transparent bg-clip-text">
-                    10.000 followers
-                  </span>{" "}
-                  pertamamu
-                </div>
-
-                <div>
-                  hasilkan{" "}
-                  <span className="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 inline-block text-transparent bg-clip-text">
-                    cuan
-                  </span>{" "}
-                  & bangun
-                </div>
-
-                <div>
-                  <span className="underline decoration-3 italic decoration-blue-400">
-                    personal branding
-                  </span>{" "}
-                  dari sekarang!
-                </div>
+                Dapatkan{" "}
+                <span className="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 inline-block text-transparent bg-clip-text">
+                  10.000 followers
+                </span>{" "}
+                pertamamu, hasilkan{" "}
+                <span className="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 inline-block text-transparent bg-clip-text">
+                  cuan
+                </span>
+                , & bangun{" "}
+                <span className="underline decoration-3 italic decoration-blue-400">
+                  personal branding
+                </span>{" "}
+                dari sekarang!
               </div>
 
               <div className="text-2xl font-normal">
@@ -417,7 +408,7 @@ const LaunchTrack = () => {
                 <span className="underline decoration-3 italic decoration-blue-400">
                   aktivitas harian yang padat?
                 </span>{" "}
-                Temukan cara yang lebih
+                Temukan cara yang lebih{" "}
                 <span className="underline decoration-3 italic decoration-blue-400">
                   cepat & tepat
                 </span>{" "}
@@ -544,9 +535,9 @@ const LaunchTrack = () => {
         <Title title="Berapa Investasi Kelas Ini? 🤑" center underline />
 
         <div className="flex flex-col gap-3 text-center">
-          <div className="line-through text-xl">Rp. 7.499.999</div>
+          <div className="line-through text-xl">Rp7.499.999</div>
           <h1 className="text-4xl text-red-500 font-bold rounded-lg animate-bounce">
-            Rp. 4.999.999
+            Rp4.999.999
           </h1>
           <div className="italic text-sm">
             *Ini adalah harga pre-order dan hanya kita buka untuk 20 orang saja.{" "}
