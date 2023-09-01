@@ -31,32 +31,39 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col gap-5">
-        <Title
-          title="Our Products & Services 💼"
-          description="Temukan dan terhubung dengan brand-brand terbaik melalui Seefluencer. Platform kami memberikan akses mudah ke jaringan luas brand-brand ternama."
-          center
-          underline
-        />
+        <Title title="Our Products & Services 💼" center underline />
 
         <Feature
-          title="Seefluencer University"
+          title="Seefluencer University 👩‍🏫"
           description="Sekolah konten kreator yang dijalankan selama 12 minggu secara live."
-          src="/images/create-sam.png"
+          src="/images/cap-cap.png"
           reverse
           href="/university"
           buttonText="lihat selengkapnya"
+          notExternal
         />
 
         <Feature
-          title="KOL Management"
+          title="1-On-1 Creator Coaching with Samuel Christ 💁‍♂️"
+          description="Sekolah konten kreator yang dijalankan selama 12 minggu secara live."
+          src="/images/cap-coaching.png"
+          href="/university"
+          buttonText="lihat selengkapnya"
+          notExternal
+        />
+
+        <Feature
+          title="KOL Management 🤳🏽"
           description="Layanan kami sangat mengutamakan kualitas untuk memberikan hasil terbaik kepada para klien kami."
-          src="/images/collaborate-sam.png"
+          src="/images/cap-rapot.png"
           href="/kol"
           buttonText="lihat selengkapnya"
+          reverse
+          notExternal
         />
       </div>
 
-      <div className="flex flex-col gap-10">
+      {/* <div className="flex flex-col gap-10">
         <Title
           title="Apa Kata Mereka? 💬"
           description="Temukan dan terhubung dengan brand-brand terbaik melalui Seefluencer. Platform kami memberikan akses mudah ke jaringan luas brand-brand ternama."
@@ -150,7 +157,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

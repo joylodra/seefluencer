@@ -8,10 +8,11 @@ import { BsChevronDown, BsChevronUp } from "react-icons/bs";
 
 interface AccordionProps {
   question: string;
-  answer: string;
+  answer?: string;
+  customAnswer?: React.ReactNode;
 }
 
-const Accordion = ({ question, answer }: AccordionProps) => {
+const Accordion = ({ question, answer, customAnswer }: AccordionProps) => {
   const [isOpen, setIsOpen] = useState(true);
 
   const toggleOpen = useCallback(() => {
@@ -22,13 +23,14 @@ const Accordion = ({ question, answer }: AccordionProps) => {
     <div>
       <div
         onClick={toggleOpen}
-        className="p-3 text-xl shadow-3xl flex flex-row justify-between items-center gap-5 rounded-lg font-bold bg-blue-400 text-white cursor-pointer hover:opacity-90 transition-all"
+        className="text-xl p-3 shadow-3xl flex flex-row justify-between items-center gap-5 rounded-lg font-bold bg-black text-white cursor-pointer hover:opacity-90 transition-all"
       >
         {question}
         {isOpen ? <BsChevronUp /> : <BsChevronDown />}
       </div>
 
-      {isOpen && <p className="p-3">{answer}</p>}
+      {isOpen && answer && <p className="p-3">{answer}</p>}
+      {isOpen && customAnswer && <p className="p-3">{customAnswer}</p>}
     </div>
   );
 };

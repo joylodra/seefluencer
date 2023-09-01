@@ -1,6 +1,7 @@
 // React & Next Hooks
 import { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
+import dynamic from "next/dynamic";
 
 // Custom Components
 import Navbar from "../components/public/Navbar";
@@ -45,9 +46,12 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  // const CrispWithNoSSR = dynamic(() => import("../components/crisp"));
+
   return (
     <html>
-      <body>
+      {/* <CrispWithNoSSR /> */}
+      <body className="bg-gray-50">
         <Navbar />
         <main className="mx-auto max-w-5xl p-3">{children}</main>
         <Footer />

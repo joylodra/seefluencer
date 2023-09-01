@@ -56,7 +56,7 @@ const Navbar = () => {
   }, [menuRef]);
 
   return (
-    <div className={`sticky top-0 z-50 bg-white ${!top && `shadow-lg`}`}>
+    <div className={`sticky top-0 z-50 bg-gray-50 ${!top && `shadow-lg`}`}>
       <div className="mx-auto max-w-5xl p-5 flex flex-row justify-between items-center">
         <Link className="text-xl font-bold" href={`/`}>
           <span className="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 inline-block text-transparent bg-clip-text">

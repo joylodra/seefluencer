@@ -34,10 +34,10 @@ const Hero = ({
         fullWidth ? "max-w-full" : "max-w-2xl"
       } flex flex-col gap-4 justify-center items-center text-center`}
     >
-      {title && <h1 className="text-4xl md:text-5xl font-bold">{title}</h1>}
+      {title && <h1 className="text-3xl md:text-5xl font-bold">{title}</h1>}
 
       {customTitle && (
-        <h1 className="text-4xl md:text-5xl font-bold">{customTitle}</h1>
+        <h1 className="text-3xl md:text-5xl font-bold">{customTitle}</h1>
       )}
 
       <p>{description}</p>

@@ -17,6 +17,7 @@
     "@types/react": "18.0.33",
     "@types/react-dom": "18.0.11",
     "@vercel/analytics": "^0.1.11",
+    "crisp-sdk-web": "^1.0.21",
     "eslint": "8.37.0",
     "eslint-config-next": "^13.4.1",
     "next": "^13.4.1",

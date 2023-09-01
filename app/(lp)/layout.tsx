@@ -43,7 +43,7 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <body>
+      <body className="bg-gray-50">
         <main className="mx-auto max-w-5xl p-3">{children}</main>
         <Analytics />
       </body>

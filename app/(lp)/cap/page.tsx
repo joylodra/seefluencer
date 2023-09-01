@@ -1,29 +1,19 @@
-// React & Next Components
+"use client";
+
+// React Components
 import Link from "next/link";
 import Image from "next/image";
 
 // Custom Components
 import Hero from "../../components/public/Hero";
-import Cta from "../../components/public/Cta";
-import Title from "@/app/components/public/Title";
 import Feature from "../../components/public/Feature";
+import Title from "@/app/components/public/Title";
 import Accordion from "@/app/components/public/faq/Accordion";
 
-// Icons & Images
-import { BiUser } from "react-icons/bi";
+// Custom Components
+import { socials } from "@/app/libs/utils";
 
-export const metadata = {
-  title: "for influencers",
-  keywords: [
-    "influencer page",
-    "social media",
-    "influencer marketing platform",
-    "community",
-  ],
-  description: "see the difference influencers can make with seefluencer 💙",
-};
-
-const Influencers = () => {
+const LaunchTrack = () => {
   return (
     <div className="flex flex-col gap-16">
       {/* TITLE */}
@@ -108,9 +98,10 @@ const Influencers = () => {
         <div className="flex flex-col gap-3 text-center">
           <Feature
             description={
-              <div className="text-xl flex flex-col gap-3">
+              <div className="flex flex-col gap-3">
                 <div className="flex gap-3 items-center text-left">
                   <div className="text-2xl">❌</div>
+
                   <div>
                     Sudah{" "}
                     <span className="underline decoration-3 italic decoration-blue-400">
@@ -217,7 +208,7 @@ const Influencers = () => {
 
         <Feature
           description={
-            <div className="text-xl">
+            <div>
               <span className="text-4xl font-bold">{`1)`} </span> Dikutip dari{" "}
               <span className="italic">katadata.co.id</span>,{" "}
               <span className="underline decoration-3 italic decoration-blue-400">
@@ -233,7 +224,7 @@ const Influencers = () => {
         <Feature
           reverse
           description={
-            <div className="text-xl">
+            <div>
               <span className="text-4xl font-bold">{`2)`}</span> Jumlah{" "}
               <span className="underline decoration-3 italic decoration-blue-400">
                 pengguna
@@ -281,7 +272,7 @@ const Influencers = () => {
             underline
           />
 
-          <div className="text-xl">
+          <div>
             "Pelajari bagaimana cara Samuel Christ bisa menghasilkan{" "}
             <span className="bg-yellow-200 italic">Rp250.000.000</span> dari
             Media Sosial dalam{" "}
@@ -307,7 +298,7 @@ const Influencers = () => {
         </Link>
       </div>
 
-      {/* PROGRAM OVERVIEW */}
+      {/* PENGENALAN PROGRAM */}
       <div className="flex flex-col gap-10 text-center justify-center items-center">
         <div className="text-4xl font-bold">
           Memperkenalkan,{" "}
@@ -328,7 +319,7 @@ const Influencers = () => {
           className="rounded-lg shadow-lg h-64 w-full max-w-xl object-cover hover:shadow-3xl hover:shadow-neutral-500 transition-all"
         />
 
-        <div className="text-xl">
+        <div>
           "
           <span className="underline decoration-3 italic decoration-blue-400">
             Kelas intensif
@@ -350,7 +341,7 @@ const Influencers = () => {
         </Link>
       </div>
 
-      {/* PROGRAM OVERVIEW */}
+      {/* KURIKULUM */}
       <div className="flex flex-col gap-10 items-center justify-center">
         <Title
           title="Apa Saja Yang Akan Kamu Pelajari Selama 12 Minggu Ini? 👨‍💻"
@@ -446,7 +437,7 @@ const Influencers = () => {
         </Link>
       </div>
 
-      {/* PROGRAM OVERVIEW */}
+      {/* FASILITAS */}
       <div className="flex flex-col gap-10 items-center justify-center">
         <Title
           title="Fasilitas Apa Saja yang Kamu Dapatkan di Kelas Ini? ⛱"
@@ -456,7 +447,7 @@ const Influencers = () => {
 
         <Feature
           description={
-            <div className="flex flex-col gap-3 text-xl">
+            <div className="flex flex-col gap-3">
               <div className="font-bold">
                 <span className="text-4xl">{`1) `}</span>
                 <span className="text-xl underline decoration-3 decoration-blue-400">
@@ -482,7 +473,7 @@ const Influencers = () => {
 
         <Feature
           description={
-            <div className="flex flex-col gap-3 text-xl">
+            <div className="flex flex-col gap-3">
               <div className="text-xl font-bold">
                 <span className="text-4xl">{`2) `}</span>
                 <span className="underline decoration-3 decoration-blue-400">
@@ -509,7 +500,7 @@ const Influencers = () => {
 
         <Feature
           description={
-            <div className="flex flex-col gap-3 text-xl">
+            <div className="flex flex-col gap-3">
               <div className="text-xl font-bold">
                 <span className="text-4xl">{`3) `}</span>
                 <span className="underline decoration-3 decoration-blue-400">
@@ -545,7 +536,7 @@ const Influencers = () => {
         </Link>
       </div>
 
-      {/* PRICING */}
+      {/* PRICING SECTION */}
       <div
         id="pricing"
         className="flex flex-col gap-10 text-center items-center justify-center"
@@ -563,7 +554,7 @@ const Influencers = () => {
         </div>
 
         <div className="flex flex-col gap-5">
-          <div className="text-xl text-left">
+          <div className="text-left">
             <span className="text-4xl font-bold">{`1.`}</span>
             <div>
               Kamu hanya perlu menyimpan{" "}
@@ -575,7 +566,7 @@ const Influencers = () => {
             </div>
           </div>
 
-          <div className="text-xl text-right">
+          <div className="text-right">
             <span className="text-4xl font-bold">{`2.`}</span>
             <div>
               Perlu diingat, ini{" "}
@@ -589,7 +580,7 @@ const Influencers = () => {
             </div>
           </div>
 
-          <div className="text-xl text-left">
+          <div className="text-left">
             <span className="text-4xl font-bold">{`3.`}</span>
             <div>
               Seefluencer University adalah Kelas Intensif yang akan memberikan
@@ -614,6 +605,7 @@ const Influencers = () => {
         </Link>
       </div>
 
+      {/* MERCH SECTION */}
       <div className="flex flex-col gap-10">
         <div
           className={`grid grid-cols-1 gap-3 items-center md:grid-cols-2 text-center md:text-left`}
@@ -649,8 +641,34 @@ const Influencers = () => {
           </div>
         </div>
       </div>
+
+      <div className="flex flex-col md:flex-row md:justify-between text-center border-t py-5 items-center gap-3">
+        <div className="flex flex-row gap-2 justify-center items-center">
+          {socials.map((item) => (
+            <Link
+              key={item.url}
+              target="_blank"
+              className="p-2 rounded-full bg-blue-400 hover:shadow-lg transition-all"
+              href={item.url}
+            >
+              {item.icon}
+            </Link>
+          ))}
+        </div>
+
+        <div className="text-sm">
+          copyright © 2023{" "}
+          <span className="hover:opacity-75 font-semibold">
+            <span className="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 inline-block text-transparent bg-clip-text">
+              see
+            </span>
+            fluencer
+          </span>{" "}
+          {`// made with 💙 in 🇮🇩`}
+        </div>
+      </div>
     </div>
   );
 };
 
-export default Influencers;
+export default LaunchTrack;

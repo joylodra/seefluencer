@@ -6,21 +6,23 @@ import Link from "next/link";
 import Title from "./Title";
 
 interface FeatureProps {
-  title: string;
-  description: string;
+  title?: string;
   src: string;
   reverse?: boolean;
   href?: string;
   buttonText?: string;
+  description?: React.ReactNode;
+  notExternal?: boolean;
 }
 
 const Feature = ({
   title,
-  description,
   src,
   reverse,
   href,
   buttonText,
+  description,
+  notExternal,
 }: FeatureProps) => {
   return (
     <div className={`grid grid-cols-1 gap-3 items-center md:grid-cols-2`}>
@@ -28,12 +30,15 @@ const Feature = ({
         className={`col-span-1 text-center order-last
         ${reverse ? "md:text-right" : "md:order-first md:text-left"}`}
       >
-        <Title title={title} description={description} secondary />
+        <div className="flex flex-col gap-3">
+          <h2 className="text-xl font-bold">{title}</h2>
+          {description}
+        </div>
 
         <div className="mt-5">
           {href && buttonText && (
             <Link
-              target="_blank"
+              target={`${notExternal ? "" : "_blank"}`}
               href={href}
               className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
             >
@@ -49,7 +54,7 @@ const Feature = ({
           alt="Feature Description Image"
           width={250}
           height={250}
-          className="rounded-lg shadow-lg h-52 w-full object-cover hover:shadow-3xl hover:shadow-neutral-500 transition-all"
+          className="rounded-lg shadow-lg w-full hover:shadow-3xl hover:shadow-neutral-500 transition-all h-64 object-cover object-top"
         />
       </div>
     </div>
