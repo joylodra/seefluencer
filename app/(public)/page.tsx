@@ -3,9 +3,6 @@ import Hero from "../components/public/Hero";
 import Feature from "../components/public/Feature";
 import Title from "../components/public/Title";
 
-// Icons & Images
-import { BiUser } from "react-icons/bi";
-
 export default function Home() {
   return (
     <div className="flex flex-col gap-16">
@@ -30,12 +27,61 @@ export default function Home() {
         />
       </div>
 
-      <div className="flex flex-col gap-5">
-        <Title title="Our Products & Services 💼" center underline />
+      <div className="flex flex-col gap-10">
+        <Title
+          title="Apa saja yang ada di dalam Seefluencer? 👀"
+          center
+          underline
+        />
 
         <Feature
-          title="Seefluencer University 👩‍🏫"
-          description="Sekolah konten kreator yang dijalankan selama 12 minggu secara live."
+          title="12-Week Creator Accelerator Program 👩‍🏫"
+          description={
+            <div className="flex flex-col gap-4">
+              <div className="flex gap-3 items-center">
+                <div>
+                  Sekolah konten kreator yang dijalankan selama{" "}
+                  <span className="underline decoration-3 italic decoration-blue-400">
+                    12 minggu
+                  </span>{" "}
+                  secara <span className="bg-yellow-200 italic">live.</span>
+                </div>
+
+                <div className="text-3xl text-blue-400">☑️</div>
+              </div>
+
+              <div className="flex gap-3 items-center">
+                <div>
+                  Seefluencer University adalah Kelas Intensif yang akan
+                  memberikan{" "}
+                  <span className="underline decoration-3 italic decoration-blue-400">
+                    tugas PR
+                  </span>
+                  , dan{" "}
+                  <span className="bg-yellow-200 italic">
+                    membantu Kamu secara personal
+                  </span>
+                  , sehingga konten & personal branding-mu bisa jauh lebih
+                  efektif.
+                </div>
+
+                <div className="text-3xl text-blue-400">☑️</div>
+              </div>
+
+              <div className="flex gap-3 items-center">
+                <div>
+                  Kamu akan diberikan{" "}
+                  <span className="underline decoration-3 italic decoration-blue-400">
+                    12 kali sesi 1-on-1 coaching
+                  </span>{" "}
+                  selama kelas berlangsung,{" "}
+                  <span className="bg-yellow-200 italic">1 minggu 1 kali.</span>
+                </div>
+
+                <div className="text-3xl text-blue-400">☑️</div>
+              </div>
+            </div>
+          }
           src="/images/cap-cap.png"
           reverse
           href="/university"
@@ -44,120 +90,123 @@ export default function Home() {
         />
 
         <Feature
-          title="1-On-1 Creator Coaching with Samuel Christ 💁‍♂️"
-          description="Sekolah konten kreator yang dijalankan selama 12 minggu secara live."
-          src="/images/cap-coaching.png"
+          title="3-Day Intensive Mini Creator Class ✏️"
+          description={
+            <div className="flex flex-col gap-4">
+              <div className="flex gap-3 items-center">
+                <div className="text-3xl text-blue-400">☑️</div>
+
+                <div>
+                  Kelas pendek cara jadi content creator yang dijalankan selama{" "}
+                  <span className="underline decoration-3 italic decoration-blue-400">
+                    3 hari
+                  </span>{" "}
+                  secara <span className="bg-yellow-200 italic">live.</span>
+                </div>
+              </div>
+
+              <div className="flex gap-3 items-center">
+                <div className="text-3xl text-blue-400">☑️</div>
+
+                <div>
+                  3-Day Intensive Mini Creator Class adalah Kelas Intensif yang
+                  akan memberikan{" "}
+                  <span className="underline decoration-3 italic decoration-blue-400">
+                    tugas PR, modul
+                  </span>
+                  , dan{" "}
+                  <span className="bg-yellow-200 italic">
+                    membantu Kamu paham konsep content creation
+                  </span>
+                </div>
+              </div>
+            </div>
+          }
+          src="/images/cap-cap.png"
           href="/coaching"
           buttonText="lihat selengkapnya"
           notExternal
         />
 
         <Feature
+          title="1-On-1 Creator Coaching with Samuel Christ 💁‍♂️"
+          description={
+            <div className="flex flex-col gap-4">
+              <div className="flex gap-3 items-center">
+                <div>
+                  Sesi{" "}
+                  <span className="underline decoration-3 italic decoration-blue-400">
+                    45 menit
+                  </span>{" "}
+                  bersama Samuel Christ, content creator dengan{" "}
+                  <span className="bg-yellow-200 italic">
+                    4.5 juta+ followers
+                  </span>
+                </div>
+
+                <div className="text-3xl text-blue-400">☑️</div>
+              </div>
+
+              <div className="flex gap-3 items-center">
+                <div>
+                  <span className="underline decoration-3 italic decoration-blue-400">
+                    Bebas bertanya pertanyaan apa saja
+                  </span>{" "}
+                  seputar dunia{" "}
+                  <span className="bg-yellow-200 italic">content creation</span>
+                </div>
+
+                <div className="text-3xl text-blue-400">☑️</div>
+              </div>
+            </div>
+          }
+          src="/images/cap-coaching.png"
+          href="/coaching"
+          buttonText="lihat selengkapnya"
+          notExternal
+          reverse
+        />
+
+        <Feature
           title="KOL Management 🤳🏽"
-          description="Layanan kami sangat mengutamakan kualitas untuk memberikan hasil terbaik kepada para klien kami."
+          description={
+            <div className="flex flex-col gap-4">
+              <div className="flex gap-3 items-center">
+                <div className="text-3xl text-blue-400">☑️</div>
+
+                <div>
+                  Pemilihan{" "}
+                  <span className="underline decoration-3 italic decoration-blue-400">
+                    influencer yang berkualitas
+                  </span>{" "}
+                  yang langsung{" "}
+                  <span className="bg-yellow-200 italic">
+                    dilakukan oleh expertnya!
+                  </span>
+                </div>
+              </div>
+
+              <div className="flex gap-3 items-center">
+                <div className="text-3xl text-blue-400">☑️</div>
+
+                <div>
+                  <span className="underline decoration-3 italic decoration-blue-400">
+                    Pembuatan konsep marketing campaign
+                  </span>{" "}
+                  yang{" "}
+                  <span className="bg-yellow-200 italic">
+                    sangat-sangat efektif dan efisien.
+                  </span>
+                </div>
+              </div>
+            </div>
+          }
           src="/images/cap-rapot.png"
           href="/kol"
           buttonText="lihat selengkapnya"
-          reverse
           notExternal
         />
       </div>
-
-      {/* <div className="flex flex-col gap-10">
-        <Title
-          title="Apa Kata Mereka? 💬"
-          description="Temukan dan terhubung dengan brand-brand terbaik melalui Seefluencer. Platform kami memberikan akses mudah ke jaringan luas brand-brand ternama."
-          center
-          underline
-        />
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-          <div className="flex flex-col items-center text-center gap-3">
-            <div className="p-4 rounded-full bg-blue-400 shadow-lg">
-              <BiUser className="text-white" size={40} />
-            </div>
-
-            <h2 className="text-2xl font-bold">Niko Julius</h2>
-
-            <div className="italic text-gray-500">
-              {`"Temukan dan terhubung dengan brand-brand terbaik melalui
-              Seefluencer. Platform kami memberikan akses mudah ke jaringan luas
-              brand-brand ternama."`}
-            </div>
-          </div>
-
-          <div className="flex flex-col items-center text-center gap-3">
-            <div className="p-4 rounded-full bg-blue-400 shadow-lg">
-              <BiUser className="text-white" size={40} />
-            </div>
-
-            <h2 className="text-2xl font-bold">LeBron James</h2>
-
-            <div className="italic text-gray-500">
-              {`"Temukan dan terhubung dengan brand-brand terbaik melalui
-              Seefluencer. Platform kami memberikan akses mudah ke jaringan luas
-              brand-brand ternama."`}
-            </div>
-          </div>
-
-          <div className="flex flex-col items-center text-center gap-3">
-            <div className="p-4 rounded-full bg-blue-400 shadow-lg">
-              <BiUser className="text-white" size={40} />
-            </div>
-
-            <h2 className="text-2xl font-bold">Vanessa Nathalie</h2>
-
-            <div className="italic text-gray-500">
-              {`"Temukan dan terhubung dengan brand-brand terbaik melalui
-              Seefluencer. Platform kami memberikan akses mudah ke jaringan luas
-              brand-brand ternama. Platform kami memberikan akses mudah ke
-              jaringan luas brand-brand ternama. Platform kami memberikan akses
-              mudah ke jaringan luas brand-brand ternama."`}
-            </div>
-          </div>
-
-          <div className="flex flex-col items-center text-center gap-3">
-            <div className="p-4 rounded-full bg-blue-400 shadow-lg">
-              <BiUser className="text-white" size={40} />
-            </div>
-
-            <h2 className="text-2xl font-bold">Samuel Christ</h2>
-
-            <div className="italic text-gray-500">
-              {`"Temukan dan terhubung dengan brand-brand terbaik melalui
-              Seefluencer. Platform kami."`}
-            </div>
-          </div>
-
-          <div className="flex flex-col items-center text-center gap-3">
-            <div className="p-4 rounded-full bg-blue-400 shadow-lg">
-              <BiUser className="text-white" size={40} />
-            </div>
-
-            <h2 className="text-2xl font-bold">Joy Lodra</h2>
-
-            <div className="italic text-gray-500">
-              {`"Temukan dan terhubung dengan brand-brand terbaik melalui
-              Seefluencer."`}
-            </div>
-          </div>
-
-          <div className="flex flex-col items-center text-center gap-3">
-            <div className="p-4 rounded-full bg-blue-400 shadow-lg">
-              <BiUser className="text-white" size={40} />
-            </div>
-
-            <h2 className="text-2xl font-bold">Damian Lillard</h2>
-
-            <div className="italic text-gray-500">
-              {`"Temukan dan terhubung dengan brand-brand terbaik melalui
-              Seefluencer. Platform kami memberikan akses mudah ke jaringan luas
-              brand-brand ternama. Platform kami memberikan akses mudah ke
-              jaringan luas brand-brand ternama."`}
-            </div>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 }

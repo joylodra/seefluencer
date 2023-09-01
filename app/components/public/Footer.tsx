@@ -26,8 +26,16 @@ const Footer = () => {
         <div className="flex flex-col gap-3">
           <h3 className="font-bold">products & services</h3>
 
-          <Link href="/university" className="text-sm hover:underline">
-            Seefluencer University
+          <Link href="/accelerator" className="text-sm hover:underline">
+            12-Week Creator Accelerator Program
+          </Link>
+
+          <Link href="/miniclass" className="text-sm hover:underline">
+            3-Day Intensive Mini Creator Class
+          </Link>
+
+          <Link href="/coaching" className="text-sm hover:underline">
+            1-On-1 Coaching
           </Link>
 
           <Link href="/kol" className="text-sm hover:underline">

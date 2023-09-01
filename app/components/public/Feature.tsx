@@ -35,7 +35,7 @@ const Feature = ({
           {description}
         </div>
 
-        <div className="mt-5">
+        <div className="mt-8">
           {href && buttonText && (
             <Link
               target={`${notExternal ? "" : "_blank"}`}

@@ -11,7 +11,7 @@ export const metadata = {
   description: "see the difference influencers can make with seefluencer 💙",
 };
 
-const Influencers = () => {
+const Coaching = () => {
   return (
     <div className="flex flex-col gap-16">
       {/* TITLE */}
@@ -322,4 +322,4 @@ const Influencers = () => {
   );
 };
 
-export default Influencers;
+export default Coaching;

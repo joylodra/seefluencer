@@ -12,10 +12,11 @@ import { HiMenuAlt4 } from "react-icons/hi";
 import { GrFormClose } from "react-icons/gr";
 
 export const menu = [
-  { title: "Seefluencer University", href: "/university" },
+  { title: "Creator Accelerator Program", href: "/accelerator" },
+  { title: "IMCC", href: "/miniclass" },
   { title: "1-On-1 Coaching", href: "/coaching" },
   { title: "KOL Management", href: "/kol" },
-  // { title: "Blog", href: "/blog" },
+  { title: "Blog", href: "/blog" },
 ];
 
 const Navbar = () => {

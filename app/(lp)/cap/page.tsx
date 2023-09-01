@@ -13,7 +13,7 @@ import Accordion from "@/app/components/public/faq/Accordion";
 // Custom Components
 import { socials } from "@/app/libs/utils";
 
-const LaunchTrack = () => {
+const CreatorAcceleratorProgram = () => {
   return (
     <div className="flex flex-col gap-16">
       {/* TITLE */}
@@ -512,9 +512,9 @@ const LaunchTrack = () => {
               <div>
                 Perlu diingat, ini{" "}
                 <span className="bg-yellow-200 italic">
-                  bukan Kelas Online biasa
+                  bukan Kelas Online biasa,
                 </span>{" "}
-                , yang mana Kamu hanya menonton video dan belajar mandiri. Semua{" "}
+                yang mana Kamu hanya menonton video dan belajar mandiri. Semua{" "}
                 <span className="bg-yellow-200 italic">
                   kelas & coaching berlangsung secara live.
                 </span>{" "}
@@ -574,9 +574,9 @@ const LaunchTrack = () => {
             <div>
               Perlu diingat, ini{" "}
               <span className="underline decoration-3 italic decoration-blue-400">
-                bukan Kelas Online biasa
+                bukan Kelas Online biasa,
               </span>{" "}
-              , yang mana Kamu hanya menonton video dan belajar mandiri. Semua{" "}
+              yang mana Kamu hanya menonton video dan belajar mandiri. Semua{" "}
               <span className="bg-yellow-200 italic">
                 kelas & coaching berlangsung secara live.
               </span>
@@ -586,7 +586,7 @@ const LaunchTrack = () => {
           <div className="text-left">
             <span className="text-4xl font-bold">{`3.`}</span>
             <div>
-              Seefluencer University adalah Kelas Intensif yang akan memberikan
+              Seefluencer University adalah Kelas Intensif yang akan memberikan{" "}
               <span className="underline decoration-3 italic decoration-blue-400">
                 tugas PR
               </span>
@@ -678,4 +678,4 @@ const LaunchTrack = () => {
   );
 };
 
-export default LaunchTrack;
+export default CreatorAcceleratorProgram;

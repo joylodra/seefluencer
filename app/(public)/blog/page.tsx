@@ -1,9 +1,10 @@
 // Custom Components
 import Hero from "../../components/public/Hero";
 import AudienceCard from "../../components/public/blog/AudienceCard";
+import BlogCard from "@/app/components/public/blog/BlogCard";
 
 // CMS
-import { getAudiences } from "@/app/libs/sanity/sanityUtils";
+import { getAudiences, getPosts } from "@/app/libs/sanity/sanityUtils";
 import urlFor from "@/app/libs/sanity/config/urlFor";
 
 export const metadata = {
@@ -14,6 +15,7 @@ export const metadata = {
 
 const Blog = async () => {
   const audiences = await getAudiences();
+  const posts = await getPosts();
 
   return (
     <div className="flex flex-col gap-16">
@@ -29,13 +31,25 @@ const Blog = async () => {
         description="Equip with knowledge immensive, to make yourself expensive."
       />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+      {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
         {audiences.map((audience) => (
           <AudienceCard
             key={audience.title}
             href={`/blog/${audience.slug}`}
             title={audience.title}
             description={audience.description}
+          />
+        ))}
+      </div> */}
+
+      <div className="flex flex-col gap-5">
+        {posts.map((post) => (
+          <BlogCard
+            key={post.title}
+            title={post.title}
+            image={urlFor(post.mainImage).url()}
+            description={post.description}
+            slug={`/blog/${post.slug}`}
           />
         ))}
       </div>
