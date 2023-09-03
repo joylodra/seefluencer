@@ -5,7 +5,7 @@ import Title from "@/app/components/public/Title";
 import BenefitsSection from "@/app/components/public/brands/BenefitsSection";
 
 export const metadata = {
-  title: "for brands & agencies",
+  title: "kol management",
   keywords: ["brands page", "social media", "business", "influencer marketing"],
   description: "see the difference influencers can make with seefluencer 💙",
 };

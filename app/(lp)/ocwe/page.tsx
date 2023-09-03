@@ -243,7 +243,7 @@ const Coaching = () => {
 
           <div className="flex flex-col gap-3">
             <Image
-              src="/images/ocwe-seberapakaya.png"
+              src="/images/ocwe-150m.png"
               alt="Feature Description Image"
               width={250}
               height={250}

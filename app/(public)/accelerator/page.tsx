@@ -9,11 +9,8 @@ import Title from "@/app/components/public/Title";
 import Feature from "../../components/public/Feature";
 import Accordion from "@/app/components/public/faq/Accordion";
 
-// Icons & Images
-import { BiUser } from "react-icons/bi";
-
 export const metadata = {
-  title: "for influencers",
+  title: "12-week creator accelerator program",
   keywords: [
     "influencer page",
     "social media",

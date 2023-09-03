@@ -74,7 +74,7 @@ const CreatorAcceleratorProgram = () => {
           }
           buttonText="daftar sekarang"
           external
-          href="https://wa.me/6285175449955?text=Halo,%20nama%20saya%20[ISI%20NAMA%20KAMU].%20Saya%20ingin%20daftar%20kelas%20intensif%20Creator%20Accelerator%20Program.%20Gimana%20prosesnya%20ya?"
+          href="https://wa.me/6285175449955?text=Halo%20kak,%20nama%20saya%20[NAMA%20KAMU].%20Saya%20tertarik%20untuk%20join%20FREE%20Mini%20Intensive%20Class%20yang%20berlangsung%20selama%203%20hari.%20Bagaimana%20caranya?"
         />
       </div>
 

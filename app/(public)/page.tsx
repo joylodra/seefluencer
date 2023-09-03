@@ -1,3 +1,6 @@
+// Next Link
+import Link from "next/link";
+
 // Custom Components
 import Hero from "../components/public/Hero";
 import Feature from "../components/public/Feature";
@@ -37,7 +40,7 @@ export default function Home() {
         <Feature
           title="12-Week Creator Accelerator Program 👩‍🏫"
           description={
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 items-end text-right">
               <div className="flex gap-3 items-center">
                 <div>
                   Sekolah konten kreator yang dijalankan selama{" "}
@@ -80,19 +83,24 @@ export default function Home() {
 
                 <div className="text-3xl text-blue-400">☑️</div>
               </div>
+
+              <Link
+                target="_blank"
+                href="/accelerator"
+                className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
+              >
+                lihat selengkapnya
+              </Link>
             </div>
           }
           src="/images/cap-cap.png"
           reverse
-          href="/university"
-          buttonText="lihat selengkapnya"
-          notExternal
         />
 
         <Feature
           title="3-Day Intensive Mini Creator Class ✏️"
           description={
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 items-start">
               <div className="flex gap-3 items-center">
                 <div className="text-3xl text-blue-400">☑️</div>
 
@@ -120,18 +128,23 @@ export default function Home() {
                   </span>
                 </div>
               </div>
+
+              <Link
+                target="_blank"
+                href="/miniclass"
+                className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
+              >
+                lihat selengkapnya
+              </Link>
             </div>
           }
-          src="/images/cap-cap.png"
-          href="/coaching"
-          buttonText="lihat selengkapnya"
-          notExternal
+          src="/images/imcc-imcc.png"
         />
 
         <Feature
           title="1-On-1 Creator Coaching with Samuel Christ 💁‍♂️"
           description={
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 items-end">
               <div className="flex gap-3 items-center">
                 <div>
                   Sesi{" "}
@@ -158,19 +171,24 @@ export default function Home() {
 
                 <div className="text-3xl text-blue-400">☑️</div>
               </div>
+
+              <Link
+                target="_blank"
+                href="/coaching"
+                className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
+              >
+                lihat selengkapnya
+              </Link>
             </div>
           }
           src="/images/cap-coaching.png"
-          href="/coaching"
-          buttonText="lihat selengkapnya"
-          notExternal
           reverse
         />
 
         <Feature
           title="KOL Management 🤳🏽"
           description={
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 items-start">
               <div className="flex gap-3 items-center">
                 <div className="text-3xl text-blue-400">☑️</div>
 
@@ -199,12 +217,17 @@ export default function Home() {
                   </span>
                 </div>
               </div>
+
+              <Link
+                target="_blank"
+                href="/kol"
+                className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
+              >
+                lihat selengkapnya
+              </Link>
             </div>
           }
           src="/images/cap-rapot.png"
-          href="/kol"
-          buttonText="lihat selengkapnya"
-          notExternal
         />
       </div>
     </div>
