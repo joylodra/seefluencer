@@ -38,9 +38,12 @@ export default function Home() {
         />
 
         <Feature
-          title="12-Week Creator Accelerator Program 👩‍🏫"
           description={
             <div className="flex flex-col gap-4 items-end text-right">
+              <div className="font-bold text-xl">
+                12-Week Creator Accelerator Program 👩‍🏫
+              </div>
+
               <div className="flex gap-3 items-center">
                 <div>
                   Sekolah konten kreator yang dijalankan selama{" "}
@@ -98,9 +101,12 @@ export default function Home() {
         />
 
         <Feature
-          title="3-Day Intensive Mini Creator Class ✏️"
           description={
             <div className="flex flex-col gap-4 items-start">
+              <div className="font-bold text-xl">
+                3-Day Intensive Mini Creator Class ✏️
+              </div>
+
               <div className="flex gap-3 items-center">
                 <div className="text-3xl text-blue-400">☑️</div>
 
@@ -142,9 +148,12 @@ export default function Home() {
         />
 
         <Feature
-          title="1-On-1 Creator Coaching with Samuel Christ 💁‍♂️"
           description={
             <div className="flex flex-col gap-4 items-end">
+              <div className="font-bold text-xl">
+                1-On-1 Creator Coaching with Samuel Christ 💁‍♂️
+              </div>
+
               <div className="flex gap-3 items-center">
                 <div>
                   Sesi{" "}
@@ -186,9 +195,10 @@ export default function Home() {
         />
 
         <Feature
-          title="KOL Management 🤳🏽"
           description={
             <div className="flex flex-col gap-4 items-start">
+              <div className="font-bold text-xl">KOL Management 🤳🏽</div>
+
               <div className="flex gap-3 items-center">
                 <div className="text-3xl text-blue-400">☑️</div>
 
