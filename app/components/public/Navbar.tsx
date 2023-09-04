@@ -77,7 +77,7 @@ const Navbar = () => {
               </div>
             </div>
 
-            <div className="rounded-xl overflow-hidden mt-2 invisible absolute z-50 flex w-full flex-col bg-white shadow-3xl group-hover:visible">
+            <div className="rounded-xl overflow-hidden invisible absolute z-50 flex w-full flex-col bg-white shadow-3xl group-hover:visible">
               <div
                 onClick={() => {
                   router.push(`/accelerator`);
