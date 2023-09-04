@@ -51,15 +51,11 @@ export default function RootLayout({
   return (
     <html>
       {/* <CrispWithNoSSR /> */}
-      {/* <script>document.documentElement.classList.add('js')</script> */}
       <body className="bg-gray-50">
         <Navbar />
         <main className="mx-auto max-w-5xl p-3">{children}</main>
         <Footer />
-
         <Analytics />
-
-        <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
       </body>
     </html>
   );
