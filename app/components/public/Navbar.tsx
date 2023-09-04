@@ -10,10 +10,11 @@ import Link from "next/link";
 // Icons & Images
 import { HiMenuAlt4 } from "react-icons/hi";
 import { GrFormClose } from "react-icons/gr";
+import { AiOutlineDown } from "react-icons/ai";
 
 export const menu = [
-  { title: "Creator Accelerator Program", href: "/accelerator" },
-  { title: "IMCC", href: "/miniclass" },
+  // { title: "Creator Accelerator Program", href: "/accelerator" },
+  // { title: "IMCC", href: "/miniclass" },
   { title: "1-On-1 Coaching", href: "/coaching" },
   { title: "KOL Management", href: "/kol" },
   { title: "Blog", href: "/blog" },
@@ -68,6 +69,37 @@ const Navbar = () => {
         </Link>
 
         <div className="hidden md:flex flex-row gap-5 items-center">
+          <div className={`group relative hover:cursor-pointer`}>
+            <div className="flex flex-row gap-2 items-center">
+              <div>Seefluencer University</div>{" "}
+              <div>
+                <AiOutlineDown size={15} />
+              </div>
+            </div>
+
+            <div className="rounded-xl overflow-hidden mt-2 invisible absolute z-50 flex w-full flex-col bg-white shadow-3xl group-hover:visible">
+              <div
+                onClick={() => {
+                  router.push(`/accelerator`);
+                  setIsMenuOpen(false);
+                }}
+                className="px-4 py-2 hover:bg-blue-400 hover:text-white transition cursor-pointer"
+              >
+                12-Week Creator Accelerator Program 👩‍🏫
+              </div>
+
+              <div
+                onClick={() => {
+                  router.push(`/miniclass`);
+                  setIsMenuOpen(false);
+                }}
+                className="px-4 py-2 hover:bg-blue-400 hover:text-white transition cursor-pointer"
+              >
+                3-Day Intensive Mini Creator Class ✏️
+              </div>
+            </div>
+          </div>
+
           {menu.map((item) => (
             <Link
               key={item.href}
@@ -91,7 +123,34 @@ const Navbar = () => {
             ref={menuRef}
             className="md:hidden absolute rounded-xl shadow-3xl w-3/4 bg-white right-0 top-[88px] overflow-hidden"
           >
-            <div className="flex flex-col">
+            <div className="flex flex-col gap-3">
+              <div>
+                <div className="px-4 py-2">Seefluencer University</div>
+                <div
+                  onClick={() => {
+                    router.push(`/accelerator`);
+                    setIsMenuOpen(false);
+                  }}
+                  className="px-4 py-2 text-gray-500 hover:bg-blue-400 hover:text-white transition cursor-pointer"
+                >
+                  <span className="ml-3">
+                    12-Week Creator Accelerator Program 👩‍🏫
+                  </span>
+                </div>
+
+                <div
+                  onClick={() => {
+                    router.push(`/miniclass`);
+                    setIsMenuOpen(false);
+                  }}
+                  className="px-4 py-2 text-gray-500 hover:bg-blue-400 hover:text-white transition cursor-pointer"
+                >
+                  <span className="ml-3">
+                    3-Day Intensive Mini Creator Class ✏️
+                  </span>
+                </div>
+              </div>
+
               {menu.map((item) => (
                 <div
                   key={item.href}

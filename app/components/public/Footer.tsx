@@ -23,16 +23,26 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="flex flex-col gap-3">
-          <h3 className="font-bold">products & services</h3>
+        <div className="flex flex-col gap-4">
+          <h3 className="font-bold">products & services 🛠</h3>
 
-          <Link href="/accelerator" className="text-sm hover:underline">
-            12-Week Creator Accelerator Program
-          </Link>
+          <div className="flex flex-col gap-1">
+            <div className="text-sm">Seefluencer University</div>
 
-          <Link href="/miniclass" className="text-sm hover:underline">
-            3-Day Intensive Mini Creator Class
-          </Link>
+            <Link
+              href="/accelerator"
+              className="text-sm hover:underline text-gray-500 ml-0 md:ml-3"
+            >
+              12-Week Creator Accelerator Program 👩‍🏫
+            </Link>
+
+            <Link
+              href="/miniclass"
+              className="text-sm hover:underline text-gray-500 ml-0 md:ml-3"
+            >
+              3-Day Intensive Mini Creator Class ✏️
+            </Link>
+          </div>
 
           <Link href="/coaching" className="text-sm hover:underline">
             1-On-1 Coaching
@@ -43,11 +53,11 @@ const Footer = () => {
           </Link>
         </div>
 
-        <div className="flex flex-col gap-3">
-          <h3 className="font-bold">information</h3>
-          {/* <Link href="/blog" className="text-sm">
+        <div className="flex flex-col gap-4">
+          <h3 className="font-bold">information ℹ️</h3>
+          <Link href="/blog" className="text-sm">
             blog
-          </Link> */}
+          </Link>
 
           <Link
             href="/terms-and-conditions"
@@ -65,8 +75,8 @@ const Footer = () => {
           </Link> */}
         </div>
 
-        <div className="flex flex-col items-center md:items-start gap-3">
-          <h3 className="font-bold">get in touch</h3>
+        <div className="flex flex-col items-center md:items-start gap-4">
+          <h3 className="font-bold">get in touch 🗣</h3>
 
           <p className="text-sm">seefluencer@gmail.com</p>
         </div>
