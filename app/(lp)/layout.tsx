@@ -45,7 +45,10 @@ export default function RootLayout({
     <html>
       <body className="bg-gray-50">
         <main className="mx-auto max-w-5xl p-3">{children}</main>
+
         <Analytics />
+
+        <script src="https://unpkg.com/taos@1.0.5/dist/taos.js"></script>
       </body>
     </html>
   );

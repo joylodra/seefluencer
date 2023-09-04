@@ -26,6 +26,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
     "sanity-plugin-asset-source-unsplash": "^1.0.6",
+    "taos": "^1.0.5",
     "typescript": "5.0.3"
   },
   "devDependencies": {
