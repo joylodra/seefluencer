@@ -102,7 +102,7 @@ export default function Home() {
 
         <Feature
           description={
-            <div className="flex flex-col gap-4 items-start">
+            <div className="flex flex-col gap-4 items-start text-left">
               <div className="font-bold text-xl">
                 3-Day Intensive Mini Creator Class ✏️
               </div>
@@ -149,7 +149,7 @@ export default function Home() {
 
         <Feature
           description={
-            <div className="flex flex-col gap-4 items-end">
+            <div className="flex flex-col gap-4 items-end text-right">
               <div className="font-bold text-xl">
                 1-On-1 Creator Coaching with Samuel Christ 💁‍♂️
               </div>
@@ -196,7 +196,7 @@ export default function Home() {
 
         <Feature
           description={
-            <div className="flex flex-col gap-4 items-start">
+            <div className="flex flex-col gap-4 items-start text-left">
               <div className="font-bold text-xl">KOL Management 🤳🏽</div>
 
               <div className="flex gap-3 items-center">
