@@ -44,7 +44,7 @@ const Coaching = () => {
                     <span className="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 inline-block text-transparent bg-clip-text">
                       1-on-1
                     </span>{" "}
-                    dengan{" "}
+                    selama 45 menit dengan{" "}
                     <span className="underline decoration-3 italic decoration-blue-400">
                       Samuel Christ
                     </span>
@@ -284,7 +284,7 @@ const Coaching = () => {
         className="flex flex-col gap-5 items-center text-center"
       >
         <Title
-          title="Jadwalkan sesi konsultasi 1-on-1 kamu dengan Samuel Christ sekarang dan dapatkan SOLUSI bisa sukses jadi content creator! 🤳🏽"
+          title="Jadwalkan sesi konsultasi 1-on-1 selama 45 menit dengan Samuel Christ sekarang dan dapatkan SOLUSI bisa sukses jadi content creator! 🤳🏽"
           center
           underline
         />
