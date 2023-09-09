@@ -85,7 +85,7 @@ const Navbar = () => {
                 }}
                 className="px-4 py-2 hover:bg-blue-400 hover:text-white transition cursor-pointer"
               >
-                12-Week Creator Accelerator Program 👩‍🏫
+                12-Week Creator Accelerator Program
               </div>
 
               <div
@@ -95,7 +95,7 @@ const Navbar = () => {
                 }}
                 className="px-4 py-2 hover:bg-blue-400 hover:text-white transition cursor-pointer"
               >
-                3-Day Intensive Mini Creator Class ✏️
+                3-Day Intensive Mini Creator Class
               </div>
             </div>
           </div>
@@ -125,17 +125,14 @@ const Navbar = () => {
           >
             <div className="flex flex-col gap-3">
               <div>
-                <div className="px-4 py-2">Seefluencer University</div>
                 <div
                   onClick={() => {
                     router.push(`/accelerator`);
                     setIsMenuOpen(false);
                   }}
-                  className="px-4 py-2 text-gray-500 hover:bg-blue-400 hover:text-white transition cursor-pointer"
+                  className="px-4 py-2 hover:bg-blue-400 hover:text-white transition cursor-pointer"
                 >
-                  <span className="ml-3">
-                    12-Week Creator Accelerator Program 👩‍🏫
-                  </span>
+                  12-Week Creator Accelerator Program
                 </div>
 
                 <div
@@ -143,11 +140,9 @@ const Navbar = () => {
                     router.push(`/miniclass`);
                     setIsMenuOpen(false);
                   }}
-                  className="px-4 py-2 text-gray-500 hover:bg-blue-400 hover:text-white transition cursor-pointer"
+                  className="px-4 py-2 hover:bg-blue-400 hover:text-white transition cursor-pointer"
                 >
-                  <span className="ml-3">
-                    3-Day Intensive Mini Creator Class ✏️
-                  </span>
+                  3-Day Intensive Mini Creator Class
                 </div>
               </div>
 
