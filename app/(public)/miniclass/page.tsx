@@ -4,7 +4,6 @@ import Image from "next/image";
 
 // Custom Components
 import Hero from "../../components/public/Hero";
-import Cta from "../../components/public/Cta";
 import Title from "@/app/components/public/Title";
 import Feature from "../../components/public/Feature";
 import Accordion from "@/app/components/public/faq/Accordion";
@@ -71,7 +70,7 @@ const MiniClass = () => {
             </div>
           }
           buttonText="daftar sekarang"
-          href="https://wa.me/6285175449955?text=Halo%20kak,%20nama%20saya%20[NAMA%20KAMU].%20Saya%20tertarik%20untuk%20join%20FREE%20Mini%20Intensive%20Class%20yang%20berlangsung%20selama%203%20hari.%20Bagaimana%20caranya?"
+          href="https://forms.gle/RnciRxMeiRw6GVe39"
         />
       </div>
 
@@ -184,9 +183,7 @@ const MiniClass = () => {
 
         <Link
           target="_blank"
-          href={
-            "https://wa.me/6285175449955?text=Halo%20kak,%20nama%20saya%20[NAMA%20KAMU].%20Saya%20tertarik%20untuk%20join%20FREE%20Mini%20Intensive%20Class%20yang%20berlangsung%20selama%203%20hari.%20Bagaimana%20caranya?"
-          }
+          href="https://forms.gle/RnciRxMeiRw6GVe39"
           className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
         >
           daftar sekarang
@@ -296,9 +293,7 @@ const MiniClass = () => {
 
         <Link
           target="_blank"
-          href={
-            "https://wa.me/6285175449955?text=Halo%20kak,%20nama%20saya%20[NAMA%20KAMU].%20Saya%20tertarik%20untuk%20join%20FREE%20Mini%20Intensive%20Class%20yang%20berlangsung%20selama%203%20hari.%20Bagaimana%20caranya?"
-          }
+          href="https://forms.gle/RnciRxMeiRw6GVe39"
           className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
         >
           daftar sekarang
@@ -355,14 +350,11 @@ const MiniClass = () => {
             question="📈 Day 3: Cara AMPUH Bikin Konten VIRAL"
             customAnswer={
               <>
-                Kamu belum{" "}
+                Kamu akan diajarkan bagaimana caranya{" "}
                 <span className="underline decoration-3 italic decoration-blue-400">
-                  PD berbicara
+                  bikin konten
                 </span>{" "}
-                di depan kamera? Kita akan berikan panduan dan{" "}
-                <span className="bg-yellow-200 italic">
-                  cara memaksimalkannya.
-                </span>
+                yang <span className="bg-yellow-200 italic">auto viral</span>
               </>
             }
           />
@@ -370,9 +362,7 @@ const MiniClass = () => {
 
         <Link
           target="_blank"
-          href={
-            "https://wa.me/6285175449955?text=Halo%20kak,%20nama%20saya%20[NAMA%20KAMU].%20Saya%20tertarik%20untuk%20join%20FREE%20Mini%20Intensive%20Class%20yang%20berlangsung%20selama%203%20hari.%20Bagaimana%20caranya?"
-          }
+          href="https://forms.gle/RnciRxMeiRw6GVe39"
           className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
         >
           daftar sekarang
@@ -392,16 +382,14 @@ const MiniClass = () => {
             GRATIS!
           </h1>
           <div className="italic text-sm">
-            *Slot kelas terbatas, kita hanya menerima 100 orang yang berpotensi
+            *Slot kelas terbatas, kita hanya menerima 250 orang yang berpotensi
             untuk setiap batchnya.{" "}
           </div>
         </div>
 
         <Link
           target="_blank"
-          href={
-            "https://wa.me/6285175449955?text=Halo%20kak,%20nama%20saya%20[NAMA%20KAMU].%20Saya%20tertarik%20untuk%20join%20FREE%20Mini%20Intensive%20Class%20yang%20berlangsung%20selama%203%20hari.%20Bagaimana%20caranya?"
-          }
+          href="https://forms.gle/RnciRxMeiRw6GVe39"
           className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
         >
           daftar sekarang
