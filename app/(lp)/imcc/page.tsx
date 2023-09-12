@@ -12,10 +12,15 @@ import Accordion from "@/app/components/public/faq/Accordion";
 import { socials } from "@/app/libs/utils";
 
 const MiniClass = () => {
+  const handleClick = () => {
+    const element = document.getElementById("pricing")!;
+    element?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div className="flex flex-col gap-16">
       {/* TITLE */}
-      <div className="flex flex-col gap-10">
+      <div className="flex flex-col gap-10 items-center">
         <Hero
           fullWidth
           customTitle={
@@ -51,19 +56,16 @@ const MiniClass = () => {
                 <span className="bg-yellow-200 italic">GRATIS</span> yang
                 berlangsung selama 3 hari 🤩"
               </div>
-
-              {/* <Image
-                className="flex w-full max-w-md rounded-xl shadow-xl"
-                src="/images/ocwe-growth.png"
-                alt="Sam Christ's social media growth"
-                width={800}
-                height={800}
-              /> */}
             </div>
           }
-          buttonText="daftar sekarang"
-          href="https://forms.gle/RnciRxMeiRw6GVe39"
         />
+
+        <div
+          onClick={handleClick}
+          className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold cursor-pointer"
+        >
+          lihat penawaran
+        </div>
       </div>
 
       {/* PROBLEM */}
@@ -173,13 +175,12 @@ const MiniClass = () => {
           <span className="bg-yellow-200 italic">viral</span>."
         </div>
 
-        <Link
-          target="_blank"
-          href="https://forms.gle/RnciRxMeiRw6GVe39"
-          className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
+        <div
+          onClick={handleClick}
+          className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold cursor-pointer"
         >
-          daftar sekarang
-        </Link>
+          lihat penawaran
+        </div>
       </div>
 
       {/* INSTRUCTOR */}
@@ -283,13 +284,12 @@ const MiniClass = () => {
           </div>
         </div>
 
-        <Link
-          target="_blank"
-          href="https://forms.gle/RnciRxMeiRw6GVe39"
-          className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
+        <div
+          onClick={handleClick}
+          className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold cursor-pointer"
         >
-          daftar sekarang
-        </Link>
+          lihat penawaran
+        </div>
       </div>
 
       {/* KURIKULUM */}
@@ -352,13 +352,12 @@ const MiniClass = () => {
           />
         </div>
 
-        <Link
-          target="_blank"
-          href="https://forms.gle/RnciRxMeiRw6GVe39"
-          className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
+        <div
+          onClick={handleClick}
+          className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold cursor-pointer"
         >
-          daftar sekarang
-        </Link>
+          lihat penawaran
+        </div>
       </div>
 
       {/* PRICING SECTION */}
@@ -368,11 +367,19 @@ const MiniClass = () => {
       >
         <Title title="Berapa Investasi Kelas Ini? 🤑" center underline />
 
+        <Image
+          src={"/images/ocwe-150m.png"}
+          alt="Feature Description Image"
+          width={400}
+          height={400}
+          className="rounded-lg shadow-lg w-full max-w-xs"
+        />
+
         <div className="flex flex-col gap-3 text-center">
           <div className="line-through text-xl">Rp2.499.999</div>
-          <h1 className="text-4xl text-red-500 font-bold rounded-lg animate-bounce">
+          <div className="text-4xl text-red-500 font-bold rounded-lg animate-bounce">
             GRATIS!
-          </h1>
+          </div>
           <div className="italic text-sm">
             *Slot kelas terbatas, kita hanya menerima 250 orang yang berpotensi
             untuk setiap batchnya.{" "}

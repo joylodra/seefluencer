@@ -21,10 +21,15 @@ export const metadata = {
 };
 
 const CreatorAcceleratorProgram = () => {
+  const handleClick = () => {
+    const element = document.getElementById("pricing")!;
+    element?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div className="flex flex-col gap-16">
       {/* TITLE */}
-      <div className="flex flex-col gap-10">
+      <div className="flex flex-col gap-10 items-center">
         <Hero
           fullWidth
           customTitle={
@@ -79,13 +84,16 @@ const CreatorAcceleratorProgram = () => {
               </div>
             </div>
           }
-          buttonText="daftar sekarang"
-          external
-          href="https://wa.me/6285175449955?text=Halo,%20nama%20saya%20[ISI%20NAMA%20KAMU].%20Saya%20ingin%20daftar%20kelas%20intensif%20Creator%20Accelerator%20Program.%20Gimana%20prosesnya%20ya?"
         />
-      </div>
 
-      {/* PROGRAM OVERVIEW */}
+        <div
+          onClick={handleClick}
+          className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold cursor-pointer"
+        >
+          lihat penawaran
+        </div>
+      </div>
+      {/* PROBLEM */}
       <div className="flex flex-col gap-5">
         <Title
           title="Coba Kamu Renungkan, Seberapa Sering Kamu Mengalami Masalah Ini? 🤔"
@@ -143,7 +151,6 @@ const CreatorAcceleratorProgram = () => {
           />
         </div>
       </div>
-
       {/* PROGRAM OVERVIEW */}
       <div className="flex flex-col gap-10 justify-center items-center">
         <div className="text-center font-bold text-2xl md:text-4xl">
@@ -187,17 +194,13 @@ const CreatorAcceleratorProgram = () => {
           />
         </div>
 
-        <Link
-          target="_blank"
-          href={
-            "https://wa.me/6285175449955?text=Halo,%20nama%20saya%20[ISI%20NAMA%20KAMU].%20Saya%20ingin%20daftar%20kelas%20intensif%20Creator%20Accelerator%20Program.%20Gimana%20prosesnya%20ya?"
-          }
-          className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
+        <div
+          onClick={handleClick}
+          className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold cursor-pointer"
         >
-          daftar sekarang
-        </Link>
+          lihat penawaran
+        </div>
       </div>
-
       {/* PROGRAM OVERVIEW */}
       <div className="flex flex-col gap-10">
         <Title
@@ -236,7 +239,6 @@ const CreatorAcceleratorProgram = () => {
           src="/images/cap-jumlah-1.png"
         />
       </div>
-
       {/* PROGRAM OVERVIEW */}
       <div className="flex flex-col gap-10 justify-center items-center">
         <div className="text-center text-2xl md:text-4xl font-bold w-fit italic">
@@ -254,17 +256,13 @@ const CreatorAcceleratorProgram = () => {
           <span className="bg-yellow-200 italic">ketinggalan zaman!</span>
         </div>
 
-        <Link
-          target="_blank"
-          href={
-            "https://wa.me/6285175449955?text=Halo,%20nama%20saya%20[ISI%20NAMA%20KAMU].%20Saya%20ingin%20daftar%20kelas%20intensif%20Creator%20Accelerator%20Program.%20Gimana%20prosesnya%20ya?"
-          }
+        <div
+          onClick={handleClick}
           className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
         >
-          daftar sekarang
-        </Link>
+          lihat penawaran
+        </div>
       </div>
-
       {/* PROGRAM OVERVIEW */}
       <div className="flex flex-col gap-10 text-center items-center justify-center">
         <div className="flex flex-col gap-3">
@@ -291,17 +289,13 @@ const CreatorAcceleratorProgram = () => {
           className="aspect-video w-full"
         />
 
-        <Link
-          target="_blank"
-          href={
-            "https://wa.me/6285175449955?text=Halo,%20nama%20saya%20[ISI%20NAMA%20KAMU].%20Saya%20ingin%20daftar%20kelas%20intensif%20Creator%20Accelerator%20Program.%20Gimana%20prosesnya%20ya?"
-          }
-          className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
+        <div
+          onClick={handleClick}
+          className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold cursor-pointer"
         >
-          daftar sekarang
-        </Link>
+          lihat penawaran
+        </div>
       </div>
-
       {/* PENGENALAN PROGRAM */}
       <div className="flex flex-col gap-10 text-center justify-center items-center">
         <div className="text-2xl md:text-4xl font-bold">
@@ -336,17 +330,13 @@ const CreatorAcceleratorProgram = () => {
           <span className="bg-yellow-200 italic">berpenghasilan</span>."
         </div>
 
-        <Link
-          target="_blank"
-          href={
-            "https://wa.me/6285175449955?text=Halo,%20nama%20saya%20[ISI%20NAMA%20KAMU].%20Saya%20ingin%20daftar%20kelas%20intensif%20Creator%20Accelerator%20Program.%20Gimana%20prosesnya%20ya?"
-          }
-          className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
+        <div
+          onClick={handleClick}
+          className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold cursor-pointer"
         >
-          daftar sekarang
-        </Link>
+          lihat penawaran
+        </div>
       </div>
-
       {/* KURIKULUM */}
       <div className="flex flex-col gap-10 items-center justify-center">
         <Title
@@ -434,17 +424,13 @@ const CreatorAcceleratorProgram = () => {
           />
         </div>
 
-        <Link
-          target="_blank"
-          href={
-            "https://wa.me/6285175449955?text=Halo,%20nama%20saya%20[ISI%20NAMA%20KAMU].%20Saya%20ingin%20daftar%20kelas%20intensif%20Creator%20Accelerator%20Program.%20Gimana%20prosesnya%20ya?"
-          }
-          className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
+        <div
+          onClick={handleClick}
+          className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold cursor-pointer"
         >
-          daftar sekarang
-        </Link>
+          lihat penawaran
+        </div>
       </div>
-
       {/* FASILITAS */}
       <div className="flex flex-col gap-10 items-center justify-center">
         <Title
@@ -535,17 +521,13 @@ const CreatorAcceleratorProgram = () => {
           src="/images/cap-rapot.png"
         />
 
-        <Link
-          target="_blank"
-          href={
-            "https://wa.me/6285175449955?text=Halo,%20nama%20saya%20[ISI%20NAMA%20KAMU].%20Saya%20ingin%20daftar%20kelas%20intensif%20Creator%20Accelerator%20Program.%20Gimana%20prosesnya%20ya?"
-          }
-          className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
+        <div
+          onClick={handleClick}
+          className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold cursor-pointer"
         >
-          daftar sekarang
-        </Link>
+          lihat penawaran
+        </div>
       </div>
-
       {/* PRICING SECTION */}
       <div
         id="pricing"
@@ -616,7 +598,6 @@ const CreatorAcceleratorProgram = () => {
           daftar sekarang
         </Link>
       </div>
-
       {/* MERCH SECTION */}
       <div className="flex flex-col gap-10">
         <div
@@ -654,7 +635,7 @@ const CreatorAcceleratorProgram = () => {
             />
           </div>
         </div>
-      </div>
+      </div>{" "}
     </div>
   );
 };
