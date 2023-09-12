@@ -34,13 +34,13 @@ const Hero = ({
         fullWidth ? "max-w-full" : "max-w-2xl"
       } flex flex-col gap-4 justify-center items-center text-center`}
     >
-      {title && <h1 className="text-3xl md:text-5xl font-bold">{title}</h1>}
+      {title && <div className="text-3xl md:text-5xl font-bold">{title}</div>}
 
       {customTitle && (
-        <h1 className="text-3xl md:text-5xl font-bold">{customTitle}</h1>
+        <div className="text-3xl md:text-5xl font-bold">{customTitle}</div>
       )}
 
-      <p>{description}</p>
+      <div>{description}</div>
 
       {href && buttonText && (
         <div className="mt-5 flex flex-col gap-2 sm:flex-row">
@@ -65,7 +65,7 @@ const Hero = ({
       )}
 
       {downArrow ? (
-        <p className="animate-pulse text-4xl font-bold text-blue-400">↓</p>
+        <div className="animate-pulse text-4xl font-bold text-blue-400">↓</div>
       ) : (
         <></>
       )}
