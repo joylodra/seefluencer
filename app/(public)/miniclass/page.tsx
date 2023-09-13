@@ -63,8 +63,8 @@ const MiniClass = () => {
                 <span className="underline decoration-3 italic decoration-blue-400">
                   kelas intensif
                 </span>{" "}
-                <span className="bg-yellow-200 italic font-bold">GRATIS</span>{" "}
-                yang berlangsung selama 3 hari 🤩"
+                <span className="bg-yellow-200 italic">GRATIS</span> yang
+                berlangsung selama 3 hari 🤩"
               </div>
             </div>
           }
@@ -399,7 +399,7 @@ const MiniClass = () => {
         <div className="flex flex-col gap-3 text-center">
           <div className="line-through text-xl">Rp2.499.999</div>
 
-          <div className="text-4xl text-red-500 rounded-lg animate-bounce">
+          <div className="text-4xl text-red-500 rounded-lg animate-bounce font-bold">
             GRATIS!
           </div>
 
