@@ -398,9 +398,11 @@ const MiniClass = () => {
 
         <div className="flex flex-col gap-3 text-center">
           <div className="line-through text-xl">Rp2.499.999</div>
+
           <div className="text-4xl text-red-500 rounded-lg animate-bounce">
             GRATIS!
           </div>
+
           <div className="italic text-sm">
             *Slot kelas terbatas, kita hanya menerima 250 orang yang berpotensi
             untuk setiap batchnya.{" "}
