@@ -75,7 +75,7 @@ const Coaching = () => {
             />
 
             <div
-              onClick={handleClick}
+              onClick={() => handleClick()}
               className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold cursor-pointer"
             >
               lihat penawaran
@@ -270,7 +270,7 @@ const Coaching = () => {
         </div>
 
         <div
-          onClick={handleClick}
+          onClick={() => handleClick()}
           className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold cursor-pointer"
         >
           lihat penawaran
