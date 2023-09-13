@@ -12,7 +12,10 @@ const Footer = () => {
     <footer className="flex flex-col p-4 mx-auto max-w-5xl gap-3 z-30 relative">
       <div className="grid grid-cols-1 text-center md:text-left md:grid-cols-4 gap-8 md:gap-3 border-t py-10">
         <div className="flex flex-col gap-2">
-          <Link className="flex gap-2 text-2xl items-center" href={`/`}>
+          <Link
+            className="flex gap-2 text-2xl items-center justify-center md:justify-start"
+            href={`/`}
+          >
             <Image
               src="/images/logo-trans.png"
               alt="Logo Seefluencer"
