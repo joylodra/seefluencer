@@ -54,17 +54,17 @@ const MiniClass = () => {
               </div>
 
               <div className="font-normal text-2xl">
-                "Kami akan{" "}
+                "Samuel Christ akan{" "}
                 <span className="underline decoration-3 italic decoration-blue-400">
-                  bongkar rahasia Samuel Christ
+                  bongkar rahasianya
                 </span>{" "}
                 bisa <span className="bg-yellow-200 italic">viral</span> sebagai
                 content creator melalui{" "}
                 <span className="underline decoration-3 italic decoration-blue-400">
                   kelas intensif
                 </span>{" "}
-                <span className="bg-yellow-200 italic">GRATIS</span> yang
-                berlangsung selama 3 hari 🤩"
+                <span className="bg-yellow-200 italic font-bold">GRATIS</span>{" "}
+                yang berlangsung selama 3 hari 🤩"
               </div>
             </div>
           }
@@ -81,7 +81,7 @@ const MiniClass = () => {
       {/* PROBLEM */}
       <div className="flex flex-col gap-5">
         <Title
-          title="Kamu lagi ngerasain hal-hal ini nggak? 😭"
+          title="Apakah Kamu sedang mengalami hal-hal ini? 😭"
           center
           underline
         />
@@ -94,53 +94,67 @@ const MiniClass = () => {
                   <div className="text-2xl">❌</div>
 
                   <div>
-                    Sudah{" "}
+                    Ingin{" "}
                     <span className="underline decoration-3 italic decoration-blue-400">
-                      ikut kelas online
-                    </span>
-                    , tapi masih bingung dan{" "}
-                    <span className="bg-yellow-200 italic">
-                      hanya panas di awal?
-                    </span>
-                  </div>
-                </div>
-
-                <div className="flex gap-3 items-center text-left">
-                  <div className="text-2xl">❌</div>
-                  <div>
-                    Mau mencoba{" "}
-                    <span className="underline decoration-3 italic decoration-blue-400">
-                      hal yang baru
-                    </span>{" "}
-                    karena sudah{" "}
-                    <span className="bg-yellow-200 italic">bosan</span> dengan
-                    rutinitas harian
-                  </div>
-                </div>
-
-                <div className="flex gap-3 items-center text-left">
-                  <div className="text-2xl">❌</div>
-                  <div>
-                    Kesulitan mencari{" "}
-                    <span className="underline decoration-3 italic decoration-blue-400">
-                      penghasilan tambahan
-                    </span>{" "}
-                    karena{" "}
-                    <span className="bg-yellow-200 italic">padatnya</span>{" "}
-                    rutinitas harian
-                  </div>
-                </div>
-
-                <div className="flex gap-3 items-center text-left">
-                  <div className="text-2xl">❌</div>
-                  <div>
-                    Sudah pernah{" "}
-                    <span className="underline decoration-3 italic decoration-blue-400">
-                      mencoba bikin konten
+                      menjadi content creator
                     </span>{" "}
                     tapi{" "}
                     <span className="bg-yellow-200 italic">
+                      ga tau mulai dari mana
+                    </span>
+                  </div>
+                </div>
+
+                <div className="flex gap-3 items-center text-left">
+                  <div className="text-2xl">❌</div>
+
+                  <div>
+                    Udah konsisten ngonten tapi kok{" "}
+                    <span className="italic bg-yellow-200">
                       nggak viral-viral
+                    </span>
+                  </div>
+                </div>
+
+                <div className="flex gap-3 items-center text-left">
+                  <div className="text-2xl">❌</div>
+
+                  <div>
+                    <span className="bg-yellow-200 italic">
+                      Gak percaya diri
+                    </span>{" "}
+                    dan{" "}
+                    <span className="underline decoration-3 italic decoration-blue-400">
+                      malu
+                    </span>{" "}
+                    ngomong di{" "}
+                    <span className="underline decoration-3 italic decoration-blue-400">
+                      depan kamera
+                    </span>
+                  </div>
+                </div>
+
+                <div className="flex gap-3 items-center text-left">
+                  <div className="text-2xl">❌</div>
+
+                  <div>
+                    <span className="bg-yellow-200 italic">
+                      Kesulitan dalam mencari
+                    </span>{" "}
+                    ide-ide konten
+                  </div>
+                </div>
+
+                <div className="flex gap-3 items-center text-left">
+                  <div className="text-2xl">❌</div>
+
+                  <div>
+                    <span className="bg-yellow-200 italic">
+                      Gak ada motivasi
+                    </span>{" "}
+                    untuk{" "}
+                    <span className="underline decoration-3 italic decoration-blue-400">
+                      bikin konten
                     </span>
                   </div>
                 </div>
@@ -225,28 +239,6 @@ const MiniClass = () => {
 
           <div className="flex flex-col gap-3">
             <Image
-              src="/images/create-sam.png"
-              alt="Feature Description Image"
-              width={250}
-              height={250}
-              className="rounded-lg shadow-lg w-full hover:shadow-3xl hover:shadow-neutral-500 transition-all h-64 object-cover object-top"
-            />
-
-            <div>
-              <div>
-                <span className="text-4xl font-bold">{`2) `}</span>
-                Samuel sudah memiliki lebih dari{" "}
-                <span className="bg-yellow-200 italic">6 tahun</span> pengalaman
-                sebagai{" "}
-                <span className="underline decoration-3 italic decoration-blue-400">
-                  konten kreator.
-                </span>
-              </div>
-            </div>
-          </div>
-
-          <div className="flex flex-col gap-3">
-            <Image
               src="/images/ocwe-growth.png"
               alt="Feature Description Image"
               width={250}
@@ -255,16 +247,41 @@ const MiniClass = () => {
             />
 
             <div>
-              <span className="text-4xl font-bold">{`3) `}</span>
-              Samuel memiliki{" "}
-              <span className="bg-yellow-200 italic">2,2 juta</span> subscribers
-              di YouTube, <span className="bg-yellow-200 italic">2,1 juta</span>{" "}
-              di TikTok, dan{" "}
-              <span className="bg-yellow-200 italic">500 ribu</span> followers
-              di Instagram. Semua sosial medianya sudah{" "}
+              <span className="text-4xl font-bold">{`2) `}</span>
+              Samuel memiliki <span className="bg-yellow-200 italic">
+                2,3M
+              </span>{" "}
+              subscribers di YouTube,{" "}
+              <span className="bg-yellow-200 italic">2,2M</span> di TikTok, dan{" "}
+              <span className="bg-yellow-200 italic">535K</span> followers di
+              Instagram. Semua sosial medianya sudah{" "}
               <span className="underline decoration-3 italic decoration-blue-400">
                 verified.
               </span>
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-3">
+            <Image
+              src="/images/ocwe-pengalaman.png"
+              alt="Feature Description Image"
+              width={250}
+              height={250}
+              className="rounded-lg shadow-lg w-full hover:shadow-3xl hover:shadow-neutral-500 transition-all h-64 object-cover object-top"
+            />
+
+            <div>
+              <div>
+                <span className="text-4xl font-bold">{`3) `}</span>
+                Samuel memiliki lebih dari{" "}
+                <span className="bg-yellow-200 italic">
+                  6 tahun pengalaman
+                </span>{" "}
+                sebagai{" "}
+                <span className="underline decoration-3 italic decoration-blue-400">
+                  konten kreator.
+                </span>
+              </div>
             </div>
           </div>
 
@@ -280,16 +297,15 @@ const MiniClass = () => {
             <div>
               <span className="text-4xl font-bold">{`4) `}</span>
               Samuel bisa mendapatkan total{" "}
-              <span className="bg-yellow-200 italic">150 juta views</span>{" "}
-              setiap bulannya di sosial medianya. Bahkan, video "Seberapa Kaya"
-              pernah{" "}
+              <span className="bg-yellow-200 italic">150M views</span> setiap
+              bulannya di sosial medianya. Bahkan, video "Seberapa Kaya" pernah{" "}
               <span className="underline decoration-3 italic decoration-blue-400">
                 trending nomor 1 di YouTube
               </span>{" "}
               dengan total{" "}
-              <span className="bg-yellow-200 italic">views 11 juta.</span> Di
+              <span className="bg-yellow-200 italic">views 11M.</span> Di
               TikTok, salah satu konten "Seberapa Kaya" berhasil menembus{" "}
-              <span className="bg-yellow-200 italic">21,5 juta views.</span>
+              <span className="bg-yellow-200 italic">21,5M views.</span>
             </div>
           </div>
         </div>
@@ -315,35 +331,30 @@ const MiniClass = () => {
             question="🤳🏽 Day 1: Potensi GILA Konten Kreator Di Masa Depan"
             customAnswer={
               <>
-                <span className="underline decoration-3 italic decoration-blue-400">
-                  Bongkar rahasia perjalanan Samuel Christ sebagai content
-                  creator
-                </span>{" "}
-                selama{" "}
+                Bedah tuntas{" "}
                 <span className="bg-yellow-200 italic">
-                  6 tahun ke belakang
+                  peluang untuk menjadi content creator sukses
                 </span>{" "}
-                karena{" "}
+                di Indonesia dan{" "}
                 <span className="underline decoration-3 italic decoration-blue-400">
-                  peluang untuk menjadi content creator yang sukses
-                </span>{" "}
-                di Indonesia masih{" "}
-                <span className="bg-yellow-200 italic">
-                  sangat-sangat besar.
+                  sekaligus penghasilannya.
                 </span>
               </>
             }
           />
 
           <Accordion
-            question="💻 Day 2: RAHASIA Bangun Personal Branding Di Internet"
+            question="💻 Day 2: RAHASIA Bangun Personal Branding Di Sosmed"
             customAnswer={
               <>
-                <span className="underline decoration-3 italic decoration-blue-400">
-                  Strategi ampuh
+                Belajar cara{" "}
+                <span className="bg-yellow-200 italic">
+                  memaksimalkan dan membangun personal branding
                 </span>{" "}
-                dan komponen-komponen yang dibutuhkan untuk membuat sebuah
-                konten bisa <span className="bg-yellow-200 italic">viral.</span>
+                personal branding yang unik, spesifik, dan{" "}
+                <span className="underline decoration-3 italic decoration-blue-400">
+                  dilirik oleh brand/potensial klien.
+                </span>
               </>
             }
           />
@@ -352,11 +363,11 @@ const MiniClass = () => {
             question="📈 Day 3: Cara AMPUH Bikin Konten VIRAL"
             customAnswer={
               <>
-                Kamu akan diajarkan bagaimana caranya{" "}
                 <span className="underline decoration-3 italic decoration-blue-400">
-                  bikin konten
+                  Pelajari komponen-komponen
                 </span>{" "}
-                yang <span className="bg-yellow-200 italic">auto viral</span>
+                dan strategi yang dibutuhkan untuk membuat sebuah{" "}
+                <span className="bg-yellow-200 italic">konten bisa viral.</span>
               </>
             }
           />
@@ -387,7 +398,7 @@ const MiniClass = () => {
 
         <div className="flex flex-col gap-3 text-center">
           <div className="line-through text-xl">Rp2.499.999</div>
-          <div className="text-4xl text-red-500 font-bold rounded-lg animate-bounce">
+          <div className="text-4xl text-red-500 rounded-lg animate-bounce">
             GRATIS!
           </div>
           <div className="italic text-sm">

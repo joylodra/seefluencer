@@ -127,8 +127,8 @@ const Coaching = () => {
                   <div className="text-2xl">❌</div>
 
                   <div>
-                    Udah mulai ngonten tapi kok{" "}
-                    <span className="underline decoration-3 italic decoration-blue-400">
+                    Udah konsisten ngonten tapi kok{" "}
+                    <span className="italic bg-yellow-200">
                       nggak viral-viral
                     </span>
                   </div>
@@ -138,13 +138,17 @@ const Coaching = () => {
                   <div className="text-2xl">❌</div>
 
                   <div>
-                    Mau mencoba{" "}
-                    <span className="underline decoration-3 italic decoration-blue-400">
-                      hal yang baru
+                    <span className="bg-yellow-200 italic">
+                      Gak percaya diri
                     </span>{" "}
-                    karena sudah{" "}
-                    <span className="bg-yellow-200 italic">bosan</span> dengan
-                    rutinitas harian
+                    dan{" "}
+                    <span className="underline decoration-3 italic decoration-blue-400">
+                      malu
+                    </span>{" "}
+                    ngomong di{" "}
+                    <span className="underline decoration-3 italic decoration-blue-400">
+                      depan kamera
+                    </span>
                   </div>
                 </div>
 
@@ -152,13 +156,24 @@ const Coaching = () => {
                   <div className="text-2xl">❌</div>
 
                   <div>
-                    Kesulitan mencari{" "}
-                    <span className="underline decoration-3 italic decoration-blue-400">
-                      penghasilan tambahan
+                    <span className="bg-yellow-200 italic">
+                      Kesulitan dalam mencari
                     </span>{" "}
-                    karena{" "}
-                    <span className="bg-yellow-200 italic">padatnya</span>{" "}
-                    rutinitas harian
+                    ide-ide konten
+                  </div>
+                </div>
+
+                <div className="flex gap-3 items-center text-left">
+                  <div className="text-2xl">❌</div>
+
+                  <div>
+                    <span className="bg-yellow-200 italic">
+                      Gak ada motivasi
+                    </span>{" "}
+                    untuk{" "}
+                    <span className="underline decoration-3 italic decoration-blue-400">
+                      bikin konten
+                    </span>
                   </div>
                 </div>
               </div>
@@ -200,28 +215,6 @@ const Coaching = () => {
 
           <div className="flex flex-col gap-3">
             <Image
-              src="/images/create-sam.png"
-              alt="Feature Description Image"
-              width={250}
-              height={250}
-              className="rounded-lg shadow-lg w-full hover:shadow-3xl hover:shadow-neutral-500 transition-all h-64 object-cover object-top"
-            />
-
-            <div>
-              <div>
-                <span className="text-4xl font-bold">{`2) `}</span>
-                Samuel sudah memiliki lebih dari{" "}
-                <span className="bg-yellow-200 italic">6 tahun</span> pengalaman
-                sebagai{" "}
-                <span className="underline decoration-3 italic decoration-blue-400">
-                  konten kreator.
-                </span>
-              </div>
-            </div>
-          </div>
-
-          <div className="flex flex-col gap-3">
-            <Image
               src="/images/ocwe-growth.png"
               alt="Feature Description Image"
               width={250}
@@ -230,16 +223,41 @@ const Coaching = () => {
             />
 
             <div>
-              <span className="text-4xl font-bold">{`3) `}</span>
-              Samuel memiliki{" "}
-              <span className="bg-yellow-200 italic">2,2 juta</span> subscribers
-              di YouTube, <span className="bg-yellow-200 italic">2,1 juta</span>{" "}
-              di TikTok, dan{" "}
-              <span className="bg-yellow-200 italic">500 ribu</span> followers
-              di Instagram. Semua sosial medianya sudah{" "}
+              <span className="text-4xl font-bold">{`2) `}</span>
+              Samuel memiliki <span className="bg-yellow-200 italic">
+                2,3M
+              </span>{" "}
+              subscribers di YouTube,{" "}
+              <span className="bg-yellow-200 italic">2,2M</span> di TikTok, dan{" "}
+              <span className="bg-yellow-200 italic">535K</span> followers di
+              Instagram. Semua sosial medianya sudah{" "}
               <span className="underline decoration-3 italic decoration-blue-400">
                 verified.
               </span>
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-3">
+            <Image
+              src="/images/ocwe-pengalaman.png"
+              alt="Feature Description Image"
+              width={250}
+              height={250}
+              className="rounded-lg shadow-lg w-full hover:shadow-3xl hover:shadow-neutral-500 transition-all h-64 object-cover object-top"
+            />
+
+            <div>
+              <div>
+                <span className="text-4xl font-bold">{`3) `}</span>
+                Samuel memiliki lebih dari{" "}
+                <span className="bg-yellow-200 italic">
+                  6 tahun pengalaman
+                </span>{" "}
+                sebagai{" "}
+                <span className="underline decoration-3 italic decoration-blue-400">
+                  konten kreator.
+                </span>
+              </div>
             </div>
           </div>
 
@@ -255,16 +273,15 @@ const Coaching = () => {
             <div>
               <span className="text-4xl font-bold">{`4) `}</span>
               Samuel bisa mendapatkan total{" "}
-              <span className="bg-yellow-200 italic">150 juta views</span>{" "}
-              setiap bulannya di sosial medianya. Bahkan, video "Seberapa Kaya"
-              pernah{" "}
+              <span className="bg-yellow-200 italic">150M views</span> setiap
+              bulannya di sosial medianya. Bahkan, video "Seberapa Kaya" pernah{" "}
               <span className="underline decoration-3 italic decoration-blue-400">
                 trending nomor 1 di YouTube
               </span>{" "}
               dengan total{" "}
-              <span className="bg-yellow-200 italic">views 11 juta.</span> Di
+              <span className="bg-yellow-200 italic">views 11M.</span> Di
               TikTok, salah satu konten "Seberapa Kaya" berhasil menembus{" "}
-              <span className="bg-yellow-200 italic">21,5 juta views.</span>
+              <span className="bg-yellow-200 italic">21,5M views.</span>
             </div>
           </div>
         </div>
@@ -283,7 +300,7 @@ const Coaching = () => {
         className="flex flex-col gap-5 items-center text-center"
       >
         <Title
-          title="Jadwalkan sesi konsultasi 1-on-1 selama 45 menit dengan Samuel Christ sekarang dan dapatkan SOLUSI bisa sukses jadi content creator! 🤳🏽"
+          title="Jadwalkan sesi konsultasi 1-on-1 selama 45 menit dengan Samuel Christ sekarang dan dapatkan untuk bisa sukses jadi content creator! 🤳🏽"
           center
           underline
         />
