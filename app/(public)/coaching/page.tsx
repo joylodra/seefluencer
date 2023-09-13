@@ -1,3 +1,5 @@
+"use client";
+
 // Custom Components
 import Hero from "../../components/public/Hero";
 import Image from "next/image";
@@ -5,11 +7,11 @@ import Title from "@/app/components/public/Title";
 import Link from "next/link";
 import Feature from "@/app/components/public/Feature";
 
-export const metadata = {
-  title: "1-on-1 coaching with experts",
-  keywords: ["brands page", "social media", "business", "influencer marketing"],
-  description: "see the difference influencers can make with seefluencer 💙",
-};
+// export const metadata = {
+//   title: "1-on-1 coaching with experts",
+//   keywords: ["brands page", "social media", "business", "influencer marketing"],
+//   description: "see the difference influencers can make with seefluencer 💙",
+// };
 
 const Coaching = () => {
   const handleClick = () => {

@@ -1,3 +1,5 @@
+"use client";
+
 // React & Next Components
 import Link from "next/link";
 import Image from "next/image";
@@ -8,16 +10,16 @@ import Title from "@/app/components/public/Title";
 import Feature from "../../components/public/Feature";
 import Accordion from "@/app/components/public/faq/Accordion";
 
-export const metadata = {
-  title: "3-day intensive mini creator class",
-  keywords: [
-    "influencer page",
-    "social media",
-    "influencer marketing platform",
-    "community",
-  ],
-  description: "see the difference influencers can make with seefluencer 💙",
-};
+// export const metadata = {
+//   title: "3-day intensive mini creator class",
+//   keywords: [
+//     "influencer page",
+//     "social media",
+//     "influencer marketing platform",
+//     "community",
+//   ],
+//   description: "see the difference influencers can make with seefluencer 💙",
+// };
 
 const MiniClass = () => {
   const handleClick = () => {
