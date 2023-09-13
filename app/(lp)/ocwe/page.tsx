@@ -335,10 +335,8 @@ const Coaching = () => {
 
         <div className="text-sm">
           copyright © 2023{" "}
-          <span className="hover:opacity-75 font-semibold">
-            <span className="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 inline-block text-transparent bg-clip-text">
-              see
-            </span>
+          <span className="hover:opacity-75">
+            <span className="font-bold">see</span>
             fluencer
           </span>{" "}
           {`// made with 💙 in 🇮🇩`}

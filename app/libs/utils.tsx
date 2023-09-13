@@ -2,7 +2,6 @@
 
 // Icons & Images
 import {
-  FaTwitter,
   FaInstagram,
   FaTiktok,
   FaYoutube,
@@ -31,12 +30,6 @@ export const socials = [
     icon: <FaYoutube className="text-white" size={20} />,
     iconBlack: <FaYoutube size={20} />,
     url: "https://youtube.com/@seefluencer",
-  },
-  {
-    platform: "twitter",
-    icon: <FaTwitter className="text-white" size={20} />,
-    iconBlack: <FaTwitter size={20} />,
-    url: "https://twitter.com/seefluencer",
   },
   {
     platform: "email",

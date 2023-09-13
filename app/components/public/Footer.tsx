@@ -2,6 +2,7 @@
 
 // React & Next Hooks
 import Link from "next/link";
+import Image from "next/image";
 
 // Custom Components
 import { socials } from "@/app/libs/utils";
@@ -10,12 +11,18 @@ const Footer = () => {
   return (
     <footer className="flex flex-col p-4 mx-auto max-w-5xl gap-3 z-30 relative">
       <div className="grid grid-cols-1 text-center md:text-left md:grid-cols-4 gap-8 md:gap-3 border-t py-10">
-        <div>
-          <Link className="text-3xl font-bold" href="/">
-            <span className="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 inline-block text-transparent bg-clip-text">
-              see
-            </span>
-            fluencer
+        <div className="flex flex-col gap-2">
+          <Link className="flex gap-2 text-2xl items-center" href={`/`}>
+            <Image
+              src="/images/logo-trans.png"
+              alt="Logo Seefluencer"
+              width={35}
+              height={35}
+            />
+            <div>
+              <span className="font-bold">see</span>
+              fluencer
+            </div>
           </Link>
 
           <p className="text-sm">
@@ -98,10 +105,8 @@ const Footer = () => {
 
         <p className="text-sm">
           copyright © 2023{" "}
-          <Link className="hover:opacity-75 font-semibold" href="/">
-            <span className="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 inline-block text-transparent bg-clip-text">
-              see
-            </span>
+          <Link className="hover:opacity-75" href="/">
+            <span className="font-bold">see</span>
             fluencer
           </Link>{" "}
           {`// made with 💙 in 🇮🇩`}

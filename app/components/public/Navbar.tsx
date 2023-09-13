@@ -3,6 +3,7 @@
 // React & Next Hooks
 import { useState, useEffect, useCallback, useRef } from "react";
 import { usePathname, useRouter } from "next/navigation";
+import Image from "next/image";
 
 // Custom Components
 import Link from "next/link";
@@ -59,13 +60,20 @@ const Navbar = () => {
   }, [menuRef]);
 
   return (
-    <div className={`sticky top-0 z-50 bg-gray-50 ${!top && `shadow-lg`}`}>
+    // <div className={`sticky top-0 z-50 bg-gray-50 ${!top && `shadow-lg`}`}>
+    <div>
       <div className="mx-auto max-w-5xl p-5 flex flex-row justify-between items-center">
-        <Link className="text-xl font-bold" href={`/`}>
-          <span className="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 inline-block text-transparent bg-clip-text">
-            see
-          </span>
-          fluencer
+        <Link className="flex gap-2 text-lg items-center" href={`/`}>
+          <Image
+            src="/images/logo-trans.png"
+            alt="Logo Seefluencer"
+            width={25}
+            height={25}
+          />
+          <div>
+            <span className="font-bold">see</span>
+            fluencer
+          </div>
         </Link>
 
         <div className="hidden md:flex flex-row gap-5 items-center">

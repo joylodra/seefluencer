@@ -24,15 +24,6 @@ export const metadata: Metadata = {
   ],
   description:
     "Seefluencer is an influencer marketing platform that helps brands connect with the right influencers to promote their products or services. Our platform provides a transparent view of the impact of your brand through the influencers you work with. Our goal is to help brands increase their visibility and reach through the power of influencer marketing. With Seefluencer, you can see the impact of your brand through our carefully selected network of influencers.",
-  openGraph: {
-    title: "seefluencer",
-    description:
-      "Seefluencer is an influencer marketing platform that helps brands connect with the right influencers to promote their products or services. Our platform provides a transparent view of the impact of your brand through the influencers you work with. Our goal is to help brands increase their visibility and reach through the power of influencer marketing. With Seefluencer, you can see the impact of your brand through our carefully selected network of influencers.",
-    url: "https://seefluencer.com",
-    siteName: "seefluencer",
-    locale: "en-US",
-    type: "website",
-  },
   icons: {
     shortcut: "/favicon.ico",
   },
