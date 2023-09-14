@@ -71,6 +71,14 @@ const MiniClass = () => {
           }
         />
 
+        <Image
+          className="flex w-full max-w-lg rounded-lg shadow-xl"
+          src="/images/create-sam.png"
+          alt="Sam Christ's social media growth"
+          width={400}
+          height={400}
+        />
+
         <div
           onClick={() => handleClick()}
           className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold cursor-pointer"
