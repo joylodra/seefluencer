@@ -36,11 +36,22 @@ const MiniClass = () => {
                 <div>University</div>
               </div>
 
-              <div>
-                3-day intensive mini{" "}
-                <span className="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 inline-block text-transparent bg-clip-text">
-                  creator class
-                </span>
+              <div className="flex flex-col gap-2">
+                <div>
+                  3-day intensive mini{" "}
+                  <span className="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 inline-block text-transparent bg-clip-text">
+                    creator class
+                  </span>
+                </div>
+
+                <div className="flex flex-col gap-2">
+                  <div className="text-xl">Batch #1</div>
+
+                  <div className="flex flex-col text-lg font-normal">
+                    <div>🗓 September 25-27, 2023</div>
+                    <div>⏰ 19:00 WIB - 21:00 WIB</div>
+                  </div>
+                </div>
               </div>
 
               <div className="font-normal text-2xl">
