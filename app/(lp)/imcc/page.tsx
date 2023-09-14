@@ -48,7 +48,7 @@ const MiniClass = () => {
                   <div className="text-xl">Batch #1</div>
 
                   <div className="flex flex-col text-lg font-normal">
-                    <div>🗓 September 25-27, 2023</div>
+                    <div>🗓 25-27 September 2023</div>
                     <div>⏰ 19:00 WIB - 21:00 WIB</div>
                   </div>
                 </div>
