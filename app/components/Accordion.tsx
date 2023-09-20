@@ -46,7 +46,7 @@ const Accordion = ({
 
       {isOpen && answer && (
         <div className={`${number ? "px-8 py-2" : "py-2"}`}>
-          <Text children={answer} />
+          <Text text={answer} />
         </div>
       )}
       {isOpen && customAnswer && <p>{customAnswer}</p>}

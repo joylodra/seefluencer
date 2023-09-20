@@ -16,8 +16,8 @@ const IconCard = ({ icon, iconColor, title, description }: IconCardProps) => {
       <div className={`text-3xl ${iconColor}`}>{icon}</div>
 
       <div className="flex flex-col gap-2">
-        <Text children={title} bold heading />
-        <Text children={description} secondaryColor />
+        <Text text={title} bold heading />
+        <Text text={description} secondaryColor />
       </div>
     </div>
   );

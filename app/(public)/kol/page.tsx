@@ -35,10 +35,10 @@ const Influencers = () => {
       <Container>
         <div className="flex flex-col gap-8 text-center justify-center items-center">
           <div className="flex flex-col gap-2">
-            <Text children="Pengalaman Pitching Kami" title bold />
+            <Text text="Pengalaman Pitching Kami" title bold />
             <Text
               secondaryColor
-              children="Video di bawah menggambarkan cara kami secara profesional mengunjungi korporat-korporat untuk pitching."
+              text="Video di bawah menggambarkan cara kami secara profesional mengunjungi korporat-korporat untuk pitching."
             />
           </div>
 
@@ -53,9 +53,9 @@ const Influencers = () => {
       <Container>
         <div className="flex flex-col gap-8 text-center justify-center items-center">
           <div className="flex flex-col gap-2">
-            <Text children="Kenapa Harus Menggunakan Jasa Kami?" title bold />
+            <Text text="Kenapa Harus Menggunakan Jasa Kami?" title bold />
             <Text
-              children="Di Seefluencer, transparansi dan kejujuran menjadi prioritas utama dalam setiap kemitraan yang kami bangun."
+              text="Di Seefluencer, transparansi dan kejujuran menjadi prioritas utama dalam setiap kemitraan yang kami bangun."
               secondaryColor
             />
           </div>
@@ -75,7 +75,7 @@ const Influencers = () => {
         <div className="flex flex-col gap-5 justify-center items-center">
           <div className="text-white">
             <Text
-              children="Jadwalkan sesi konsultasi gratis bersama tim kami sekarang juga sebelum menggunakan jasa kami."
+              text="Jadwalkan sesi konsultasi gratis bersama tim kami sekarang juga sebelum menggunakan jasa kami."
               title
               bold
             />
@@ -90,11 +90,11 @@ const Influencers = () => {
               <>
                 <div className="flex flex-row gap-3">
                   <div className="text-blue-400 text-xl font-bold">✓</div>
-                  <Text children="Kami selalu berusaha untuk memaksimalkan dana yang dialokasikan untuk mendapatkan hasil influencer marketing yang terbaik." />
+                  <Text text="Kami selalu berusaha untuk memaksimalkan dana yang dialokasikan untuk mendapatkan hasil influencer marketing yang terbaik." />
                 </div>
                 <div className="flex flex-row gap-3">
                   <div className="text-blue-400 text-xl font-bold">✓</div>
-                  <Text children="Transparansi dalam setiap kerja sama ataupun kampanye adalah kunci utama yang selalu kami pegang." />
+                  <Text text="Transparansi dalam setiap kerja sama ataupun kampanye adalah kunci utama yang selalu kami pegang." />
                 </div>
               </>
             }

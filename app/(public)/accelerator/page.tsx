@@ -57,16 +57,16 @@ const CreatorAcceleratorProgram = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-5">
           <div className="col-span-1 order-last md:order-first">
             <SideBox
-              children={
+              content={
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text children="Pelajari proses pembuatan konten yang viral dari awal hingga akhir." />
+                    <Text text="Pelajari proses pembuatan konten yang viral dari awal hingga akhir." />
                   </div>
 
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text children="Maksimalkan pemebelajaranmu dengan menghadiri semua sesi dan menjadi aktif di live class." />
+                    <Text text="Maksimalkan pemebelajaranmu dengan menghadiri semua sesi dan menjadi aktif di live class." />
                   </div>
                 </div>
               }
@@ -85,24 +85,24 @@ const CreatorAcceleratorProgram = () => {
             <Text
               title
               bold
-              children="Program yang Didesain Untuk Mengubah Hidupmu"
+              text="Program yang Didesain Untuk Mengubah Hidupmu"
             />
 
             <Text
               secondaryColor
-              children="Selamat datang di era kreator ekonomi, dimana konten kreator memiliki dampak yang dampak besar dalam perekonomian dunia. Untuk pertama kalinya, kamu bisa menghidupi hidup impianmu tanpa harus terikat oleh waktu dan lokasi."
+              text="Selamat datang di era kreator ekonomi, dimana konten kreator memiliki dampak yang dampak besar dalam perekonomian dunia. Untuk pertama kalinya, kamu bisa menghidupi hidup impianmu tanpa harus terikat oleh waktu dan lokasi."
             />
             <Text
               secondaryColor
-              children="Inilah kenapa kamu harus join Creator Accelerator Program by Seefluencer University. Program ini bukan seperti kelas online pada umumnya di Indonesia. Di Creator Accelerator Program ini kamu akan belajar secara live dan akan dibimbing secara pribadi 1-on-1 sampai mencapai 10.000 ribu followers dalam waktu 3 bulan."
+              text="Inilah kenapa kamu harus join Creator Accelerator Program by Seefluencer University. Program ini bukan seperti kelas online pada umumnya di Indonesia. Di Creator Accelerator Program ini kamu akan belajar secara live dan akan dibimbing secara pribadi 1-on-1 sampai mencapai 10.000 ribu followers dalam waktu 3 bulan."
             />
             <Text
               secondaryColor
-              children="Di program ini, kamu akan belajar semua yang kamu butuhkan untuk menjadi konten kreator dari A sampai Z. Kamu juga akan menulis minimal 60 script dan menghasilkan lebih dari 50 video yang akan diupload di semua sosial mediamu."
+              text="Di program ini, kamu akan belajar semua yang kamu butuhkan untuk menjadi konten kreator dari A sampai Z. Kamu juga akan menulis minimal 60 script dan menghasilkan lebih dari 50 video yang akan diupload di semua sosial mediamu."
             />
             <Text
               secondaryColor
-              children="Kami sangat yakin program yang kami ciptakan ini, juga bisa mengubah hidupmu selamanya. Slot sangat terbatas jadi tunggu apa lagi daftarkan dirimu dan ikuti proses seleksinya sekarang!"
+              text="Kami sangat yakin program yang kami ciptakan ini, juga bisa mengubah hidupmu selamanya. Slot sangat terbatas jadi tunggu apa lagi daftarkan dirimu dan ikuti proses seleksinya sekarang!"
             />
 
             <div className="flex flex-wrap gap-8">
@@ -174,9 +174,9 @@ const CreatorAcceleratorProgram = () => {
       <Container bgColor="bg-red-50">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 flex flex-col gap-2">
-            <Text children="Apakah kamu merasa..." title bold />
+            <Text text="Apakah kamu merasa..." title bold />
             <Text
-              children="Hal-hal yang paling sering dirasakan orang-orang ketika mulai ngonten."
+              text="Hal-hal yang paling sering dirasakan orang-orang ketika mulai ngonten."
               paragraph
               secondaryColor
             />
@@ -228,9 +228,9 @@ const CreatorAcceleratorProgram = () => {
 
       <Container>
         <div className="flex flex-col gap-2">
-          <Text children="Begini Solusinya..." title bold />
+          <Text text="Begini Solusinya..." title bold />
           <Text
-            children="Kami sudah mempersiapkan semua sistem dan materi pembelajaran yang dibutuhkan seorang konten kreator."
+            text="Kami sudah mempersiapkan semua sistem dan materi pembelajaran yang dibutuhkan seorang konten kreator."
             paragraph
             secondaryColor
           />
@@ -257,7 +257,7 @@ const CreatorAcceleratorProgram = () => {
       {/* Curriculum */}
       <Container>
         <Text
-          children={"Apa Saja Yang Akan Kamu Pelajari Selama 84 Hari Ini?"}
+          text={"Apa Saja Yang Akan Kamu Pelajari Selama 84 Hari Ini?"}
           title
           bold
         />
@@ -265,17 +265,17 @@ const CreatorAcceleratorProgram = () => {
         <div className="flex flex-wrap gap-5">
           <div className="flex flex-row gap-2 items-center">
             <BsCalendar className="text-gray-400 text-xl" />
-            <Text children="3 Bulan" />
+            <Text text="3 Bulan" />
           </div>
 
           <div className="flex flex-row gap-2 items-center">
             <BsLaptop className="text-gray-400 text-xl" />
-            <Text children="1-2 Live Session Per Minggu" />
+            <Text text="1-2 Live Session Per Minggu" />
           </div>
 
           <div className="flex flex-row gap-2 items-center">
             <BsStopwatch className="text-gray-400 text-xl" />
-            <Text children="Komitmen 6-8 Jam Per Minggu" />
+            <Text text="Komitmen 6-8 Jam Per Minggu" />
           </div>
         </div>
 
@@ -310,16 +310,16 @@ const CreatorAcceleratorProgram = () => {
 
           <div className="col-span-1">
             <SideBox
-              children={
+              content={
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text children="Pelajari proses pembuatan konten yang viral dari awal hingga akhir." />
+                    <Text text="Pelajari proses pembuatan konten yang viral dari awal hingga akhir." />
                   </div>
 
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text children="Maksimalkan pemebelajaranmu dengan menghadiri semua sesi dan menjadi aktif di live class." />
+                    <Text text="Maksimalkan pemebelajaranmu dengan menghadiri semua sesi dan menjadi aktif di live class." />
                   </div>
                 </div>
               }
@@ -337,7 +337,7 @@ const CreatorAcceleratorProgram = () => {
       >
         <div className="flex flex-col gap-5 justify-center items-center">
           <div className="text-white">
-            <Text children="Berapa Investasi Kursus Ini?" title bold />
+            <Text text="Berapa Investasi Kursus Ini?" title bold />
           </div>
         </div>
 
@@ -353,17 +353,17 @@ const CreatorAcceleratorProgram = () => {
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text children="Kamu hanya perlu menyimpan Rp56.000/hari selama 3 bulan untuk bisa mengikuti kelas intensif ini." />
+                    <Text text="Kamu hanya perlu menyimpan Rp56.000/hari selama 3 bulan untuk bisa mengikuti kelas intensif ini." />
                   </div>
 
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text children="Perlu diingat, ini bukan Kelas Online biasa, yang mana Kamu hanya menonton video dan belajar mandiri. Semua kelas & coaching berlangsung secara live." />
+                    <Text text="Perlu diingat, ini bukan Kelas Online biasa, yang mana Kamu hanya menonton video dan belajar mandiri. Semua kelas & coaching berlangsung secara live." />
                   </div>
 
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text children="Seefluencer University adalah Kelas Intensif yang akan memberikan tugas PR, dan membantu Kamu secara personal, sehingga konten & personal branding-mu bisa jauh lebih efektif." />
+                    <Text text="Seefluencer University adalah Kelas Intensif yang akan memberikan tugas PR, dan membantu Kamu secara personal, sehingga konten & personal branding-mu bisa jauh lebih efektif." />
                   </div>
                 </div>
               </>
@@ -385,7 +385,7 @@ const CreatorAcceleratorProgram = () => {
 
       <Container bgColor="bg-neutral-200">
         <div className="text-center">
-          <Text children={"FAQ"} title bold />
+          <Text text={"FAQ"} title bold />
         </div>
 
         <div className="flex flex-col gap-1 md:col-span-3">

@@ -37,8 +37,8 @@ const Hero = ({
       {withImage && imageSrc ? (
         <div className="grid grid-cols-1 md:grid-cols-3 md:gap-8 items-center">
           <div className="col-span-2 flex flex-col gap-5">
-            <Text children={title} title bold />
-            {description && <Text children={description} heading />}
+            <Text text={title} title bold />
+            {description && <Text text={description} heading />}
             <div className="flex flex-col gap-2">
               {buttonText && buttonHref && (
                 <Button
@@ -57,7 +57,7 @@ const Hero = ({
                 />
               )}
               {additionalNotes && (
-                <Text secondaryColor small children={additionalNotes} />
+                <Text secondaryColor small text={additionalNotes} />
               )}
             </div>
           </div>
@@ -76,8 +76,8 @@ const Hero = ({
         </div>
       ) : (
         <div className="flex flex-col gap-5 items-center justify-center text-center">
-          <Text children={title} title bold />
-          {description && <Text children={description} heading />}
+          <Text text={title} title bold />
+          {description && <Text text={description} heading />}
 
           <div className="flex flex-col justify-center text-center items-center gap-2">
             {buttonText && buttonHref && (
@@ -97,7 +97,7 @@ const Hero = ({
               />
             )}
             {additionalNotes && (
-              <Text secondaryColor small children={additionalNotes} />
+              <Text secondaryColor small text={additionalNotes} />
             )}
           </div>
         </div>

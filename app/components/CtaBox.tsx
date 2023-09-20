@@ -26,7 +26,7 @@ const CtaBox = ({
       <div className="flex flex-col gap-5 justify-center items-center">
         {priceBefore && priceAfter && (
           <div className="flex flex-col gap-1">
-            <Text children="Hanya Untuk" heading bold />
+            <Text text="Hanya Untuk" heading bold />
             <div className="line-through text-xl">{priceBefore}</div>
             <h1 className="text-4xl text-red-500 font-bold rounded-lg animate-bounce">
               {priceAfter}
@@ -43,7 +43,7 @@ const CtaBox = ({
           />
 
           {additionalNotes && (
-            <Text small secondaryColor children={additionalNotes} />
+            <Text small secondaryColor text={additionalNotes} />
           )}
         </div>
       </div>

@@ -64,9 +64,9 @@ const Coaching = () => {
       <Container bgColor="bg-red-50">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 flex flex-col gap-2">
-            <Text children="Apakah kamu merasa..." title bold />
+            <Text text="Apakah kamu merasa..." title bold />
             <Text
-              children="Hal-hal yang paling sering dirasakan orang-orang ketika mulai ngonten."
+              text="Hal-hal yang paling sering dirasakan orang-orang ketika mulai ngonten."
               paragraph
               secondaryColor
             />
@@ -108,10 +108,10 @@ const Coaching = () => {
       <div>
         <Container>
           <div className="text-center flex flex-col gap-2">
-            <Text children="Jangan Khawatir!" title bold />
+            <Text text="Jangan Khawatir!" title bold />
 
             <Text
-              children="Kamu bisa tanyakan pertanyaan apapun seputar konten kreator kepada expertnya, Samuel Christ."
+              text="Kamu bisa tanyakan pertanyaan apapun seputar konten kreator kepada expertnya, Samuel Christ."
               secondaryColor
             />
           </div>
@@ -159,7 +159,7 @@ const Coaching = () => {
           <div className="flex flex-col items-center justify-center gap-8">
             <BsQuote className="text-5xl text-white" />
             <Text
-              children="Setelah konsultasi dengan Samuel Christ, saya mendapatkan gambaran yang sangat-sangat jelas tentang apa yang saya harus lakukan kedepannya. Dua bulan setelah mengaplikasikan apa yang diajarkan beliau, reach konten saya naik hingga 1500%."
+              text="Setelah konsultasi dengan Samuel Christ, saya mendapatkan gambaran yang sangat-sangat jelas tentang apa yang saya harus lakukan kedepannya. Dua bulan setelah mengaplikasikan apa yang diajarkan beliau, reach konten saya naik hingga 1500%."
               heading
               bold
             />
@@ -174,8 +174,8 @@ const Coaching = () => {
               />
 
               <div className="flex flex-col text-left">
-                <Text children="Joy Lodra" bold />
-                <Text children="Surabaya" small />
+                <Text text="Joy Lodra" bold />
+                <Text text="Surabaya" small />
               </div>
             </div>
           </div>
@@ -188,7 +188,7 @@ const Coaching = () => {
           <div className="flex flex-col gap-5 justify-center items-center">
             <div className="text-white">
               <Text
-                children="Jadwalkan sesi konsultasi 1-on-1 selama 45 menit dengan Samuel Christ sekarang dan dapatkan untuk bisa sukses jadi content creator!"
+                text="Jadwalkan sesi konsultasi 1-on-1 selama 45 menit dengan Samuel Christ sekarang dan dapatkan untuk bisa sukses jadi content creator!"
                 title
                 bold
               />
@@ -206,11 +206,11 @@ const Coaching = () => {
                 <>
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text children="Konsultasi 1-on-1 bersama expertnya, Samuel Christ, selama 45 menit." />
+                    <Text text="Konsultasi 1-on-1 bersama expertnya, Samuel Christ, selama 45 menit." />
                   </div>
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text children="Boleh bertanya pertanyaan apapun seputar dunia konten kreator." />
+                    <Text text="Boleh bertanya pertanyaan apapun seputar dunia konten kreator." />
                   </div>
                 </>
               }

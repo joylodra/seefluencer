@@ -21,8 +21,8 @@ const IconCardReverse = ({
       <div className={`text-3xl ${iconColor}`}>{icon}</div>
 
       <div className="flex flex-col gap-0">
-        <Text children={description} secondaryColor small />
-        <Text children={title} bold />
+        <Text text={description} secondaryColor small />
+        <Text text={title} bold />
       </div>
     </div>
   );

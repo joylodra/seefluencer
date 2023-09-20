@@ -24,9 +24,9 @@ export default function Home() {
       {/* Products */}
       <Container>
         <div className="text-center flex flex-col gap-2">
-          <Text children="Apa Saja Yang Ada di Dalam Seefluencer?" title bold />
+          <Text text="Apa Saja Yang Ada di Dalam Seefluencer?" title bold />
           <Text
-            children="Kamu bisa tanyakan pertanyaan apapun seputar konten kreator kepada expertnya, Samuel Christ."
+            text="Kamu bisa tanyakan pertanyaan apapun seputar konten kreator kepada expertnya, Samuel Christ."
             secondaryColor
           />
         </div>
@@ -38,15 +38,15 @@ export default function Home() {
             <div className="flex flex-col gap-3">
               <div className="flex flex-row gap-3">
                 <div className="text-blue-400 text-xl font-bold">✓</div>
-                <Text children="Sekolah konten kreator yang dijalankan selama 12 minggu secara live." />
+                <Text text="Sekolah konten kreator yang dijalankan selama 12 minggu secara live." />
               </div>
               <div className="flex flex-row gap-3">
                 <div className="text-blue-400 text-xl font-bold">✓</div>
-                <Text children="Seefluencer University adalah Kelas Intensif yang akan memberikan tugas PR, dan membantu Kamu secara personal, sehingga konten & personal branding-mu bisa jauh lebih efektif." />
+                <Text text="Seefluencer University adalah Kelas Intensif yang akan memberikan tugas PR, dan membantu Kamu secara personal, sehingga konten & personal branding-mu bisa jauh lebih efektif." />
               </div>
               <div className="flex flex-row gap-3">
                 <div className="text-blue-400 text-xl font-bold">✓</div>
-                <Text children="Kamu akan diberikan 12 kali sesi 1-on-1 coaching selama kelas berlangsung, 1 minggu 1 kali." />
+                <Text text="Kamu akan diberikan 12 kali sesi 1-on-1 coaching selama kelas berlangsung, 1 minggu 1 kali." />
               </div>
             </div>
           }
@@ -61,11 +61,11 @@ export default function Home() {
             <div className="flex flex-col gap-3">
               <div className="flex flex-row gap-3">
                 <div className="text-blue-400 text-xl font-bold">✓</div>
-                <Text children="Kelas pendek cara jadi content creator yang dijalankan selama 3 hari secara live." />
+                <Text text="Kelas pendek cara jadi content creator yang dijalankan selama 3 hari secara live." />
               </div>
               <div className="flex flex-row gap-3">
                 <div className="text-blue-400 text-xl font-bold">✓</div>
-                <Text children="3-Day Intensive Mini Creator Class adalah Kelas Intensif yang akan memberikan tugas PR, modul, dan membantu Kamu paham konsep content creation." />
+                <Text text="3-Day Intensive Mini Creator Class adalah Kelas Intensif yang akan memberikan tugas PR, modul, dan membantu Kamu paham konsep content creation." />
               </div>
             </div>
           }
@@ -81,11 +81,11 @@ export default function Home() {
             <div className="flex flex-col gap-3">
               <div className="flex flex-row gap-3">
                 <div className="text-blue-400 text-xl font-bold">✓</div>
-                <Text children="Sesi 45 menit bersama Samuel Christ, konten kreator dengan 4.5 juta+ followers." />
+                <Text text="Sesi 45 menit bersama Samuel Christ, konten kreator dengan 4.5 juta+ followers." />
               </div>
               <div className="flex flex-row gap-3">
                 <div className="text-blue-400 text-xl font-bold">✓</div>
-                <Text children="Bebas bertanya pertanyaan apa saja seputar dunia konten kreator." />
+                <Text text="Bebas bertanya pertanyaan apa saja seputar dunia konten kreator." />
               </div>
             </div>
           }
@@ -100,11 +100,11 @@ export default function Home() {
             <div className="flex flex-col gap-3">
               <div className="flex flex-row gap-3">
                 <div className="text-blue-400 text-xl font-bold">✓</div>
-                <Text children="Pemilihan influencer yang berkualitas yang langsung dilakukan oleh expertnya!" />
+                <Text text="Pemilihan influencer yang berkualitas yang langsung dilakukan oleh expertnya!" />
               </div>
               <div className="flex flex-row gap-3">
                 <div className="text-blue-400 text-xl font-bold">✓</div>
-                <Text children="Pembuatan konsep marketing campaign yang sangat-sangat efektif dan efisien." />
+                <Text text="Pembuatan konsep marketing campaign yang sangat-sangat efektif dan efisien." />
               </div>
             </div>
           }

@@ -34,9 +34,9 @@ const FeatureCard = ({
         ${reverse ? "" : "md:order-first md:text-left"}`}
       >
         <div className="flex flex-col gap-3">
-          <Text children={title} subtitle bold />
+          <Text text={title} subtitle bold />
           <div className="ml-3 md:ml-5">
-            <Text children={description} secondaryColor />
+            <Text text={description} secondaryColor />
           </div>
         </div>
 

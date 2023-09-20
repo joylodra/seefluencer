@@ -1,7 +1,7 @@
 "use client";
 
 interface HeadingProps {
-  children: React.ReactNode;
+  text: React.ReactNode;
   bold?: boolean;
   title?: boolean;
   subtitle?: boolean;
@@ -12,7 +12,7 @@ interface HeadingProps {
 }
 
 const Text = ({
-  children,
+  text,
   bold,
   title,
   subtitle,
@@ -33,7 +33,7 @@ const Text = ({
       ${secondaryColor && "text-gray-500"}
       `}
     >
-      {children}
+      {text}
     </div>
   );
 };

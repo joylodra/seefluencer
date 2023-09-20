@@ -79,9 +79,9 @@ const MiniClass = () => {
       <Container bgColor="bg-red-50">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 flex flex-col gap-2">
-            <Text children="Apakah kamu merasa..." title bold />
+            <Text text="Apakah kamu merasa..." title bold />
             <Text
-              children="Hal-hal yang paling sering dirasakan orang-orang ketika mulai ngonten."
+              text="Hal-hal yang paling sering dirasakan orang-orang ketika mulai ngonten."
               paragraph
               secondaryColor
             />
@@ -134,10 +134,10 @@ const MiniClass = () => {
       {/* Solution */}
       <Container>
         <div className="text-center flex flex-col gap-2">
-          <Text children="Meet Your Instructor, Samuel Christ!" title bold />
+          <Text text="Meet Your Instructor, Samuel Christ!" title bold />
 
           <Text
-            children="Samuel Christ sudah memiliki jutaan followers dan pengalaman di dunia konten kreator selama bertahun-tahun."
+            text="Samuel Christ sudah memiliki jutaan followers dan pengalaman di dunia konten kreator selama bertahun-tahun."
             secondaryColor
           />
         </div>
@@ -183,7 +183,7 @@ const MiniClass = () => {
       {/* Curriculum */}
       <Container>
         <Text
-          children={"Apa Saja Yang Akan Kamu Pelajari Selama 3 Hari Ini?"}
+          text={"Apa Saja Yang Akan Kamu Pelajari Selama 3 Hari Ini?"}
           title
           bold
         />
@@ -191,12 +191,12 @@ const MiniClass = () => {
         <div className="flex flex-wrap gap-3">
           <div className="flex flex-row gap-2 items-center">
             <BsCalendar className="text-gray-400 text-xl" />
-            <Text children="3 hari" />
+            <Text text="3 hari" />
           </div>
 
           <div className="flex flex-row gap-2 items-center">
             <BsClock className="text-gray-400 text-xl" />
-            <Text children="19:00 - 21:00 WIB" />
+            <Text text="19:00 - 21:00 WIB" />
           </div>
         </div>
 
@@ -221,16 +221,16 @@ const MiniClass = () => {
 
           <div className="col-span-1">
             <SideBox
-              children={
+              content={
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text children="Pelajari proses pembuatan konten yang viral dari awal hingga akhir." />
+                    <Text text="Pelajari proses pembuatan konten yang viral dari awal hingga akhir." />
                   </div>
 
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text children="Maksimalkan pemebelajaranmu dengan bertanya di sesi Q&A yang disediakan." />
+                    <Text text="Maksimalkan pemebelajaranmu dengan bertanya di sesi Q&A yang disediakan." />
                   </div>
                 </div>
               }
@@ -248,7 +248,7 @@ const MiniClass = () => {
       >
         <div className="flex flex-col gap-5 justify-center items-center">
           <div className="text-white">
-            <Text children="Berapa Investasi Kursus Ini?" title bold />
+            <Text text="Berapa Investasi Kursus Ini?" title bold />
           </div>
         </div>
 
@@ -264,12 +264,12 @@ const MiniClass = () => {
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text children="Pelajari proses pembuatan konten yang viral dari awal hingga akhir." />
+                    <Text text="Pelajari proses pembuatan konten yang viral dari awal hingga akhir." />
                   </div>
 
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text children="Maksimalkan pemebelajaranmu dengan bertanya di sesi Q&A yang disediakan." />
+                    <Text text="Maksimalkan pemebelajaranmu dengan bertanya di sesi Q&A yang disediakan." />
                   </div>
                 </div>
               </>
