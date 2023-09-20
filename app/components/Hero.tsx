@@ -12,7 +12,6 @@ interface TitleProps {
   description?: React.ReactNode;
   buttonText?: string;
   buttonHref?: string;
-  onClick?: () => void;
   withImage?: boolean;
   imageDescription?: React.ReactNode;
   imageSrc?: string;
@@ -25,7 +24,6 @@ const Hero = ({
   description,
   buttonText,
   buttonHref,
-  onClick,
   withImage,
   imageDescription,
   imageSrc,
@@ -39,19 +37,11 @@ const Hero = ({
           <div className="col-span-2 flex flex-col gap-5">
             <Text text={title} title bold />
             {description && <Text text={description} heading />}
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-2 w-full">
               {buttonText && buttonHref && (
                 <Button
                   regular
                   hrefLink={buttonHref}
-                  buttonText={buttonText}
-                  external={external}
-                />
-              )}
-              {buttonText && onClick && (
-                <Button
-                  regular
-                  onClick={onClick}
                   buttonText={buttonText}
                   external={external}
                 />
@@ -79,19 +69,11 @@ const Hero = ({
           <Text text={title} title bold />
           {description && <Text text={description} heading />}
 
-          <div className="flex flex-col justify-center text-center items-center gap-2">
+          <div className="flex flex-col justify-center text-center items-center gap-2 w-full">
             {buttonText && buttonHref && (
               <Button
                 regular
                 hrefLink={buttonHref}
-                buttonText={buttonText}
-                external={external}
-              />
-            )}
-            {buttonText && onClick && (
-              <Button
-                regular
-                onClick={onClick}
                 buttonText={buttonText}
                 external={external}
               />
