@@ -1,8 +1,9 @@
 // Custom Components
-import Hero from "../../components/public/Hero";
+import Container from "@/app/components/ui/Container";
+import Hero from "../../components/Hero";
 
 export const metadata = {
-  title: "terms and conditions",
+  title: "Terms and Conditions",
   keywords: [
     "terms and conditions page",
     "social media",
@@ -14,9 +15,9 @@ export const metadata = {
 
 const Terms = () => {
   return (
-    <div className="flex flex-col gap-16">
+    <Container>
       <Hero
-        title="terms and conditions"
+        title="Terms and Conditions"
         description="Our terms and conditions agreement outlines the rules and guidelines for using our service."
       />
 
@@ -128,7 +129,7 @@ const Terms = () => {
           .
         </p>
       </div>
-    </div>
+    </Container>
   );
 };
 

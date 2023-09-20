@@ -1,8 +1,9 @@
 // Custom Components
-import Hero from "../../components/public/Hero";
+import Container from "@/app/components/ui/Container";
+import Hero from "../../components/Hero";
 
 export const metadata = {
-  title: "privacy policy",
+  title: "Privacy Policy",
   keywords: [
     "privacy policy page",
     "social media",
@@ -14,9 +15,9 @@ export const metadata = {
 
 const PrivacyPolicy = () => {
   return (
-    <div className="flex flex-col gap-16">
+    <Container>
       <Hero
-        title="privacy policy"
+        title="Privacy Policy"
         description="Our privacy policy explains how we collect, use, and protect your personal information when you use our service. We are committed to respecting your privacy and ensuring that your personal data is secure. "
       />
 
@@ -98,7 +99,7 @@ const PrivacyPolicy = () => {
           changes.
         </p>
       </div>
-    </div>
+    </Container>
   );
 };
 
