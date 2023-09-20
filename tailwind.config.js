@@ -13,6 +13,10 @@ module.exports = {
       "3/4": "3 / 11",
     },
     extend: {
+      fontFamily: {
+        poppins: ["Poppins"],
+        montserrat: ["Montserrat"],
+      },
       boxShadow: {
         "3xl": "0 0 10px rgba(0, 0, 0, 0.2)",
       },

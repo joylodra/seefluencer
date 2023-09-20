@@ -4,8 +4,8 @@ import { Analytics } from "@vercel/analytics/react";
 import dynamic from "next/dynamic";
 
 // Custom Components
-import Navbar from "../components/public/Navbar";
-import Footer from "../components/public/Footer";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 // Styles
 import "../globals.css";
@@ -37,15 +37,12 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  // const CrispWithNoSSR = dynamic(() => import("../components/crisp"));
-
   return (
     <html>
-      {/* <CrispWithNoSSR /> */}
       <body className="bg-gray-50">
         <Navbar />
-        <main className="mx-auto max-w-5xl p-3">{children}</main>
-        <Footer />
+        <main>{children}</main>
+        <Footer complete />
         <Analytics />
       </body>
     </html>

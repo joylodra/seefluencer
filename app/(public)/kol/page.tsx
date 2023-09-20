@@ -1,65 +1,106 @@
 // Custom Components
-import Hero from "../../components/public/Hero";
-import Cta from "../../components/public/Cta";
-import Title from "@/app/components/public/Title";
-import BenefitsSection from "@/app/components/public/brands/BenefitsSection";
+import Hero from "@/app/components/Hero";
+import Text from "@/app/components/ui/Text";
+import CtaBox from "@/app/components/CtaBox";
+import BenefitsSection from "@/app/components/BenefitsSection";
+import Container from "@/app/components/ui/Container";
+import Button from "@/app/components/ui/Button";
 
 export const metadata = {
-  title: "kol management",
-  keywords: ["brands page", "social media", "business", "influencer marketing"],
-  description: "see the difference influencers can make with seefluencer 💙",
+  title: "KOL Management",
+  keywords: [
+    "brands",
+    "media sosial",
+    "digital marketing",
+    "influencer marketing",
+  ],
+  description: "See the difference influencers can make with seefluencer 💙",
 };
 
 const Influencers = () => {
   return (
-    <div className="flex flex-col gap-16">
-      <Hero
-        customTitle={
-          <>
-            exceptional service,{" "}
-            <span className="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 inline-block text-transparent bg-clip-text">
-              world-class
-            </span>{" "}
-            results
-          </>
-        }
-        description="Layanan kami sangat mengutamakan kualitas untuk memberikan hasil terbaik kepada para klien kami."
-        buttonText="hubungi kami"
-        href="https://wa.me/6285175449955"
-        external
-      />
-
-      <div className="flex flex-col gap-10 text-center justify-center items-center">
-        <Title
-          underline
-          title="Pengalaman Pitching Kami 🎙"
-          description="Video di bawah menggambarkan cara kami secara profesional mengunjungi korporat-korporat untuk pitching."
+    <div className="flex flex-col">
+      <Container>
+        <Hero
+          withImage
+          imageSrc="/images/cap-endorse-2.png"
+          title="KOL Management"
+          description="Layanan kami sangat mengutamakan transparansi & kualitas dalam memberikan hasil yang terbaik kepada para klien kami."
+          buttonHref="https://wa.wizard.id/e702f2"
+          buttonText="contact us"
+          external
         />
+      </Container>
 
-        <iframe
-          allow="fullscreen;"
-          src="https://www.youtube.com/embed/bfQrBQAk1Ks"
-          className="aspect-video w-full"
-        />
-      </div>
+      <Container>
+        <div className="flex flex-col gap-8 text-center justify-center items-center">
+          <div className="flex flex-col gap-2">
+            <Text children="Pengalaman Pitching Kami" title bold />
+            <Text
+              secondaryColor
+              children="Video di bawah menggambarkan cara kami secara profesional mengunjungi korporat-korporat untuk pitching."
+            />
+          </div>
 
-      <div className="flex flex-col gap-10 text-center justify-center items-center">
-        <Title
-          title="Why Us? 👋"
-          underline
-          description="Di Seefluencer, transparansi dan kejujuran menjadi prioritas utama dalam setiap kemitraan yang kami bangun."
-        />
+          <iframe
+            allow="fullscreen;"
+            src="https://www.youtube.com/embed/bfQrBQAk1Ks"
+            className="aspect-video w-full"
+          />
+        </div>
+      </Container>
 
-        <BenefitsSection />
-      </div>
+      <Container>
+        <div className="flex flex-col gap-8 text-center justify-center items-center">
+          <div className="flex flex-col gap-2">
+            <Text children="Kenapa Harus Menggunakan Jasa Kami?" title bold />
+            <Text
+              children="Di Seefluencer, transparansi dan kejujuran menjadi prioritas utama dalam setiap kemitraan yang kami bangun."
+              secondaryColor
+            />
+          </div>
 
-      <Cta
-        title="ready to start growing your business with us?"
-        description="Di Seefluencer, kami memahami bahwa setiap bisnis memiliki kebutuhan yang berbeda-beda. Hubungi kami sekarang juga."
-        href="https://wa.me/6285175449955"
-        buttonText="hubungi kami"
-        external
-      />
+          <BenefitsSection />
+
+          <Button
+            regular
+            hrefLink="https://wa.wizard.id/e702f2"
+            buttonText="contact us"
+            external
+          />
+        </div>
+      </Container>
+
+      <Container bgColor="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 text-center">
+        <div className="flex flex-col gap-5 justify-center items-center">
+          <div className="text-white">
+            <Text
+              children="Jadwalkan sesi konsultasi gratis bersama tim kami sekarang juga sebelum menggunakan jasa kami."
+              title
+              bold
+            />
+          </div>
+        </div>
+
+        <div className="flex justify-center items-center">
+          <CtaBox
+            ctaButtonText="contact us"
+            ctaButtonHref="https://wa.wizard.id/e702f2"
+            benefits={
+              <>
+                <div className="flex flex-row gap-3">
+                  <div className="text-blue-400 text-xl font-bold">✓</div>
+                  <Text children="Kami selalu berusaha untuk memaksimalkan dana yang dialokasikan untuk mendapatkan hasil influencer marketing yang terbaik." />
+                </div>
+                <div className="flex flex-row gap-3">
+                  <div className="text-blue-400 text-xl font-bold">✓</div>
+                  <Text children="Transparansi dalam setiap kerja sama ataupun kampanye adalah kunci utama yang selalu kami pegang." />
+                </div>
+              </>
+            }
+          />
+        </div>
+      </Container>
     </div>
   );
 };

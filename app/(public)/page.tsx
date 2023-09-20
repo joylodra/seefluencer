@@ -1,26 +1,17 @@
-// Next Link
-import Link from "next/link";
-
 // Custom Components
-import Hero from "../components/public/Hero";
-import Feature from "../components/public/Feature";
-import Title from "../components/public/Title";
+import Container from "../components/ui/Container";
+import Hero from "../components/Hero";
+import Text from "../components/ui/Text";
+import FeatureCard from "../components/FeatureCard";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-16">
-      <div className="flex flex-col gap-10">
+    <div className="flex flex-col">
+      {/* Hero Section */}
+      <Container>
         <Hero
-          customTitle={
-            <>
-              see the difference{" "}
-              <span className="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 inline-block text-transparent bg-clip-text">
-                influencers
-              </span>{" "}
-              can make with seefluencer 💙
-            </>
-          }
-          description="Seefluencer adalah sebuah all-in-one platform yang membantu konten kreator mendapatkan penghasilan lebih."
+          title="See the Difference Influencers Can Make with Seefluencer 💙"
+          description="Seefluencer adalah sebuah all-in-one platform yang berfokus untuk membantu konten kreator agar bisa mendapatkan penghasilan lebih."
         />
 
         <iframe
@@ -28,218 +19,100 @@ export default function Home() {
           src="https://www.youtube.com/embed/M5PLJeb2Oz0"
           className="aspect-video w-full"
         />
-      </div>
+      </Container>
 
-      <div className="flex flex-col gap-10">
-        <Title
-          title="Apa saja yang ada di dalam Seefluencer? 👀"
-          center
-          underline
-        />
+      {/* Products */}
+      <Container>
+        <div className="text-center flex flex-col gap-2">
+          <Text children="Apa Saja Yang Ada di Dalam Seefluencer?" title bold />
+          <Text
+            children="Kamu bisa tanyakan pertanyaan apapun seputar konten kreator kepada expertnya, Samuel Christ."
+            secondaryColor
+          />
+        </div>
 
-        <Feature
+        <FeatureCard
+          reverse
+          title="12-Week Creator Accelerator Program"
           description={
-            <div className="flex flex-col gap-4 items-end text-right">
-              <div className="font-bold text-xl">
-                12-Week Creator Accelerator Program 👩‍🏫
+            <div className="flex flex-col gap-3">
+              <div className="flex flex-row gap-3">
+                <div className="text-blue-400 text-xl font-bold">✓</div>
+                <Text children="Sekolah konten kreator yang dijalankan selama 12 minggu secara live." />
               </div>
-
-              <div className="flex gap-3 items-center">
-                <div>
-                  Sekolah konten kreator yang dijalankan selama{" "}
-                  <span className="underline decoration-3 italic decoration-blue-400">
-                    12 minggu
-                  </span>{" "}
-                  secara <span className="bg-yellow-200 italic">live.</span>
-                </div>
-
-                <div className="text-3xl text-blue-400">☑️</div>
+              <div className="flex flex-row gap-3">
+                <div className="text-blue-400 text-xl font-bold">✓</div>
+                <Text children="Seefluencer University adalah Kelas Intensif yang akan memberikan tugas PR, dan membantu Kamu secara personal, sehingga konten & personal branding-mu bisa jauh lebih efektif." />
               </div>
-
-              <div className="flex gap-3 items-center">
-                <div>
-                  Seefluencer University adalah Kelas Intensif yang akan
-                  memberikan{" "}
-                  <span className="underline decoration-3 italic decoration-blue-400">
-                    tugas PR
-                  </span>
-                  , dan{" "}
-                  <span className="bg-yellow-200 italic">
-                    membantu Kamu secara personal
-                  </span>
-                  , sehingga konten & personal branding-mu bisa jauh lebih
-                  efektif.
-                </div>
-
-                <div className="text-3xl text-blue-400">☑️</div>
+              <div className="flex flex-row gap-3">
+                <div className="text-blue-400 text-xl font-bold">✓</div>
+                <Text children="Kamu akan diberikan 12 kali sesi 1-on-1 coaching selama kelas berlangsung, 1 minggu 1 kali." />
               </div>
-
-              <div className="flex gap-3 items-center">
-                <div>
-                  Kamu akan diberikan{" "}
-                  <span className="underline decoration-3 italic decoration-blue-400">
-                    12 kali sesi 1-on-1 coaching
-                  </span>{" "}
-                  selama kelas berlangsung,{" "}
-                  <span className="bg-yellow-200 italic">1 minggu 1 kali.</span>
-                </div>
-
-                <div className="text-3xl text-blue-400">☑️</div>
-              </div>
-
-              <Link
-                target="_blank"
-                href="/accelerator"
-                className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
-              >
-                lihat selengkapnya
-              </Link>
             </div>
           }
           src="/images/cap-cap.png"
-          reverse
+          buttonText="learn more"
+          href="/accelerator"
         />
 
-        <Feature
+        <FeatureCard
+          title="3-Day Intensive Mini Creator Class"
           description={
-            <div className="flex flex-col gap-4 items-start text-left">
-              <div className="font-bold text-xl">
-                3-Day Intensive Mini Creator Class ✏️
+            <div className="flex flex-col gap-3">
+              <div className="flex flex-row gap-3">
+                <div className="text-blue-400 text-xl font-bold">✓</div>
+                <Text children="Kelas pendek cara jadi content creator yang dijalankan selama 3 hari secara live." />
               </div>
-
-              <div className="flex gap-3 items-center">
-                <div className="text-3xl text-blue-400">☑️</div>
-
-                <div>
-                  Kelas pendek cara jadi content creator yang dijalankan selama{" "}
-                  <span className="underline decoration-3 italic decoration-blue-400">
-                    3 hari
-                  </span>{" "}
-                  secara <span className="bg-yellow-200 italic">live.</span>
-                </div>
+              <div className="flex flex-row gap-3">
+                <div className="text-blue-400 text-xl font-bold">✓</div>
+                <Text children="3-Day Intensive Mini Creator Class adalah Kelas Intensif yang akan memberikan tugas PR, modul, dan membantu Kamu paham konsep content creation." />
               </div>
-
-              <div className="flex gap-3 items-center">
-                <div className="text-3xl text-blue-400">☑️</div>
-
-                <div>
-                  3-Day Intensive Mini Creator Class adalah Kelas Intensif yang
-                  akan memberikan{" "}
-                  <span className="underline decoration-3 italic decoration-blue-400">
-                    tugas PR, modul
-                  </span>
-                  , dan{" "}
-                  <span className="bg-yellow-200 italic">
-                    membantu Kamu paham konsep content creation
-                  </span>
-                </div>
-              </div>
-
-              <Link
-                target="_blank"
-                href="/miniclass"
-                className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
-              >
-                lihat selengkapnya
-              </Link>
             </div>
           }
           src="/images/imcc-imcc.png"
+          buttonText="learn more"
+          href="/miniclass"
         />
 
-        <Feature
+        <FeatureCard
+          reverse
+          title="1-On-1 Creator Coaching with Samuel Christ"
           description={
-            <div className="flex flex-col gap-4 items-end text-right">
-              <div className="font-bold text-xl">
-                1-On-1 Creator Coaching with Samuel Christ 💁‍♂️
+            <div className="flex flex-col gap-3">
+              <div className="flex flex-row gap-3">
+                <div className="text-blue-400 text-xl font-bold">✓</div>
+                <Text children="Sesi 45 menit bersama Samuel Christ, konten kreator dengan 4.5 juta+ followers." />
               </div>
-
-              <div className="flex gap-3 items-center">
-                <div>
-                  Sesi{" "}
-                  <span className="underline decoration-3 italic decoration-blue-400">
-                    45 menit
-                  </span>{" "}
-                  bersama Samuel Christ, content creator dengan{" "}
-                  <span className="bg-yellow-200 italic">
-                    4.5 juta+ followers
-                  </span>
-                </div>
-
-                <div className="text-3xl text-blue-400">☑️</div>
+              <div className="flex flex-row gap-3">
+                <div className="text-blue-400 text-xl font-bold">✓</div>
+                <Text children="Bebas bertanya pertanyaan apa saja seputar dunia konten kreator." />
               </div>
-
-              <div className="flex gap-3 items-center">
-                <div>
-                  <span className="underline decoration-3 italic decoration-blue-400">
-                    Bebas bertanya pertanyaan apa saja
-                  </span>{" "}
-                  seputar dunia{" "}
-                  <span className="bg-yellow-200 italic">content creation</span>
-                </div>
-
-                <div className="text-3xl text-blue-400">☑️</div>
-              </div>
-
-              <Link
-                target="_blank"
-                href="/coaching"
-                className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
-              >
-                lihat selengkapnya
-              </Link>
             </div>
           }
           src="/images/cap-coaching.png"
-          reverse
+          buttonText="learn more"
+          href="/coaching"
         />
 
-        <Feature
+        <FeatureCard
+          title="KOL Management"
           description={
-            <div className="flex flex-col gap-4 items-start text-left">
-              <div className="font-bold text-xl">KOL Management 🤳🏽</div>
-
-              <div className="flex gap-3 items-center">
-                <div className="text-3xl text-blue-400">☑️</div>
-
-                <div>
-                  Pemilihan{" "}
-                  <span className="underline decoration-3 italic decoration-blue-400">
-                    influencer yang berkualitas
-                  </span>{" "}
-                  yang langsung{" "}
-                  <span className="bg-yellow-200 italic">
-                    dilakukan oleh expertnya!
-                  </span>
-                </div>
+            <div className="flex flex-col gap-3">
+              <div className="flex flex-row gap-3">
+                <div className="text-blue-400 text-xl font-bold">✓</div>
+                <Text children="Pemilihan influencer yang berkualitas yang langsung dilakukan oleh expertnya!" />
               </div>
-
-              <div className="flex gap-3 items-center">
-                <div className="text-3xl text-blue-400">☑️</div>
-
-                <div>
-                  <span className="underline decoration-3 italic decoration-blue-400">
-                    Pembuatan konsep marketing campaign
-                  </span>{" "}
-                  yang{" "}
-                  <span className="bg-yellow-200 italic">
-                    sangat-sangat efektif dan efisien.
-                  </span>
-                </div>
+              <div className="flex flex-row gap-3">
+                <div className="text-blue-400 text-xl font-bold">✓</div>
+                <Text children="Pembuatan konsep marketing campaign yang sangat-sangat efektif dan efisien." />
               </div>
-
-              <Link
-                target="_blank"
-                href="/kol"
-                className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
-              >
-                lihat selengkapnya
-              </Link>
             </div>
           }
-          src="/images/cap-rapot.png"
+          src="/images/ocwe-150juta.png"
+          buttonText="learn more"
+          href="/kol"
         />
-      </div>
+      </Container>
     </div>
   );
 }

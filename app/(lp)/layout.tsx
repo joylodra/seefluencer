@@ -2,6 +2,9 @@
 import { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
 
+// Custom Components
+import Footer from "../components/Footer";
+
 // Styles
 import "../globals.css";
 
@@ -35,7 +38,8 @@ export default function RootLayout({
   return (
     <html>
       <body className="bg-gray-50">
-        <main className="mx-auto max-w-5xl p-3">{children}</main>
+        <main>{children}</main>
+        <Footer />
         <Analytics />
       </body>
     </html>

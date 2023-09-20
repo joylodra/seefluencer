@@ -39,7 +39,7 @@ export const socials = [
   },
 ];
 
-export const benefits = [
+export const kolBenefits = [
   {
     title: "influencer identification",
     description:
@@ -63,5 +63,50 @@ export const benefits = [
     description:
       "Kami menganalisis setiap titik data untuk mengembangkan wawasan yang kuat dalam meningkatkan performa marketing brand Anda.",
     icon: <HiDocumentReport size={50} className="text-white" />,
+  },
+];
+
+export const capFAQ = [
+  {
+    question: "Bagaimana biar bisa dapat uang kembali 100%?",
+    answer:
+      "Kami memberikan hadiah uang kembali 100% kepada siapapun yang bisa mencapai 100 ribu followers selama program 3 bulan ini.",
+  },
+  {
+    question: "Maksudnya garansi konsultasi 1-on-1 seumur hidup bagaimana?",
+    answer:
+      "Kami akan memberikan garansi konsultasi 1-on-1 seumur hidup hingga kamu mencapai followers 10K",
+  },
+  {
+    question:
+      "Apakah Creator Accelerator Program online, in-person, atau kelas yang sudah direkam?",
+    answer:
+      "Creator Accelerator Program tentunya adalah program 3 bulan yang dilakukan secara live dan online melalui platform Zoom.",
+  },
+  {
+    question: "Dalam satu kelas, isinya berapa orang sih?",
+    answer: "Setiap kelas akan diisi oleh maksimum 25 orang.",
+  },
+  {
+    question: "Jadwal untuk live sessionnya itu kapan aja sih?",
+    answer:
+      "CS kami siap memberikan detail dari kurikulum dan semua penjadwalan. Langsung kirim pesan ke nomor WA +6285175449955",
+  },
+  {
+    question: "Gimana kalo aku sibuk dan tidak bisa hadir ke kelas?",
+    answer:
+      "Tentunya, kamu perlu komitmen ketika sudah memutuskan untuk join program ini. Jika kamu tidak hadir kelas, maka bisa menurunkan nilai rapor dan berkesempatan untuk hilang garansi konsultasi 1-on-1 seumur hidup hingga followers 10K. Namun, semua kelas tentunya akan direkam, jadi kamu bisa ulang kembali di recordingnya.",
+  },
+  {
+    question:
+      "Saya tidak memiliki pengalaman dalam pembuatan konten, apakah program ini cocok untuk saya?",
+    answer:
+      "Ya, program ini dirancang untuk menerima orang dengan berbagai tingkat pengalaman dan mengubah mereka menjadi konten kreator!",
+  },
+  {
+    question:
+      "Apakah perlu peralatan-peralatan yang mahal untuk join kelas ini?",
+    answer:
+      "Tentnya tidak perlu peralatan yang mahal! Cukup dengan handphone kamu sudah bisa menjadi seorang konten kreator.",
   },
 ];

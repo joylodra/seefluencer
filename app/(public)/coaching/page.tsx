@@ -1,340 +1,210 @@
-"use client";
+// React & Next Components
+import Image from "next/image";
 
 // Custom Components
-import Hero from "../../components/public/Hero";
-import Image from "next/image";
-import Title from "@/app/components/public/Title";
-import Link from "next/link";
-import Feature from "@/app/components/public/Feature";
+import Container from "@/app/components/ui/Container";
+import Hero from "@/app/components/Hero";
+import Text from "@/app/components/ui/Text";
+import IconCard from "@/app/components/IconCard";
+import FeatureCard from "@/app/components/FeatureCard";
+import CtaBox from "@/app/components/CtaBox";
+import Button from "@/app/components/ui/Button";
 
-// export const metadata = {
-//   title: "1-on-1 coaching with experts",
-//   keywords: ["brands page", "social media", "business", "influencer marketing"],
-//   description: "see the difference influencers can make with seefluencer 💙",
-// };
+// Icons & Images
+import { ImSad } from "react-icons/im";
+import { BsQuote } from "react-icons/bs";
+
+export const metadata = {
+  title: "1-On-1 Coaching With Experts",
+  keywords: [
+    "konsultasi",
+    "konten kreator",
+    "media sosial",
+    "influencer marketing",
+  ],
+  description: "See the difference influencers can make with seefluencer 💙",
+};
 
 const Coaching = () => {
-  const handleClick = () => {
-    const element = document.getElementById("pricing")!;
-    element?.scrollIntoView({ behavior: "smooth" });
-  };
-
   return (
-    <div className="flex flex-col gap-16">
-      {/* TITLE */}
-      <div className="flex flex-col gap-10">
-        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-5 items-center">
-          <div className="col-span-2 flex flex-col gap-5 items-center md:items-start">
-            <Hero
-              fullWidth
-              customTitle={
-                <div className="flex flex-col gap-3 text-center md:text-left">
-                  <div className="text-lg font-normal">
-                    <div className="font-bold">
-                      1-on-1{" "}
-                      <span className="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 inline-block text-transparent bg-clip-text">
-                        coaching
-                      </span>
-                    </div>
-
-                    <div className="italic">
-                      with{" "}
-                      <span className="underline decoration-3 italic decoration-blue-400">
-                        content experts
-                      </span>
-                    </div>
-                  </div>
-
-                  <div>
-                    Konsultasi{" "}
-                    <span className="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 inline-block text-transparent bg-clip-text">
-                      1-on-1
-                    </span>{" "}
-                    selama 45 menit dengan{" "}
-                    <span className="underline decoration-3 italic decoration-blue-400">
-                      Samuel Christ
-                    </span>
-                  </div>
-
-                  <div className="text-lg md:text-2xl font-normal">
-                    "Temukan solusi tentang bagaimana caranya bikin{" "}
-                    <span className="underline decoration-3 italic decoration-blue-400">
-                      konten yang viral
-                    </span>
-                    , bangun{" "}
-                    <span className="underline decoration-3 italic decoration-blue-400">
-                      personal branding
-                    </span>
-                    , & dapat{" "}
-                    <span className="bg-yellow-200 italic">
-                      100K+ followers 📈
-                    </span>
-                    "
-                  </div>
-                </div>
-              }
-            />
-
-            <div
-              onClick={() => handleClick()}
-              className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold cursor-pointer"
-            >
-              lihat penawaran
-            </div>
-          </div>
-
-          <div className="col-span-1 text-center flex flex-col gap-3 items-center mt-5 md:mt-0">
-            <Image
-              className="flex w-full max-w-sm rounded-full shadow-xl"
-              src="/images/cap-coaching.png"
-              alt="Sam Christ's social media growth"
-              width={400}
-              height={400}
-            />
-
+    <div className="flex flex-col">
+      {/* Hero Section */}
+      <Container>
+        <Hero
+          withImage
+          title="Konsultasi 1-On-1 45 Menit Bersama Samuel Christ."
+          description="Temukan solusi tentang bagaimana caranya bikin konten yang viral, bangun personal branding, & dapat 100K+ followers."
+          buttonText="contact us"
+          buttonHref="https://wa.wizard.id/95c3b6"
+          imageSrc="/images/cap-coaching.png"
+          imageDescription={
             <div>
               <div className="text-xl font-bold">Samuel Christ</div>
               <div className="italic text-gray-500">Content creator</div>
               <div className="italic text-gray-500">Co-founder Seefluencer</div>
             </div>
-          </div>
-        </div>
-      </div>
-
-      {/* PROBLEM */}
-      <div className="flex flex-col gap-5">
-        <Title title="Apakah kamu merasa... 🤔" center underline />
-
-        <div className="flex flex-col gap-3 text-center">
-          <Feature
-            description={
-              <div className="flex flex-col gap-3">
-                <div className="flex gap-3 items-center text-left">
-                  <div className="text-2xl">❌</div>
-
-                  <div>
-                    Ingin{" "}
-                    <span className="underline decoration-3 italic decoration-blue-400">
-                      menjadi content creator
-                    </span>{" "}
-                    tapi{" "}
-                    <span className="bg-yellow-200 italic">
-                      ga tau mulai dari mana
-                    </span>
-                  </div>
-                </div>
-
-                <div className="flex gap-3 items-center text-left">
-                  <div className="text-2xl">❌</div>
-
-                  <div>
-                    Udah konsisten ngonten tapi kok{" "}
-                    <span className="italic bg-yellow-200">
-                      nggak viral-viral
-                    </span>
-                  </div>
-                </div>
-
-                <div className="flex gap-3 items-center text-left">
-                  <div className="text-2xl">❌</div>
-
-                  <div>
-                    <span className="bg-yellow-200 italic">
-                      Gak percaya diri
-                    </span>{" "}
-                    dan{" "}
-                    <span className="underline decoration-3 italic decoration-blue-400">
-                      malu
-                    </span>{" "}
-                    ngomong di{" "}
-                    <span className="underline decoration-3 italic decoration-blue-400">
-                      depan kamera
-                    </span>
-                  </div>
-                </div>
-
-                <div className="flex gap-3 items-center text-left">
-                  <div className="text-2xl">❌</div>
-
-                  <div>
-                    <span className="bg-yellow-200 italic">
-                      Kesulitan dalam mencari
-                    </span>{" "}
-                    ide-ide konten
-                  </div>
-                </div>
-
-                <div className="flex gap-3 items-center text-left">
-                  <div className="text-2xl">❌</div>
-
-                  <div>
-                    <span className="bg-yellow-200 italic">
-                      Gak ada motivasi
-                    </span>{" "}
-                    untuk{" "}
-                    <span className="underline decoration-3 italic decoration-blue-400">
-                      bikin konten
-                    </span>
-                  </div>
-                </div>
-              </div>
-            }
-            src="/images/cap-stress-2.png"
-          />
-        </div>
-      </div>
-
-      {/* SOLUTION */}
-      <div className="flex flex-col gap-10 items-center">
-        <Title
-          title="Jangan khawatir! Tanyakan semua ke Samuel Christ 🥰"
-          center
-          underline
-        />
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-          <div className="flex flex-col gap-3">
-            <Image
-              src="/images/ocwe-tiktokaward.png"
-              alt="Feature Description Image"
-              width={250}
-              height={250}
-              className="rounded-lg shadow-lg w-full hover:shadow-3xl hover:shadow-neutral-500 transition-all h-64 object-cover object-top"
-            />
-
-            <div>
-              <span className="text-4xl font-bold">{`1) `}</span>
-              Samuel Christ merupakan pemenang dari{" "}
-              <span className="underline decoration-3 italic decoration-blue-400">
-                TikTok Award
-              </span>{" "}
-              <span className="bg-yellow-200 italic">
-                "The Most Favorite Education Creator 2022 1st Half".
-              </span>
-            </div>
-          </div>
-
-          <div className="flex flex-col gap-3">
-            <Image
-              src="/images/ocwe-growth.png"
-              alt="Feature Description Image"
-              width={250}
-              height={250}
-              className="rounded-lg shadow-lg w-full hover:shadow-3xl hover:shadow-neutral-500 transition-all h-64 object-cover object-top"
-            />
-
-            <div>
-              <span className="text-4xl font-bold">{`2) `}</span>
-              Samuel memiliki <span className="bg-yellow-200 italic">
-                2,3M
-              </span>{" "}
-              subscribers di YouTube,{" "}
-              <span className="bg-yellow-200 italic">2,2M</span> di TikTok, dan{" "}
-              <span className="bg-yellow-200 italic">535K</span> followers di
-              Instagram. Semua sosial medianya sudah{" "}
-              <span className="underline decoration-3 italic decoration-blue-400">
-                verified.
-              </span>
-            </div>
-          </div>
-
-          <div className="flex flex-col gap-3">
-            <Image
-              src="/images/ocwe-pengalaman.png"
-              alt="Feature Description Image"
-              width={250}
-              height={250}
-              className="rounded-lg shadow-lg w-full hover:shadow-3xl hover:shadow-neutral-500 transition-all h-64 object-cover object-top"
-            />
-
-            <div>
-              <div>
-                <span className="text-4xl font-bold">{`3) `}</span>
-                Samuel memiliki lebih dari{" "}
-                <span className="bg-yellow-200 italic">
-                  6 tahun pengalaman
-                </span>{" "}
-                sebagai{" "}
-                <span className="underline decoration-3 italic decoration-blue-400">
-                  konten kreator.
-                </span>
-              </div>
-            </div>
-          </div>
-
-          <div className="flex flex-col gap-3">
-            <Image
-              src="/images/ocwe-150m.png"
-              alt="Feature Description Image"
-              width={250}
-              height={250}
-              className="rounded-lg shadow-lg w-full hover:shadow-3xl hover:shadow-neutral-500 transition-all h-64 object-cover object-top"
-            />
-
-            <div>
-              <span className="text-4xl font-bold">{`4) `}</span>
-              Samuel bisa mendapatkan total{" "}
-              <span className="bg-yellow-200 italic">150M views</span> setiap
-              bulannya di sosial medianya. Bahkan, video "Seberapa Kaya" pernah{" "}
-              <span className="underline decoration-3 italic decoration-blue-400">
-                trending nomor 1 di YouTube
-              </span>{" "}
-              dengan total{" "}
-              <span className="bg-yellow-200 italic">views 11M.</span> Di
-              TikTok, salah satu konten "Seberapa Kaya" berhasil menembus{" "}
-              <span className="bg-yellow-200 italic">21,5M views.</span>
-            </div>
-          </div>
-        </div>
-
-        <div
-          onClick={() => handleClick()}
-          className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold cursor-pointer"
-        >
-          lihat penawaran
-        </div>
-      </div>
-
-      {/* PRICING SECTION */}
-      <div
-        id="pricing"
-        className="flex flex-col gap-5 items-center text-center"
-      >
-        <Title
-          title="Jadwalkan sesi konsultasi 1-on-1 selama 45 menit dengan Samuel Christ sekarang dan dapatkan untuk bisa sukses jadi content creator! 🤳🏽"
-          center
-          underline
-        />
-
-        <Image
-          src={"/images/cap-coaching.png"}
-          alt="Feature Description Image"
-          width={400}
-          height={400}
-          className="rounded-lg shadow-lg w-full max-w-xs"
-        />
-
-        <div className="flex flex-col gap-3">
-          <div className="text-xl font-bold">Hanya untuk</div>
-          <div className="line-through text-xl">Rp1.499.999</div>
-          <h1 className="text-4xl text-red-500 font-bold rounded-lg animate-bounce">
-            Rp449.000
-          </h1>
-          <div className="italic text-sm">
-            *Karena waktu Samuel Christ sangat terbatas, maka slot akan sangat
-            terbatas dan harga dapat naik tiba tiba tanpa pemberitahuan
-          </div>
-        </div>
-
-        <Link
-          target="_blank"
-          href={
-            "https://wa.me/6285175449955?text=Halo,%20nama%20saya%20[NAMA%20KAMU].%20Saya%20ingin%20melakukan%201-on-1%20coaching%20dengan%20Samuel%20Christ.%20Gimana%20prosesnya%20ya?"
           }
-          className="w-fit px-5 py-2 bg-blue-400 text-white rounded-lg hover:shadow-md transition-all font-bold"
+          external
+        />
+      </Container>
+
+      {/* Problems */}
+      <Container bgColor="bg-red-50">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div className="col-span-1 flex flex-col gap-2">
+            <Text children="Apakah kamu merasa..." title bold />
+            <Text
+              children="Hal-hal yang paling sering dirasakan orang-orang ketika mulai ngonten."
+              paragraph
+              secondaryColor
+            />
+          </div>
+
+          <div className="col-span-3 grid grid-cols-1 md:grid-cols-2 gap-5">
+            <IconCard
+              title="Ingin menjadi content creator tapi ga tau mulai dari mana"
+              description="Gak tahu gimana caranya PD ngomong depan kamera, gak tahu gimana caranya ngedit video yang bagus, dan gak tahu cara penulisan script yang viral."
+              icon={<ImSad />}
+              iconColor="text-red-500"
+            />
+
+            <IconCard
+              title="Udah konsisten ngonten tapi kok nggak viral-viral"
+              description="Rasanya capek ngonten tiap hari udah konsisten tapi video jarang viral dan pertumbuhan followers stagnan."
+              icon={<ImSad />}
+              iconColor="text-red-500"
+            />
+
+            <IconCard
+              title="Gak ada motivasi untuk bikin konten"
+              description="Udah mulai ngonten tapi gak ada motivasi dan gak konsisten sama skali."
+              icon={<ImSad />}
+              iconColor="text-red-500"
+            />
+
+            <IconCard
+              title="Kesulitan dalam mencari ide-ide konten"
+              description="Kehabisan ide terus menerus, gak tau lagi mau bikin konten apa selanjutnya."
+              icon={<ImSad />}
+              iconColor="text-red-500"
+            />
+          </div>
+        </div>
+      </Container>
+
+      {/* Solution */}
+      <div>
+        <Container>
+          <div className="text-center flex flex-col gap-2">
+            <Text children="Jangan Khawatir!" title bold />
+
+            <Text
+              children="Kamu bisa tanyakan pertanyaan apapun seputar konten kreator kepada expertnya, Samuel Christ."
+              secondaryColor
+            />
+          </div>
+
+          <div className="flex flex-col gap-4">
+            <FeatureCard
+              reverse
+              title="Pemenang TikTok Award"
+              description="Samuel Christ merupakan pemenang dari TikTok Award The Most Favorite Education Creator 2022 1st Half."
+              src="/images/ocwe-award.png"
+            />
+
+            <FeatureCard
+              title="5 Juta+ Followers"
+              description="Samuel memiliki 2,3M subscribers di YouTube, 2,2M di TikTok, dan 535K followers di Instagram. Semua sosial medianya sudah verified."
+              src="/images/ocwe-pertumbuhan.png"
+            />
+
+            <FeatureCard
+              reverse
+              title="Pengalaman 6 Tahun"
+              description="Samuel memiliki lebih dari 6 tahun pengalaman sebagai konten kreator."
+              src="/images/ocwe-6tahun.png"
+            />
+
+            <FeatureCard
+              title="100 Juta+ Views Per Bulan"
+              description={`Samuel bisa mendapatkan total 150M views setiap bulannya di sosial medianya. Bahkan, video "Seberapa Kaya" pernah trending nomor 1 di YouTube dengan total views 11M. Di TikTok, salah satu konten "Seberapa Kaya" berhasil menembus 21,5M views.`}
+              src="/images/ocwe-150juta.png"
+            />
+          </div>
+
+          <div className="flex items-center justify-center">
+            <Button
+              regular
+              hrefLink="https://wa.wizard.id/95c3b6"
+              buttonText="contact us"
+              external
+            />
+          </div>
+        </Container>
+
+        {/* Pricing */}
+        <Container bgColor="bg-gradient-to-r from-neutral-800 via-neutral-600 to-neutral-500 text-white text-center text-white">
+          <div className="flex flex-col items-center justify-center gap-8">
+            <BsQuote className="text-5xl text-white" />
+            <Text
+              children="Setelah konsultasi dengan Samuel Christ, saya mendapatkan gambaran yang sangat-sangat jelas tentang apa yang saya harus lakukan kedepannya. Dua bulan setelah mengaplikasikan apa yang diajarkan beliau, reach konten saya naik hingga 1500%."
+              heading
+              bold
+            />
+
+            <div className="flex flex-row gap-2 items-center">
+              <Image
+                className="rounded-full"
+                src="/images/profile.png"
+                width={50}
+                height={50}
+                alt="Profile"
+              />
+
+              <div className="flex flex-col text-left">
+                <Text children="Joy Lodra" bold />
+                <Text children="Surabaya" small />
+              </div>
+            </div>
+          </div>
+        </Container>
+
+        <Container
+          id="pricing"
+          bgColor="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 text-center"
         >
-          konsultasi sekarang
-        </Link>
+          <div className="flex flex-col gap-5 justify-center items-center">
+            <div className="text-white">
+              <Text
+                children="Jadwalkan sesi konsultasi 1-on-1 selama 45 menit dengan Samuel Christ sekarang dan dapatkan untuk bisa sukses jadi content creator!"
+                title
+                bold
+              />
+            </div>
+          </div>
+
+          <div className="flex justify-center items-center">
+            <CtaBox
+              priceBefore="Rp1.499.000"
+              priceAfter="Rp449.000"
+              ctaButtonText="contact us"
+              ctaButtonHref="https://wa.wizard.id/95c3b6"
+              additionalNotes="*Karena waktu Samuel Christ sangat terbatas, maka slot akan sangat terbatas dan harga dapat naik tiba tiba tanpa pemberitahuan."
+              benefits={
+                <>
+                  <div className="flex flex-row gap-3">
+                    <div className="text-blue-400 text-xl font-bold">✓</div>
+                    <Text children="Konsultasi 1-on-1 bersama expertnya, Samuel Christ, selama 45 menit." />
+                  </div>
+                  <div className="flex flex-row gap-3">
+                    <div className="text-blue-400 text-xl font-bold">✓</div>
+                    <Text children="Boleh bertanya pertanyaan apapun seputar dunia konten kreator." />
+                  </div>
+                </>
+              }
+            />
+          </div>
+        </Container>
       </div>
     </div>
   );
