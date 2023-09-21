@@ -1,3 +1,6 @@
+// Next & React Components
+import Image from "next/image";
+
 // Custom Components
 import Hero from "@/app/components/Hero";
 import Text from "@/app/components/ui/Text";
@@ -7,7 +10,7 @@ import Container from "@/app/components/ui/Container";
 import Button from "@/app/components/ui/Button";
 
 export const metadata = {
-  title: "KOL Management",
+  title: "KOL Marketing Agency",
   keywords: [
     "brands",
     "media sosial",
@@ -24,7 +27,7 @@ const Influencers = () => {
         <Hero
           withImage
           imageSrc="/images/cap-endorse-2.png"
-          title="KOL Management"
+          title="KOL Marketing Agency"
           description="Layanan kami sangat mengutamakan transparansi & kualitas dalam memberikan hasil yang terbaik kepada para klien kami."
           buttonHref="https://wa.wizard.id/e702f2"
           buttonText="contact us"
@@ -32,22 +35,16 @@ const Influencers = () => {
         />
       </Container>
 
-      <Container>
-        <div className="flex flex-col gap-8 text-center justify-center items-center">
-          <div className="flex flex-col gap-2">
-            <Text text="Pengalaman Pitching Kami" title bold />
-            <Text
-              secondaryColor
-              text="Video di bawah menggambarkan cara kami secara profesional mengunjungi korporat-korporat untuk pitching."
-            />
-          </div>
+      <Container bgColor="bg-gradient-to-r from-neutral-200 via-neutral-50 to-neutral-100 text-center">
+        <Text text="Brand Yang Sudah Pernah Bekerja Sama" title bold />
 
-          <iframe
-            allow="fullscreen;"
-            src="https://www.youtube.com/embed/bfQrBQAk1Ks"
-            className="aspect-video w-full"
-          />
-        </div>
+        <Image
+          className="flex w-full"
+          src="/images/kol-brands.png"
+          alt="Brand Yang Sudah Pernah Bekerja Sama"
+          width={800}
+          height={800}
+        />
       </Container>
 
       <Container>
@@ -55,8 +52,9 @@ const Influencers = () => {
           <div className="flex flex-col gap-2">
             <Text text="Kenapa Harus Menggunakan Jasa Kami?" title bold />
             <Text
-              text="Di Seefluencer, transparansi dan kejujuran menjadi prioritas utama dalam setiap kemitraan yang kami bangun."
+              text="Di Seefluencer, kita mengutamakan hasil akhir, transparansi, dan evaluasi tanpa henti."
               secondaryColor
+              paragraph
             />
           </div>
 

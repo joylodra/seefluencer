@@ -124,6 +124,7 @@ const MiniClass = () => {
           <Text
             text="Samuel Christ sudah memiliki jutaan followers dan pengalaman di dunia konten kreator selama bertahun-tahun."
             secondaryColor
+            paragraph
           />
         </div>
 
@@ -176,12 +177,12 @@ const MiniClass = () => {
         <div className="flex flex-wrap gap-3">
           <div className="flex flex-row gap-2 items-center">
             <BsCalendar className="text-gray-400 text-xl" />
-            <Text text="3 hari" />
+            <Text text="3 hari" paragraph />
           </div>
 
           <div className="flex flex-row gap-2 items-center">
             <BsClock className="text-gray-400 text-xl" />
-            <Text text="19:00 - 21:00 WIB" />
+            <Text text="19:00 - 21:00 WIB" paragraph />
           </div>
         </div>
 
@@ -210,12 +211,18 @@ const MiniClass = () => {
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text text="Pelajari proses pembuatan konten yang viral dari awal hingga akhir." />
+                    <Text
+                      paragraph
+                      text="Pelajari proses pembuatan konten yang viral dari awal hingga akhir."
+                    />
                   </div>
 
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text text="Maksimalkan pemebelajaranmu dengan bertanya di sesi Q&A yang disediakan." />
+                    <Text
+                      paragraph
+                      text="Maksimalkan pembelajaran dengan bertanya di sesi Q&A yang disediakan."
+                    />
                   </div>
                 </div>
               }
@@ -249,12 +256,18 @@ const MiniClass = () => {
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text text="Pelajari proses pembuatan konten yang viral dari awal hingga akhir." />
+                    <Text
+                      paragraph
+                      text="Pelajari proses pembuatan konten yang viral dari awal hingga akhir."
+                    />
                   </div>
 
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text text="Maksimalkan pemebelajaranmu dengan bertanya di sesi Q&A yang disediakan." />
+                    <Text
+                      paragraph
+                      text="Maksimalkan pemebelajaranmu dengan bertanya di sesi Q&A yang disediakan."
+                    />
                   </div>
                 </div>
               </>

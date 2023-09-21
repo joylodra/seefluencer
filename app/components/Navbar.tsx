@@ -144,7 +144,7 @@ const Navbar = ({ landingNav, logo, button }: NavbarProps) => {
           {isMenuOpen && (
             <div
               ref={menuRef}
-              className="md:hidden absolute rounded-xl shadow-3xl w-3/4 bg-white right-0 top-[88px] overflow-hidden"
+              className="md:hidden absolute rounded-sm shadow-sm w-3/4 bg-white right-0 top-[88px] overflow-hidden"
             >
               <div className="flex flex-col gap-3">
                 <div>

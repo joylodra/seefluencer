@@ -36,7 +36,7 @@ const FeatureCard = ({
         <div className="flex flex-col gap-3">
           <Text text={title} subtitle bold />
           <div className="ml-3 md:ml-5">
-            <Text text={description} secondaryColor />
+            <Text text={description} paragraph />
           </div>
         </div>
 

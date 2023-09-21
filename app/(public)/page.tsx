@@ -10,8 +10,8 @@ export default function Home() {
       {/* Hero Section */}
       <Container>
         <Hero
-          title="See the Difference Influencers Can Make with Seefluencer 💙"
-          description="Seefluencer adalah sebuah all-in-one platform yang berfokus untuk membantu konten kreator agar bisa mendapatkan penghasilan lebih."
+          title={`Indonesia’s #1 Live Online Learning For Creators 💙`}
+          description="Seefluencer adalah sebuah all-in-one platform yang berfokus pada pengembangan kreator Indonesia agar bisa mendapatkan penghasilan yang terbaik."
         />
 
         <iframe
@@ -25,10 +25,6 @@ export default function Home() {
       <Container>
         <div className="text-center flex flex-col gap-2">
           <Text text="Apa Saja Yang Ada di Dalam Seefluencer?" title bold />
-          <Text
-            text="Kamu bisa tanyakan pertanyaan apapun seputar konten kreator kepada expertnya, Samuel Christ."
-            secondaryColor
-          />
         </div>
 
         <FeatureCard
@@ -38,15 +34,24 @@ export default function Home() {
             <div className="flex flex-col gap-3">
               <div className="flex flex-row gap-3">
                 <div className="text-blue-400 text-xl font-bold">✓</div>
-                <Text text="Sekolah konten kreator yang dijalankan selama 12 minggu secara live." />
+                <Text
+                  paragraph
+                  text="Sekolah konten kreator yang dijalankan selama 12 minggu secara live."
+                />
               </div>
               <div className="flex flex-row gap-3">
                 <div className="text-blue-400 text-xl font-bold">✓</div>
-                <Text text="Seefluencer University adalah Kelas Intensif yang akan memberikan tugas PR, dan membantu Kamu secara personal, sehingga konten & personal branding-mu bisa jauh lebih efektif." />
+                <Text
+                  paragraph
+                  text="Kamu akan langsung dibimbing hingga bisa menghasilkan minimal 50 konten yang diupload."
+                />
               </div>
               <div className="flex flex-row gap-3">
                 <div className="text-blue-400 text-xl font-bold">✓</div>
-                <Text text="Kamu akan diberikan 12 kali sesi 1-on-1 coaching selama kelas berlangsung, 1 minggu 1 kali." />
+                <Text
+                  paragraph
+                  text="Kamu akan diberikan 12 kali sesi 1-on-1 coaching selama kelas berlangsung, 1 minggu 1 kali."
+                />
               </div>
             </div>
           }
@@ -61,11 +66,17 @@ export default function Home() {
             <div className="flex flex-col gap-3">
               <div className="flex flex-row gap-3">
                 <div className="text-blue-400 text-xl font-bold">✓</div>
-                <Text text="Kelas pendek cara jadi content creator yang dijalankan selama 3 hari secara live." />
+                <Text
+                  paragraph
+                  text="Kursus pendek cara jadi content creator yang dijalankan selama 3 hari secara live."
+                />
               </div>
               <div className="flex flex-row gap-3">
                 <div className="text-blue-400 text-xl font-bold">✓</div>
-                <Text text="3-Day Intensive Mini Creator Class adalah Kelas Intensif yang akan memberikan tugas PR, modul, dan membantu Kamu paham konsep content creation." />
+                <Text
+                  paragraph
+                  text="Kami sudah menyiapkan materi yang bisa langsung dipraktekkan."
+                />
               </div>
             </div>
           }
@@ -81,11 +92,24 @@ export default function Home() {
             <div className="flex flex-col gap-3">
               <div className="flex flex-row gap-3">
                 <div className="text-blue-400 text-xl font-bold">✓</div>
-                <Text text="Sesi 45 menit bersama Samuel Christ, konten kreator dengan 4.5 juta+ followers." />
+                <Text
+                  paragraph
+                  text="Sesi 45 menit bersama Samuel Christ, konten kreator dengan 5 juta+ followers."
+                />
               </div>
               <div className="flex flex-row gap-3">
                 <div className="text-blue-400 text-xl font-bold">✓</div>
-                <Text text="Bebas bertanya pertanyaan apa saja seputar dunia konten kreator." />
+                <Text
+                  paragraph
+                  text="Bebas bertanya pertanyaan apa saja seputar dunia konten kreator."
+                />
+              </div>
+              <div className="flex flex-row gap-3">
+                <div className="text-blue-400 text-xl font-bold">✓</div>
+                <Text
+                  paragraph
+                  text="Selesaikan semua masalah perkontenanmu dengan mendapatkan solusi yang tepat dari pakarnya."
+                />
               </div>
             </div>
           }
@@ -95,16 +119,22 @@ export default function Home() {
         />
 
         <FeatureCard
-          title="KOL Management"
+          title="KOL Marketing Agency"
           description={
             <div className="flex flex-col gap-3">
               <div className="flex flex-row gap-3">
                 <div className="text-blue-400 text-xl font-bold">✓</div>
-                <Text text="Pemilihan influencer yang berkualitas yang langsung dilakukan oleh expertnya!" />
+                <Text
+                  paragraph
+                  text="Pemilihan influencer yang berkualitas dan terbaik di bidangnya berdasarkan data."
+                />
               </div>
               <div className="flex flex-row gap-3">
                 <div className="text-blue-400 text-xl font-bold">✓</div>
-                <Text text="Pembuatan konsep marketing campaign yang sangat-sangat efektif dan efisien." />
+                <Text
+                  paragraph
+                  text="Pembuatan konsep marketing campaign yang terbukti bisa meningkatkan performa perusahaan."
+                />
               </div>
             </div>
           }

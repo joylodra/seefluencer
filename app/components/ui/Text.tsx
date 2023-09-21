@@ -25,7 +25,7 @@ const Text = ({
     <div
       className={`
       ${title && "text-3xl md:text-5xl font-montserrat"}
-      ${subtitle && "text-2xl md:text-4xl"}
+      ${subtitle && "text-2xl md:text-4xls"}
       ${heading && "text-xl md:text-2xl"} 
       ${paragraph && "text-base md:text-lg"}
       ${small && "text-xs md:text-sm"}

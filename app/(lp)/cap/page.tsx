@@ -64,14 +64,6 @@ const CreatorAcceleratorProgram = () => {
           additionalNotes="Batch selanjutnya dimulai 9 Oktober 2023"
           external
         />
-
-        <Image
-          className="flex w-full"
-          src="/images/cap-growth.png"
-          alt="Sam Christ's social media growth"
-          width={800}
-          height={800}
-        />
       </Container>
 
       <Container>
@@ -82,12 +74,42 @@ const CreatorAcceleratorProgram = () => {
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text text="Pelajari proses pembuatan konten yang viral dari awal hingga akhir." />
+                    <Text
+                      paragraph
+                      text="Sekolah konten kreator yang dijalankan selama 12 minggu secara live."
+                    />
                   </div>
 
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text text="Maksimalkan pemebelajaranmu dengan menghadiri semua sesi dan menjadi aktif di live class." />
+                    <Text
+                      paragraph
+                      text="Dibimbing hingga bisa menghasilkan minimal 50 konten yang diupload."
+                    />
+                  </div>
+
+                  <div className="flex flex-row gap-3">
+                    <div className="text-blue-400 text-xl font-bold">✓</div>
+                    <Text
+                      paragraph
+                      text="12 kali sesi 1-on-1 coaching selama kelas berlangsung, 1 minggu 1 kali."
+                    />
+                  </div>
+
+                  <div className="flex flex-row gap-3">
+                    <div className="text-blue-400 text-xl font-bold">✓</div>
+                    <Text
+                      paragraph
+                      text="Garansi bimbingan 1-on-1 SELAMANYA hingga mencapai 10K followers."
+                    />
+                  </div>
+
+                  <div className="flex flex-row gap-3">
+                    <div className="text-blue-400 text-xl font-bold">✓</div>
+                    <Text
+                      paragraph
+                      text="Jaminan UANG KEMBALI 100% jika mencapai target."
+                    />
                   </div>
                 </div>
               }
@@ -110,19 +132,19 @@ const CreatorAcceleratorProgram = () => {
             />
 
             <Text
-              secondaryColor
+              paragraph
               text="Selamat datang di era kreator ekonomi, dimana konten kreator memiliki dampak yang dampak besar dalam perekonomian dunia. Untuk pertama kalinya, kamu bisa menghidupi hidup impianmu tanpa harus terikat oleh waktu dan lokasi."
             />
             <Text
-              secondaryColor
+              paragraph
               text="Inilah kenapa kamu harus join Creator Accelerator Program by Seefluencer University. Program ini bukan seperti kelas online pada umumnya di Indonesia. Di Creator Accelerator Program ini kamu akan belajar secara live dan akan dibimbing secara pribadi 1-on-1 sampai mencapai 10.000 ribu followers dalam waktu 3 bulan."
             />
             <Text
-              secondaryColor
+              paragraph
               text="Di program ini, kamu akan belajar semua yang kamu butuhkan untuk menjadi konten kreator dari A sampai Z. Kamu juga akan menulis minimal 60 script dan menghasilkan lebih dari 50 video yang akan diupload di semua sosial mediamu."
             />
             <Text
-              secondaryColor
+              paragraph
               text="Kami sangat yakin program yang kami ciptakan ini, juga bisa mengubah hidupmu selamanya. Slot sangat terbatas jadi tunggu apa lagi daftarkan dirimu dan ikuti proses seleksinya sekarang!"
             />
 
@@ -177,7 +199,7 @@ const CreatorAcceleratorProgram = () => {
             />
             <FeatureCard
               reverse
-              src="/images/cap-slot.png"
+              src="/images/cap-25.png"
               title="Slot Terbatas"
               description="Sayangnya, program ini tidak untuk semua orang. Slot kami sangat terbatas hanya untuk 25 ORANG saja. Untuk itu, setiap kamu yang mau bergabung didalam program ini, akan melewati proses seleksi. Kami memilih orang-orang yang punya tekad yang kuat, pekerja keras, dan tidak gampang menyerah."
             />
@@ -275,6 +297,90 @@ const CreatorAcceleratorProgram = () => {
         />
       </Container>
 
+      {/*Instructors */}
+      <Container bgColor="bg-gradient-to-r from-neutral-800 via-neutral-600 to-neutral-500 text-white text-white">
+        <Text text={"Meet Your Instructors"} title bold />
+
+        <FeatureCard
+          reverse
+          src="/images/cap-instruktur-1.png"
+          title="Samuel Christ"
+          description={
+            <ul className="list-disc flex flex-col gap-3">
+              <li>
+                <Text
+                  text="Sudah memiliki pengalaman 6 tahun sebagai konten kreator, dan pernah Trending #1 di YouTube."
+                  paragraph
+                />
+              </li>
+              <li>
+                <Text
+                  text="Memiliki total 5+ juta followers di YouTube, Instagram, dan TikTok."
+                  paragraph
+                />
+              </li>
+              <li>
+                <Text
+                  text="Konten mencapai 150M+ views per bulannya."
+                  paragraph
+                />
+              </li>
+              <li>
+                <Text
+                  text="Pemenang TikTok Award The Most Favorite Education Creator 2022 1st Half."
+                  paragraph
+                />
+              </li>
+              <li>
+                <Text
+                  text="Co-founder dari Seefluencer, Indonesia’s #1 Live Online Learning For Creators."
+                  paragraph
+                />
+              </li>
+              <li>
+                <Text
+                  text="Samuel Christ akan mengajar sebagai instruktur utama di Seefluencer University"
+                  paragraph
+                />
+              </li>
+            </ul>
+          }
+        />
+
+        <FeatureCard
+          src="/images/cap-instruktur-2.png"
+          title="Anjas Maradita"
+          description={
+            <ul className="list-disc flex flex-col gap-3">
+              <li>
+                <Text
+                  text="Founder dari Daunnet Films, sebuah production house yang sudah bekerja sama dengan brand-brand besar."
+                  paragraph
+                />
+              </li>
+              <li>
+                <Text
+                  text="Founder dari Daunnet Media, media pembelajaran video editing, yang memiliki hampir 700K subscribers di YouTube."
+                  paragraph
+                />
+              </li>
+              <li>
+                <Text
+                  text="Co-Founder dari Neuron, media edukasi seputar fakta, berita, dan apapun yang berkaitan dengan dunia kesehatan, yang memiliki 1M+ subscribers di YouTube."
+                  paragraph
+                />
+              </li>
+              <li>
+                <Text
+                  text="Anjas Maradita akan mengajar sebagai instruktur CapCut di Seefluencer University."
+                  paragraph
+                />
+              </li>
+            </ul>
+          }
+        />
+      </Container>
+
       {/* Curriculum */}
       <Container>
         <Text
@@ -286,17 +392,17 @@ const CreatorAcceleratorProgram = () => {
         <div className="flex flex-wrap gap-5">
           <div className="flex flex-row gap-2 items-center">
             <BsCalendar className="text-gray-400 text-xl" />
-            <Text text="3 Bulan" />
+            <Text text="3 Bulan" paragraph />
           </div>
 
           <div className="flex flex-row gap-2 items-center">
             <BsLaptop className="text-gray-400 text-xl" />
-            <Text text="1-2 Live Session Per Minggu" />
+            <Text text="1-2 Live Session Per Minggu" paragraph />
           </div>
 
           <div className="flex flex-row gap-2 items-center">
             <BsStopwatch className="text-gray-400 text-xl" />
-            <Text text="Komitmen 6-8 Jam Per Minggu" />
+            <Text text="Komitmen 6-8 Jam Per Minggu" paragraph />
           </div>
         </div>
 
@@ -335,12 +441,34 @@ const CreatorAcceleratorProgram = () => {
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text text="Pelajari proses pembuatan konten yang viral dari awal hingga akhir." />
+                    <Text
+                      paragraph
+                      text="Dibimbing hingga bisa menghasilkan minimal 50 konten yang diupload."
+                    />
                   </div>
 
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text text="Maksimalkan pemebelajaranmu dengan menghadiri semua sesi dan menjadi aktif di live class." />
+                    <Text
+                      paragraph
+                      text="12 kali sesi 1-on-1 coaching selama kelas berlangsung, 1 minggu 1 kali."
+                    />
+                  </div>
+
+                  <div className="flex flex-row gap-3">
+                    <div className="text-blue-400 text-xl font-bold">✓</div>
+                    <Text
+                      paragraph
+                      text="Belajar semua yang kamu butuhkan untuk menjadi konten kreator dari A sampai Z."
+                    />
+                  </div>
+
+                  <div className="flex flex-row gap-3">
+                    <div className="text-blue-400 text-xl font-bold">✓</div>
+                    <Text
+                      paragraph
+                      text="Bangun karir baru atau kembangkan bisnismu melalui content creation."
+                    />
                   </div>
                 </div>
               }
@@ -374,17 +502,26 @@ const CreatorAcceleratorProgram = () => {
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text text="Kamu hanya perlu menyimpan Rp56.000/hari selama 3 bulan untuk bisa mengikuti kelas intensif ini." />
+                    <Text
+                      paragraph
+                      text="Kamu hanya perlu menyimpan Rp56.000/hari selama 3 bulan untuk bisa mengikuti kelas intensif ini."
+                    />
                   </div>
 
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text text="Perlu diingat, ini bukan Kelas Online biasa, yang mana Kamu hanya menonton video dan belajar mandiri. Semua kelas & coaching berlangsung secara live." />
+                    <Text
+                      paragraph
+                      text="Perlu diingat, ini bukan Kelas Online biasa, yang mana Kamu hanya menonton video dan belajar mandiri. Semua kelas & coaching berlangsung secara live."
+                    />
                   </div>
 
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text text="Seefluencer University adalah Kelas Intensif yang akan memberikan tugas PR, dan membantu Kamu secara personal, sehingga konten & personal branding-mu bisa jauh lebih efektif." />
+                    <Text
+                      paragraph
+                      text="Seefluencer University adalah Kelas Intensif yang akan memberikan tugas PR, dan membantu Kamu secara personal, sehingga konten & personal branding-mu bisa jauh lebih efektif."
+                    />
                   </div>
                 </div>
               </>

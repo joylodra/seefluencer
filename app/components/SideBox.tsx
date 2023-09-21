@@ -21,6 +21,10 @@ const SideBox = ({
     <div className="md:sticky top-24 border border-blue-200 shadow-sm h-fit rounded-sm w-full flex flex-col">
       <div className="p-3">{content}</div>
 
+      <div className="p-3">
+        <hr />
+      </div>
+
       <div className="flex flex-col gap-2 p-3">
         <Button
           full

@@ -68,6 +68,18 @@ export const kolBenefits = [
 
 export const capFAQ = [
   {
+    question:
+      "Apakah kelas ini cocok untuk pengembangan sosial media bisnis juga?",
+    answer:
+      "Sangat cocok. Tentunya, banyak sekali pemebelajaran yang bisa diambil dari sini dan langsung diaplikasikan ke sosial media bisnis kamu!",
+  },
+  {
+    question:
+      "Apakah kelas ini cocok untuk karyawan professional yang bergerak di bidang sosial media?",
+    answer:
+      "Tentu sangat-sangat cocok! Kamu bisa mengaplikasikan banyak hal untuk pengembangan sosial media di perusahaan tempat kamu kerja. Tentunya, kamu bisa coba ajukan untuk dibayarkan oleh perusahaan untuk mengikuti training ini.",
+  },
+  {
     question: "Bagaimana biar bisa dapat uang kembali 100%?",
     answer:
       "Kami memberikan hadiah uang kembali 100% kepada siapapun yang bisa mencapai 100 ribu followers selama program 3 bulan ini.",

@@ -113,6 +113,7 @@ const Coaching = () => {
             <Text
               text="Kamu bisa tanyakan pertanyaan apapun seputar konten kreator kepada expertnya, Samuel Christ."
               secondaryColor
+              paragraph
             />
           </div>
 
@@ -174,7 +175,7 @@ const Coaching = () => {
               />
 
               <div className="flex flex-col text-left">
-                <Text text="Joy Lodra" bold />
+                <Text paragraph text="Joy Lodra" bold />
                 <Text text="Surabaya" small />
               </div>
             </div>
@@ -206,11 +207,17 @@ const Coaching = () => {
                 <>
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text text="Konsultasi 1-on-1 bersama expertnya, Samuel Christ, selama 45 menit." />
+                    <Text
+                      paragraph
+                      text="Konsultasi 1-on-1 bersama expertnya, Samuel Christ, selama 45 menit."
+                    />
                   </div>
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text text="Boleh bertanya pertanyaan apapun seputar dunia konten kreator." />
+                    <Text
+                      paragraph
+                      text="Boleh bertanya pertanyaan apapun seputar dunia konten kreator."
+                    />
                   </div>
                 </>
               }

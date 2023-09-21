@@ -14,6 +14,7 @@ interface AccordionProps {
   answer?: string;
   customAnswer?: React.ReactNode;
   number?: string;
+  initial?: boolean;
 }
 
 const Accordion = ({
@@ -21,8 +22,9 @@ const Accordion = ({
   answer,
   customAnswer,
   number,
+  initial = true,
 }: AccordionProps) => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(initial);
 
   const toggleOpen = useCallback(() => {
     setIsOpen((value) => !value);
@@ -46,7 +48,7 @@ const Accordion = ({
 
       {isOpen && answer && (
         <div className={`${number ? "px-8 py-2" : "py-2"}`}>
-          <Text text={answer} />
+          <Text text={answer} paragraph />
         </div>
       )}
       {isOpen && customAnswer && <p>{customAnswer}</p>}

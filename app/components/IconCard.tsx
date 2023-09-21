@@ -17,7 +17,7 @@ const IconCard = ({ icon, iconColor, title, description }: IconCardProps) => {
 
       <div className="flex flex-col gap-2">
         <Text text={title} bold heading />
-        <Text text={description} secondaryColor />
+        <Text text={description} secondaryColor paragraph />
       </div>
     </div>
   );
