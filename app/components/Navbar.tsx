@@ -65,7 +65,9 @@ const Navbar = ({ landingNav, logo, button }: NavbarProps) => {
   return (
     <>
       {landingNav ? (
-        <div className={`sticky top-0 z-50 bg-gray-50 ${!top && `shadow-sm`}`}>
+        <div
+          className={`sticky top-0 z-50 bg-neutral-50 ${!top && `shadow-sm`}`}
+        >
           <div className="mx-auto max-w-5xl p-5 flex flex-row justify-between items-center gap-2">
             {logo}
             {button}
@@ -88,7 +90,7 @@ const Navbar = ({ landingNav, logo, button }: NavbarProps) => {
 
           <div className="hidden md:flex flex-row items-center gap-1">
             <div className="group inline-block relative">
-              <div className="py-2 px-4 group-hover:bg-gray-100 rounded inline-flex items-center gap-1 cursor-pointer">
+              <div className="py-2 px-4 group-hover:bg-neutral-100 rounded inline-flex items-center gap-1 cursor-pointer">
                 <span>Seefluencer University</span>
                 <div className="group-hover:hidden block">
                   <BiChevronDown size={20} />
@@ -125,8 +127,8 @@ const Navbar = ({ landingNav, logo, button }: NavbarProps) => {
               <Link
                 key={item.href}
                 href={`${item.href}`}
-                className={`hover:bg-gray-100 py-2 px-4 rounded-sm ${
-                  pathname === item.href ? "bg-gray-100" : ""
+                className={`hover:bg-neutral-100 py-2 px-4 rounded-sm ${
+                  pathname === item.href ? "bg-neutral-100" : ""
                 }`}
               >
                 {item.title}
@@ -144,7 +146,7 @@ const Navbar = ({ landingNav, logo, button }: NavbarProps) => {
           {isMenuOpen && (
             <div
               ref={menuRef}
-              className="md:hidden absolute rounded-sm shadow-sm w-3/4 bg-white right-0 top-[88px] overflow-hidden"
+              className="md:hidden absolute rounded shadow-lg w-3/4 bg-white right-0 top-[88px] overflow-hidden"
             >
               <div className="flex flex-col gap-3">
                 <div>

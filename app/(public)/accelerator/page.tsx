@@ -276,6 +276,90 @@ const CreatorAcceleratorProgram = () => {
         />
       </Container>
 
+      {/*Instructors */}
+      <Container bgColor="bg-gradient-to-r from-neutral-800 via-neutral-600 to-neutral-500 text-white text-white">
+        <Text text={"Meet Your Instructors"} title bold />
+
+        <FeatureCard
+          reverse
+          src="/images/cap-instruktur-1.png"
+          title="Samuel Christ"
+          description={
+            <ul className="list-disc flex flex-col gap-3">
+              <li>
+                <Text
+                  text="Sudah memiliki pengalaman 6 tahun sebagai konten kreator, dan pernah Trending #1 di YouTube."
+                  paragraph
+                />
+              </li>
+              <li>
+                <Text
+                  text="Memiliki total 5+ juta followers di YouTube, Instagram, dan TikTok."
+                  paragraph
+                />
+              </li>
+              <li>
+                <Text
+                  text="Konten mencapai 150M+ views per bulannya."
+                  paragraph
+                />
+              </li>
+              <li>
+                <Text
+                  text="Pemenang TikTok Award The Most Favorite Education Creator 2022 1st Half."
+                  paragraph
+                />
+              </li>
+              <li>
+                <Text
+                  text="Co-founder dari Seefluencer, Indonesia’s #1 Live Online Learning For Creators."
+                  paragraph
+                />
+              </li>
+              <li>
+                <Text
+                  text="Samuel Christ akan mengajar sebagai instruktur utama di Seefluencer University"
+                  paragraph
+                />
+              </li>
+            </ul>
+          }
+        />
+
+        <FeatureCard
+          src="/images/cap-instruktur-2.png"
+          title="Anjas Maradita"
+          description={
+            <ul className="list-disc flex flex-col gap-3">
+              <li>
+                <Text
+                  text="Founder dari Daunnet Films, sebuah production house yang sudah bekerja sama dengan brand-brand besar."
+                  paragraph
+                />
+              </li>
+              <li>
+                <Text
+                  text="Founder dari Daunnet Media, media pembelajaran video editing, yang memiliki hampir 700K subscribers di YouTube."
+                  paragraph
+                />
+              </li>
+              <li>
+                <Text
+                  text="Co-Founder dari Neuron, media edukasi seputar fakta, berita, dan apapun yang berkaitan dengan dunia kesehatan, yang memiliki 1M+ subscribers di YouTube."
+                  paragraph
+                />
+              </li>
+              <li>
+                <Text
+                  text="Anjas Maradita akan mengajar sebagai instruktur CapCut di Seefluencer University."
+                  paragraph
+                />
+              </li>
+            </ul>
+          }
+        />
+      </Container>
+
       {/* Curriculum */}
       <Container>
         <Text
