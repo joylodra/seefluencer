@@ -101,7 +101,7 @@ const CreatorAcceleratorProgram = () => {
             <iframe
               allow="fullscreen;"
               src="https://www.youtube.com/embed/bfQrBQAk1Ks"
-              className="aspect-video w-full"
+              className="aspect-video w-full rounded-lg"
             />
 
             <Text

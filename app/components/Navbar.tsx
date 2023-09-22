@@ -21,7 +21,7 @@ interface NavbarProps {
 
 export const menu = [
   { title: "1-On-1 Coaching", href: "/coaching" },
-  { title: "KOL Management", href: "/kol" },
+  { title: "KOL Agency", href: "/kol" },
 ];
 
 const Navbar = ({ landingNav, logo, button }: NavbarProps) => {

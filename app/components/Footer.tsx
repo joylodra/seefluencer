@@ -65,7 +65,7 @@ const Footer = ({ complete }: FooterProps) => {
               </Link>
 
               <Link href="/kol" className="text-sm hover:underline">
-                KOL Management
+                KOL Agency
               </Link>
             </div>
 

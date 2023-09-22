@@ -17,7 +17,7 @@ export default function Home() {
         <iframe
           allow="fullscreen;"
           src="https://www.youtube.com/embed/M5PLJeb2Oz0"
-          className="aspect-video w-full"
+          className="aspect-video w-full rounded-lg"
         />
       </Container>
 
