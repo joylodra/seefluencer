@@ -121,7 +121,7 @@ const CreatorAcceleratorProgram = () => {
           <div className="md:col-span-3 flex flex-col gap-8">
             <iframe
               allow="fullscreen;"
-              src="https://www.youtube.com/embed/bfQrBQAk1Ks"
+              src="https://www.youtube.com/embed/gvDIcRJek3o"
               className="aspect-video w-full rounded-lg"
             />
 

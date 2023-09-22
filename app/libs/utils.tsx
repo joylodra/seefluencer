@@ -71,13 +71,13 @@ export const capFAQ = [
     question:
       "Apakah kelas ini cocok untuk pengembangan sosial media bisnis juga?",
     answer:
-      "Sangat cocok. Tentunya, banyak sekali pemebelajaran yang bisa diambil dari sini dan langsung diaplikasikan ke sosial media bisnis kamu!",
+      "Sangat cocok. Banyak sekali pembelajaran yang bisa diambil dari sini dan langsung diaplikasikan ke sosial media bisnis kamu!",
   },
   {
     question:
       "Apakah kelas ini cocok untuk karyawan professional yang bergerak di bidang sosial media?",
     answer:
-      "Tentu sangat-sangat cocok! Kamu bisa mengaplikasikan banyak hal untuk pengembangan sosial media di perusahaan tempat kamu kerja. Tentunya, kamu bisa coba ajukan untuk dibayarkan oleh perusahaan untuk mengikuti training ini.",
+      "Tentu sangat-sangat cocok! Kamu bisa mengaplikasikan banyak hal untuk pengembangan sosial media di perusahaan tempat kamu kerja. Kamu pun bisa coba ajukan untuk dibayarkan oleh perusahaan untuk mengikuti training ini.",
   },
   {
     question: "Bagaimana biar bisa dapat uang kembali 100%?",
@@ -93,7 +93,7 @@ export const capFAQ = [
     question:
       "Apakah Creator Accelerator Program online, in-person, atau kelas yang sudah direkam?",
     answer:
-      "Creator Accelerator Program tentunya adalah program 3 bulan yang dilakukan secara live dan online melalui platform Zoom.",
+      "Creator Accelerator Program adalah program 3 bulan yang dilakukan secara live dan online melalui platform Zoom.",
   },
   {
     question: "Dalam satu kelas, isinya berapa orang sih?",
@@ -107,7 +107,7 @@ export const capFAQ = [
   {
     question: "Gimana kalo aku sibuk dan tidak bisa hadir ke kelas?",
     answer:
-      "Tentunya, kamu perlu komitmen ketika sudah memutuskan untuk join program ini. Jika kamu tidak hadir kelas, maka bisa menurunkan nilai rapor dan berkesempatan untuk hilang garansi konsultasi 1-on-1 seumur hidup hingga followers 10K. Namun, semua kelas tentunya akan direkam, jadi kamu bisa ulang kembali di recordingnya.",
+      "Tentunya, kamu perlu komitmen ketika sudah memutuskan untuk join program ini. Jika kamu tidak hadir kelas, maka bisa menurunkan nilai rapor dan berkesempatan untuk hilang garansi konsultasi 1-on-1 seumur hidup hingga followers 10K. Namun, semua kelas akan direkam, jadi kamu bisa ulang kembali di recordingnya.",
   },
   {
     question:
@@ -119,6 +119,6 @@ export const capFAQ = [
     question:
       "Apakah perlu peralatan-peralatan yang mahal untuk join kelas ini?",
     answer:
-      "Tentnya tidak perlu peralatan yang mahal! Cukup dengan handphone kamu sudah bisa menjadi seorang konten kreator.",
+      "Tidak perlu peralatan yang mahal! Cukup dengan handphone kamu sudah bisa menjadi seorang konten kreator.",
   },
 ];
