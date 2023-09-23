@@ -471,7 +471,7 @@ const CreatorAcceleratorProgram = () => {
 
         <div className="flex justify-center items-center">
           <CtaBox
-            priceBefore="Rp7.499.000"
+            priceBefore="Rp10.500.000"
             priceAfter="Rp4.999.000"
             ctaButtonText="join now"
             ctaButtonHref="https://wa.wizard.id/65ce35"
