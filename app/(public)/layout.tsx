@@ -12,18 +12,17 @@ import "../globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "seefluencer",
-    template: "%s | seefluencer",
+    default: "Seefluencer",
+    template: "%s | Seefluencer",
   },
   keywords: [
-    "seefluencer",
+    "Seefluencer",
     "social media",
     "influencer marketing platform",
-    "brand sponsorship",
-    "business",
+    "content creator",
+    "live online learning",
   ],
-  description:
-    "Seefluencer is an influencer marketing platform that helps brands connect with the right influencers to promote their products or services. Our platform provides a transparent view of the impact of your brand through the influencers you work with. Our goal is to help brands increase their visibility and reach through the power of influencer marketing. With Seefluencer, you can see the impact of your brand through our carefully selected network of influencers.",
+  description: "Indonesia’s #1 Live Online Learning For Creators 💙",
   icons: {
     shortcut: "/favicon.ico",
   },

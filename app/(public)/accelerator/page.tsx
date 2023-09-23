@@ -27,7 +27,7 @@ import { ImSad } from "react-icons/im";
 export const metadata = {
   title: "12-Week Creator Accelerator Program",
   keywords: ["kelas konten kreator", "kelas intensif", "bootcamp", "community"],
-  description: "See the difference influencers can make with seefluencer 💙",
+  description: "Indonesia’s #1 Live Online Learning For Creators 💙",
 };
 
 const CreatorAcceleratorProgram = () => {

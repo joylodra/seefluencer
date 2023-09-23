@@ -15,6 +15,17 @@ import CtaBox from "@/app/components/CtaBox";
 import { ImSad } from "react-icons/im";
 import { BsQuote } from "react-icons/bs";
 
+export const metadata = {
+  title: "1-On-1 Coaching With Experts",
+  keywords: [
+    "konsultasi",
+    "konten kreator",
+    "media sosial",
+    "influencer marketing",
+  ],
+  description: "Indonesia’s #1 Live Online Learning For Creators 💙",
+};
+
 const Coaching = () => {
   return (
     <div className="flex flex-col">

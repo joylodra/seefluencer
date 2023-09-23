@@ -17,6 +17,17 @@ import SideBox from "@/app/components/SideBox";
 import { ImSad } from "react-icons/im";
 import { BsClock, BsCalendar } from "react-icons/bs";
 
+export const metadata = {
+  title: "3-Day Intensive Mini Creator Class",
+  keywords: [
+    "konsultasi",
+    "konten kreator",
+    "media sosial",
+    "influencer marketing",
+  ],
+  description: "Indonesia’s #1 Live Online Learning For Creators 💙",
+};
+
 const MiniClass = () => {
   return (
     <div className="flex flex-col">

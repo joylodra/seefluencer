@@ -35,7 +35,7 @@ const Footer = ({ complete }: FooterProps) => {
               </Link>
 
               <p className="text-sm">
-                see the difference influencers can make with seefluencer 💙
+                Indonesia’s #1 Live Online Learning For Creators 💙
               </p>
             </div>
 

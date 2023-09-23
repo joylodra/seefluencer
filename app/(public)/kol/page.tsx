@@ -17,7 +17,7 @@ export const metadata = {
     "digital marketing",
     "influencer marketing",
   ],
-  description: "See the difference influencers can make with seefluencer 💙",
+  description: "Indonesia’s #1 Live Online Learning For Creators 💙",
 };
 
 const Influencers = () => {

@@ -26,6 +26,12 @@ import {
 } from "react-icons/bs";
 import { ImSad } from "react-icons/im";
 
+export const metadata = {
+  title: "12-Week Creator Accelerator Program",
+  keywords: ["kelas konten kreator", "kelas intensif", "bootcamp", "community"],
+  description: "Indonesia’s #1 Live Online Learning For Creators 💙",
+};
+
 const CreatorAcceleratorProgram = () => {
   return (
     <div className="flex flex-col">

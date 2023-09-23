@@ -10,7 +10,7 @@ export const metadata = {
     "influencer marketing platform",
     "community",
   ],
-  description: "see the difference influencers can make with seefluencer 💙",
+  description: "Indonesia’s #1 Live Online Learning For Creators 💙",
 };
 
 const PrivacyPolicy = () => {
