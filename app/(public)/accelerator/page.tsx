@@ -38,7 +38,7 @@ const CreatorAcceleratorProgram = () => {
         <Hero
           title="Dapatkan 10.000 FOLLOWERS Pertamamu & Hasilkan CUAN Dalam 3 Bulan Dengan Creator Accelerator Program Kami!"
           description="Garansi bimbingan 1-on-1 SELAMANYA hingga mencapai 10K followers. Jaminan UANG KEMBALI 100% jika mencapai target."
-          buttonHref="https://wa.wizard.id/65ce35"
+          buttonHref="https://forms.gle/uPWwB6YCHSZT76Dv7"
           buttonText="join now"
           additionalNotes="Batch selanjutnya dimulai 9 Oktober 2023"
           external
@@ -92,7 +92,7 @@ const CreatorAcceleratorProgram = () => {
                   </div>
                 </div>
               }
-              ctaButtonHref="https://wa.wizard.id/65ce35"
+              ctaButtonHref="https://forms.gle/uPWwB6YCHSZT76Dv7"
               ctaButtonText="join now"
             />
           </div>
@@ -243,7 +243,7 @@ const CreatorAcceleratorProgram = () => {
           description="Kelas intensif buat Kamu yang mau mendapatkan bimbingan selama 3 bulan & jadi content creator berpenghasilan."
           src="/images/cap-cap.png"
           buttonText="join now"
-          href="https://wa.wizard.id/65ce35"
+          href="https://forms.gle/uPWwB6YCHSZT76Dv7"
           external
         />
       </Container>
@@ -451,7 +451,7 @@ const CreatorAcceleratorProgram = () => {
                   </div>
                 </div>
               }
-              ctaButtonHref="https://wa.wizard.id/65ce35"
+              ctaButtonHref="https://forms.gle/uPWwB6YCHSZT76Dv7"
               ctaButtonText="join now"
             />
           </div>
@@ -474,7 +474,7 @@ const CreatorAcceleratorProgram = () => {
             priceBefore="Rp10.500.000"
             priceAfter="Rp4.999.000"
             ctaButtonText="join now"
-            ctaButtonHref="https://wa.wizard.id/65ce35"
+            ctaButtonHref="https://forms.gle/uPWwB6YCHSZT76Dv7"
             additionalNotes="*Ini adalah harga pre-order dan hanya kita buka untuk 25 orang saja."
             benefits={
               <>
@@ -514,7 +514,7 @@ const CreatorAcceleratorProgram = () => {
           external
           src="/images/cap-merch-2.png"
           buttonText="join now"
-          href="https://wa.wizard.id/65ce35"
+          href="https://forms.gle/uPWwB6YCHSZT76Dv7"
           title="Dapatkan Juga Merchandise Eksklusif untuk 20 Orang Pertama."
           description="Kamu akan dikirimkan langsung merchandise baju, lanyard, kartu, & topi. Ini khusus berlaku untuk 25 orang yang lolos ke dalam Creator Accelerator Program ini."
         />
