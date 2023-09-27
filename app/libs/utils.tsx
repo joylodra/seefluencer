@@ -80,6 +80,12 @@ export const capFAQ = [
       "Tentu sangat-sangat cocok! Kamu bisa mengaplikasikan banyak hal untuk pengembangan sosial media di perusahaan tempat kamu kerja. Kamu pun bisa coba ajukan untuk dibayarkan oleh perusahaan untuk mengikuti training ini.",
   },
   {
+    question:
+      "Gimana kalau followers saya sudah di atas 10K? Apakah masih bisa mengikuti program ini?",
+    answer:
+      "Materi kami tentunya bisa diimplementasikan untuk semua level kamu, dan ada sesi 1-on-1 yang bisa bantu kamu scale up level konten kamu!",
+  },
+  {
     question: "Bagaimana biar bisa dapat uang kembali 100%?",
     answer:
       "Kami memberikan hadiah uang kembali 100% kepada siapapun yang bisa mencapai 100 ribu followers selama program 3 bulan ini.",
