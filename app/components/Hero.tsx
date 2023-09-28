@@ -36,7 +36,7 @@ const Hero = ({
         <div className="grid grid-cols-1 md:grid-cols-3 md:gap-8 items-center">
           <div className="col-span-2 flex flex-col gap-5">
             <Text text={title} title bold />
-            {description && <Text text={description} secondaryColor heading />}
+            {description && <Text text={description} heading />}
             <div className="flex flex-col gap-2 w-full">
               {buttonText && buttonHref && (
                 <Button
@@ -67,7 +67,7 @@ const Hero = ({
       ) : (
         <div className="flex flex-col gap-5 items-center justify-center text-center">
           <Text text={title} title bold />
-          {description && <Text text={description} secondaryColor heading />}
+          {description && <Text text={description} heading />}
 
           <div className="flex flex-col justify-center text-center items-center gap-2 w-full">
             {buttonText && buttonHref && (
