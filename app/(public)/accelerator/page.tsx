@@ -40,7 +40,7 @@ const CreatorAcceleratorProgram = () => {
           description="Garansi bimbingan 1-on-1 SELAMANYA hingga mencapai 10K followers. Jaminan UANG KEMBALI 100% jika mencapai target."
           buttonHref="https://forms.gle/uPWwB6YCHSZT76Dv7"
           buttonText="join now"
-          additionalNotes="Batch selanjutnya dimulai 9 Oktober 2023"
+          additionalNotes="Slot untuk batch #1 sudah terisi PENUH. Tunggu kami di batch-batch selanjutnya! 🛑"
           external
         />
       </Container>

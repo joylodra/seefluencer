@@ -1,6 +1,3 @@
-// React & Next Components
-import Image from "next/image";
-
 // Custom Components
 import Hero from "@/app/components/Hero";
 import Navbar from "@/app/components/Navbar";
@@ -18,7 +15,7 @@ import { ImSad } from "react-icons/im";
 import { BsClock, BsCalendar } from "react-icons/bs";
 
 export const metadata = {
-  title: "3-Day Intensive Mini Creator Class",
+  title: "3-Day Introduction to Content Creation",
   keywords: [
     "konsultasi",
     "konten kreator",
@@ -28,7 +25,7 @@ export const metadata = {
   description: "Indonesia’s #1 Live Online Learning For Creators 💙",
 };
 
-const MiniClass = () => {
+const IntroductionClass = () => {
   return (
     <div className="flex flex-col">
       {/* Navigation Bar */}
@@ -59,7 +56,7 @@ const MiniClass = () => {
       {/* Hero Section */}
       <Container>
         <Hero
-          title="3-Day Intensive Mini Creator Class"
+          title="3-Day Introduction to Content Creation"
           description={
             <div className="flex flex-col gap-5">
               <div>
@@ -69,11 +66,11 @@ const MiniClass = () => {
               </div>
 
               <div className="text-base flex flex-col gap-3">
-                <div className="text-xl font-bold text-black">Batch #1</div>
+                <div className="text-xl font-bold text-black">Batch #2</div>
 
                 <div>
-                  <div className="text-black">🗓 25-27 September 2023</div>
-                  <div className="text-black">⏰ 19:00 WIB - 21:00 WIB</div>
+                  <div className="text-black">🗓 To Be Determined (TBD)</div>
+                  <div className="text-black">⏰ To Be Determined (TBD)</div>
                 </div>
               </div>
             </div>
@@ -133,7 +130,7 @@ const MiniClass = () => {
       {/* Introduction */}
       <Container>
         <FeatureCard
-          title="Memperkenalkan, 3-day intensive mini creator class yang dirancang oleh Seefluencer University"
+          title="Memperkenalkan, 3-Day Introduction to Content Creation yang dirancang oleh Seefluencer University"
           description="Kelas intensif buat Kamu yang mau belajar selama 3 hari bagaimana caranya bikin konten yang bisa viral."
           src="/images/imcc-imcc.png"
           buttonText="join now"
@@ -305,4 +302,4 @@ const MiniClass = () => {
   );
 };
 
-export default MiniClass;
+export default IntroductionClass;
