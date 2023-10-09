@@ -37,10 +37,31 @@ const CreatorAcceleratorProgram = () => {
       <Container>
         <Hero
           title="Dapatkan 10.000 FOLLOWERS Pertamamu & Hasilkan CUAN Dalam 3 Bulan Dengan Creator Accelerator Program Kami!"
-          description="Garansi bimbingan 1-on-1 SELAMANYA hingga mencapai 10K followers. Jaminan UANG KEMBALI 100% jika mencapai target."
-          buttonHref="https://forms.gle/uPWwB6YCHSZT76Dv7"
-          buttonText="join now"
-          additionalNotes="Slot untuk batch #1 sudah terisi PENUH. Tunggu kami di batch-batch selanjutnya! 🛑"
+          description={
+            <div className="flex flex-col gap-5 items-center">
+              <div>
+                Garansi bimbingan 1-on-1 SELAMANYA hingga mencapai 10K
+                followers. Jaminan UANG KEMBALI 100% jika mencapai target.
+              </div>
+
+              <div className="text-base flex flex-row gap-5 py-2 px-4 rounded-lg border-blue-400 border w-fit bg-blue-50">
+                <div className="text-right">
+                  <div className="font-bold">Batch #1</div>
+                  <div className="">FULL SLOT 🛑</div>
+                </div>
+
+                <div className="border-r border-blue-400 border-2" />
+
+                <div className="text-left">
+                  <div className="">Next Batch Starts on</div>
+                  <div className="font-bold">Jan 2024 🗓</div>
+                </div>
+              </div>
+            </div>
+          }
+          buttonHref="https://forms.gle/SeZZTdw45YnBUbcg8"
+          buttonText="apply now"
+          additionalNotes="Program selanjutnya akan dimulai di bulan Januari 2024"
           external
         />
       </Container>
@@ -92,8 +113,8 @@ const CreatorAcceleratorProgram = () => {
                   </div>
                 </div>
               }
-              ctaButtonHref="https://forms.gle/uPWwB6YCHSZT76Dv7"
-              ctaButtonText="join now"
+              ctaButtonHref="https://forms.gle/SeZZTdw45YnBUbcg8"
+              ctaButtonText="apply now"
             />
           </div>
 
@@ -242,8 +263,8 @@ const CreatorAcceleratorProgram = () => {
           title="Memperkenalkan, 12-Week Creator Accelerator Program yang dirancang oleh Seefluencer University"
           description="Kelas intensif buat Kamu yang mau mendapatkan bimbingan selama 3 bulan & jadi content creator berpenghasilan."
           src="/images/cap-cap.png"
-          buttonText="join now"
-          href="https://forms.gle/uPWwB6YCHSZT76Dv7"
+          buttonText="apply now"
+          href="https://forms.gle/SeZZTdw45YnBUbcg8"
           external
         />
       </Container>
@@ -451,8 +472,8 @@ const CreatorAcceleratorProgram = () => {
                   </div>
                 </div>
               }
-              ctaButtonHref="https://forms.gle/uPWwB6YCHSZT76Dv7"
-              ctaButtonText="join now"
+              ctaButtonHref="https://forms.gle/SeZZTdw45YnBUbcg8"
+              ctaButtonText="apply now"
             />
           </div>
         </div>
@@ -473,8 +494,8 @@ const CreatorAcceleratorProgram = () => {
           <CtaBox
             priceBefore="Rp10.500.000"
             priceAfter="Rp4.999.000"
-            ctaButtonText="join now"
-            ctaButtonHref="https://forms.gle/uPWwB6YCHSZT76Dv7"
+            ctaButtonText="apply now"
+            ctaButtonHref="https://forms.gle/SeZZTdw45YnBUbcg8"
             additionalNotes="*Ini adalah harga pre-order dan hanya kita buka untuk 25 orang saja."
             benefits={
               <>
@@ -513,8 +534,8 @@ const CreatorAcceleratorProgram = () => {
         <FeatureCard
           external
           src="/images/cap-merch-2.png"
-          buttonText="join now"
-          href="https://forms.gle/uPWwB6YCHSZT76Dv7"
+          buttonText="apply now"
+          href="https://forms.gle/SeZZTdw45YnBUbcg8"
           title="Dapatkan Juga Merchandise Eksklusif untuk 20 Orang Pertama."
           description="Kamu akan dikirimkan langsung merchandise baju, lanyard, kartu, & topi. Ini khusus berlaku untuk 25 orang yang lolos ke dalam Creator Accelerator Program ini."
         />
