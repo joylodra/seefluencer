@@ -179,7 +179,7 @@ const CreatorAcceleratorProgram = () => {
               <IconCardReverse
                 iconColor="text-blue-400"
                 icon={<BsClock />}
-                title="9 Oktober 2023"
+                title="Januari 2024"
                 description="Tanggal Mulai"
               />
 
