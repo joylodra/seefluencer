@@ -160,7 +160,7 @@ const CreatorAcceleratorProgram = () => {
                   </div>
                 </div>
               }
-              ctaButtonHref="https://forms.gle/v7dwhSmiQDXXpiVk9"
+              ctaButtonHref="https://forms.gle/SeZZTdw45YnBUbcg8"
               ctaButtonText="apply now"
             />
           </div>
@@ -213,7 +213,7 @@ const CreatorAcceleratorProgram = () => {
               <IconCardReverse
                 iconColor="text-blue-400"
                 icon={<BsPersonBadge />}
-                title="25 Murid"
+                title="50 Murid"
                 description="Slot Kelas"
               />
 
@@ -246,9 +246,9 @@ const CreatorAcceleratorProgram = () => {
             />
             <FeatureCard
               reverse
-              src="/images/cap-25.png"
+              src="/images/cap-50.png"
               title="Slot Terbatas"
-              description="Sayangnya, program ini tidak untuk semua orang. Slot kami sangat terbatas hanya untuk 25 ORANG saja. Untuk itu, setiap kamu yang mau bergabung didalam program ini, akan melewati proses seleksi. Kami memilih orang-orang yang punya tekad yang kuat, pekerja keras, dan tidak gampang menyerah."
+              description="Sayangnya, program ini tidak untuk semua orang. Slot kami sangat terbatas hanya untuk 50 ORANG saja. Untuk itu, setiap kamu yang mau bergabung didalam program ini, akan melewati proses seleksi. Kami memilih orang-orang yang punya tekad yang kuat, pekerja keras, dan tidak gampang menyerah."
             />
             <FeatureCard
               reverse
@@ -311,7 +311,7 @@ const CreatorAcceleratorProgram = () => {
           description="Kelas intensif buat Kamu yang mau mendapatkan bimbingan selama 3 bulan & jadi content creator berpenghasilan."
           src="/images/cap-cap.png"
           buttonText="apply now"
-          href="https://forms.gle/v7dwhSmiQDXXpiVk9"
+          href="https://forms.gle/SeZZTdw45YnBUbcg8"
           external
         />
       </Container>
@@ -519,7 +519,7 @@ const CreatorAcceleratorProgram = () => {
                   </div>
                 </div>
               }
-              ctaButtonHref="https://forms.gle/v7dwhSmiQDXXpiVk9"
+              ctaButtonHref="https://forms.gle/SeZZTdw45YnBUbcg8"
               ctaButtonText="apply now"
             />
           </div>
@@ -542,8 +542,8 @@ const CreatorAcceleratorProgram = () => {
             priceBefore="Rp10.500.000"
             priceAfter="Rp4.999.000"
             ctaButtonText="apply now"
-            ctaButtonHref="https://forms.gle/v7dwhSmiQDXXpiVk9"
-            additionalNotes="*Ini adalah harga pre-order dan hanya kita buka untuk 25 orang saja."
+            ctaButtonHref="https://forms.gle/SeZZTdw45YnBUbcg8"
+            additionalNotes="*Ini adalah harga pre-order dan hanya kita buka untuk 50 orang saja."
             benefits={
               <>
                 <div className="flex flex-col gap-3">
@@ -582,9 +582,9 @@ const CreatorAcceleratorProgram = () => {
           external
           src="/images/cap-merch-2.png"
           buttonText="apply now"
-          href="https://forms.gle/v7dwhSmiQDXXpiVk9"
-          title="Dapatkan Juga Merchandise Eksklusif untuk 20 Orang Pertama."
-          description="Kamu akan dikirimkan langsung merchandise baju, lanyard, kartu, & topi. Ini khusus berlaku untuk 25 orang yang lolos ke dalam Creator Accelerator Program ini."
+          href="https://forms.gle/SeZZTdw45YnBUbcg8"
+          title="Dapatkan Juga Merchandise Eksklusif untuk 50 Orang Pertama."
+          description="Kamu akan dikirimkan langsung merchandise baju, lanyard, kartu, & topi. Ini khusus berlaku untuk 50 orang yang lolos ke dalam Creator Accelerator Program ini."
         />
       </Container>
 
