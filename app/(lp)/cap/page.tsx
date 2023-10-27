@@ -93,6 +93,18 @@ const CreatorAcceleratorProgram = () => {
         />
       </Container>
 
+      <Container bgColor="bg-gradient-to-r from-neutral-200 via-neutral-50 to-neutral-100 text-center">
+        <Text text="We are Officially Supported by" title bold />
+
+        <Image
+          className="flex w-full"
+          src="/images/partners.png"
+          alt="Brand Yang Sudah Pernah Bekerja Sama"
+          width={800}
+          height={800}
+        />
+      </Container>
+
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-5">
           <div className="col-span-1 order-last md:order-first">
@@ -234,7 +246,7 @@ const CreatorAcceleratorProgram = () => {
               reverse
               src="/images/cap-sert.png"
               title="Seefluencer Certification"
-              description="Didirikan oleh Samuel Christ (5 juta followers), Seefluencer University akan memberikan setifikat kelulusan untuk setiap murid agar bisa lebih mudah untuk diterima oleh perusahaan."
+              description="Seefluencer University akan memberikan setifikat kelulusan untuk setiap murid agar bisa lebih mudah untuk diterima oleh perusahaan."
             />
           </div>
         </div>
@@ -309,12 +321,12 @@ const CreatorAcceleratorProgram = () => {
         <FeatureCard
           src="/images/cap-kurikulum.png"
           title="Materi Eksklusif"
-          description="Dengan pengalaman 6+ tahun dan dibawakan langsung oleh Samuel Christ, akan memudahkan Kamu untuk belajar bagaimana membuat konten yang lebih efektif & persuasif."
+          description="Dengan pengalaman 6+ tahun Samuel Christ, materi & kurikulum kami akan memudahkan Kamu untuk belajar bagaimana membuat konten yang lebih efektif & persuasif."
         />
         <FeatureCard
           reverse
-          src="/images/cap-sam.png"
-          title="1-On-1 Coaching Dengan Samuel Christ"
+          src="/images/cap-bimbingan-2.png"
+          title="1-On-1 Live Coaching"
           description="Kami sangat mengerti, setiap orang punya pemahaman dan tantangan yang berbeda-beda. Maka dari itu, Kamu bisa mendapatkan 12 kali konsultasi langsung bersama Samuel Christ & expert lainnya."
         />
         <FeatureCard
@@ -366,7 +378,40 @@ const CreatorAcceleratorProgram = () => {
               </li>
               <li>
                 <Text
-                  text="Samuel Christ akan mengajar sebagai instruktur utama di Seefluencer University"
+                  text="Samuel Christ akan mengajar sebagai instruktur utama dan mentor di Seefluencer University."
+                  paragraph
+                />
+              </li>
+            </ul>
+          }
+        />
+
+        <FeatureCard
+          src="/images/cap-instruktur-3.png"
+          title="Joy Lodra"
+          description={
+            <ul className="list-disc flex flex-col gap-3">
+              <li>
+                <Text
+                  text="Ex-Microsoft, pernah kerja sebagai professional dalam bidang IT di Microsoft Amerika Serikat."
+                  paragraph
+                />
+              </li>
+              <li>
+                <Text
+                  text="Co-founder dari Seefluencer, Indonesia’s #1 Live Online Learning For Creators."
+                  paragraph
+                />
+              </li>
+              <li>
+                <Text
+                  text="Manager Samuel Christ, membantu dalam strategi pengembangan media sosial Samuel Christ dan kerja sama dengan brand."
+                  paragraph
+                />
+              </li>
+              <li>
+                <Text
+                  text="Joy Lodra akan menjadi instruktur sekaligus mentor di dalam Seefluencer University."
                   paragraph
                 />
               </li>
@@ -523,7 +568,7 @@ const CreatorAcceleratorProgram = () => {
             priceAfter="Rp4.999.000"
             ctaButtonText="apply now"
             ctaButtonHref="https://forms.gle/SeZZTdw45YnBUbcg8"
-            additionalNotes="*Ini adalah harga pre-order dan hanya kita buka untuk 50 orang saja."
+            additionalNotes="*Harga bisa naik sewaktu-waktu."
             benefits={
               <>
                 <div className="flex flex-col gap-3">
