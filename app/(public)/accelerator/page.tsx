@@ -393,6 +393,7 @@ const CreatorAcceleratorProgram = () => {
         />
 
         <FeatureCard
+          reverse
           src="/images/cap-instruktur-2.png"
           title="Anjas Maradita"
           description={
