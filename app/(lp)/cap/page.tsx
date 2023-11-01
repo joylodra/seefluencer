@@ -67,8 +67,7 @@ const CreatorAcceleratorProgram = () => {
           description={
             <div className="flex flex-col gap-5 items-center">
               <div>
-                Garansi bimbingan 1-on-1 SELAMANYA hingga mencapai 10K
-                followers. Jaminan UANG KEMBALI 100% jika mencapai target.
+                GARANSI UANG KEMBALI 100% jika mencapai target yang diberikan.
               </div>
 
               <div className="text-base flex flex-row gap-5 py-2 px-4 rounded-lg border-blue-400 border w-fit bg-blue-50">
@@ -129,19 +128,24 @@ const CreatorAcceleratorProgram = () => {
 
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text
-                      paragraph
-                      text="12 kali sesi 1-on-1 coaching selama kelas berlangsung, 1 minggu 1 kali."
-                    />
+                    <Text paragraph text="10 live class session dan Q&A." />
                   </div>
 
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
                     <Text
                       paragraph
-                      text="Garansi bimbingan 1-on-1 SELAMANYA hingga mencapai 10K followers."
+                      text="12 kali sesi 1-on-1 coaching selama kelas berlangsung, 1 minggu 1 kali."
                     />
                   </div>
+
+                  {/* <div className="flex flex-row gap-3">
+                    <div className="text-blue-400 text-xl font-bold">✓</div>
+                    <Text
+                      paragraph
+                      text="Garansi bimbingan 1-on-1 SELAMANYA hingga mencapai 10K followers."
+                    />
+                  </div> */}
 
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
@@ -224,12 +228,12 @@ const CreatorAcceleratorProgram = () => {
               />
             </div>
 
-            <FeatureCard
+            {/* <FeatureCard
               reverse
               src="/images/cap-bimbingan.png"
               title="Bimbingan Seumur Hidup"
               description="Kami akan kasih garansi bimbingan seumur hidup sampai kamu capai 10.000 followers pertamamu dengan catatan kamu harus hadir di setiap pertemuan, mengerjakan semua PR, dan mentaati peraturan-peraturan yang sudah kami tetapkan."
-            />
+            /> */}
             <FeatureCard
               reverse
               src="/images/cap-100k.png"
@@ -518,6 +522,11 @@ const CreatorAcceleratorProgram = () => {
                       paragraph
                       text="Dibimbing hingga bisa menghasilkan minimal 50 konten yang diupload."
                     />
+                  </div>
+
+                  <div className="flex flex-row gap-3">
+                    <div className="text-blue-400 text-xl font-bold">✓</div>
+                    <Text paragraph text="10 live class session dan Q&A." />
                   </div>
 
                   <div className="flex flex-row gap-3">
