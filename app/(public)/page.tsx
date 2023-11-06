@@ -61,7 +61,7 @@ export default function Home() {
         />
 
         <FeatureCard
-          title="3-Day Intensive Mini Creator Class"
+          title="3-Day Introduction to Content Creation"
           description={
             <div className="flex flex-col gap-3">
               <div className="flex flex-row gap-3">

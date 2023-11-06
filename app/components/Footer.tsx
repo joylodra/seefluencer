@@ -56,7 +56,7 @@ const Footer = ({ complete }: FooterProps) => {
                   href="/miniclass"
                   className="text-sm hover:underline text-gray-500 ml-0 md:ml-3"
                 >
-                  3-Day Intensive Mini Creator Class
+                  3-Day Introduction to Content Creation
                 </Link>
               </div>
 

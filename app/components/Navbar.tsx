@@ -118,7 +118,7 @@ const Navbar = ({ landingNav, logo, button }: NavbarProps) => {
                   }}
                   className="bg-white rounded-b whitespace-no-wrap px-4 py-2 hover:bg-blue-400 hover:text-white transition cursor-pointer"
                 >
-                  3-Day Intensive Mini Creator Class
+                  3-Day Introduction to Content Creation
                 </div>
               </div>
             </div>
@@ -167,7 +167,7 @@ const Navbar = ({ landingNav, logo, button }: NavbarProps) => {
                     }}
                     className="px-4 py-2 hover:bg-blue-400 hover:text-white transition cursor-pointer"
                   >
-                    3-Day Intensive Mini Creator Class
+                    3-Day Introduction to Content Creation
                   </div>
                 </div>
 
