@@ -90,11 +90,11 @@ export const capFAQ = [
     answer:
       "Kami memberikan hadiah uang kembali 100% kepada siapapun yang bisa mencapai 100 ribu followers selama program 3 bulan ini.",
   },
-  {
-    question: "Maksudnya garansi konsultasi 1-on-1 seumur hidup bagaimana?",
-    answer:
-      "Kami akan memberikan garansi konsultasi 1-on-1 seumur hidup hingga kamu mencapai followers 10K",
-  },
+  // {
+  //   question: "Maksudnya garansi konsultasi 1-on-1 seumur hidup bagaimana?",
+  //   answer:
+  //     "Kami akan memberikan garansi konsultasi 1-on-1 seumur hidup hingga kamu mencapai followers 10K",
+  // },
   {
     question:
       "Apakah Creator Accelerator Program online, in-person, atau kelas yang sudah direkam?",
@@ -113,7 +113,7 @@ export const capFAQ = [
   {
     question: "Gimana kalo aku sibuk dan tidak bisa hadir ke kelas?",
     answer:
-      "Tentunya, kamu perlu komitmen ketika sudah memutuskan untuk join program ini. Jika kamu tidak hadir kelas, maka bisa menurunkan nilai rapor dan berkesempatan untuk hilang garansi konsultasi 1-on-1 seumur hidup hingga followers 10K. Namun, semua kelas akan direkam, jadi kamu bisa ulang kembali di recordingnya.",
+      "Tentunya, kamu perlu komitmen ketika sudah memutuskan untuk join program ini. Jika kamu tidak hadir kelas, maka bisa menurunkan nilai rapor. Namun, semua kelas akan direkam, jadi kamu bisa ulang kembali di recordingnya.",
   },
   {
     question:
