@@ -29,7 +29,7 @@ const Influencers = () => {
           imageSrc="/images/cap-endorse-2.png"
           title="KOL Marketing Agency"
           description="Layanan kami sangat mengutamakan transparansi & kualitas dalam memberikan hasil yang terbaik kepada para klien kami."
-          buttonHref="https://wa.wizard.id/e702f2"
+          buttonHref="https://forms.gle/k6AH5gwyE6iAEZcaA"
           buttonText="contact us"
           external
         />
@@ -62,7 +62,7 @@ const Influencers = () => {
 
           <Button
             regular
-            hrefLink="https://wa.wizard.id/e702f2"
+            hrefLink="https://forms.gle/k6AH5gwyE6iAEZcaA"
             buttonText="contact us"
             external
           />
@@ -83,7 +83,7 @@ const Influencers = () => {
         <div className="flex justify-center items-center">
           <CtaBox
             ctaButtonText="contact us"
-            ctaButtonHref="https://wa.wizard.id/e702f2"
+            ctaButtonHref="https://forms.gle/k6AH5gwyE6iAEZcaA"
             benefits={
               <>
                 <div className="flex flex-row gap-3">

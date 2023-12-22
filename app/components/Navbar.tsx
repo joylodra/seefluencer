@@ -20,7 +20,7 @@ interface NavbarProps {
 }
 
 export const menu = [
-  { title: "1-On-1 Coaching", href: "/coaching" },
+  // { title: "1-On-1 Coaching", href: "/coaching" },
   { title: "KOL Agency", href: "/kol" },
 ];
 

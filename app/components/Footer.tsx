@@ -60,9 +60,9 @@ const Footer = ({ complete }: FooterProps) => {
                 </Link>
               </div>
 
-              <Link href="/coaching" className="text-sm hover:underline">
+              {/* <Link href="/coaching" className="text-sm hover:underline">
                 1-On-1 Coaching
-              </Link>
+              </Link> */}
 
               <Link href="/kol" className="text-sm hover:underline">
                 KOL Agency

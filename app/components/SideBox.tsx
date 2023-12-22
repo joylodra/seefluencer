@@ -18,7 +18,7 @@ const SideBox = ({
   additionalNotes,
 }: SideBoxProps) => {
   return (
-    <div className="md:sticky top-24 border border-blue-200 shadow-sm h-fit rounded-sm w-full flex flex-col">
+    <div className="md:sticky top-5 border border-blue-200 shadow-sm h-fit rounded-sm w-full flex flex-col">
       <div className="p-3">{content}</div>
 
       <div className="p-3">
