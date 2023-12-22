@@ -55,7 +55,7 @@ export default function Home() {
               </div>
             </div>
           }
-          src="/images/cap-cap.png"
+          src="/images/cap-bimbingan-2.png"
           buttonText="learn more"
           href="/accelerator"
         />
@@ -80,12 +80,12 @@ export default function Home() {
               </div>
             </div>
           }
-          src="/images/imcc-imcc.png"
+          src="/images/ocwe-pertumbuhan.png"
           buttonText="learn more"
           href="/miniclass"
         />
 
-        <FeatureCard
+        {/* <FeatureCard
           reverse
           title="1-On-1 Creator Coaching with Samuel Christ"
           description={
@@ -116,9 +116,10 @@ export default function Home() {
           src="/images/cap-coaching.png"
           buttonText="learn more"
           href="/coaching"
-        />
+        /> */}
 
         <FeatureCard
+          reverse
           title="KOL Marketing Agency"
           description={
             <div className="flex flex-col gap-3">
