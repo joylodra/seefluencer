@@ -72,7 +72,7 @@ const CreatorAcceleratorProgram = () => {
 
               <div className="text-base flex flex-row gap-5 py-2 px-4 rounded-lg border-blue-400 border w-fit bg-blue-50">
                 <div className="text-right">
-                  <div className="font-bold">Batch #1</div>
+                  <div className="font-bold">Batch #2</div>
                   <div className="">FULL SLOT 🛑</div>
                 </div>
 
@@ -80,7 +80,7 @@ const CreatorAcceleratorProgram = () => {
 
                 <div className="text-left">
                   <div className="">Next Batch Starts on</div>
-                  <div className="font-bold">Jan 2024 🗓</div>
+                  <div className="font-bold">May 2024 🗓</div>
                 </div>
               </div>
             </div>
