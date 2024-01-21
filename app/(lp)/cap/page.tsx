@@ -54,7 +54,7 @@ const CreatorAcceleratorProgram = () => {
           <Button
             noFull
             buttonText="apply now"
-            hrefLink="https://forms.gle/SeZZTdw45YnBUbcg8"
+            hrefLink="https://forms.gle/66jbxdmXxkYLnQDW9"
             external
           />
         }
@@ -63,7 +63,7 @@ const CreatorAcceleratorProgram = () => {
       {/* Hero Section */}
       <Container>
         <Hero
-          title="Dapatkan 10.000 FOLLOWERS Pertamamu & Hasilkan CUAN Dalam 3 Bulan Dengan Creator Accelerator Program Kami!"
+          title="Dapatkan 10.000 FOLLOWERS Pertamamu & Hasilkan CUAN Dalam 2 Dengan Creator Accelerator Program Kami!"
           description={
             <div className="flex flex-col gap-5 items-center">
               <div>
@@ -85,9 +85,9 @@ const CreatorAcceleratorProgram = () => {
               </div>
             </div>
           }
-          buttonHref="https://forms.gle/SeZZTdw45YnBUbcg8"
+          buttonHref="https://forms.gle/66jbxdmXxkYLnQDW9"
           buttonText="apply now"
-          additionalNotes="Program selanjutnya akan dimulai di bulan Januari 2024"
+          additionalNotes="Program selanjutnya akan dimulai di bulan Mei 2024"
           external
         />
       </Container>
@@ -156,7 +156,7 @@ const CreatorAcceleratorProgram = () => {
                   </div>
                 </div>
               }
-              ctaButtonHref="https://forms.gle/SeZZTdw45YnBUbcg8"
+              ctaButtonHref="https://forms.gle/66jbxdmXxkYLnQDW9"
               ctaButtonText="apply now"
             />
           </div>
@@ -180,7 +180,7 @@ const CreatorAcceleratorProgram = () => {
             />
             <Text
               paragraph
-              text="Inilah kenapa kamu harus join Creator Accelerator Program by Seefluencer University. Program ini bukan seperti kelas online pada umumnya di Indonesia. Di Creator Accelerator Program ini kamu akan belajar secara live dan akan dibimbing secara pribadi 1-on-1 sampai mencapai 10.000 ribu followers dalam waktu 3 bulan."
+              text="Inilah kenapa kamu harus join Creator Accelerator Program by Seefluencer University. Program ini bukan seperti kelas online pada umumnya di Indonesia. Di Creator Accelerator Program ini kamu akan belajar secara live dan akan dibimbing secara pribadi 1-on-1 sampai mencapai 10.000 ribu followers dalam waktu 2 bulan."
             />
             <Text
               paragraph
@@ -195,14 +195,14 @@ const CreatorAcceleratorProgram = () => {
               <IconCardReverse
                 iconColor="text-blue-400"
                 icon={<BsClock />}
-                title="Januari 2024"
+                title="Mei 2024"
                 description="Tanggal Mulai"
               />
 
               <IconCardReverse
                 iconColor="text-blue-400"
                 icon={<BsCalendar />}
-                title="3 Bulan"
+                title="2 Bulan"
                 description="Durasi"
               />
 
@@ -238,7 +238,7 @@ const CreatorAcceleratorProgram = () => {
               reverse
               src="/images/cap-100k.png"
               title="Get Your Money Back 100%"
-              description="Kami yakin bahwa siapa pun bisa sukses dengan berkomitmen pada program ini! Samuel Christ berhasil mendapatkan 100 ribu followers di TIkTok dalam waktu 1 bulan, dan kami memberikan hadiah uang kembali 100% kepada siapapun yang bisa mencapai 100 ribu followers selama 3 bulan ini."
+              description="Kami yakin bahwa siapa pun bisa sukses dengan berkomitmen pada program ini! Samuel Christ berhasil mendapatkan 100 ribu followers di TIkTok dalam waktu 1 bulan, dan kami memberikan hadiah uang kembali 100% kepada siapapun yang bisa mencapai 100 ribu followers selama 2 bulan ini."
             />
             <FeatureCard
               reverse
@@ -304,10 +304,10 @@ const CreatorAcceleratorProgram = () => {
       <Container>
         <FeatureCard
           title="Memperkenalkan, 12-Week Creator Accelerator Program yang dirancang oleh Seefluencer University"
-          description="Kelas intensif buat Kamu yang mau mendapatkan bimbingan selama 3 bulan & jadi content creator berpenghasilan."
+          description="Kelas intensif buat Kamu yang mau mendapatkan bimbingan selama 2 bulan & jadi content creator berpenghasilan."
           src="/images/cap-cap.png"
           buttonText="apply now"
-          href="https://forms.gle/SeZZTdw45YnBUbcg8"
+          href="https://forms.gle/66jbxdmXxkYLnQDW9"
           external
         />
       </Container>
@@ -469,7 +469,7 @@ const CreatorAcceleratorProgram = () => {
         <div className="flex flex-wrap gap-5">
           <div className="flex flex-row gap-2 items-center">
             <BsCalendar className="text-gray-400 text-xl" />
-            <Text text="3 Bulan" paragraph />
+            <Text text="2 bulan" paragraph />
           </div>
 
           <div className="flex flex-row gap-2 items-center">
@@ -554,7 +554,7 @@ const CreatorAcceleratorProgram = () => {
                   </div>
                 </div>
               }
-              ctaButtonHref="https://forms.gle/SeZZTdw45YnBUbcg8"
+              ctaButtonHref="https://forms.gle/66jbxdmXxkYLnQDW9"
               ctaButtonText="apply now"
             />
           </div>
@@ -575,9 +575,9 @@ const CreatorAcceleratorProgram = () => {
         <div className="flex justify-center items-center">
           <CtaBox
             priceBefore="Rp10.500.000"
-            priceAfter="Rp4.999.000"
+            priceAfter="Rp5.499.000"
             ctaButtonText="apply now"
-            ctaButtonHref="https://forms.gle/SeZZTdw45YnBUbcg8"
+            ctaButtonHref="https://forms.gle/66jbxdmXxkYLnQDW9"
             additionalNotes="*Harga bisa naik sewaktu-waktu."
             benefits={
               <>
@@ -586,7 +586,7 @@ const CreatorAcceleratorProgram = () => {
                     <div className="text-blue-400 text-xl font-bold">✓</div>
                     <Text
                       paragraph
-                      text="Kamu hanya perlu menyimpan Rp56.000/hari selama 3 bulan untuk bisa mengikuti kelas intensif ini."
+                      text="Kamu hanya perlu menyimpan Rp56.000/hari selama 2 bulan untuk bisa mengikuti kelas intensif ini."
                     />
                   </div>
 
@@ -617,7 +617,7 @@ const CreatorAcceleratorProgram = () => {
           external
           src="/images/cap-merch-2.png"
           buttonText="apply now"
-          href="https://forms.gle/SeZZTdw45YnBUbcg8"
+          href="https://forms.gle/66jbxdmXxkYLnQDW9"
           title="Dapatkan Juga Merchandise Eksklusif untuk 50 Orang Pertama."
           description="Kamu akan dikirimkan langsung merchandise baju, lanyard, kartu, & topi. Ini khusus berlaku untuk 50 orang yang lolos ke dalam Creator Accelerator Program ini."
         />

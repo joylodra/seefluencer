@@ -88,7 +88,7 @@ export const capFAQ = [
   {
     question: "Bagaimana biar bisa dapat uang kembali 100%?",
     answer:
-      "Kami memberikan hadiah uang kembali 100% kepada siapapun yang bisa mencapai 100 ribu followers selama program 3 bulan ini.",
+      "Kami memberikan hadiah uang kembali 100% kepada siapapun yang bisa mencapai 100 ribu followers selama program 2 Bulan ini.",
   },
   // {
   //   question: "Maksudnya garansi konsultasi 1-on-1 seumur hidup bagaimana?",
@@ -99,7 +99,7 @@ export const capFAQ = [
     question:
       "Apakah Creator Accelerator Program online, in-person, atau kelas yang sudah direkam?",
     answer:
-      "Creator Accelerator Program adalah program 3 bulan yang dilakukan secara live dan online melalui platform Zoom.",
+      "Creator Accelerator Program adalah program 2 Bulan yang dilakukan secara live dan online melalui platform Zoom.",
   },
   {
     question: "Dalam satu kelas, isinya berapa orang sih?",
