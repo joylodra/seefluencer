@@ -79,13 +79,9 @@ const Navbar = ({ landingNav, logo, button }: NavbarProps) => {
             <Image
               src="/images/logo-trans.png"
               alt="Logo Seefluencer"
-              width={25}
-              height={25}
+              width={135}
+              height={135}
             />
-            <div>
-              <span className="font-bold">see</span>
-              fluencer
-            </div>
           </Link>
 
           <div className="hidden md:flex flex-row items-center gap-1">

@@ -559,7 +559,7 @@ const CreatorAcceleratorProgram = () => {
                     <div className="text-blue-400 text-xl font-bold">✓</div>
                     <Text
                       paragraph
-                      text="Kamu hanya perlu menyimpan Rp56.000/hari selama 2 Bulan untuk bisa mengikuti kelas intensif ini."
+                      text="Kamu hanya perlu menyimpan Rp56.000/hari selama 2 BULAN untuk bisa mengikuti kelas intensif ini."
                     />
                   </div>
 

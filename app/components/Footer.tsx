@@ -25,13 +25,9 @@ const Footer = ({ complete }: FooterProps) => {
                 <Image
                   src="/images/logo-trans.png"
                   alt="Logo Seefluencer"
-                  width={35}
-                  height={35}
+                  width={170}
+                  height={170}
                 />
-                <div>
-                  <span className="font-bold">see</span>
-                  fluencer
-                </div>
               </Link>
 
               <p className="text-sm">

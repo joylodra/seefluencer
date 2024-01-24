@@ -39,13 +39,13 @@ const CreatorAcceleratorProgram = () => {
       <Navbar
         landingNav
         logo={
-          <div className="flex flex-col">
-            <div className="font-bold">
-              <span className="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 inline-block text-transparent bg-clip-text">
-                see
-              </span>
-              fluencer
-            </div>
+          <div className="flex flex-col md:flex-row md:items-center md:justify-center">
+            <Image
+              src="/images/logo-trans.png"
+              alt="Logo Seefluencer"
+              width={110}
+              height={110}
+            />
 
             <div className="italic text-sm">University</div>
           </div>
@@ -54,7 +54,7 @@ const CreatorAcceleratorProgram = () => {
           <Button
             noFull
             buttonText="apply now"
-            hrefLink="https://forms.gle/o1SSn9rLJ4qSjSN26"
+            hrefLink="https://forms.gle/66jbxdmXxkYLnQDW9"
             external
           />
         }
@@ -63,12 +63,12 @@ const CreatorAcceleratorProgram = () => {
       {/* Hero Section */}
       <Container>
         <div className="flex flex-row gap-2 items-center justify-center">
-          <div className="font-bold">
-            <span className="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 inline-block text-transparent bg-clip-text">
-              see
-            </span>
-            fluencer
-          </div>
+          <Image
+            src="/images/logo-trans.png"
+            alt="Logo Seefluencer"
+            width={110}
+            height={110}
+          />
 
           <div>╳</div>
 
@@ -83,7 +83,7 @@ const CreatorAcceleratorProgram = () => {
         </div>
 
         <Hero
-          title="Dapatkan 10.000 FOLLOWERS Pertamamu & Hasilkan CUAN Dalam 2 Bulan Dengan Creator Accelerator Program Kami!"
+          title="Dapatkan 10.000 FOLLOWERS Pertamamu & Hasilkan CUAN Dalam 2 BULAN Dengan Creator Accelerator Program Kami!"
           description={
             <div className="flex flex-col gap-5 items-center">
               <div>
