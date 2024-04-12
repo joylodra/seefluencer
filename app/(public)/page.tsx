@@ -36,7 +36,7 @@ export default function Home() {
                 <div className="text-blue-400 text-xl font-bold">✓</div>
                 <Text
                   paragraph
-                  text="Sekolah konten kreator yang dijalankan selama 12 minggu secara live."
+                  text="Sekolah konten kreator yang dijalankan selama 8 minggu secara live."
                 />
               </div>
               <div className="flex flex-row gap-3">

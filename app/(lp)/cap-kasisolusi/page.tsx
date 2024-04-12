@@ -134,7 +134,7 @@ const CreatorAcceleratorProgram = () => {
                     <div className="text-blue-400 text-xl font-bold">✓</div>
                     <Text
                       paragraph
-                      text="Sekolah konten kreator yang dijalankan selama 12 minggu secara live."
+                      text="Sekolah konten kreator yang dijalankan selama 8 minggu secara live."
                     />
                   </div>
 
@@ -148,7 +148,7 @@ const CreatorAcceleratorProgram = () => {
 
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text paragraph text="10 live class session dan Q&A." />
+                    <Text paragraph text="8 live class session dan Q&A." />
                   </div>
 
                   <div className="flex flex-row gap-3">
@@ -546,7 +546,7 @@ const CreatorAcceleratorProgram = () => {
 
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text paragraph text="10 live class session dan Q&A." />
+                    <Text paragraph text="8 live class session dan Q&A." />
                   </div>
 
                   <div className="flex flex-row gap-3">
