@@ -135,7 +135,7 @@ const CreatorAcceleratorProgram = () => {
                     <div className="text-blue-400 text-xl font-bold">✓</div>
                     <Text
                       paragraph
-                      text="12 kali sesi 1-on-1 coaching selama kelas berlangsung, 1 minggu 1 kali."
+                      text="8 kali sesi 1-on-1 coaching selama kelas berlangsung, 1 minggu 1 kali."
                     />
                   </div>
 
@@ -331,7 +331,7 @@ const CreatorAcceleratorProgram = () => {
           reverse
           src="/images/cap-bimbingan-2.png"
           title="1-On-1 Live Coaching"
-          description="Kami sangat mengerti, setiap orang punya pemahaman dan tantangan yang berbeda-beda. Maka dari itu, Kamu bisa mendapatkan 12 kali konsultasi langsung bersama Samuel Christ & expert lainnya."
+          description="Kami sangat mengerti, setiap orang punya pemahaman dan tantangan yang berbeda-beda. Maka dari itu, Kamu bisa mendapatkan 8 kali konsultasi langsung bersama Samuel Christ & expert lainnya."
         />
         <FeatureCard
           src="/images/cap-report.png"
@@ -533,7 +533,7 @@ const CreatorAcceleratorProgram = () => {
                     <div className="text-blue-400 text-xl font-bold">✓</div>
                     <Text
                       paragraph
-                      text="12 kali sesi 1-on-1 coaching selama kelas berlangsung, 1 minggu 1 kali."
+                      text="8 kali sesi 1-on-1 coaching selama kelas berlangsung, 1 minggu 1 kali."
                     />
                   </div>
 

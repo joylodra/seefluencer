@@ -50,7 +50,7 @@ export default function Home() {
                 <div className="text-blue-400 text-xl font-bold">✓</div>
                 <Text
                   paragraph
-                  text="Kamu akan diberikan 12 kali sesi 1-on-1 coaching selama kelas berlangsung, 1 minggu 1 kali."
+                  text="Kamu akan diberikan 8 kali sesi 1-on-1 coaching selama kelas berlangsung, 1 minggu 1 kali."
                 />
               </div>
             </div>
