@@ -45,7 +45,7 @@ const Footer = ({ complete }: FooterProps) => {
                   href="/accelerator"
                   className="text-sm hover:underline text-gray-500 ml-0 md:ml-3"
                 >
-                  12-Week Creator Accelerator Program
+                  8-week Creator Accelerator Program
                 </Link>
 
                 <Link

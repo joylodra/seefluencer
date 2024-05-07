@@ -37,7 +37,7 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <body className="bg-gray-50">
+      <body className="bg-gray-50 scroll-smooth">
         <main>{children}</main>
         <Footer />
         <Analytics />

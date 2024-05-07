@@ -29,7 +29,7 @@ export default function Home() {
 
         <FeatureCard
           reverse
-          title="12-Week Creator Accelerator Program"
+          title="8-week Creator Accelerator Program"
           description={
             <div className="flex flex-col gap-3">
               <div className="flex flex-row gap-3">
@@ -43,7 +43,7 @@ export default function Home() {
                 <div className="text-blue-400 text-xl font-bold">✓</div>
                 <Text
                   paragraph
-                  text="Kamu akan langsung dibimbing hingga bisa menghasilkan minimal 50 konten yang diupload."
+                  text="Kamu akan langsung dibimbing hingga bisa menghasilkan minimal 30 konten yang diupload."
                 />
               </div>
               <div className="flex flex-row gap-3">

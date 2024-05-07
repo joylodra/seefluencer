@@ -27,7 +27,7 @@ import {
 import { ImSad } from "react-icons/im";
 
 export const metadata = {
-  title: "12-Week Creator Accelerator Program",
+  title: "8-week Creator Accelerator Program",
   keywords: ["kelas konten kreator", "kelas intensif", "bootcamp", "community"],
   description: "Indonesia’s #1 Live Online Learning For Creators 💙",
 };
@@ -80,19 +80,19 @@ const CreatorAcceleratorProgram = () => {
 
                 <div className="text-left">
                   <div className="">Next Batch Starts on</div>
-                  <div className="font-bold">May 2024 🗓</div>
+                  <div className="font-bold">Juni 2024 🗓</div>
                 </div>
               </div>
             </div>
           }
           buttonHref="https://forms.gle/66jbxdmXxkYLnQDW9"
           buttonText="apply now"
-          additionalNotes="Program selanjutnya akan dimulai di bulan Mei 2024"
+          additionalNotes="Program selanjutnya akan dimulai di bulan Juni 2024"
           external
         />
       </Container>
 
-      <Container bgColor="bg-gradient-to-r from-neutral-200 via-neutral-50 to-neutral-100 text-center">
+      {/* <Container bgColor="bg-gradient-to-r from-neutral-200 via-neutral-50 to-neutral-100 text-center">
         <Text text="We are Officially Supported by" title bold />
 
         <Image
@@ -102,7 +102,7 @@ const CreatorAcceleratorProgram = () => {
           width={800}
           height={800}
         />
-      </Container>
+      </Container> */}
 
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-5">
@@ -122,7 +122,7 @@ const CreatorAcceleratorProgram = () => {
                     <div className="text-blue-400 text-xl font-bold">✓</div>
                     <Text
                       paragraph
-                      text="Dibimbing hingga bisa menghasilkan minimal 50 konten yang diupload."
+                      text="Dibimbing hingga bisa menghasilkan minimal 30 konten yang diupload."
                     />
                   </div>
 
@@ -135,17 +135,9 @@ const CreatorAcceleratorProgram = () => {
                     <div className="text-blue-400 text-xl font-bold">✓</div>
                     <Text
                       paragraph
-                      text="8 kali sesi 1-on-1 coaching selama kelas berlangsung, 1 minggu 1 kali."
+                      text="8 kali sesi 1-on-1 mentoring selama kelas berlangsung, 1 minggu 1 kali."
                     />
                   </div>
-
-                  {/* <div className="flex flex-row gap-3">
-                    <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text
-                      paragraph
-                      text="Garansi bimbingan 1-on-1 SELAMANYA hingga mencapai 10K followers."
-                    />
-                  </div> */}
 
                   <div className="flex flex-row gap-3">
                     <div className="text-blue-400 text-xl font-bold">✓</div>
@@ -180,11 +172,11 @@ const CreatorAcceleratorProgram = () => {
             />
             <Text
               paragraph
-              text="Inilah kenapa kamu harus join Creator Accelerator Program by Seefluencer University. Program ini bukan seperti kelas online pada umumnya di Indonesia. Di Creator Accelerator Program ini kamu akan belajar secara live dan akan dibimbing secara pribadi 1-on-1 sampai mencapai 10.000 ribu followers dalam waktu 2 bulan."
+              text="Inilah kenapa kamu harus join Creator Accelerator Program by Seefluencer University. Program ini bukan seperti kelas online pada umumnya di Indonesia. Di Creator Accelerator Program ini kamu akan belajar secara live dan akan dibimbing secara pribadi 1-on-1 dan dapatkan jutaan views dalam waktu 2 bulan."
             />
             <Text
               paragraph
-              text="Di program ini, kamu akan belajar semua yang kamu butuhkan untuk menjadi konten kreator dari A sampai Z. Kamu juga akan menulis minimal 60 script dan menghasilkan lebih dari 50 video yang akan diupload di semua sosial mediamu."
+              text="Di program ini, kamu akan belajar semua yang kamu butuhkan untuk menjadi konten kreator dari A sampai Z. Kamu juga akan menulis minimal 30 script dan menghasilkan lebih dari 30 video yang akan diupload di semua sosial mediamu."
             />
             <Text
               paragraph
@@ -195,7 +187,7 @@ const CreatorAcceleratorProgram = () => {
               <IconCardReverse
                 iconColor="text-blue-400"
                 icon={<BsClock />}
-                title="Mei 2024"
+                title="Juni 2024"
                 description="Tanggal Mulai"
               />
 
@@ -228,12 +220,6 @@ const CreatorAcceleratorProgram = () => {
               />
             </div>
 
-            {/* <FeatureCard
-              reverse
-              src="/images/cap-bimbingan.png"
-              title="Bimbingan Seumur Hidup"
-              description="Kami akan kasih garansi bimbingan seumur hidup sampai kamu capai 10.000 followers pertamamu dengan catatan kamu harus hadir di setiap pertemuan, mengerjakan semua PR, dan mentaati peraturan-peraturan yang sudah kami tetapkan."
-            /> */}
             <FeatureCard
               reverse
               src="/images/cap-100k.png"
@@ -303,7 +289,7 @@ const CreatorAcceleratorProgram = () => {
       {/* Introduction */}
       <Container>
         <FeatureCard
-          title="Memperkenalkan, 12-Week Creator Accelerator Program yang dirancang oleh Seefluencer University"
+          title="Memperkenalkan, 8-week Creator Accelerator Program yang dirancang oleh Seefluencer University"
           description="Kelas intensif buat Kamu yang mau mendapatkan bimbingan selama 2 bulan & jadi content creator berpenghasilan."
           src="/images/cap-cap.png"
           buttonText="apply now"
@@ -325,18 +311,18 @@ const CreatorAcceleratorProgram = () => {
         <FeatureCard
           src="/images/cap-kurikulum.png"
           title="Materi Eksklusif"
-          description="Dengan pengalaman 6+ tahun Samuel Christ, materi & kurikulum kami akan memudahkan Kamu untuk belajar bagaimana membuat konten yang lebih efektif & persuasif."
+          description="Dengan pengalaman 7+ tahun Samuel Christ, materi & kurikulum kami akan memudahkan Kamu untuk belajar bagaimana membuat konten yang lebih efektif & persuasif."
         />
         <FeatureCard
           reverse
-          src="/images/cap-bimbingan-2.png"
-          title="1-On-1 Live Coaching"
-          description="Kami sangat mengerti, setiap orang punya pemahaman dan tantangan yang berbeda-beda. Maka dari itu, Kamu bisa mendapatkan 8 kali konsultasi langsung bersama Samuel Christ & expert lainnya."
+          src="/images/profile.png"
+          title="1-On-1 Live Mentoring"
+          description="Kami sangat mengerti, setiap orang punya pemahaman dan tantangan yang berbeda-beda. Maka dari itu, Kamu bisa mendapatkan 8 kali konsultasi langsung bersama mentor-mentor pilihan Seefluencer."
         />
         <FeatureCard
           src="/images/cap-report.png"
-          title="Rapot & Penugasan"
-          description="Perlu diingat, ini bukan Kelas Online biasa, yang mana Kamu hanya menonton video dan belajar mandiri. Semua kelas & coaching berlangsung secara live. Agar perkembanganmu bisa lebih efektif, Kami akan memantau secara intensif."
+          title="Rapor & Penugasan"
+          description="Perlu diingat, ini bukan Kelas Online biasa, yang mana Kamu hanya menonton video dan belajar mandiri. Semua kelas & mentoring berlangsung secara live. Agar perkembanganmu bisa lebih efektif, Kami akan memantau secara intensif."
         />
       </Container>
 
@@ -382,7 +368,7 @@ const CreatorAcceleratorProgram = () => {
               </li>
               <li>
                 <Text
-                  text="Samuel Christ akan mengajar sebagai instruktur utama dan mentor di Seefluencer University."
+                  text="Samuel Christ akan mengajar sebagai instruktur utama di Seefluencer University."
                   paragraph
                 />
               </li>
@@ -415,7 +401,7 @@ const CreatorAcceleratorProgram = () => {
               </li>
               <li>
                 <Text
-                  text="Joy Lodra akan menjadi instruktur sekaligus mentor di dalam Seefluencer University."
+                  text="Joy Lodra akan menjadi instruktur di dalam Seefluencer University."
                   paragraph
                 />
               </li>
@@ -423,7 +409,7 @@ const CreatorAcceleratorProgram = () => {
           }
         />
 
-        <FeatureCard
+        {/* <FeatureCard
           reverse
           src="/images/cap-instruktur-2.png"
           title="Anjas Maradita"
@@ -455,13 +441,13 @@ const CreatorAcceleratorProgram = () => {
               </li>
             </ul>
           }
-        />
+        /> */}
       </Container>
 
       {/* Curriculum */}
       <Container>
         <Text
-          text={"Apa Saja Yang Akan Kamu Pelajari Selama 84 Hari Ini?"}
+          text={"Apa Saja Yang Akan Kamu Pelajari Selama 56 Hari Ini?"}
           title
           bold
         />
@@ -487,28 +473,33 @@ const CreatorAcceleratorProgram = () => {
           <div className="flex flex-col gap-5 md:col-span-3">
             <Accordion
               number="01"
-              question="Personal Branding"
+              question="Find Your Personal Branding 👩🏻‍🔧"
               answer="Bagaimana memaksimalkan dan membangun personal branding yang unik, spesifik dan dilirik oleh brand/potensial klien."
             />
             <Accordion
               number="02"
-              question="How To Write A Killer Script"
+              question="How to Write a Killer Script 📝"
               answer="Strategi membuat script, membuat konten viral, dan membongkar teknik looping video yang dipakai oleh Samuel Christ."
             />
             <Accordion
               number="03"
-              question="How to Properly Present Yourself In Front Of Camera"
-              answer="Kamu belum PD berbicara di depan kamera? Kita akan berikan panduan dan cara memaksimalkannya."
+              question="How to Present Yourself to the World 🌏"
+              answer="Maksimalkan semua potensi kamu di depan kamera. Kamu akan belajar bagaimana caranya ngomong di depan kamera, basic lighting, dll."
             />
             <Accordion
               number="04"
-              question="The Power Of CapCut"
-              answer="Praktik dan tutorial editing untuk memaksimalkan konten Kamu menggunakan CapCut beserta studi kasusnya."
+              question="CapCut Mobile & PC Fundementals 📲"
+              answer="Praktik dan tutorial editing untuk memaksimalkan konten kamu menggunakan CapCut beserta studi kasusnya."
             />
             <Accordion
               number="05"
-              question="How to Manage & Scale Your Content Creation"
-              answer="Kamu punya aktivitas harian yang padat? Temukan cara yang lebih cepat & tepat dalam membuat konten meskipun Kamu punya sedikit waktu."
+              question="How to Scale Up Your Content Creation 📈"
+              answer="FYP itu tidak hoki dan bisa diprediksi. Cari winning content dan dapatkan jutaan views."
+            />
+            <Accordion
+              number="06"
+              question="The Long Game 🏄"
+              answer="Kamu akan diajarkan bagaimana caranya jadi content creator yang bisa bertahan di industri yang kompetitif ini."
             />
           </div>
 
@@ -520,7 +511,7 @@ const CreatorAcceleratorProgram = () => {
                     <div className="text-blue-400 text-xl font-bold">✓</div>
                     <Text
                       paragraph
-                      text="Dibimbing hingga bisa menghasilkan minimal 50 konten yang diupload."
+                      text="Dibimbing hingga bisa menghasilkan minimal 30 konten yang diupload."
                     />
                   </div>
 
@@ -533,7 +524,7 @@ const CreatorAcceleratorProgram = () => {
                     <div className="text-blue-400 text-xl font-bold">✓</div>
                     <Text
                       paragraph
-                      text="8 kali sesi 1-on-1 coaching selama kelas berlangsung, 1 minggu 1 kali."
+                      text="8 kali sesi 1-on-1 mentoring selama kelas berlangsung, 1 minggu 1 kali."
                     />
                   </div>
 
@@ -594,7 +585,7 @@ const CreatorAcceleratorProgram = () => {
                     <div className="text-blue-400 text-xl font-bold">✓</div>
                     <Text
                       paragraph
-                      text="Perlu diingat, ini bukan Kelas Online biasa, yang mana Kamu hanya menonton video dan belajar mandiri. Semua kelas & coaching berlangsung secara live."
+                      text="Perlu diingat, ini bukan Kelas Online biasa, yang mana Kamu hanya menonton video dan belajar mandiri. Semua kelas & mentoring berlangsung secara live."
                     />
                   </div>
 
@@ -602,7 +593,7 @@ const CreatorAcceleratorProgram = () => {
                     <div className="text-blue-400 text-xl font-bold">✓</div>
                     <Text
                       paragraph
-                      text="Seefluencer University adalah Kelas Intensif yang akan memberikan tugas PR, dan membantu Kamu secara personal, sehingga konten & personal branding-mu bisa jauh lebih efektif."
+                      text="Seefluencer University adalah Kelas Intensif yang akan memberikan tugas PR, dan membantu Kamu secara personal, sehingga pengembangan konten & personal branding-mu bisa jauh lebih efektif."
                     />
                   </div>
                 </div>

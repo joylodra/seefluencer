@@ -23,6 +23,7 @@ const Button = ({
 }: ButtonProps) => {
   return (
     <Link
+      scroll={false}
       href={`${hrefLink}`}
       target={external ? "_blank" : ""}
       className={`

@@ -68,33 +68,21 @@ export const kolBenefits = [
 
 export const capFAQ = [
   {
-    question:
-      "Apakah kelas ini cocok untuk pengembangan sosial media bisnis juga?",
+    question: "Apakah kelas ini cocok untuk pengembangan media sosial bisnis?",
     answer:
-      "Sangat cocok. Banyak sekali pembelajaran yang bisa diambil dari sini dan langsung diaplikasikan ke sosial media bisnis kamu!",
+      "Sangat cocok. Banyak sekali pembelajaran yang bisa diambil dari sini dan langsung diaplikasikan ke media sosial bisnis kamu!",
   },
   {
     question:
-      "Apakah kelas ini cocok untuk karyawan professional yang bergerak di bidang sosial media?",
+      "Apakah kelas ini cocok untuk karyawan professional yang bergerak di bidang media sosial?",
     answer:
       "Tentu sangat-sangat cocok! Kamu bisa mengaplikasikan banyak hal untuk pengembangan sosial media di perusahaan tempat kamu kerja. Kamu pun bisa coba ajukan untuk dibayarkan oleh perusahaan untuk mengikuti training ini.",
-  },
-  {
-    question:
-      "Gimana kalau followers saya sudah di atas 10K? Apakah masih bisa mengikuti program ini?",
-    answer:
-      "Materi kami tentunya bisa diimplementasikan untuk semua level kamu, dan ada sesi 1-on-1 yang bisa bantu kamu scale up level konten kamu!",
   },
   {
     question: "Bagaimana biar bisa dapat uang kembali 100%?",
     answer:
       "Kami memberikan hadiah uang kembali 100% kepada siapapun yang bisa mencapai 100 ribu followers selama program 2 Bulan ini.",
   },
-  // {
-  //   question: "Maksudnya garansi konsultasi 1-on-1 seumur hidup bagaimana?",
-  //   answer:
-  //     "Kami akan memberikan garansi konsultasi 1-on-1 seumur hidup hingga kamu mencapai followers 10K",
-  // },
   {
     question:
       "Apakah Creator Accelerator Program online, in-person, atau kelas yang sudah direkam?",
@@ -103,7 +91,7 @@ export const capFAQ = [
   },
   {
     question: "Dalam satu kelas, isinya berapa orang sih?",
-    answer: "Setiap kelas akan diisi oleh maksimum 25 orang.",
+    answer: "Setiap kelas akan diisi oleh maksimum 50 orang.",
   },
   {
     question: "Jadwal untuk live sessionnya itu kapan aja sih?",

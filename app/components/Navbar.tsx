@@ -104,7 +104,7 @@ const Navbar = ({ landingNav, logo, button }: NavbarProps) => {
                   }}
                   className="bg-white px-4 py-2 hover:bg-blue-400 rounded-t whitespace-no-wrap hover:text-white transition cursor-pointer"
                 >
-                  12-Week Creator Accelerator Program
+                  8-week Creator Accelerator Program
                 </div>
 
                 <div
@@ -153,7 +153,7 @@ const Navbar = ({ landingNav, logo, button }: NavbarProps) => {
                     }}
                     className="px-4 py-2 hover:bg-blue-400 hover:text-white transition cursor-pointer"
                   >
-                    12-Week Creator Accelerator Program
+                    8-week Creator Accelerator Program
                   </div>
 
                   <div
