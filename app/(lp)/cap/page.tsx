@@ -70,18 +70,18 @@ const CreatorAcceleratorProgram = () => {
                 GARANSI UANG KEMBALI 100% jika mencapai target yang diberikan.
               </div>
 
-              <div className="flex flex-row gap-5 py-2 px-4 rounded-lg border-blue-400 border w-fit bg-blue-50">
-                <div className="text-center">
-                  <div className="font-bold text-xl">BATCH #3</div>
-                  <div className="text-sm">50 SLOTS ONLY! 🟢</div>
+              <div className="text-base flex flex-row gap-5 py-2 px-4 rounded-lg border-blue-400 border w-fit bg-blue-50">
+                <div className="text-right">
+                  <div className="font-bold">Batch #3</div>
+                  <div className="">50 SLOTS ONLY! 🟢</div>
                 </div>
 
-                {/* <div className="border-r border-blue-400 border-2" />
+                <div className="border-r border-blue-400 border-2" />
 
                 <div className="text-left">
                   <div className="">Next Batch Starts on</div>
                   <div className="font-bold">Juni 2024 🗓</div>
-                </div> */}
+                </div>
               </div>
             </div>
           }
