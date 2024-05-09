@@ -242,6 +242,59 @@ const CreatorAcceleratorProgram = () => {
         </div>
       </Container>
 
+      <Container>
+        <Text text="Perkembangan Alumni Seefluencer 📈" title bold />
+
+        <Image
+          src="/images/testimoni-josessca.png"
+          alt="Testimoni"
+          width={250}
+          height={250}
+          className="rounded-lg w-full h-full object-cover"
+        />
+
+        <Image
+          src="/images/testimoni-merry.png"
+          alt="Testimoni"
+          width={250}
+          height={250}
+          className="rounded-lg w-full h-full object-cover"
+        />
+
+        <Image
+          src="/images/testimoni-bangbili.png"
+          alt="Testimoni"
+          width={250}
+          height={250}
+          className="rounded-lg w-full h-full object-cover"
+        />
+
+        <Image
+          src="/images/testimoni-edwin.png"
+          alt="Testimoni"
+          width={250}
+          height={250}
+          className="rounded-lg w-full h-full object-cover"
+        />
+      </Container>
+
+      <Container>
+        <div className="col-span-1 flex flex-col gap-2">
+          <Text text="Apa kata mereka..." title bold />
+          <Text
+            text="Testimoni alumni Seefluencer yang sudah sukses menjadi content creator berpenghasilan dari batch-batch sebelumnya."
+            paragraph
+            secondaryColor
+          />
+        </div>
+
+        <iframe
+          allow="fullscreen;"
+          src="https://www.youtube.com/embed/89bpqaNF_BY"
+          className="aspect-video w-full rounded-lg"
+        />
+      </Container>
+
       {/* Problems */}
       <Container bgColor="bg-red-50">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
