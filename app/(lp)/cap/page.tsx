@@ -641,14 +641,6 @@ const CreatorAcceleratorProgram = () => {
                     <div className="text-blue-400 text-xl font-bold">✓</div>
                     <Text
                       paragraph
-                      text="Kamu hanya perlu menyimpan Rp56.000/hari selama 2 bulan untuk bisa mengikuti kelas intensif ini."
-                    />
-                  </div>
-
-                  <div className="flex flex-row gap-3">
-                    <div className="text-blue-400 text-xl font-bold">✓</div>
-                    <Text
-                      paragraph
                       text="Perlu diingat, ini bukan Kelas Online biasa, yang mana Kamu hanya menonton video dan belajar mandiri. Semua kelas & mentoring berlangsung secara live."
                     />
                   </div>
