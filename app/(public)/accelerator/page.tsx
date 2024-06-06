@@ -58,7 +58,7 @@ const CreatorAcceleratorProgram = () => {
               </div>
             </div>
           }
-          buttonHref="https://forms.gle/66jbxdmXxkYLnQDW9"
+          buttonHref="https://forms.gle/tu4Jr8RcC5dNHLir9"
           buttonText="apply now"
           additionalNotes="Program selanjutnya akan dimulai di bulan Agustus 2024"
           external
@@ -121,7 +121,7 @@ const CreatorAcceleratorProgram = () => {
                   </div>
                 </div>
               }
-              ctaButtonHref="https://forms.gle/66jbxdmXxkYLnQDW9"
+              ctaButtonHref="https://forms.gle/tu4Jr8RcC5dNHLir9"
               ctaButtonText="apply now"
             />
           </div>
@@ -266,7 +266,7 @@ const CreatorAcceleratorProgram = () => {
           description="Kelas intensif buat Kamu yang mau mendapatkan bimbingan selama 2 bulan & jadi content creator berpenghasilan."
           src="/images/cap-cap.png"
           buttonText="apply now"
-          href="https://forms.gle/66jbxdmXxkYLnQDW9"
+          href="https://forms.gle/tu4Jr8RcC5dNHLir9"
           external
         />
       </Container>
@@ -518,7 +518,7 @@ const CreatorAcceleratorProgram = () => {
                   </div>
                 </div>
               }
-              ctaButtonHref="https://forms.gle/66jbxdmXxkYLnQDW9"
+              ctaButtonHref="https://forms.gle/tu4Jr8RcC5dNHLir9"
               ctaButtonText="apply now"
             />
           </div>
@@ -541,7 +541,7 @@ const CreatorAcceleratorProgram = () => {
             priceBefore="Rp10.500.000"
             priceAfter="Rp5.999.000"
             ctaButtonText="apply now"
-            ctaButtonHref="https://forms.gle/66jbxdmXxkYLnQDW9"
+            ctaButtonHref="https://forms.gle/tu4Jr8RcC5dNHLir9"
             additionalNotes="*Harga bisa naik sewaktu-waktu."
             benefits={
               <>
@@ -573,7 +573,7 @@ const CreatorAcceleratorProgram = () => {
           external
           src="/images/cap-merch-2.png"
           buttonText="apply now"
-          href="https://forms.gle/66jbxdmXxkYLnQDW9"
+          href="https://forms.gle/tu4Jr8RcC5dNHLir9"
           title="Dapatkan Juga Merchandise Eksklusif untuk 50 Orang Pertama."
           description="Kamu akan dikirimkan langsung merchandise baju, lanyard, kartu, & topi. Ini khusus berlaku untuk 50 orang yang lolos ke dalam Creator Accelerator Program ini."
         />
