@@ -53,14 +53,14 @@ const CreatorAcceleratorProgram = () => {
 
                 <div className="text-left">
                   <div className="">Next Batch Starts on</div>
-                  <div className="font-bold">Juni 2024 🗓</div>
+                  <div className="font-bold">Aug 2024 🗓</div>
                 </div>
               </div>
             </div>
           }
           buttonHref="https://forms.gle/66jbxdmXxkYLnQDW9"
           buttonText="apply now"
-          additionalNotes="Program selanjutnya akan dimulai di bulan Juni 2024"
+          additionalNotes="Program selanjutnya akan dimulai di bulan Agustus 2024"
           external
         />
       </Container>
@@ -539,7 +539,7 @@ const CreatorAcceleratorProgram = () => {
         <div className="flex justify-center items-center">
           <CtaBox
             priceBefore="Rp10.500.000"
-            priceAfter="Rp5.499.000"
+            priceAfter="Rp5.999.000"
             ctaButtonText="apply now"
             ctaButtonHref="https://forms.gle/66jbxdmXxkYLnQDW9"
             additionalNotes="*Harga bisa naik sewaktu-waktu."
