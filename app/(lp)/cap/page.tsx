@@ -243,39 +243,47 @@ const CreatorAcceleratorProgram = () => {
       </Container>
 
       <Container>
-        <Text text="Perkembangan Alumni Seefluencer 📈" title bold />
+        <Text text="Perkembangan Akun Alumni Seefluencer 📈" title bold />
 
-        <Image
-          src="/images/testimoni-josessca.png"
-          alt="Testimoni"
-          width={250}
-          height={250}
-          className="rounded-lg w-full h-full object-cover"
-        />
+        <div className="bg-white shadow-lg p-2 rounded-3xl">
+          <Image
+            src="/images/josessca.png"
+            alt="Testimoni"
+            width={500}
+            height={500}
+            className="rounded-lg w-full h-full object-cover"
+          />
+        </div>
 
-        <Image
-          src="/images/testimoni-merry.png"
-          alt="Testimoni"
-          width={250}
-          height={250}
-          className="rounded-lg w-full h-full object-cover"
-        />
+        <div className="shadow-lg p-2 rounded-3xl bg-white">
+          <Image
+            src="/images/merry.png"
+            alt="Testimoni"
+            width={500}
+            height={500}
+            className="rounded-lg w-full h-full object-cover"
+          />
+        </div>
 
-        <Image
-          src="/images/testimoni-bangbili.png"
-          alt="Testimoni"
-          width={250}
-          height={250}
-          className="rounded-lg w-full h-full object-cover"
-        />
+        <div className="bg-white shadow-lg p-2 rounded-3xl">
+          <Image
+            src="/images/bangbiili.png"
+            alt="Testimoni"
+            width={500}
+            height={500}
+            className="rounded-lg w-full h-full object-cover"
+          />
+        </div>
 
-        <Image
-          src="/images/testimoni-edwin.png"
-          alt="Testimoni"
-          width={250}
-          height={250}
-          className="rounded-lg w-full h-full object-cover"
-        />
+        <div className="bg-white shadow-lg p-2 rounded-3xl">
+          <Image
+            src="/images/edwin.png"
+            alt="Testimoni"
+            width={500}
+            height={500}
+            className="rounded-lg w-full h-full object-cover"
+          />
+        </div>
       </Container>
 
       <Container>
@@ -376,6 +384,19 @@ const CreatorAcceleratorProgram = () => {
           src="/images/cap-report.png"
           title="Rapor & Penugasan"
           description="Perlu diingat, ini bukan Kelas Online biasa, yang mana Kamu hanya menonton video dan belajar mandiri. Semua kelas & mentoring berlangsung secara live. Agar perkembanganmu bisa lebih efektif, Kami akan memantau secara intensif."
+        />
+      </Container>
+
+      {/* Sistem Kelas */}
+
+      <Container>
+        <Text text="Sistem Kelas 👨‍🏫" title bold />
+        <Image
+          src="/images/sistem.png"
+          alt="Sistem Kelas"
+          width={500}
+          height={500}
+          className="rounded-lg w-full h-full object-cover"
         />
       </Container>
 

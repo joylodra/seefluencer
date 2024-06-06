@@ -27,7 +27,7 @@ const FeatureCard = ({
 }: FeatureCardProps) => {
   return (
     <div
-      className={`grid grid-cols-1 gap-5 md:gap-20 items-center md:grid-cols-2`}
+      className={`grid grid-cols-1 gap-5 md:gap-15 items-center md:grid-cols-2`}
     >
       <div
         className={`col-span-1 order-last flex flex-col gap-5
@@ -54,9 +54,9 @@ const FeatureCard = ({
         <Image
           src={src}
           alt="Feature Description Image"
-          width={250}
-          height={250}
-          className="rounded-lg w-full h-full object-cover"
+          width={500}
+          height={500}
+          className="w-full h-full object-cover rounded-2xl"
         />
       </div>
     </div>
