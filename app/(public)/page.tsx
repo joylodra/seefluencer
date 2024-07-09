@@ -61,14 +61,14 @@ export default function Home() {
         />
 
         <FeatureCard
-          title="3-Day Introduction to Content Creation"
+          title="The Next Creator"
           description={
             <div className="flex flex-col gap-3">
               <div className="flex flex-row gap-3">
                 <div className="text-blue-400 text-xl font-bold">✓</div>
                 <Text
                   paragraph
-                  text="Kursus pendek cara jadi content creator yang dijalankan selama 3 hari secara live."
+                  text="Webinar tentang potensi content creator yang masih sangat basah di Indonesia dan cara bikin konten yang viral secara live."
                 />
               </div>
               <div className="flex flex-row gap-3">
@@ -82,7 +82,7 @@ export default function Home() {
           }
           src="/images/ocwe-pertumbuhan.png"
           buttonText="learn more"
-          href="/miniclass"
+          href="/thenextcreator"
         />
 
         {/* <FeatureCard

@@ -17,7 +17,7 @@ import { ImSad } from "react-icons/im";
 import { BsClock, BsCalendar } from "react-icons/bs";
 
 export const metadata = {
-  title: "3-Day Introduction to Content Creation",
+  title: "The Next Creator",
   keywords: [
     "konsultasi",
     "konten kreator",
@@ -33,21 +33,20 @@ const IntroductionClass = () => {
       {/* Hero Section */}
       <Container>
         <Hero
-          title="3-Day Introduction to Content Creation"
+          title="WEBINAR GRATIS: The Next Creator"
           description={
             <div className="flex flex-col gap-5">
               <div>
                 Samuel Christ akan bongkar rahasianya bisa viral sebagai content
-                creator melalui kelas intensif GRATIS yang berlangsung selama 3
-                hari!
+                creator melalui webinar GRATIS ini!
               </div>
 
               <div className="text-base flex flex-col gap-3">
                 <div className="text-xl font-bold text-black">Batch #2</div>
 
                 <div>
-                  <div className="text-black">🗓 To Be Determined (TBD)</div>
-                  <div className="text-black">⏰ To Be Determined (TBD)</div>
+                  <div className="text-black">🗓 Jumat, 12 Juli 2024</div>
+                  <div className="text-black">⏰ 19:00 WIB s.d. Selesai</div>
                 </div>
               </div>
             </div>
@@ -55,7 +54,7 @@ const IntroductionClass = () => {
           withImage
           imageSrc="/images/ocwe-seberapakaya.png"
           buttonText="join now"
-          buttonHref="https://forms.gle/RnciRxMeiRw6GVe39"
+          buttonHref="https://forms.gle/jaXdFGJUdE3VCA71A"
           external
         />
       </Container>
@@ -107,11 +106,11 @@ const IntroductionClass = () => {
       {/* Introduction */}
       <Container>
         <FeatureCard
-          title="Memperkenalkan, 3-Day Introduction to Content Creation yang dirancang oleh Seefluencer University"
-          description="Kelas intensif buat Kamu yang mau belajar selama 3 hari bagaimana caranya bikin konten yang bisa viral."
+          title="Memperkenalkan, webinar The Next Creator yang dirancang oleh Seefluencer University"
+          description="Webinar buat Kamu yang mau belajar bagaimana caranya bikin konten yang bisa viral."
           src="/images/imcc-imcc.png"
           buttonText="join now"
-          href="https://forms.gle/RnciRxMeiRw6GVe39"
+          href="https://forms.gle/jaXdFGJUdE3VCA71A"
           external
         />
       </Container>
@@ -137,8 +136,8 @@ const IntroductionClass = () => {
           />
 
           <FeatureCard
-            title="5 Juta+ Followers"
-            description="Samuel memiliki 2,3M subscribers di YouTube, 2,2M di TikTok, dan 535K followers di Instagram. Semua sosial medianya sudah verified."
+            title="6.5 Juta+ Followers"
+            description="Samuel memiliki 2,7M subscribers di YouTube, 3M di TikTok, dan 760K followers di Instagram. Semua sosial medianya sudah verified."
             src="/images/ocwe-pertumbuhan.png"
           />
 
@@ -159,7 +158,7 @@ const IntroductionClass = () => {
         <div className="flex justify-center">
           <Button
             buttonText="join now"
-            hrefLink="https://forms.gle/RnciRxMeiRw6GVe39"
+            hrefLink="https://forms.gle/jaXdFGJUdE3VCA71A"
             external
             regular
           />
@@ -169,7 +168,7 @@ const IntroductionClass = () => {
       {/* Curriculum */}
       <Container>
         <Text
-          text={"Apa Saja Yang Akan Kamu Pelajari Selama 3 Hari Ini?"}
+          text={"Apa Saja Yang Akan Kamu Pelajari Selama Webinar Ini?"}
           title
           bold
         />
@@ -177,12 +176,12 @@ const IntroductionClass = () => {
         <div className="flex flex-wrap gap-3">
           <div className="flex flex-row gap-2 items-center">
             <BsCalendar className="text-gray-400 text-xl" />
-            <Text text="3 hari" paragraph />
+            <Text text="Jumat, 12 Juli 2024" paragraph />
           </div>
 
           <div className="flex flex-row gap-2 items-center">
             <BsClock className="text-gray-400 text-xl" />
-            <Text text="19:00 - 21:00 WIB" paragraph />
+            <Text text="19:00 WIB s.d. Selesai" paragraph />
           </div>
         </div>
 
@@ -192,11 +191,6 @@ const IntroductionClass = () => {
               number="01"
               question="Potensi GILA Konten Kreator Di Masa Depan"
               answer="Bedah tuntas peluang untuk menjadi content creator sukses di Indonesia dan sekaligus penghasilannya."
-            />
-            <Accordion
-              number="02"
-              question="RAHASIA Bangun Personal Branding Di Sosmed"
-              answer="Belajar cara memaksimalkan dan membangun personal branding personal branding yang unik, spesifik, dan dilirik oleh brand/potensial klien."
             />
             <Accordion
               number="03"
@@ -226,7 +220,7 @@ const IntroductionClass = () => {
                   </div>
                 </div>
               }
-              ctaButtonHref="https://forms.gle/RnciRxMeiRw6GVe39"
+              ctaButtonHref="https://forms.gle/jaXdFGJUdE3VCA71A"
               ctaButtonText="join now"
             />
           </div>
@@ -249,8 +243,8 @@ const IntroductionClass = () => {
             priceBefore="Rp2.499.000"
             priceAfter="GRATIS!"
             ctaButtonText="join now"
-            ctaButtonHref="https://forms.gle/RnciRxMeiRw6GVe39"
-            additionalNotes="*Slot kelas terbatas, kita hanya menerima 250 orang yang berpotensi untuk setiap batchnya."
+            ctaButtonHref="https://forms.gle/jaXdFGJUdE3VCA71A"
+            additionalNotes="*Slot webinar sangat terbatas!"
             benefits={
               <>
                 <div className="flex flex-col gap-3">
