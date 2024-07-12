@@ -176,7 +176,7 @@ const IntroductionClass = () => {
         <div className="flex flex-wrap gap-3">
           <div className="flex flex-row gap-2 items-center">
             <BsCalendar className="text-gray-400 text-xl" />
-            <Text text="Jumat, 12 Juli 2024" paragraph />
+            <Text text="DIUNDUR ke Kamis, 18 Juli 2024" paragraph />
           </div>
 
           <div className="flex flex-row gap-2 items-center">
