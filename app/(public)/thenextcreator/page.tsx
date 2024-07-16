@@ -45,7 +45,7 @@ const IntroductionClass = () => {
                 <div className="text-xl font-bold text-black">Batch #2</div>
 
                 <div>
-                  <div className="text-black">🗓 Jumat, 12 Juli 2024</div>
+                  <div className="text-black">🗓 Kamis, 18 Juli 2024</div>
                   <div className="text-black">⏰ 19:00 WIB s.d. Selesai</div>
                 </div>
               </div>
