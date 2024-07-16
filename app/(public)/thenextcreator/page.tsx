@@ -54,7 +54,7 @@ const IntroductionClass = () => {
           withImage
           imageSrc="/images/ocwe-seberapakaya.png"
           buttonText="join now"
-          buttonHref="https://forms.gle/jaXdFGJUdE3VCA71A"
+          buttonHref="https://forms.gle/NBntjouBQDjhjiFu8"
           external
         />
       </Container>
@@ -110,7 +110,7 @@ const IntroductionClass = () => {
           description="Webinar buat Kamu yang mau belajar bagaimana caranya bikin konten yang bisa viral."
           src="/images/imcc-imcc.png"
           buttonText="join now"
-          href="https://forms.gle/jaXdFGJUdE3VCA71A"
+          href="https://forms.gle/NBntjouBQDjhjiFu8"
           external
         />
       </Container>
@@ -158,7 +158,7 @@ const IntroductionClass = () => {
         <div className="flex justify-center">
           <Button
             buttonText="join now"
-            hrefLink="https://forms.gle/jaXdFGJUdE3VCA71A"
+            hrefLink="https://forms.gle/NBntjouBQDjhjiFu8"
             external
             regular
           />
@@ -220,7 +220,7 @@ const IntroductionClass = () => {
                   </div>
                 </div>
               }
-              ctaButtonHref="https://forms.gle/jaXdFGJUdE3VCA71A"
+              ctaButtonHref="https://forms.gle/NBntjouBQDjhjiFu8"
               ctaButtonText="join now"
             />
           </div>
@@ -243,7 +243,7 @@ const IntroductionClass = () => {
             priceBefore="Rp2.499.000"
             priceAfter="GRATIS!"
             ctaButtonText="join now"
-            ctaButtonHref="https://forms.gle/jaXdFGJUdE3VCA71A"
+            ctaButtonHref="https://forms.gle/NBntjouBQDjhjiFu8"
             additionalNotes="*Slot webinar sangat terbatas!"
             benefits={
               <>
