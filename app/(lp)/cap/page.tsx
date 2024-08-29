@@ -54,7 +54,7 @@ const CreatorAcceleratorProgram = () => {
           <Button
             noFull
             buttonText="apply now"
-            hrefLink="https://forms.gle/tu4Jr8RcC5dNHLir9"
+            hrefLink="https://forms.gle/ezkzDnbbTWHCufxP8"
             external
           />
         }
@@ -72,7 +72,7 @@ const CreatorAcceleratorProgram = () => {
 
               <div className="text-base flex flex-row gap-5 py-2 px-4 rounded-lg border-blue-400 border w-fit bg-blue-50">
                 <div className="text-right">
-                  <div className="font-bold">Batch #4</div>
+                  <div className="font-bold">Batch #5</div>
                   <div className="">50 SLOTS ONLY! 🟢</div>
                 </div>
 
@@ -80,12 +80,12 @@ const CreatorAcceleratorProgram = () => {
 
                 <div className="text-left">
                   <div className="">Next Batch Starts on</div>
-                  <div className="font-bold">Aug 2024 🗓</div>
+                  <div className="font-bold">Okt 2024 🗓</div>
                 </div>
               </div>
             </div>
           }
-          buttonHref="https://forms.gle/tu4Jr8RcC5dNHLir9"
+          buttonHref="https://forms.gle/ezkzDnbbTWHCufxP8"
           buttonText="apply now"
           additionalNotes="Program selanjutnya akan dimulai di bulan Agustus 2024"
           external
@@ -148,7 +148,7 @@ const CreatorAcceleratorProgram = () => {
                   </div>
                 </div>
               }
-              ctaButtonHref="https://forms.gle/tu4Jr8RcC5dNHLir9"
+              ctaButtonHref="https://forms.gle/ezkzDnbbTWHCufxP8"
               ctaButtonText="apply now"
             />
           </div>
@@ -346,7 +346,7 @@ const CreatorAcceleratorProgram = () => {
           description="Kelas intensif buat Kamu yang mau mendapatkan bimbingan selama 2 bulan & jadi content creator berpenghasilan."
           src="/images/cap-cap.png"
           buttonText="apply now"
-          href="https://forms.gle/tu4Jr8RcC5dNHLir9"
+          href="https://forms.gle/ezkzDnbbTWHCufxP8"
           external
         />
       </Container>
@@ -598,7 +598,7 @@ const CreatorAcceleratorProgram = () => {
                   </div>
                 </div>
               }
-              ctaButtonHref="https://forms.gle/tu4Jr8RcC5dNHLir9"
+              ctaButtonHref="https://forms.gle/ezkzDnbbTWHCufxP8"
               ctaButtonText="apply now"
             />
           </div>
@@ -632,7 +632,7 @@ const CreatorAcceleratorProgram = () => {
             priceBefore="Rp10.500.000"
             priceAfter="Rp5.999.000"
             ctaButtonText="apply now"
-            ctaButtonHref="https://forms.gle/tu4Jr8RcC5dNHLir9"
+            ctaButtonHref="https://forms.gle/ezkzDnbbTWHCufxP8"
             additionalNotes="*Harga bisa naik sewaktu-waktu."
             benefits={
               <>
@@ -664,7 +664,7 @@ const CreatorAcceleratorProgram = () => {
           external
           src="/images/cap-merch-2.png"
           buttonText="apply now"
-          href="https://forms.gle/tu4Jr8RcC5dNHLir9"
+          href="https://forms.gle/ezkzDnbbTWHCufxP8"
           title="Dapatkan Juga Merchandise Eksklusif untuk 50 Orang Pertama."
           description="Kamu akan dikirimkan langsung merchandise baju, lanyard, kartu, & topi. Ini khusus berlaku untuk 50 orang yang lolos ke dalam Creator Accelerator Program ini."
         />
