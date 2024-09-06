@@ -33,21 +33,21 @@ export default function Home() {
           description={
             <div className="flex flex-col gap-3">
               <div className="flex flex-row gap-3">
-                <div className="text-blue-400 text-xl font-bold">✓</div>
+                <div className="text-[#0b64be] text-xl font-bold">✓</div>
                 <Text
                   paragraph
                   text="Sekolah konten kreator yang dijalankan selama 8 minggu secara live."
                 />
               </div>
               <div className="flex flex-row gap-3">
-                <div className="text-blue-400 text-xl font-bold">✓</div>
+                <div className="text-[#0b64be] text-xl font-bold">✓</div>
                 <Text
                   paragraph
                   text="Kamu akan langsung dibimbing hingga bisa menghasilkan minimal 30 konten yang diupload."
                 />
               </div>
               <div className="flex flex-row gap-3">
-                <div className="text-blue-400 text-xl font-bold">✓</div>
+                <div className="text-[#0b64be] text-xl font-bold">✓</div>
                 <Text
                   paragraph
                   text="Kamu akan diberikan 8 kali sesi 1-on-1 coaching selama kelas berlangsung, 1 minggu 1 kali."
@@ -65,14 +65,14 @@ export default function Home() {
           description={
             <div className="flex flex-col gap-3">
               <div className="flex flex-row gap-3">
-                <div className="text-blue-400 text-xl font-bold">✓</div>
+                <div className="text-[#0b64be] text-xl font-bold">✓</div>
                 <Text
                   paragraph
                   text="Webinar tentang potensi content creator yang masih sangat basah di Indonesia dan cara bikin konten yang viral secara live."
                 />
               </div>
               <div className="flex flex-row gap-3">
-                <div className="text-blue-400 text-xl font-bold">✓</div>
+                <div className="text-[#0b64be] text-xl font-bold">✓</div>
                 <Text
                   paragraph
                   text="Kami sudah menyiapkan materi yang bisa langsung dipraktekkan."
@@ -91,21 +91,21 @@ export default function Home() {
           description={
             <div className="flex flex-col gap-3">
               <div className="flex flex-row gap-3">
-                <div className="text-blue-400 text-xl font-bold">✓</div>
+                <div className="text-[#0b64be] text-xl font-bold">✓</div>
                 <Text
                   paragraph
                   text="Sesi 45 menit bersama Samuel Christ, konten kreator dengan 5 juta+ followers."
                 />
               </div>
               <div className="flex flex-row gap-3">
-                <div className="text-blue-400 text-xl font-bold">✓</div>
+                <div className="text-[#0b64be] text-xl font-bold">✓</div>
                 <Text
                   paragraph
                   text="Bebas bertanya pertanyaan apa saja seputar dunia konten kreator."
                 />
               </div>
               <div className="flex flex-row gap-3">
-                <div className="text-blue-400 text-xl font-bold">✓</div>
+                <div className="text-[#0b64be] text-xl font-bold">✓</div>
                 <Text
                   paragraph
                   text="Selesaikan semua masalah perkontenanmu dengan mendapatkan solusi yang tepat dari pakarnya."
@@ -124,14 +124,14 @@ export default function Home() {
           description={
             <div className="flex flex-col gap-3">
               <div className="flex flex-row gap-3">
-                <div className="text-blue-400 text-xl font-bold">✓</div>
+                <div className="text-[#0b64be] text-xl font-bold">✓</div>
                 <Text
                   paragraph
                   text="Pemilihan influencer yang berkualitas dan terbaik di bidangnya berdasarkan data."
                 />
               </div>
               <div className="flex flex-row gap-3">
-                <div className="text-blue-400 text-xl font-bold">✓</div>
+                <div className="text-[#0b64be] text-xl font-bold">✓</div>
                 <Text
                   paragraph
                   text="Pembuatan konsep marketing campaign yang terbukti bisa meningkatkan performa perusahaan."

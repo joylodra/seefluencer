@@ -30,7 +30,7 @@ const Button = ({
       ${regular && "w-full md:w-fit"}
       ${full && "w-full"}  
       ${noFull && "w-fit"}
-      text-center px-4 py-2 md:px-8 bg-blue-400 text-white text-base md:text-lg rounded-sm hover:shadow-md transition-all font-bold cursor-pointer capitalize`}
+      text-center px-4 py-2 md:px-8 bg-[#0b64be] text-white text-base md:text-lg rounded-sm hover:shadow-md transition-all font-bold cursor-pointer capitalize`}
     >
       {buttonText}
     </Link>

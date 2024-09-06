@@ -94,7 +94,7 @@ const Footer = ({ complete }: FooterProps) => {
             <Link
               key={item.url}
               target="_blank"
-              className="p-2 rounded-full bg-blue-400 hover:shadow-lg transition-all"
+              className="p-2 rounded-full bg-[#0b64be] hover:shadow-lg transition-all"
               href={item.url}
             >
               {item.icon}

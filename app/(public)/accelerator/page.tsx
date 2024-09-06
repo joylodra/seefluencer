@@ -43,13 +43,13 @@ const CreatorAcceleratorProgram = () => {
                 GARANSI UANG KEMBALI 100% jika mencapai target yang diberikan.
               </div>
 
-              <div className="text-base flex flex-row gap-5 py-2 px-4 rounded-lg border-blue-400 border w-fit bg-blue-50">
+              <div className="text-base flex flex-row gap-5 py-2 px-4 rounded-lg border-[#0b64be] border w-fit bg-blue-50">
                 <div className="text-right">
                   <div className="font-bold">Batch #5</div>
                   <div className="">50 SLOTS ONLY! 🟢</div>
                 </div>
 
-                <div className="border-r border-blue-400 border-2" />
+                <div className="border-r border-[#0b64be] border-2" />
 
                 <div className="text-left">
                   <div className="">Next Batch Starts on</div>
@@ -60,7 +60,7 @@ const CreatorAcceleratorProgram = () => {
           }
           buttonHref="https://forms.gle/ezkzDnbbTWHCufxP8"
           buttonText="apply now"
-          additionalNotes="Program selanjutnya akan dimulai di bulan Agustus 2024"
+          additionalNotes="Program selanjutnya akan dimulai di bulan Oktober 2024"
           external
         />
       </Container>
@@ -84,7 +84,7 @@ const CreatorAcceleratorProgram = () => {
               content={
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-row gap-3">
-                    <div className="text-blue-400 text-xl font-bold">✓</div>
+                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
                     <Text
                       paragraph
                       text="Sekolah konten kreator yang dijalankan selama 8 minggu secara live."
@@ -92,7 +92,7 @@ const CreatorAcceleratorProgram = () => {
                   </div>
 
                   <div className="flex flex-row gap-3">
-                    <div className="text-blue-400 text-xl font-bold">✓</div>
+                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
                     <Text
                       paragraph
                       text="Dibimbing hingga bisa menghasilkan minimal 30 konten yang diupload."
@@ -100,12 +100,12 @@ const CreatorAcceleratorProgram = () => {
                   </div>
 
                   <div className="flex flex-row gap-3">
-                    <div className="text-blue-400 text-xl font-bold">✓</div>
+                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
                     <Text paragraph text="8 live class session dan Q&A." />
                   </div>
 
                   <div className="flex flex-row gap-3">
-                    <div className="text-blue-400 text-xl font-bold">✓</div>
+                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
                     <Text
                       paragraph
                       text="8 kali sesi 1-on-1 mentoring selama kelas berlangsung, 1 minggu 1 kali."
@@ -113,7 +113,7 @@ const CreatorAcceleratorProgram = () => {
                   </div>
 
                   <div className="flex flex-row gap-3">
-                    <div className="text-blue-400 text-xl font-bold">✓</div>
+                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
                     <Text
                       paragraph
                       text="Jaminan UANG KEMBALI 100% jika mencapai target."
@@ -158,35 +158,35 @@ const CreatorAcceleratorProgram = () => {
 
             <div className="flex flex-wrap gap-8">
               <IconCardReverse
-                iconColor="text-blue-400"
+                iconColor="text-[#0b64be]"
                 icon={<BsClock />}
                 title="Juni 2024"
                 description="Tanggal Mulai"
               />
 
               <IconCardReverse
-                iconColor="text-blue-400"
+                iconColor="text-[#0b64be]"
                 icon={<BsCalendar />}
                 title="2 Bulan"
                 description="Durasi"
               />
 
               <IconCardReverse
-                iconColor="text-blue-400"
+                iconColor="text-[#0b64be]"
                 icon={<BsPersonBadge />}
                 title="50 Murid"
                 description="Slot Kelas"
               />
 
               <IconCardReverse
-                iconColor="text-blue-400"
+                iconColor="text-[#0b64be]"
                 icon={<BsLaptop />}
                 title="Live Online Class"
                 description="Format"
               />
 
               <IconCardReverse
-                iconColor="text-blue-400"
+                iconColor="text-[#0b64be]"
                 icon={<BsGraphUp />}
                 title="Beginner"
                 description="Skill Level"
@@ -195,31 +195,38 @@ const CreatorAcceleratorProgram = () => {
 
             <FeatureCard
               reverse
-              src="/images/cap-100k.png"
+              src="/images/seratus.png"
               title="Get Your Money Back 100%"
               description="Kami yakin bahwa siapa pun bisa sukses dengan berkomitmen pada program ini! Samuel Christ berhasil mendapatkan 100 ribu followers di TIkTok dalam waktu 1 bulan, dan kami memberikan hadiah uang kembali 100% kepada siapapun yang bisa mencapai 100 ribu followers selama 2 bulan ini."
             />
             <FeatureCard
               reverse
-              src="/images/cap-50.png"
+              src="/images/limapuluh.png"
               title="Slot Terbatas"
               description="Sayangnya, program ini tidak untuk semua orang. Slot kami sangat terbatas hanya untuk 50 ORANG saja. Untuk itu, setiap kamu yang mau bergabung didalam program ini, akan melewati proses seleksi. Kami memilih orang-orang yang punya tekad yang kuat, pekerja keras, dan tidak gampang menyerah."
             />
             <FeatureCard
               reverse
-              src="/images/cap-sert.png"
-              title="Seefluencer Certification"
-              description="Seefluencer University akan memberikan setifikat kelulusan untuk setiap murid agar bisa lebih mudah untuk diterima oleh perusahaan."
+              src="/images/sertifikasi-bnsp.png"
+              title="Seefluencer & BNSP Certification"
+              description="Seefluencer University akan memberikan setifikat kelulusan untuk setiap murid agar bisa lebih mudah untuk diterima oleh perusahaan. Murid juga ada opsi untuk mengambil ujian negara dan mendapatkan sertifikasi BNSP profesi Konten Kreator yang sudah diakui oleh negara Indonesia."
             />
           </div>
         </div>
       </Container>
 
       <Container>
-        <Text text="Perkembangan Akun Alumni Seefluencer 📈" title bold />
+        <div>
+          <Text text="Before & After Alumni Seefluencer 📈" title bold />
+          <Text
+            text="Perkembangan alumni-alumni Seefluencer setelah lulus dari Creator Accelerator Program."
+            paragraph
+            secondaryColor
+          />
+        </div>
 
         <Image
-          src="/images/testimoni-edwin.png"
+          src="/images/change-edwin.png"
           alt="Testimoni"
           width={500}
           height={500}
@@ -227,7 +234,7 @@ const CreatorAcceleratorProgram = () => {
         />
 
         <Image
-          src="/images/testimoni-josessca.png"
+          src="/images/change-merry.png"
           alt="Testimoni"
           width={500}
           height={500}
@@ -235,7 +242,7 @@ const CreatorAcceleratorProgram = () => {
         />
 
         <Image
-          src="/images/testimoni-merry.png"
+          src="/images/change-josessca.png"
           alt="Testimoni"
           width={500}
           height={500}
@@ -243,7 +250,31 @@ const CreatorAcceleratorProgram = () => {
         />
 
         <Image
-          src="/images/testimoni-bangbili.png"
+          src="/images/change-jecelline.png"
+          alt="Testimoni"
+          width={500}
+          height={500}
+          className="rounded-lg w-full h-full object-cover"
+        />
+
+        <Image
+          src="/images/change-bangbili.png"
+          alt="Testimoni"
+          width={500}
+          height={500}
+          className="rounded-lg w-full h-full object-cover"
+        />
+
+        <Image
+          src="/images/change-vanat.png"
+          alt="Testimoni"
+          width={500}
+          height={500}
+          className="rounded-lg w-full h-full object-cover"
+        />
+
+        <Image
+          src="/images/change-raifah.png"
           alt="Testimoni"
           width={500}
           height={500}
@@ -335,42 +366,42 @@ const CreatorAcceleratorProgram = () => {
         </div>
 
         <FeatureCard
-          src="/images/cap-kurikulum.png"
+          src="/images/materi-kurikulum.png"
           title="Materi Eksklusif"
           description="Dengan pengalaman 7+ tahun Samuel Christ, materi & kurikulum kami akan memudahkan Kamu untuk belajar bagaimana membuat konten yang lebih efektif & persuasif."
         />
         <FeatureCard
           reverse
-          src="/images/profile.png"
+          src="/images/one-on-one.png"
           title="1-On-1 Live Mentoring"
           description="Kami sangat mengerti, setiap orang punya pemahaman dan tantangan yang berbeda-beda. Maka dari itu, Kamu bisa mendapatkan 8 kali konsultasi langsung bersama mentor-mentor pilihan Seefluencer."
         />
         <FeatureCard
-          src="/images/cap-report.png"
+          src="/images/report-card.png"
           title="Rapor & Penugasan"
           description="Perlu diingat, ini bukan Kelas Online biasa, yang mana Kamu hanya menonton video dan belajar mandiri. Semua kelas & mentoring berlangsung secara live. Agar perkembanganmu bisa lebih efektif, Kami akan memantau secara intensif."
         />
       </Container>
 
       {/*Instructors */}
-      <Container bgColor="bg-gradient-to-r from-neutral-800 via-neutral-600 to-neutral-500 text-white text-white">
-        <Text text={"Meet Your Instructors"} title bold />
+      <Container>
+        <Text text={"Meet Your Instructors 🧑‍🏫"} title bold />
 
         <FeatureCard
           reverse
-          src="/images/cap-instruktur-1.png"
+          src="/images/sam-instructor.png"
           title="Samuel Christ"
           description={
             <ul className="list-disc flex flex-col gap-3">
               <li>
                 <Text
-                  text="Sudah memiliki pengalaman 6 tahun sebagai konten kreator, dan pernah Trending #1 di YouTube."
+                  text="Sudah memiliki pengalaman 7 tahun sebagai konten kreator, dan pernah Trending #1 di YouTube."
                   paragraph
                 />
               </li>
               <li>
                 <Text
-                  text="Memiliki total 5+ juta followers di YouTube, Instagram, dan TikTok."
+                  text="Memiliki total 6.5+ juta followers di YouTube, Instagram, dan TikTok."
                   paragraph
                 />
               </li>
@@ -403,7 +434,7 @@ const CreatorAcceleratorProgram = () => {
         />
 
         <FeatureCard
-          src="/images/cap-instruktur-3.png"
+          src="/images/joy-instructor.png"
           title="Joy Lodra"
           description={
             <ul className="list-disc flex flex-col gap-3">
@@ -534,7 +565,7 @@ const CreatorAcceleratorProgram = () => {
               content={
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-row gap-3">
-                    <div className="text-blue-400 text-xl font-bold">✓</div>
+                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
                     <Text
                       paragraph
                       text="Dibimbing hingga bisa menghasilkan minimal 30 konten yang diupload."
@@ -542,12 +573,12 @@ const CreatorAcceleratorProgram = () => {
                   </div>
 
                   <div className="flex flex-row gap-3">
-                    <div className="text-blue-400 text-xl font-bold">✓</div>
+                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
                     <Text paragraph text="8 live class session dan Q&A." />
                   </div>
 
                   <div className="flex flex-row gap-3">
-                    <div className="text-blue-400 text-xl font-bold">✓</div>
+                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
                     <Text
                       paragraph
                       text="8 kali sesi 1-on-1 mentoring selama kelas berlangsung, 1 minggu 1 kali."
@@ -555,7 +586,7 @@ const CreatorAcceleratorProgram = () => {
                   </div>
 
                   <div className="flex flex-row gap-3">
-                    <div className="text-blue-400 text-xl font-bold">✓</div>
+                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
                     <Text
                       paragraph
                       text="Belajar semua yang kamu butuhkan untuk menjadi konten kreator dari A sampai Z."
@@ -563,7 +594,7 @@ const CreatorAcceleratorProgram = () => {
                   </div>
 
                   <div className="flex flex-row gap-3">
-                    <div className="text-blue-400 text-xl font-bold">✓</div>
+                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
                     <Text
                       paragraph
                       text="Bangun karir baru atau kembangkan bisnismu melalui content creation."
@@ -592,7 +623,7 @@ const CreatorAcceleratorProgram = () => {
       {/* Pricing */}
       <Container
         id="pricing"
-        bgColor="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 text-center"
+        bgColor="bg-gradient-to-r from-[#0b64be] to-[#117de9] text-center"
       >
         <div className="flex flex-col gap-5 justify-center items-center">
           <div className="text-white">
@@ -611,7 +642,7 @@ const CreatorAcceleratorProgram = () => {
               <>
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-row gap-3">
-                    <div className="text-blue-400 text-xl font-bold">✓</div>
+                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
                     <Text
                       paragraph
                       text="Perlu diingat, ini bukan Kelas Online biasa, yang mana Kamu hanya menonton video dan belajar mandiri. Semua kelas & mentoring berlangsung secara live."
@@ -619,7 +650,7 @@ const CreatorAcceleratorProgram = () => {
                   </div>
 
                   <div className="flex flex-row gap-3">
-                    <div className="text-blue-400 text-xl font-bold">✓</div>
+                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
                     <Text
                       paragraph
                       text="Seefluencer University adalah Kelas Intensif yang akan memberikan tugas PR, dan membantu Kamu secara personal, sehingga pengembangan konten & personal branding-mu bisa jauh lebih efektif."
@@ -635,11 +666,11 @@ const CreatorAcceleratorProgram = () => {
       <Container>
         <FeatureCard
           external
-          src="/images/cap-merch-2.png"
+          src="/images/student-card.png"
           buttonText="apply now"
           href="https://forms.gle/ezkzDnbbTWHCufxP8"
-          title="Dapatkan Juga Merchandise Eksklusif untuk 50 Orang Pertama."
-          description="Kamu akan dikirimkan langsung merchandise baju, lanyard, kartu, & topi. Ini khusus berlaku untuk 50 orang yang lolos ke dalam Creator Accelerator Program ini."
+          title="Semua Murid Seefluencer Akan Mendapatkan Fine Gold 24k Student ID dan Powerbank"
+          description="Kamu akan dikirimkan langsung Creator Kit yang berisikan Fine Gold 24K Student ID dan Powerbank. Ini khusus berlaku untuk 50 orang yang lolos ke dalam Creator Accelerator Program ini."
         />
       </Container>
 

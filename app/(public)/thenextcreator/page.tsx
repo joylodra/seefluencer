@@ -45,7 +45,7 @@ const IntroductionClass = () => {
                 <div className="text-xl font-bold text-black">Batch #2</div>
 
                 <div>
-                  <div className="text-black">🗓 Kamis, 18 Juli 2024</div>
+                  <div className="text-black">🗓 Kamis, 12 September 2024</div>
                   <div className="text-black">⏰ 19:00 WIB s.d. Selesai</div>
                 </div>
               </div>
@@ -54,7 +54,7 @@ const IntroductionClass = () => {
           withImage
           imageSrc="/images/ocwe-seberapakaya.png"
           buttonText="join now"
-          buttonHref="https://forms.gle/NBntjouBQDjhjiFu8"
+          buttonHref="https://forms.gle/f3bGRASrDRbkdv826"
           external
         />
       </Container>
@@ -110,7 +110,7 @@ const IntroductionClass = () => {
           description="Webinar buat Kamu yang mau belajar bagaimana caranya bikin konten yang bisa viral."
           src="/images/imcc-imcc.png"
           buttonText="join now"
-          href="https://forms.gle/NBntjouBQDjhjiFu8"
+          href="https://forms.gle/f3bGRASrDRbkdv826"
           external
         />
       </Container>
@@ -137,14 +137,14 @@ const IntroductionClass = () => {
 
           <FeatureCard
             title="6.5 Juta+ Followers"
-            description="Samuel memiliki 2,7M subscribers di YouTube, 3M di TikTok, dan 760K followers di Instagram. Semua sosial medianya sudah verified."
+            description="Samuel memiliki 2,9M subscribers di YouTube, 3M di TikTok, dan 760K followers di Instagram. Semua sosial medianya sudah verified."
             src="/images/ocwe-pertumbuhan.png"
           />
 
           <FeatureCard
             reverse
-            title="Pengalaman 6 Tahun"
-            description="Samuel memiliki lebih dari 6 tahun pengalaman sebagai konten kreator."
+            title="Pengalaman 7 Tahun"
+            description="Samuel memiliki lebih dari 7 tahun pengalaman sebagai konten kreator."
             src="/images/ocwe-6tahun.png"
           />
 
@@ -158,7 +158,7 @@ const IntroductionClass = () => {
         <div className="flex justify-center">
           <Button
             buttonText="join now"
-            hrefLink="https://forms.gle/NBntjouBQDjhjiFu8"
+            hrefLink="https://forms.gle/f3bGRASrDRbkdv826"
             external
             regular
           />
@@ -176,7 +176,7 @@ const IntroductionClass = () => {
         <div className="flex flex-wrap gap-3">
           <div className="flex flex-row gap-2 items-center">
             <BsCalendar className="text-gray-400 text-xl" />
-            <Text text="DIUNDUR ke Kamis, 18 Juli 2024" paragraph />
+            <Text text="Kamis, 12 September 2024" paragraph />
           </div>
 
           <div className="flex flex-row gap-2 items-center">
@@ -204,7 +204,7 @@ const IntroductionClass = () => {
               content={
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-row gap-3">
-                    <div className="text-blue-400 text-xl font-bold">✓</div>
+                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
                     <Text
                       paragraph
                       text="Pelajari proses pembuatan konten yang viral dari awal hingga akhir."
@@ -212,7 +212,7 @@ const IntroductionClass = () => {
                   </div>
 
                   <div className="flex flex-row gap-3">
-                    <div className="text-blue-400 text-xl font-bold">✓</div>
+                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
                     <Text
                       paragraph
                       text="Maksimalkan pembelajaran dengan bertanya di sesi Q&A yang disediakan."
@@ -220,7 +220,7 @@ const IntroductionClass = () => {
                   </div>
                 </div>
               }
-              ctaButtonHref="https://forms.gle/NBntjouBQDjhjiFu8"
+              ctaButtonHref="https://forms.gle/f3bGRASrDRbkdv826"
               ctaButtonText="join now"
             />
           </div>
@@ -230,7 +230,7 @@ const IntroductionClass = () => {
       {/* Pricing */}
       <Container
         id="pricing"
-        bgColor="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 text-center"
+        bgColor="bg-gradient-to-r from-[#0b64be] to-[#117de9] text-center"
       >
         <div className="flex flex-col gap-5 justify-center items-center">
           <div className="text-white">
@@ -243,13 +243,13 @@ const IntroductionClass = () => {
             priceBefore="Rp2.499.000"
             priceAfter="GRATIS!"
             ctaButtonText="join now"
-            ctaButtonHref="https://forms.gle/NBntjouBQDjhjiFu8"
+            ctaButtonHref="https://forms.gle/f3bGRASrDRbkdv826"
             additionalNotes="*Slot webinar sangat terbatas!"
             benefits={
               <>
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-row gap-3">
-                    <div className="text-blue-400 text-xl font-bold">✓</div>
+                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
                     <Text
                       paragraph
                       text="Pelajari proses pembuatan konten yang viral dari awal hingga akhir."
@@ -257,7 +257,7 @@ const IntroductionClass = () => {
                   </div>
 
                   <div className="flex flex-row gap-3">
-                    <div className="text-blue-400 text-xl font-bold">✓</div>
+                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
                     <Text
                       paragraph
                       text="Maksimalkan pemebelajaranmu dengan bertanya di sesi Q&A yang disediakan."

@@ -102,7 +102,7 @@ const Navbar = ({ landingNav, logo, button }: NavbarProps) => {
                     router.push(`/accelerator`);
                     setIsMenuOpen(false);
                   }}
-                  className="bg-white px-4 py-2 hover:bg-blue-400 rounded-t whitespace-no-wrap hover:text-white transition cursor-pointer"
+                  className="bg-white px-4 py-2 hover:bg-[#0b64be] rounded-t whitespace-no-wrap hover:text-white transition cursor-pointer"
                 >
                   8-week Creator Accelerator Program
                 </div>
@@ -112,7 +112,7 @@ const Navbar = ({ landingNav, logo, button }: NavbarProps) => {
                     router.push(`/miniclass`);
                     setIsMenuOpen(false);
                   }}
-                  className="bg-white rounded-b whitespace-no-wrap px-4 py-2 hover:bg-blue-400 hover:text-white transition cursor-pointer"
+                  className="bg-white rounded-b whitespace-no-wrap px-4 py-2 hover:bg-[#0b64be] hover:text-white transition cursor-pointer"
                 >
                   The Next Creator
                 </div>
@@ -151,7 +151,7 @@ const Navbar = ({ landingNav, logo, button }: NavbarProps) => {
                       router.push(`/accelerator`);
                       setIsMenuOpen(false);
                     }}
-                    className="px-4 py-2 hover:bg-blue-400 hover:text-white transition cursor-pointer"
+                    className="px-4 py-2 hover:bg-[#0b64be] hover:text-white transition cursor-pointer"
                   >
                     8-week Creator Accelerator Program
                   </div>
@@ -161,7 +161,7 @@ const Navbar = ({ landingNav, logo, button }: NavbarProps) => {
                       router.push(`/miniclass`);
                       setIsMenuOpen(false);
                     }}
-                    className="px-4 py-2 hover:bg-blue-400 hover:text-white transition cursor-pointer"
+                    className="px-4 py-2 hover:bg-[#0b64be] hover:text-white transition cursor-pointer"
                   >
                     The Next Creator
                   </div>
@@ -174,7 +174,7 @@ const Navbar = ({ landingNav, logo, button }: NavbarProps) => {
                       router.push(`${item.href}`);
                       setIsMenuOpen(false);
                     }}
-                    className="px-4 py-2 hover:bg-blue-400 hover:text-white transition cursor-pointer"
+                    className="px-4 py-2 hover:bg-[#0b64be] hover:text-white transition cursor-pointer"
                   >
                     {item.title}
                   </div>

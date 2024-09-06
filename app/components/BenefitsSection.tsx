@@ -8,7 +8,7 @@ const BenefitsSection = () => {
     <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
       {kolBenefits.map((item) => (
         <div key={item.title} className="flex flex-col items-center gap-3">
-          <div className="p-4 rounded-full bg-blue-400 shadow-lg">
+          <div className="p-4 rounded-full bg-[#0b64be] shadow-lg">
             {item.icon}
           </div>
 

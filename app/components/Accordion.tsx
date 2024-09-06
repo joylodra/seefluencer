@@ -38,7 +38,7 @@ const Accordion = ({
       <div className="text-xl flex flex-row justify-between items-center gap-5 font-bold">
         <div className="flex flex-row gap-2">
           {number && (
-            <div className="text-blue-400 font-bold text-xl">{number}</div>
+            <div className="text-[#0b64be] font-bold text-xl">{number}</div>
           )}
           <div>{question}</div>
         </div>

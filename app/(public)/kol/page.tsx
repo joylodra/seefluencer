@@ -69,7 +69,7 @@ const Influencers = () => {
         </div>
       </Container>
 
-      <Container bgColor="bg-gradient-to-r from-blue-500 via-blue-400 to-blue-200 text-center">
+      <Container bgColor="bg-gradient-to-r from-[#0b64be] to-[#117de9] text-center">
         <div className="flex flex-col gap-5 justify-center items-center">
           <div className="text-white">
             <Text
@@ -87,11 +87,11 @@ const Influencers = () => {
             benefits={
               <>
                 <div className="flex flex-row gap-3">
-                  <div className="text-blue-400 text-xl font-bold">✓</div>
+                  <div className="text-[#0b64be] text-xl font-bold">✓</div>
                   <Text text="Kami selalu berusaha untuk memaksimalkan dana yang dialokasikan untuk mendapatkan hasil influencer marketing yang terbaik." />
                 </div>
                 <div className="flex flex-row gap-3">
-                  <div className="text-blue-400 text-xl font-bold">✓</div>
+                  <div className="text-[#0b64be] text-xl font-bold">✓</div>
                   <Text text="Transparansi dalam setiap kerja sama ataupun kampanye adalah kunci utama yang selalu kami pegang." />
                 </div>
               </>
