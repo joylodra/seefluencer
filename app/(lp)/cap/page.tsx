@@ -421,40 +421,31 @@ const CreatorAcceleratorProgram = () => {
           description={
             <ul className="list-disc flex flex-col gap-3">
               <li>
-                <Text
-                  text="Sudah memiliki pengalaman 7 tahun sebagai konten kreator, dan pernah Trending #1 di YouTube."
-                  paragraph
-                />
+                Sudah memiliki pengalaman{" "}
+                <span className="font-bold">7 tahun</span> sebagai konten
+                kreator, dan pernah Trending #1 di YouTube.
               </li>
               <li>
-                <Text
-                  text="Memiliki total 6.5+ juta followers di YouTube, Instagram, dan TikTok."
-                  paragraph
-                />
+                Memiliki total{" "}
+                <span className="font-bold">6.5+ juta followers</span> di{" "}
+                YouTube, Instagram, dan TikTok.
               </li>
               <li>
-                <Text
-                  text="Konten mencapai 150M+ views per bulannya."
-                  paragraph
-                />
+                Konten mencapai <span className="font-bold">150M+ views</span>{" "}
+                per bulannya.
               </li>
               <li>
-                <Text
-                  text="Pemenang TikTok Award The Most Favorite Education Creator 2022 1st Half."
-                  paragraph
-                />
+                Pemenang{" "}
+                <span className="font-bold">
+                  TikTok Award The Most Favorite Education Creator 2022
+                </span>{" "}
+                1st Half.
               </li>
               <li>
-                <Text
-                  text="Co-founder dari Seefluencer, Indonesia’s #1 Live Online Learning For Creators."
-                  paragraph
-                />
-              </li>
-              <li>
-                <Text
-                  text="Samuel Christ akan mengajar sebagai instruktur utama di Seefluencer University."
-                  paragraph
-                />
+                Co-founder dari Seefluencer,{" "}
+                <span className="font-bold">
+                  Indonesia’s #1 Live Online Learning For Creators.
+                </span>
               </li>
             </ul>
           }
@@ -466,28 +457,20 @@ const CreatorAcceleratorProgram = () => {
           description={
             <ul className="list-disc flex flex-col gap-3">
               <li>
-                <Text
-                  text="Ex-Microsoft, pernah kerja sebagai professional dalam bidang IT di Microsoft Amerika Serikat."
-                  paragraph
-                />
+                <span className="font-bold">Ex-Microsoft</span>, pernah kerja
+                sebagai professional dalam bidang IT di Microsoft Amerika
+                Serikat.
               </li>
               <li>
-                <Text
-                  text="Co-founder dari Seefluencer, Indonesia’s #1 Live Online Learning For Creators."
-                  paragraph
-                />
+                Co-founder dari Seefluencer,{" "}
+                <span className="font-bold">
+                  Indonesia’s #1 Live Online Learning For Creators
+                </span>
               </li>
               <li>
-                <Text
-                  text="Manager Samuel Christ, membantu dalam strategi pengembangan media sosial Samuel Christ dan kerja sama dengan brand."
-                  paragraph
-                />
-              </li>
-              <li>
-                <Text
-                  text="Joy Lodra akan menjadi instruktur di dalam Seefluencer University."
-                  paragraph
-                />
+                <span className="font-bold">Manager Samuel Christ</span>,{" "}
+                membantu dalam strategi pengembangan media sosial Samuel Christ
+                dan kerja sama dengan brand.
               </li>
             </ul>
           }
@@ -538,17 +521,17 @@ const CreatorAcceleratorProgram = () => {
 
         <div className="flex flex-wrap gap-5">
           <div className="flex flex-row gap-2 items-center">
-            <BsCalendar className="text-gray-400 text-xl" />
+            <BsCalendar className="text-[#0b64be] text-xl" />
             <Text text="2 bulan" paragraph />
           </div>
 
           <div className="flex flex-row gap-2 items-center">
-            <BsLaptop className="text-gray-400 text-xl" />
+            <BsLaptop className="text-[#0b64be] text-xl" />
             <Text text="1-2 Live Session Per Minggu" paragraph />
           </div>
 
           <div className="flex flex-row gap-2 items-center">
-            <BsStopwatch className="text-gray-400 text-xl" />
+            <BsStopwatch className="text-[#0b64be] text-xl" />
             <Text text="Komitmen 6-8 Jam Per Minggu" paragraph />
           </div>
         </div>
@@ -636,17 +619,6 @@ const CreatorAcceleratorProgram = () => {
         </div>
       </Container>
 
-      {/* Pekerjaan Paling Cocok Untuk Bikin Konten */}
-      <Container>
-        <Text
-          text={"Pekerjaan-Pekerjaan Paling Menguntungkan Untuk Bikin Konten"}
-          title
-          bold
-        />
-
-        <div className="col-span-3 grid grid-cols-1 md:grid-cols-3 gap-5"></div>
-      </Container>
-
       {/* Pricing */}
       <Container
         id="pricing"
@@ -703,7 +675,7 @@ const CreatorAcceleratorProgram = () => {
 
       <Container bgColor="bg-neutral-200">
         <div className="text-center">
-          <Text text={"FAQ"} title bold />
+          <Text text={"FAQ"} title bold primaryColor />
         </div>
 
         <div className="flex flex-col gap-1 md:col-span-3">
