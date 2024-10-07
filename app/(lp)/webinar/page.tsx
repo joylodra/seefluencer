@@ -46,7 +46,7 @@ const IntroductionClass = () => {
         button={
           <Button
             buttonText="join now"
-            hrefLink="https://forms.gle/f3bGRASrDRbkdv826"
+            hrefLink="https://forms.gle/yoTJeZX6sSDnnFBCA"
             external
             noFull
           />
@@ -65,10 +65,10 @@ const IntroductionClass = () => {
               </div>
 
               <div className="text-base flex flex-col gap-3">
-                <div className="text-xl font-bold text-black">Batch #2</div>
+                <div className="text-xl font-bold text-black">Batch #5</div>
 
                 <div>
-                  <div className="text-black">🗓 Kamis, 12 September 2024</div>
+                  <div className="text-black">🗓 Kamis, 10 Oktober 2024</div>
                   <div className="text-black">⏰ 19:00 WIB s.d. Selesai</div>
                 </div>
               </div>
@@ -77,7 +77,7 @@ const IntroductionClass = () => {
           withImage
           imageSrc="/images/ocwe-seberapakaya.png"
           buttonText="join now"
-          buttonHref="https://forms.gle/f3bGRASrDRbkdv826"
+          buttonHref="https://forms.gle/yoTJeZX6sSDnnFBCA"
           external
         />
       </Container>
@@ -133,7 +133,7 @@ const IntroductionClass = () => {
           description="Webinar buat Kamu yang mau belajar bagaimana caranya bikin konten yang bisa viral."
           src="/images/imcc-imcc.png"
           buttonText="join now"
-          href="https://forms.gle/f3bGRASrDRbkdv826"
+          href="https://forms.gle/yoTJeZX6sSDnnFBCA"
           external
         />
       </Container>
@@ -181,7 +181,7 @@ const IntroductionClass = () => {
         <div className="flex justify-center">
           <Button
             buttonText="join now"
-            hrefLink="https://forms.gle/f3bGRASrDRbkdv826"
+            hrefLink="https://forms.gle/yoTJeZX6sSDnnFBCA"
             external
             regular
           />
@@ -199,7 +199,7 @@ const IntroductionClass = () => {
         <div className="flex flex-wrap gap-3">
           <div className="flex flex-row gap-2 items-center">
             <BsCalendar className="text-gray-400 text-xl" />
-            <Text text="Kamis, 12 September 2024" paragraph />
+            <Text text="Kamis, 10 Oktober 2024" paragraph />
           </div>
 
           <div className="flex flex-row gap-2 items-center">
@@ -216,7 +216,7 @@ const IntroductionClass = () => {
               answer="Bedah tuntas peluang untuk menjadi content creator sukses di Indonesia dan sekaligus penghasilannya."
             />
             <Accordion
-              number="03"
+              number="02"
               question="Cara AMPUH Bikin Konten VIRAL"
               answer="Pelajari komponen-komponen dan strategi yang dibutuhkan untuk membuat sebuah konten bisa viral."
             />
@@ -243,7 +243,7 @@ const IntroductionClass = () => {
                   </div>
                 </div>
               }
-              ctaButtonHref="https://forms.gle/f3bGRASrDRbkdv826"
+              ctaButtonHref="https://forms.gle/yoTJeZX6sSDnnFBCA"
               ctaButtonText="join now"
             />
           </div>
@@ -266,7 +266,7 @@ const IntroductionClass = () => {
             priceBefore="Rp2.499.000"
             priceAfter="GRATIS!"
             ctaButtonText="join now"
-            ctaButtonHref="https://forms.gle/f3bGRASrDRbkdv826"
+            ctaButtonHref="https://forms.gle/yoTJeZX6sSDnnFBCA"
             additionalNotes="*Slot webinar sangat terbatas!"
             benefits={
               <>
