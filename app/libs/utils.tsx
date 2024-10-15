@@ -83,16 +83,16 @@ export const capFAQ = [
     answer:
       "Kami memberikan hadiah uang kembali 100% kepada siapapun yang bisa mencapai 100 ribu followers selama program 2 Bulan ini.",
   },
-  {
-    question:
-      "Apakah Creator Accelerator Program online, in-person, atau kelas yang sudah direkam?",
-    answer:
-      "Creator Accelerator Program adalah program 2 Bulan yang dilakukan secara live dan online melalui platform Zoom.",
-  },
-  {
-    question: "Dalam satu kelas, isinya berapa orang sih?",
-    answer: "Setiap kelas akan diisi oleh maksimum 50 orang.",
-  },
+  // {
+  //   question:
+  //     "Apakah Creator Accelerator Program online, in-person, atau kelas yang sudah direkam?",
+  //   answer:
+  //     "Creator Accelerator Program adalah program 2 Bulan yang dilakukan secara live dan online melalui platform Zoom.",
+  // },
+  // {
+  //   question: "Dalam satu kelas, isinya berapa orang sih?",
+  //   answer: "Setiap kelas akan diisi oleh maksimum 50 orang.",
+  // },
   {
     question: "Jadwal untuk live sessionnya itu kapan aja sih?",
     answer:
