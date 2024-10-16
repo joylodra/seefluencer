@@ -54,7 +54,7 @@ const CreatorAcceleratorProgram = () => {
           <Button
             noFull
             buttonText="daftar sekarang"
-            hrefLink="https://wa.me/6285176995535?text=Halo%20kak,%20saya%20mau%20tau%20info%20tentang%20Creator%20Accelerator%20Program%20(Offline)"
+            hrefLink="https://wa.me/6285176995535?text=Halo%20kak,%20saya%20mau%20tau%20info%20tentang%20Creator%20Accelerator%20BOOTCAMP%20(Offline)"
             external
           />
         }
@@ -63,7 +63,7 @@ const CreatorAcceleratorProgram = () => {
       {/* Hero Section */}
       <Container>
         <Hero
-          title="Dapatkan 10.000 FOLLOWERS Pertamamu & Hasilkan CUAN Dalam 2 BULAN Dengan Creator Accelerator Program OFFLINE Kami!"
+          title="Dapatkan Strategi Konten Viral Yang Menjual & Tingkatkan Omzet Bisnismu Dalam 2 Bulan Dengan Creator Accelerator Program OFFLINE Kami!"
           description={
             <div className="flex flex-col gap-5 items-center">
               <div>
@@ -89,7 +89,7 @@ const CreatorAcceleratorProgram = () => {
               </div>
             </div>
           }
-          buttonHref="https://wa.me/6285176995535?text=Halo%20kak,%20saya%20mau%20tau%20info%20tentang%20Creator%20Accelerator%20Program%20(Offline)"
+          buttonHref="https://wa.me/6285176995535?text=Halo%20kak,%20saya%20mau%20tau%20info%20tentang%20Creator%20Accelerator%20BOOTCAMP%20(Offline)"
           buttonText="daftar sekarang"
           additionalNotes="Bootcamp selanjutnya akan dimulai di bulan Januari 2025"
           external
@@ -163,7 +163,7 @@ const CreatorAcceleratorProgram = () => {
                   </div>
                 </div>
               }
-              ctaButtonHref="https://wa.me/6285176995535?text=Halo%20kak,%20saya%20mau%20tau%20info%20tentang%20Creator%20Accelerator%20Program%20(Offline)"
+              ctaButtonHref="https://wa.me/6285176995535?text=Halo%20kak,%20saya%20mau%20tau%20info%20tentang%20Creator%20Accelerator%20BOOTCAMP%20(Offline)"
               ctaButtonText="daftar sekarang"
             />
           </div>
@@ -388,7 +388,7 @@ const CreatorAcceleratorProgram = () => {
           description="Kelas intensif buat Kamu yang mau mendapatkan bimbingan selama 2 bulan & jadi content creator berpenghasilan."
           src="/images/cap-cap.png"
           buttonText="daftar sekarang"
-          href="https://wa.me/6285176995535?text=Halo%20kak,%20saya%20mau%20tau%20info%20tentang%20Creator%20Accelerator%20Program%20(Offline)"
+          href="https://wa.me/6285176995535?text=Halo%20kak,%20saya%20mau%20tau%20info%20tentang%20Creator%20Accelerator%20BOOTCAMP%20(Offline)"
           external
         />
       </Container>
@@ -624,7 +624,7 @@ const CreatorAcceleratorProgram = () => {
                   </div>
                 </div>
               }
-              ctaButtonHref="https://wa.me/6285176995535?text=Halo%20kak,%20saya%20mau%20tau%20info%20tentang%20Creator%20Accelerator%20Program%20(Offline)"
+              ctaButtonHref="https://wa.me/6285176995535?text=Halo%20kak,%20saya%20mau%20tau%20info%20tentang%20Creator%20Accelerator%20BOOTCAMP%20(Offline)"
               ctaButtonText="daftar sekarang!"
             />
           </div>
@@ -647,7 +647,7 @@ const CreatorAcceleratorProgram = () => {
             priceBefore="Rp14.999.000"
             priceAfter="Rp7.999.000"
             ctaButtonText="daftar sekarang"
-            ctaButtonHref="https://wa.me/6285176995535?text=Halo%20kak,%20saya%20mau%20tau%20info%20tentang%20Creator%20Accelerator%20Program%20(Offline)"
+            ctaButtonHref="https://wa.me/6285176995535?text=Halo%20kak,%20saya%20mau%20tau%20info%20tentang%20Creator%20Accelerator%20BOOTCAMP%20(Offline)"
             additionalNotes="*Harga bisa naik sewaktu-waktu."
             benefits={
               <>
@@ -679,7 +679,7 @@ const CreatorAcceleratorProgram = () => {
           external
           src="/images/student-card.png"
           buttonText="daftar sekarang"
-          href="https://wa.me/6285176995535?text=Halo%20kak,%20saya%20mau%20tau%20info%20tentang%20Creator%20Accelerator%20Program%20(Offline)"
+          href="https://wa.me/6285176995535?text=Halo%20kak,%20saya%20mau%20tau%20info%20tentang%20Creator%20Accelerator%20BOOTCAMP%20(Offline)"
           title="Semua Murid Seefluencer Akan Mendapatkan Fine Gold 24k Student ID dan Powerbank"
           description="Kamu akan dikirimkan langsung Creator Kit yang berisikan Fine Gold 24K Student ID dan Powerbank. Ini khusus berlaku untuk 25 orang yang lolos ke dalam Creator Accelerator Program ini."
         />
