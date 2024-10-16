@@ -644,8 +644,8 @@ const CreatorAcceleratorProgram = () => {
 
         <div className="flex justify-center items-center">
           <CtaBox
-            priceBefore="Rp10.500.000"
-            priceAfter="Rp5.999.000"
+            priceBefore="Rp14.999.000"
+            priceAfter="Rp7.999.000"
             ctaButtonText="konsultasi WA"
             ctaButtonHref="https://wa.me/6285176995535?text=Halo%20kak,%20saya%20mau%20tau%20info%20tentang%20Creator%20Accelerator%20Program%20(Offline)"
             additionalNotes="*Harga bisa naik sewaktu-waktu."
