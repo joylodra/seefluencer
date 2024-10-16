@@ -63,7 +63,7 @@ const CreatorAcceleratorProgram = () => {
       {/* Hero Section */}
       <Container>
         <Hero
-          title="Dapatkan Strategi Konten Viral Yang Menjual & Tingkatkan Omzet Bisnismu Dalam 2 Bulan Dengan Creator Accelerator Program OFFLINE Kami!"
+          title="Dapatkan 10.000 FOLLOWERS Pertamamu & Hasilkan CUAN Dalam 2 BULAN Dengan Creator Accelerator Program OFFLINE Kami!"
           description={
             <div className="flex flex-col gap-5 items-center">
               <div>
