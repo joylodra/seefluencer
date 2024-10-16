@@ -53,7 +53,7 @@ const CreatorAcceleratorProgram = () => {
         button={
           <Button
             noFull
-            buttonText="konsultasi WA"
+            buttonText="daftar sekarang"
             hrefLink="https://wa.me/6285176995535?text=Halo%20kak,%20saya%20mau%20tau%20info%20tentang%20Creator%20Accelerator%20Program%20(Offline)"
             external
           />
@@ -90,7 +90,7 @@ const CreatorAcceleratorProgram = () => {
             </div>
           }
           buttonHref="https://wa.me/6285176995535?text=Halo%20kak,%20saya%20mau%20tau%20info%20tentang%20Creator%20Accelerator%20Program%20(Offline)"
-          buttonText="konsultasi WA"
+          buttonText="daftar sekarang"
           additionalNotes="Bootcamp selanjutnya akan dimulai di bulan Januari 2025"
           external
         />
@@ -164,7 +164,7 @@ const CreatorAcceleratorProgram = () => {
                 </div>
               }
               ctaButtonHref="https://wa.me/6285176995535?text=Halo%20kak,%20saya%20mau%20tau%20info%20tentang%20Creator%20Accelerator%20Program%20(Offline)"
-              ctaButtonText="konsultasi WA"
+              ctaButtonText="daftar sekarang"
             />
           </div>
 
@@ -387,7 +387,7 @@ const CreatorAcceleratorProgram = () => {
           title="Memperkenalkan, 8-week Creator Accelerator Program yang dirancang oleh Seefluencer University"
           description="Kelas intensif buat Kamu yang mau mendapatkan bimbingan selama 2 bulan & jadi content creator berpenghasilan."
           src="/images/cap-cap.png"
-          buttonText="konsultasi WA"
+          buttonText="daftar sekarang"
           href="https://wa.me/6285176995535?text=Halo%20kak,%20saya%20mau%20tau%20info%20tentang%20Creator%20Accelerator%20Program%20(Offline)"
           external
         />
@@ -625,7 +625,7 @@ const CreatorAcceleratorProgram = () => {
                 </div>
               }
               ctaButtonHref="https://wa.me/6285176995535?text=Halo%20kak,%20saya%20mau%20tau%20info%20tentang%20Creator%20Accelerator%20Program%20(Offline)"
-              ctaButtonText="konsultasi WA!"
+              ctaButtonText="daftar sekarang!"
             />
           </div>
         </div>
@@ -646,7 +646,7 @@ const CreatorAcceleratorProgram = () => {
           <CtaBox
             priceBefore="Rp14.999.000"
             priceAfter="Rp7.999.000"
-            ctaButtonText="konsultasi WA"
+            ctaButtonText="daftar sekarang"
             ctaButtonHref="https://wa.me/6285176995535?text=Halo%20kak,%20saya%20mau%20tau%20info%20tentang%20Creator%20Accelerator%20Program%20(Offline)"
             additionalNotes="*Harga bisa naik sewaktu-waktu."
             benefits={
@@ -678,7 +678,7 @@ const CreatorAcceleratorProgram = () => {
         <FeatureCard
           external
           src="/images/student-card.png"
-          buttonText="konsultasi WA"
+          buttonText="daftar sekarang"
           href="https://wa.me/6285176995535?text=Halo%20kak,%20saya%20mau%20tau%20info%20tentang%20Creator%20Accelerator%20Program%20(Offline)"
           title="Semua Murid Seefluencer Akan Mendapatkan Fine Gold 24k Student ID dan Powerbank"
           description="Kamu akan dikirimkan langsung Creator Kit yang berisikan Fine Gold 24K Student ID dan Powerbank. Ini khusus berlaku untuk 25 orang yang lolos ke dalam Creator Accelerator Program ini."
