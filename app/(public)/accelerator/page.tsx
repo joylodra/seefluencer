@@ -45,7 +45,7 @@ const CreatorAcceleratorProgram = () => {
 
               <div className="text-base flex flex-row gap-5 py-2 px-4 rounded-lg border-[#0b64be] border w-fit bg-blue-50">
                 <div className="text-right">
-                  <div className="font-bold">Batch #5</div>
+                  <div className="font-bold">Batch #6</div>
                   <div className="">50 SLOTS ONLY! 🟢</div>
                 </div>
 
@@ -53,14 +53,14 @@ const CreatorAcceleratorProgram = () => {
 
                 <div className="text-left">
                   <div className="">Next Batch Starts on</div>
-                  <div className="font-bold">Okt 2024 🗓</div>
+                  <div className="font-bold">Jan 2025 🗓</div>
                 </div>
               </div>
             </div>
           }
           buttonHref="https://forms.gle/ezkzDnbbTWHCufxP8"
           buttonText="apply now"
-          additionalNotes="Program selanjutnya akan dimulai di bulan Oktober 2024"
+          additionalNotes="Program selanjutnya akan dimulai di bulan Januari 2025"
           external
         />
       </Container>
@@ -160,7 +160,7 @@ const CreatorAcceleratorProgram = () => {
               <IconCardReverse
                 iconColor="text-[#0b64be]"
                 icon={<BsClock />}
-                title="Oktober 2024"
+                title="Januari 2025"
                 description="Tanggal Mulai"
               />
 
