@@ -68,8 +68,8 @@ const IntroductionClass = () => {
                 <div className="text-xl font-bold text-black">Batch #5</div>
 
                 <div>
-                  <div className="text-black">🗓 Kamis, 10 Oktober 2024</div>
-                  <div className="text-black">⏰ 19:00 WIB s.d. Selesai</div>
+                  <div className="text-black">🗓 TBA</div>
+                  <div className="text-black">⏰ TBA</div>
                 </div>
               </div>
             </div>
@@ -199,12 +199,12 @@ const IntroductionClass = () => {
         <div className="flex flex-wrap gap-3">
           <div className="flex flex-row gap-2 items-center">
             <BsCalendar className="text-gray-400 text-xl" />
-            <Text text="Kamis, 10 Oktober 2024" paragraph />
+            <Text text="TBA" paragraph />
           </div>
 
           <div className="flex flex-row gap-2 items-center">
             <BsClock className="text-gray-400 text-xl" />
-            <Text text="19:00 WIB s.d. Selesai" paragraph />
+            <Text text="TBA" paragraph />
           </div>
         </div>
 

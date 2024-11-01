@@ -109,7 +109,7 @@ const Navbar = ({ landingNav, logo, button }: NavbarProps) => {
 
                 <div
                   onClick={() => {
-                    router.push(`/miniclass`);
+                    router.push(`/thenextcreator`);
                     setIsMenuOpen(false);
                   }}
                   className="bg-white rounded-b whitespace-no-wrap px-4 py-2 hover:bg-[#0b64be] hover:text-white transition cursor-pointer"
@@ -158,7 +158,7 @@ const Navbar = ({ landingNav, logo, button }: NavbarProps) => {
 
                   <div
                     onClick={() => {
-                      router.push(`/miniclass`);
+                      router.push(`/thenextcreator`);
                       setIsMenuOpen(false);
                     }}
                     className="px-4 py-2 hover:bg-[#0b64be] hover:text-white transition cursor-pointer"
