@@ -54,7 +54,7 @@ const CreatorAcceleratorProgram = () => {
           <Button
             noFull
             buttonText="apply now"
-            hrefLink="https://forms.gle/ezkzDnbbTWHCufxP8"
+            hrefLink="https://forms.gle/nUuEx7sjKRf8gen8A"
             external
           />
         }
@@ -85,7 +85,7 @@ const CreatorAcceleratorProgram = () => {
               </div>
             </div>
           }
-          buttonHref="https://forms.gle/ezkzDnbbTWHCufxP8"
+          buttonHref="https://forms.gle/nUuEx7sjKRf8gen8A"
           buttonText="apply now"
           additionalNotes="Program selanjutnya akan dimulai di bulan Januari 2025"
           external
@@ -148,7 +148,7 @@ const CreatorAcceleratorProgram = () => {
                   </div>
                 </div>
               }
-              ctaButtonHref="https://forms.gle/ezkzDnbbTWHCufxP8"
+              ctaButtonHref="https://forms.gle/nUuEx7sjKRf8gen8A"
               ctaButtonText="apply now"
             />
           </div>
@@ -377,7 +377,7 @@ const CreatorAcceleratorProgram = () => {
           description="Kelas intensif buat Kamu yang mau mendapatkan bimbingan selama 2 bulan & jadi content creator berpenghasilan."
           src="/images/cap-cap.png"
           buttonText="apply now"
-          href="https://forms.gle/ezkzDnbbTWHCufxP8"
+          href="https://forms.gle/nUuEx7sjKRf8gen8A"
           external
         />
       </Container>
@@ -612,7 +612,7 @@ const CreatorAcceleratorProgram = () => {
                   </div>
                 </div>
               }
-              ctaButtonHref="https://forms.gle/ezkzDnbbTWHCufxP8"
+              ctaButtonHref="https://forms.gle/nUuEx7sjKRf8gen8A"
               ctaButtonText="apply now"
             />
           </div>
@@ -635,7 +635,7 @@ const CreatorAcceleratorProgram = () => {
             priceBefore="Rp10.500.000"
             priceAfter="Rp5.999.000"
             ctaButtonText="apply now"
-            ctaButtonHref="https://forms.gle/ezkzDnbbTWHCufxP8"
+            ctaButtonHref="https://forms.gle/nUuEx7sjKRf8gen8A"
             additionalNotes="*Harga bisa naik sewaktu-waktu."
             benefits={
               <>
@@ -667,7 +667,7 @@ const CreatorAcceleratorProgram = () => {
           external
           src="/images/student-card.png"
           buttonText="apply now"
-          href="https://forms.gle/ezkzDnbbTWHCufxP8"
+          href="https://forms.gle/nUuEx7sjKRf8gen8A"
           title="Semua Murid Seefluencer Akan Mendapatkan Fine Gold 24k Student ID dan Powerbank"
           description="Kamu akan dikirimkan langsung Creator Kit yang berisikan Fine Gold 24K Student ID dan Powerbank. Ini khusus berlaku untuk 50 orang yang lolos ke dalam Creator Accelerator Program ini."
         />
