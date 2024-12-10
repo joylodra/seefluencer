@@ -54,7 +54,7 @@ const CreatorAcceleratorProgram = () => {
           <Button
             noFull
             buttonText="apply now"
-            hrefLink="https://forms.gle/ezkzDnbbTWHCufxP8"
+            hrefLink="https://forms.gle/nUuEx7sjKRf8gen8A"
             external
           />
         }
@@ -72,7 +72,7 @@ const CreatorAcceleratorProgram = () => {
 
               <div className="text-base flex flex-row gap-5 py-2 px-4 rounded-lg border-[#0b64be] border w-fit bg-blue-50">
                 <div className="text-right">
-                  <div className="font-bold">Batch #5</div>
+                  <div className="font-bold">Batch #6</div>
                   <div className="">50 SLOTS ONLY! 🟢</div>
                 </div>
 
@@ -80,14 +80,14 @@ const CreatorAcceleratorProgram = () => {
 
                 <div className="text-left">
                   <div className="">Next Batch Starts on</div>
-                  <div className="font-bold">Okt 2024 🗓</div>
+                  <div className="font-bold">Januari 2025 🗓</div>
                 </div>
               </div>
             </div>
           }
-          buttonHref="https://forms.gle/ezkzDnbbTWHCufxP8"
+          buttonHref="https://forms.gle/nUuEx7sjKRf8gen8A"
           buttonText="apply now"
-          additionalNotes="Program selanjutnya akan dimulai di bulan Oktober 2024"
+          additionalNotes="Program selanjutnya akan dimulai di bulan Januari 2025"
           external
         />
       </Container>
@@ -148,7 +148,7 @@ const CreatorAcceleratorProgram = () => {
                   </div>
                 </div>
               }
-              ctaButtonHref="https://forms.gle/ezkzDnbbTWHCufxP8"
+              ctaButtonHref="https://forms.gle/nUuEx7sjKRf8gen8A"
               ctaButtonText="apply now"
             />
           </div>
@@ -156,7 +156,7 @@ const CreatorAcceleratorProgram = () => {
           <div className="md:col-span-3 flex flex-col gap-8">
             <iframe
               allow="fullscreen;"
-              src="https://www.youtube.com/embed/xWj31cFdzt0"
+              src="https://www.youtube.com/embed/h6lnvWgQKmo"
               className="aspect-video w-full rounded-lg"
             />
 
@@ -187,7 +187,7 @@ const CreatorAcceleratorProgram = () => {
               <IconCardReverse
                 iconColor="text-[#0b64be]"
                 icon={<BsClock />}
-                title="Oktober 2024"
+                title="Januari 2025"
                 description="Tanggal Mulai"
               />
 
@@ -377,7 +377,7 @@ const CreatorAcceleratorProgram = () => {
           description="Kelas intensif buat Kamu yang mau mendapatkan bimbingan selama 2 bulan & jadi content creator berpenghasilan."
           src="/images/cap-cap.png"
           buttonText="apply now"
-          href="https://forms.gle/ezkzDnbbTWHCufxP8"
+          href="https://forms.gle/nUuEx7sjKRf8gen8A"
           external
         />
       </Container>
@@ -612,7 +612,7 @@ const CreatorAcceleratorProgram = () => {
                   </div>
                 </div>
               }
-              ctaButtonHref="https://forms.gle/ezkzDnbbTWHCufxP8"
+              ctaButtonHref="https://forms.gle/nUuEx7sjKRf8gen8A"
               ctaButtonText="apply now"
             />
           </div>
@@ -635,7 +635,7 @@ const CreatorAcceleratorProgram = () => {
             priceBefore="Rp10.500.000"
             priceAfter="Rp5.999.000"
             ctaButtonText="apply now"
-            ctaButtonHref="https://forms.gle/ezkzDnbbTWHCufxP8"
+            ctaButtonHref="https://forms.gle/nUuEx7sjKRf8gen8A"
             additionalNotes="*Harga bisa naik sewaktu-waktu."
             benefits={
               <>
@@ -667,7 +667,7 @@ const CreatorAcceleratorProgram = () => {
           external
           src="/images/student-card.png"
           buttonText="apply now"
-          href="https://forms.gle/ezkzDnbbTWHCufxP8"
+          href="https://forms.gle/nUuEx7sjKRf8gen8A"
           title="Semua Murid Seefluencer Akan Mendapatkan Fine Gold 24k Student ID dan Powerbank"
           description="Kamu akan dikirimkan langsung Creator Kit yang berisikan Fine Gold 24K Student ID dan Powerbank. Ini khusus berlaku untuk 50 orang yang lolos ke dalam Creator Accelerator Program ini."
         />

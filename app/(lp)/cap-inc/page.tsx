@@ -87,7 +87,7 @@ const CreatorAcceleratorProgram = () => {
           }
           buttonHref="https://wa.me/6285176995535?text=Halo%20kak,%20saya%20mau%20tau%20info%20tentang%20Creator%20Accelerator%20Program%20(Online)"
           buttonText="apply now"
-          additionalNotes="Program selanjutnya akan dimulai di bulan Oktober 2024"
+          additionalNotes="Program selanjutnya akan dimulai di bulan Januari 2025"
           external
         />
       </Container>
@@ -156,7 +156,7 @@ const CreatorAcceleratorProgram = () => {
           <div className="md:col-span-3 flex flex-col gap-8">
             <iframe
               allow="fullscreen;"
-              src="https://www.youtube.com/embed/xWj31cFdzt0"
+              src="https://www.youtube.com/embed/h6lnvWgQKmo"
               className="aspect-video w-full rounded-lg"
             />
 
@@ -187,7 +187,7 @@ const CreatorAcceleratorProgram = () => {
               <IconCardReverse
                 iconColor="text-[#0b64be]"
                 icon={<BsClock />}
-                title="Oktober 2024"
+                title="Januari 2025"
                 description="Tanggal Mulai"
               />
 

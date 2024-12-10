@@ -171,7 +171,7 @@ const CreatorAcceleratorProgram = () => {
           <div className="md:col-span-3 flex flex-col gap-8">
             <iframe
               allow="fullscreen;"
-              src="https://www.youtube.com/embed/xWj31cFdzt0"
+              src="https://www.youtube.com/embed/h6lnvWgQKmo"
               className="aspect-video w-full rounded-lg"
             />
 
@@ -198,7 +198,7 @@ const CreatorAcceleratorProgram = () => {
               <IconCardReverse
                 iconColor="text-[#0b64be]"
                 icon={<BsClock />}
-                title="Oktober 2024"
+                title="Januari 2025"
                 description="Tanggal Mulai"
               />
 
