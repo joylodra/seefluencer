@@ -36,7 +36,7 @@ export const metadata = {
 const CreatorAcceleratorProgram = () => {
   const whatsappText: string =
     "Halo min, saya mau tanya-tanya tentang bootcamp ONLINE Seefluencer.";
-  const whatsappNumbers: string[] = ["6282330423003", "6285174259955"];
+  const whatsappNumbers: string[] = ["6285165864726", "6285175449955"];
 
   return (
     <div className="flex flex-col">
