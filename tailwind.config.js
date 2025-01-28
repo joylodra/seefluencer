@@ -16,6 +16,7 @@ module.exports = {
       fontFamily: {
         poppins: ["Poppins"],
         montserrat: ["Montserrat"],
+        helvetica: ["Helvetica"],
       },
       boxShadow: {
         "3xl": "0 0 10px rgba(0, 0, 0, 0.2)",

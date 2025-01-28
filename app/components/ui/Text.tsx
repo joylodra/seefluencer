@@ -26,7 +26,7 @@ const Text = ({
   return (
     <div
       className={`
-      ${title && "text-3xl md:text-5xl font-montserrat"}
+      ${title && "text-3xl md:text-5xl"}
       ${subtitle && "text-2xl md:text-4xls"}
       ${heading && "text-xl md:text-2xl"} 
       ${paragraph && "text-base md:text-lg"}
@@ -34,7 +34,7 @@ const Text = ({
       ${bold && "font-bold"}
       ${secondaryColor && "text-gray-500"}
       ${primaryColor && "text-[#0b64be]"}
-      `}
+      font-helvetica`}
     >
       {text}
     </div>

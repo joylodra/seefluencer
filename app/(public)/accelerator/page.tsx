@@ -31,21 +31,24 @@ export const metadata = {
 };
 
 const CreatorAcceleratorProgram = () => {
+  const whatsappNumbers: string[] = ["6282330423003", "6285174259955"];
+
   return (
-    <div className="flex flex-col">
+    <div>
       {/* Hero Section */}
       <Container>
         <Hero
-          title="Dapatkan 10.000 FOLLOWERS Pertamamu & Hasilkan CUAN Dalam 2 BULAN Dengan Creator Accelerator Program Kami!"
+          title={`Dapatkan 10.000 Followers Pertamamu & Hasilkan Cuan Dalam 2 Bulan Dengan Creator Accelerator Bootcamp Kami!`}
           description={
             <div className="flex flex-col gap-5 items-center">
               <div>
-                GARANSI UANG KEMBALI 100% jika mencapai target yang diberikan.
+                Garansi <b>uang kembali 100%</b> jika mencapai target yang
+                diberikan.
               </div>
 
               <div className="text-base flex flex-row gap-5 py-2 px-4 rounded-lg border-[#0b64be] border w-fit bg-blue-50">
                 <div className="text-right">
-                  <div className="font-bold">Batch #6</div>
+                  <div className="font-bold">Batch #7</div>
                   <div className="">50 SLOTS ONLY! 🟢</div>
                 </div>
 
@@ -53,14 +56,13 @@ const CreatorAcceleratorProgram = () => {
 
                 <div className="text-left">
                   <div className="">Next Batch Starts on</div>
-                  <div className="font-bold">Jan 2025 🗓</div>
+                  <div className="font-bold">Mar 2025 🗓</div>
                 </div>
               </div>
             </div>
           }
-          buttonHref="https://forms.gle/nUuEx7sjKRf8gen8A"
-          buttonText="apply now"
-          additionalNotes="Program selanjutnya akan dimulai di bulan Januari 2025"
+          whatsappNumbers={whatsappNumbers}
+          additionalNotes="Program selanjutnya akan dimulai di bulan Maret 2025"
           external
         />
       </Container>
@@ -81,6 +83,7 @@ const CreatorAcceleratorProgram = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-5">
           <div className="col-span-1 order-last md:order-first">
             <SideBox
+              whatsappNumbers={whatsappNumbers}
               content={
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-row gap-3">
@@ -95,7 +98,7 @@ const CreatorAcceleratorProgram = () => {
                     <div className="text-[#0b64be] text-xl font-bold">✓</div>
                     <Text
                       paragraph
-                      text="Dibimbing hingga bisa menghasilkan minimal 30 konten yang diupload."
+                      text="Dibimbing hingga bisa menghasilkan minimal 25 konten yang diupload."
                     />
                   </div>
 
@@ -121,8 +124,6 @@ const CreatorAcceleratorProgram = () => {
                   </div>
                 </div>
               }
-              ctaButtonHref="https://forms.gle/nUuEx7sjKRf8gen8A"
-              ctaButtonText="apply now"
             />
           </div>
 
@@ -160,7 +161,7 @@ const CreatorAcceleratorProgram = () => {
               <IconCardReverse
                 iconColor="text-[#0b64be]"
                 icon={<BsClock />}
-                title="Januari 2025"
+                title="Maret 2025"
                 description="Tanggal Mulai"
               />
 
@@ -217,7 +218,7 @@ const CreatorAcceleratorProgram = () => {
 
       <Container>
         <div>
-          <Text text="Before & After Alumni Seefluencer 📈" title bold />
+          <Text text="Before & After Alumni Seefluencer" title bold />
           <Text
             text="Perkembangan alumni-alumni Seefluencer setelah lulus dari Creator Accelerator Program."
             paragraph
@@ -242,7 +243,7 @@ const CreatorAcceleratorProgram = () => {
         />
 
         <Image
-          src="/images/change-josessca.png"
+          src="/images/change-yohanes.png"
           alt="Testimoni"
           width={500}
           height={500}
@@ -258,23 +259,7 @@ const CreatorAcceleratorProgram = () => {
         />
 
         <Image
-          src="/images/change-bangbili.png"
-          alt="Testimoni"
-          width={500}
-          height={500}
-          className="rounded-lg w-full h-full object-cover"
-        />
-
-        <Image
           src="/images/change-vanat.png"
-          alt="Testimoni"
-          width={500}
-          height={500}
-          className="rounded-lg w-full h-full object-cover"
-        />
-
-        <Image
-          src="/images/change-raifah.png"
           alt="Testimoni"
           width={500}
           height={500}
@@ -346,11 +331,10 @@ const CreatorAcceleratorProgram = () => {
       {/* Introduction */}
       <Container>
         <FeatureCard
-          title="Memperkenalkan, 8-week Creator Accelerator Program yang dirancang oleh Seefluencer University"
+          title="Memperkenalkan, 8-week Creator Accelerator Bootcamp yang dirancang oleh Seefluencer University"
           description="Kelas intensif buat Kamu yang mau mendapatkan bimbingan selama 2 bulan & jadi content creator berpenghasilan."
           src="/images/cap-cap.png"
-          buttonText="apply now"
-          href="https://forms.gle/nUuEx7sjKRf8gen8A"
+          whatsappNumbers={whatsappNumbers}
           external
         />
       </Container>
@@ -551,7 +535,7 @@ const CreatorAcceleratorProgram = () => {
                     <div className="text-[#0b64be] text-xl font-bold">✓</div>
                     <Text
                       paragraph
-                      text="Dibimbing hingga bisa menghasilkan minimal 30 konten yang diupload."
+                      text="Dibimbing hingga bisa menghasilkan minimal 25 konten yang diupload."
                     />
                   </div>
 
@@ -585,8 +569,7 @@ const CreatorAcceleratorProgram = () => {
                   </div>
                 </div>
               }
-              ctaButtonHref="https://forms.gle/nUuEx7sjKRf8gen8A"
-              ctaButtonText="apply now"
+              whatsappNumbers={whatsappNumbers}
             />
           </div>
         </div>
@@ -606,9 +589,8 @@ const CreatorAcceleratorProgram = () => {
         <div className="flex justify-center items-center">
           <CtaBox
             priceBefore="Rp10.500.000"
-            priceAfter="Rp5.999.000"
-            ctaButtonText="apply now"
-            ctaButtonHref="https://forms.gle/nUuEx7sjKRf8gen8A"
+            priceAfter="Rp6.499.000"
+            whatsappNumbers={whatsappNumbers}
             additionalNotes="*Harga bisa naik sewaktu-waktu."
             benefits={
               <>
@@ -639,8 +621,7 @@ const CreatorAcceleratorProgram = () => {
         <FeatureCard
           external
           src="/images/student-card.png"
-          buttonText="apply now"
-          href="https://forms.gle/nUuEx7sjKRf8gen8A"
+          whatsappNumbers={whatsappNumbers}
           title="Semua Murid Seefluencer Akan Mendapatkan Fine Gold 24k Student ID dan Powerbank"
           description="Kamu akan dikirimkan langsung Creator Kit yang berisikan Fine Gold 24K Student ID dan Powerbank. Ini khusus berlaku untuk 50 orang yang lolos ke dalam Creator Accelerator Program ini."
         />

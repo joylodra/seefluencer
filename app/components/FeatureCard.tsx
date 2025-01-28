@@ -5,6 +5,7 @@ import Link from "next/link";
 // Custom Components
 import Text from "./ui/Text";
 import Button from "./ui/Button";
+import WhatsAppButton from "../libs/WhatsappRotator";
 
 interface FeatureCardProps {
   title?: React.ReactNode;
@@ -14,6 +15,8 @@ interface FeatureCardProps {
   buttonText?: string;
   description?: React.ReactNode;
   external?: boolean;
+  whatsappNumbers?: string[];
+  whatsappText?: string;
 }
 
 const FeatureCard = ({
@@ -24,6 +27,8 @@ const FeatureCard = ({
   buttonText,
   description,
   external,
+  whatsappNumbers,
+  whatsappText,
 }: FeatureCardProps) => {
   return (
     <div
@@ -45,6 +50,15 @@ const FeatureCard = ({
             hrefLink={href}
             buttonText={buttonText}
             external={external}
+            regular
+          />
+        )}
+
+        {whatsappNumbers && (
+          <WhatsAppButton
+            whatsappText={whatsappText}
+            numbers={whatsappNumbers}
+            buttonText="Apply Now"
             regular
           />
         )}

@@ -6,6 +6,7 @@ import Image from "next/image";
 // Custom Components
 import Text from "./ui/Text";
 import Button from "./ui/Button";
+import WhatsAppButton from "../libs/WhatsappRotator";
 
 interface TitleProps {
   title: React.ReactNode;
@@ -17,6 +18,9 @@ interface TitleProps {
   imageSrc?: string;
   external?: boolean;
   additionalNotes?: string;
+  whatsappNumbers?: string[];
+  reverse?: boolean;
+  whatsappText: string;
 }
 
 const Hero = ({
@@ -29,12 +33,21 @@ const Hero = ({
   imageSrc,
   external,
   additionalNotes,
+  whatsappNumbers,
+  reverse,
+  whatsappText,
 }: TitleProps) => {
   return (
     <>
       {withImage && imageSrc ? (
-        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-8 items-center">
-          <div className="col-span-2 flex flex-col gap-5">
+        <div
+          className={`grid grid-cols-1 gap-3 text-center md:grid-cols-3 md:gap-8 md:text-left`}
+        >
+          <div
+            className={`order-last col-span-2 flex flex-col gap-5 ${
+              reverse ? "" : "md:order-first md:text-left"
+            }`}
+          >
             <Text text={title} title bold />
             {description && <Text text={description} heading />}
             <div className="flex flex-col gap-2 w-full">
@@ -46,15 +59,27 @@ const Hero = ({
                   external={external}
                 />
               )}
+
+              {whatsappNumbers && (
+                <WhatsAppButton
+                  whatsappText={whatsappText}
+                  numbers={whatsappNumbers}
+                  buttonText="Apply Now"
+                  regular
+                />
+              )}
+
               {additionalNotes && (
                 <Text secondaryColor small text={additionalNotes} />
               )}
             </div>
           </div>
 
-          <div className="col-span-1 text-center flex flex-col gap-3 items-center mt-10 md:mt-0">
+          <div
+            className={`col-span-1 text-center flex flex-col gap-3 items-center mt-10 md:mt-0`}
+          >
             <Image
-              className="flex w-full max-w-sm rounded-full shadow-xl"
+              className="flex w-full max-w-sm rounded-lg shadow-xl"
               src={imageSrc}
               alt="Hero Image"
               width={400}
@@ -78,6 +103,15 @@ const Hero = ({
                 external={external}
               />
             )}
+
+            {whatsappNumbers && (
+              <WhatsAppButton
+                whatsappText={whatsappText}
+                numbers={whatsappNumbers}
+                buttonText="Apply Now"
+              />
+            )}
+
             {additionalNotes && (
               <Text secondaryColor small text={additionalNotes} />
             )}

@@ -43,7 +43,7 @@ export default function Home() {
                 <div className="text-[#0b64be] text-xl font-bold">✓</div>
                 <Text
                   paragraph
-                  text="Kamu akan langsung dibimbing hingga bisa menghasilkan minimal 30 konten yang diupload."
+                  text="Kamu akan langsung dibimbing hingga bisa menghasilkan minimal 25 konten yang diupload."
                 />
               </div>
               <div className="flex flex-row gap-3">

@@ -3,14 +3,17 @@
 // Custom Components
 import Text from "./ui/Text";
 import Button from "./ui/Button";
+import WhatsAppButton from "../libs/WhatsappRotator";
 
 interface CtaBoxProps {
   priceBefore?: string;
   priceAfter?: string;
-  ctaButtonText: string;
-  ctaButtonHref: string;
+  ctaButtonText?: string;
+  ctaButtonHref?: string;
   additionalNotes?: string;
   benefits: React.ReactNode;
+  whatsappNumbers?: string[];
+  whatsappText?: string;
 }
 
 const CtaBox = ({
@@ -20,6 +23,8 @@ const CtaBox = ({
   ctaButtonHref,
   additionalNotes,
   benefits,
+  whatsappNumbers,
+  whatsappText,
 }: CtaBoxProps) => {
   return (
     <div className="bg-white p-5 rounded-md max-w-xl w-full flex flex-col gap-5">
@@ -35,12 +40,23 @@ const CtaBox = ({
         )}
 
         <div className="flex flex-col gap-2 w-full">
-          <Button
-            full
-            buttonText={ctaButtonText}
-            hrefLink={ctaButtonHref}
-            external
-          />
+          {ctaButtonHref && ctaButtonText && (
+            <Button
+              full
+              buttonText={ctaButtonText}
+              hrefLink={ctaButtonHref}
+              external
+            />
+          )}
+
+          {whatsappNumbers && (
+            <WhatsAppButton
+              whatsappText={whatsappText}
+              numbers={whatsappNumbers}
+              buttonText="Apply Now"
+              full
+            />
+          )}
 
           {additionalNotes && (
             <Text small secondaryColor text={additionalNotes} />
