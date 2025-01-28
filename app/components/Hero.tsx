@@ -20,7 +20,7 @@ interface TitleProps {
   additionalNotes?: string;
   whatsappNumbers?: string[];
   reverse?: boolean;
-  whatsappText: string;
+  whatsappText?: string;
 }
 
 const Hero = ({
