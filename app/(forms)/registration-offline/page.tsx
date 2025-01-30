@@ -213,10 +213,10 @@ const SeefluencerForm = () => {
     const salesNumber = salesTeam[randomIndex];
 
     const message = `Halo, saya ingin mendaftar bootcamp OFFLINE di Seefluencer BSD, Tangerang. Berikut adalah data saya:
-    - Nama: ${formData.nama}
-    - Email: ${formData.email}
-    - Nomor WhatsApp: ${formData.countryCode}${formData.phoneNumber}
-    - Alasan: ${formData.reason}`;
+- Nama: ${formData.nama}
+- Email: ${formData.email}
+- Nomor WhatsApp: ${formData.countryCode}${formData.phoneNumber}
+- Alasan: ${formData.reason}`;
 
     return `https://wa.me/${salesNumber}?text=${encodeURIComponent(message)}`;
   };
