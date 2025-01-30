@@ -14,7 +14,6 @@ import CtaBox from "@/app/components/CtaBox";
 import SideBox from "@/app/components/SideBox";
 import FeatureCard from "@/app/components/FeatureCard";
 import FaqSection from "@/app/components/FaqSection";
-import WhatsAppButton from "@/app/libs/WhatsappRotator";
 
 // Icons & Images
 import {
@@ -34,10 +33,6 @@ export const metadata = {
 };
 
 const CreatorAcceleratorProgram = () => {
-  const whatsappText: string =
-    "Halo min, saya mau tanya-tanya tentang bootcamp ONLINE Seefluencer.";
-  const whatsappNumbers: string[] = ["6285165864726", "6285175449955"];
-
   return (
     <div className="flex flex-col">
       {/* Navigation Bar */}
@@ -56,12 +51,7 @@ const CreatorAcceleratorProgram = () => {
           </div>
         }
         button={
-          <WhatsAppButton
-            whatsappText={whatsappText}
-            numbers={whatsappNumbers}
-            buttonText="Apply Now"
-            noFull
-          />
+          <Button buttonText="Apply Now" hrefLink="/registration" external />
         }
       />
 
@@ -91,8 +81,8 @@ const CreatorAcceleratorProgram = () => {
               </div>
             </div>
           }
-          whatsappNumbers={whatsappNumbers}
-          whatsappText={whatsappText}
+          buttonHref={"/registration"}
+          buttonText={"Apply Now"}
           additionalNotes="Program selanjutnya akan dimulai di bulan Maret 2025"
           external
         />
@@ -114,8 +104,8 @@ const CreatorAcceleratorProgram = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-5">
           <div className="col-span-1 order-last md:order-first">
             <SideBox
-              whatsappNumbers={whatsappNumbers}
-              whatsappText={whatsappText}
+              ctaButtonHref={"/registration"}
+              ctaButtonText={"Apply Now"}
               content={
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-row gap-3">
@@ -232,12 +222,14 @@ const CreatorAcceleratorProgram = () => {
               title="Get Your Money Back 100%"
               description="Kami yakin bahwa siapa pun bisa sukses dengan berkomitmen pada program ini! Samuel Christ berhasil mendapatkan 100 ribu followers di TIkTok dalam waktu 1 bulan, dan kami memberikan hadiah uang kembali 100% kepada siapapun yang bisa mencapai 100 ribu followers selama 2 bulan ini."
             />
+
             <FeatureCard
               reverse
               src="/images/limapuluh.png"
               title="Slot Terbatas"
               description="Sayangnya, program ini tidak untuk semua orang. Slot kami sangat terbatas hanya untuk 50 ORANG saja. Untuk itu, setiap kamu yang mau bergabung didalam program ini, akan melewati proses seleksi. Kami memilih orang-orang yang punya tekad yang kuat, pekerja keras, dan tidak gampang menyerah."
             />
+
             <FeatureCard
               reverse
               src="/images/sertifikasi-bnsp.png"
@@ -366,8 +358,8 @@ const CreatorAcceleratorProgram = () => {
           title="Memperkenalkan, 8-week Creator Accelerator Bootcamp yang dirancang oleh Seefluencer University"
           description="Kelas intensif buat Kamu yang mau mendapatkan bimbingan selama 2 bulan & jadi content creator berpenghasilan."
           src="/images/cap-cap.png"
-          whatsappNumbers={whatsappNumbers}
-          whatsappText={whatsappText}
+          buttonText="Apply Now"
+          href="/registration"
           external
         />
       </Container>
@@ -602,8 +594,8 @@ const CreatorAcceleratorProgram = () => {
                   </div>
                 </div>
               }
-              whatsappNumbers={whatsappNumbers}
-              whatsappText={whatsappText}
+              ctaButtonHref="/registration"
+              ctaButtonText="Apply Now"
             />
           </div>
         </div>
@@ -624,8 +616,8 @@ const CreatorAcceleratorProgram = () => {
           <CtaBox
             priceBefore="Rp10.500.000"
             priceAfter="Rp6.499.000"
-            whatsappNumbers={whatsappNumbers}
-            whatsappText={whatsappText}
+            ctaButtonHref="/registration"
+            ctaButtonText="Apply Now"
             additionalNotes="*Harga bisa naik sewaktu-waktu."
             benefits={
               <>
@@ -656,8 +648,8 @@ const CreatorAcceleratorProgram = () => {
         <FeatureCard
           external
           src="/images/student-card.png"
-          whatsappNumbers={whatsappNumbers}
-          whatsappText={whatsappText}
+          href="/registration"
+          buttonText="Apply Now"
           title="Semua Murid Seefluencer Akan Mendapatkan Fine Gold 24k Student ID dan Powerbank"
           description="Kamu akan dikirimkan langsung Creator Kit yang berisikan Fine Gold 24K Student ID dan Powerbank. Ini khusus berlaku untuk 50 orang yang lolos ke dalam Creator Accelerator Program ini."
         />

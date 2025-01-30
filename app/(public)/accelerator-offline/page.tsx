@@ -38,9 +38,9 @@ const CreatorAcceleratorProgram = () => {
       {/* Hero Section */}
       <Container>
         <Hero
-          title={`Dapatkan 10.000 Followers Pertamamu & Hasilkan Cuan Dalam 2 Bulan Dengan Creator Accelerator Bootcamp Kami!`}
+          title="Dapatkan 10.000 Followers Pertamamu & Hasilkan Cuan Dalam 2 Bulan Dengan Creator Accelerator Bootcamp Kami!"
           description={
-            <div className="flex flex-col gap-5 items-center">
+            <div className="flex flex-col gap-5 text-center items-center md:items-start md:text-left">
               <div>
                 Garansi <b>uang kembali 100%</b> jika mencapai target yang
                 diberikan.
@@ -48,8 +48,8 @@ const CreatorAcceleratorProgram = () => {
 
               <div className="text-base flex flex-row gap-5 py-2 px-4 rounded-lg border-[#0b64be] border w-fit bg-blue-50">
                 <div className="text-right">
-                  <div className="font-bold">Batch #7</div>
-                  <div className="">50 SLOTS ONLY! 🟢</div>
+                  <div className="font-bold">Batch #2</div>
+                  <div className="">30 SLOTS ONLY! 🟢</div>
                 </div>
 
                 <div className="border-r border-[#0b64be] border-2" />
@@ -59,11 +59,16 @@ const CreatorAcceleratorProgram = () => {
                   <div className="font-bold">Mar 2025 🗓</div>
                 </div>
               </div>
+
+              <div className="text-lg">
+                <b>📍 Lokasi Pembelajaran:</b> BSD, Tangerang
+              </div>
             </div>
           }
-          buttonHref={"/registration"}
-          buttonText={"Apply Now"}
-          additionalNotes="Program selanjutnya akan dimulai di bulan Maret 2025"
+          withImage
+          imageSrc="/images/class.png"
+          buttonHref="/registration-offline"
+          buttonText="Apply Now"
           external
         />
       </Container>
@@ -84,8 +89,8 @@ const CreatorAcceleratorProgram = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-5">
           <div className="col-span-1 order-last md:order-first">
             <SideBox
-              ctaButtonHref={"/registration"}
-              ctaButtonText={"Apply Now"}
+              ctaButtonHref="/registration-offline"
+              ctaButtonText="Apply Now"
               content={
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-row gap-3">
@@ -100,20 +105,15 @@ const CreatorAcceleratorProgram = () => {
                     <div className="text-[#0b64be] text-xl font-bold">✓</div>
                     <Text
                       paragraph
-                      text="Dibimbing hingga bisa menghasilkan minimal 25 konten yang diupload."
+                      text="5 minggu pertama OFFLINE hari Sabtu jam 9:00 - 16:00 WIB di BSD, Tangerang dan 3 minggu terakhir ONLINE"
                     />
-                  </div>
-
-                  <div className="flex flex-row gap-3">
-                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
-                    <Text paragraph text="8 live class session dan Q&A." />
                   </div>
 
                   <div className="flex flex-row gap-3">
                     <div className="text-[#0b64be] text-xl font-bold">✓</div>
                     <Text
                       paragraph
-                      text="8 kali sesi 1-on-1 mentoring selama kelas berlangsung, 1 minggu 1 kali."
+                      text="Dibimbing hingga bisa menghasilkan minimal 25 konten yang diupload."
                     />
                   </div>
 
@@ -148,7 +148,7 @@ const CreatorAcceleratorProgram = () => {
             />
             <Text
               paragraph
-              text="Inilah kenapa kamu harus join Creator Accelerator Program by Seefluencer University. Program ini bukan seperti kelas online pada umumnya di Indonesia. Di Creator Accelerator Program ini kamu akan belajar secara live dan akan dibimbing secara pribadi 1-on-1 dan dapatkan jutaan views dalam waktu 2 bulan."
+              text="Inilah kenapa kamu harus join Creator Accelerator Bootcamp by Seefluencer University. Program ini bukan seperti kelas online pada umumnya di Indonesia. Di Creator Accelerator Program ini kamu akan belajar secara live dan akan dibimbing secara pribadi dan dapatkan jutaan views dalam waktu 2 bulan."
             />
             <Text
               paragraph
@@ -177,14 +177,14 @@ const CreatorAcceleratorProgram = () => {
               <IconCardReverse
                 iconColor="text-[#0b64be]"
                 icon={<BsPersonBadge />}
-                title="50 Murid"
+                title="30 Murid"
                 description="Slot Kelas"
               />
 
               <IconCardReverse
                 iconColor="text-[#0b64be]"
                 icon={<BsLaptop />}
-                title="Live Online Class"
+                title="On-site di BSD, Tangerang"
                 description="Format"
               />
 
@@ -202,14 +202,12 @@ const CreatorAcceleratorProgram = () => {
               title="Get Your Money Back 100%"
               description="Kami yakin bahwa siapa pun bisa sukses dengan berkomitmen pada program ini! Samuel Christ berhasil mendapatkan 100 ribu followers di TIkTok dalam waktu 1 bulan, dan kami memberikan hadiah uang kembali 100% kepada siapapun yang bisa mencapai 100 ribu followers selama 2 bulan ini."
             />
-
             <FeatureCard
               reverse
               src="/images/limapuluh.png"
               title="Slot Terbatas"
-              description="Sayangnya, program ini tidak untuk semua orang. Slot kami sangat terbatas hanya untuk 50 ORANG saja. Untuk itu, setiap kamu yang mau bergabung didalam program ini, akan melewati proses seleksi. Kami memilih orang-orang yang punya tekad yang kuat, pekerja keras, dan tidak gampang menyerah."
+              description="Sayangnya, program ini tidak untuk semua orang. Slot kami sangat terbatas hanya untuk 30 ORANG saja. Untuk itu, setiap kamu yang mau bergabung didalam program ini, akan melewati proses seleksi. Kami memilih orang-orang yang punya tekad yang kuat, pekerja keras, dan tidak gampang menyerah."
             />
-
             <FeatureCard
               reverse
               src="/images/sertifikasi-bnsp.png"
@@ -338,8 +336,8 @@ const CreatorAcceleratorProgram = () => {
           title="Memperkenalkan, 8-week Creator Accelerator Bootcamp yang dirancang oleh Seefluencer University"
           description="Kelas intensif buat Kamu yang mau mendapatkan bimbingan selama 2 bulan & jadi content creator berpenghasilan."
           src="/images/cap-cap.png"
+          href="/registration-offline"
           buttonText="Apply Now"
-          href="/registration"
           external
         />
       </Container>
@@ -362,8 +360,8 @@ const CreatorAcceleratorProgram = () => {
         <FeatureCard
           reverse
           src="/images/one-on-one.png"
-          title="1-On-1 Live Mentoring"
-          description="Kami sangat mengerti, setiap orang punya pemahaman dan tantangan yang berbeda-beda. Maka dari itu, Kamu bisa mendapatkan 8 kali konsultasi langsung bersama mentor-mentor pilihan Seefluencer."
+          title="Live Mentoring"
+          description="Kami sangat mengerti, setiap orang punya pemahaman dan tantangan yang berbeda-beda. Maka dari itu, kami akan membantu anda secara personal."
         />
         <FeatureCard
           src="/images/report-card.png"
@@ -546,14 +544,9 @@ const CreatorAcceleratorProgram = () => {
 
                   <div className="flex flex-row gap-3">
                     <div className="text-[#0b64be] text-xl font-bold">✓</div>
-                    <Text paragraph text="8 live class session dan Q&A." />
-                  </div>
-
-                  <div className="flex flex-row gap-3">
-                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
                     <Text
                       paragraph
-                      text="8 kali sesi 1-on-1 mentoring selama kelas berlangsung, 1 minggu 1 kali."
+                      text="5 minggu pertama OFFLINE hari Sabtu jam 9:00 - 16:00 WIB di BSD, Tangerang dan 3 minggu terakhir ONLINE"
                     />
                   </div>
 
@@ -564,17 +557,9 @@ const CreatorAcceleratorProgram = () => {
                       text="Belajar semua yang kamu butuhkan untuk menjadi konten kreator dari A sampai Z."
                     />
                   </div>
-
-                  <div className="flex flex-row gap-3">
-                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
-                    <Text
-                      paragraph
-                      text="Bangun karir baru atau kembangkan bisnismu melalui content creation."
-                    />
-                  </div>
                 </div>
               }
-              ctaButtonHref="/registration"
+              ctaButtonHref="/registration-offline"
               ctaButtonText="Apply Now"
             />
           </div>
@@ -594,9 +579,9 @@ const CreatorAcceleratorProgram = () => {
 
         <div className="flex justify-center items-center">
           <CtaBox
-            priceBefore="Rp10.500.000"
-            priceAfter="Rp6.499.000"
-            ctaButtonHref="/registration"
+            priceBefore="Rp17.000.000"
+            priceAfter="Rp8.499.000"
+            ctaButtonHref="/registration-offline"
             ctaButtonText="Apply Now"
             additionalNotes="*Harga bisa naik sewaktu-waktu."
             benefits={
@@ -606,7 +591,7 @@ const CreatorAcceleratorProgram = () => {
                     <div className="text-[#0b64be] text-xl font-bold">✓</div>
                     <Text
                       paragraph
-                      text="Perlu diingat, ini bukan Kelas Online biasa, yang mana Kamu hanya menonton video dan belajar mandiri. Semua kelas & mentoring berlangsung secara live."
+                      text="5 minggu pertama OFFLINE hari Sabtu jam 9:00 - 16:00 WIB di BSD, Tangerang dan 3 minggu terakhir ONLINE"
                     />
                   </div>
 
@@ -628,10 +613,10 @@ const CreatorAcceleratorProgram = () => {
         <FeatureCard
           external
           src="/images/student-card.png"
-          href="/registration"
+          href="/registration-offline"
           buttonText="Apply Now"
           title="Semua Murid Seefluencer Akan Mendapatkan Fine Gold 24k Student ID dan Powerbank"
-          description="Kamu akan dikirimkan langsung Creator Kit yang berisikan Fine Gold 24K Student ID dan Powerbank. Ini khusus berlaku untuk 50 orang yang lolos ke dalam Creator Accelerator Program ini."
+          description="Kamu akan dikirimkan langsung Creator Kit yang berisikan Fine Gold 24K Student ID dan Powerbank. Ini khusus berlaku untuk 30 orang yang lolos ke dalam Creator Accelerator Program ini."
         />
       </Container>
 

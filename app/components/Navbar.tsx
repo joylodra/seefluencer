@@ -104,7 +104,17 @@ const Navbar = ({ landingNav, logo, button }: NavbarProps) => {
                   }}
                   className="bg-white px-4 py-2 hover:bg-[#0b64be] rounded-t whitespace-no-wrap hover:text-white transition cursor-pointer"
                 >
-                  8-week Creator Accelerator Program
+                  Bootcamp Online
+                </div>
+
+                <div
+                  onClick={() => {
+                    router.push(`/accelerator-offline`);
+                    setIsMenuOpen(false);
+                  }}
+                  className="bg-white px-4 py-2 hover:bg-[#0b64be] rounded-t whitespace-no-wrap hover:text-white transition cursor-pointer"
+                >
+                  Bootcamp Offline di BSD, Tangerang
                 </div>
 
                 <div
@@ -114,7 +124,7 @@ const Navbar = ({ landingNav, logo, button }: NavbarProps) => {
                   }}
                   className="bg-white rounded-b whitespace-no-wrap px-4 py-2 hover:bg-[#0b64be] hover:text-white transition cursor-pointer"
                 >
-                  The Next Creator
+                  Webinar Gratis: Cara Bikin Konten Viral
                 </div>
               </div>
             </div>
@@ -153,7 +163,17 @@ const Navbar = ({ landingNav, logo, button }: NavbarProps) => {
                     }}
                     className="px-4 py-2 hover:bg-[#0b64be] hover:text-white transition cursor-pointer"
                   >
-                    8-week Creator Accelerator Program
+                    Bootcamp Online
+                  </div>
+
+                  <div
+                    onClick={() => {
+                      router.push(`/accelerator-offline`);
+                      setIsMenuOpen(false);
+                    }}
+                    className="px-4 py-2 hover:bg-[#0b64be] hover:text-white transition cursor-pointer"
+                  >
+                    Bootcamp Offline di BSD, Tangerang
                   </div>
 
                   <div
@@ -163,7 +183,7 @@ const Navbar = ({ landingNav, logo, button }: NavbarProps) => {
                     }}
                     className="px-4 py-2 hover:bg-[#0b64be] hover:text-white transition cursor-pointer"
                   >
-                    The Next Creator
+                    Webinar Gratis Cara Bikin Konten Viral
                   </div>
                 </div>
 

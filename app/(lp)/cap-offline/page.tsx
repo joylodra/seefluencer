@@ -14,7 +14,6 @@ import CtaBox from "@/app/components/CtaBox";
 import SideBox from "@/app/components/SideBox";
 import FeatureCard from "@/app/components/FeatureCard";
 import FaqSection from "@/app/components/FaqSection";
-import WhatsAppButton from "@/app/libs/WhatsappRotator";
 
 // Icons & Images
 import {
@@ -34,10 +33,6 @@ export const metadata = {
 };
 
 const CreatorAcceleratorProgram = () => {
-  const whatsappNumbers: string[] = ["6285165864726", "6285175449955"];
-  const whatsappText: string =
-    "Halo min, saya mau tanya-tanya tentang bootcamp OFFLINE Seefluencer.";
-
   return (
     <div className="flex flex-col">
       {/* Navigation Bar */}
@@ -56,11 +51,10 @@ const CreatorAcceleratorProgram = () => {
           </div>
         }
         button={
-          <WhatsAppButton
-            numbers={whatsappNumbers}
-            whatsappText={whatsappText}
+          <Button
+            hrefLink="/registration-offline"
             buttonText="Apply Now"
-            noFull
+            external
           />
         }
       />
@@ -97,8 +91,8 @@ const CreatorAcceleratorProgram = () => {
           }
           withImage
           imageSrc="/images/class.png"
-          whatsappNumbers={whatsappNumbers}
-          whatsappText={whatsappText}
+          buttonHref="/registration-offline"
+          buttonText="Apply Now"
           external
         />
       </Container>
@@ -119,8 +113,8 @@ const CreatorAcceleratorProgram = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-5">
           <div className="col-span-1 order-last md:order-first">
             <SideBox
-              whatsappText={whatsappText}
-              whatsappNumbers={whatsappNumbers}
+              ctaButtonHref="/registration-offline"
+              ctaButtonText="Apply Now"
               content={
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-row gap-3">
@@ -366,8 +360,8 @@ const CreatorAcceleratorProgram = () => {
           title="Memperkenalkan, 8-week Creator Accelerator Bootcamp yang dirancang oleh Seefluencer University"
           description="Kelas intensif buat Kamu yang mau mendapatkan bimbingan selama 2 bulan & jadi content creator berpenghasilan."
           src="/images/cap-cap.png"
-          whatsappNumbers={whatsappNumbers}
-          whatsappText={whatsappText}
+          href="/registration-offline"
+          buttonText="Apply Now"
           external
         />
       </Container>
@@ -589,8 +583,8 @@ const CreatorAcceleratorProgram = () => {
                   </div>
                 </div>
               }
-              whatsappNumbers={whatsappNumbers}
-              whatsappText={whatsappText}
+              ctaButtonHref="/registration-offline"
+              ctaButtonText="Apply Now"
             />
           </div>
         </div>
@@ -611,8 +605,8 @@ const CreatorAcceleratorProgram = () => {
           <CtaBox
             priceBefore="Rp17.000.000"
             priceAfter="Rp8.499.000"
-            whatsappNumbers={whatsappNumbers}
-            whatsappText={whatsappText}
+            ctaButtonHref="/registration-offline"
+            ctaButtonText="Apply Now"
             additionalNotes="*Harga bisa naik sewaktu-waktu."
             benefits={
               <>
@@ -643,8 +637,8 @@ const CreatorAcceleratorProgram = () => {
         <FeatureCard
           external
           src="/images/student-card.png"
-          whatsappNumbers={whatsappNumbers}
-          whatsappText={whatsappText}
+          href="/registration-offline"
+          buttonText="Apply Now"
           title="Semua Murid Seefluencer Akan Mendapatkan Fine Gold 24k Student ID dan Powerbank"
           description="Kamu akan dikirimkan langsung Creator Kit yang berisikan Fine Gold 24K Student ID dan Powerbank. Ini khusus berlaku untuk 30 orang yang lolos ke dalam Creator Accelerator Program ini."
         />
