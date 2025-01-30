@@ -131,18 +131,6 @@ const CreatorAcceleratorProgram = () => {
             className="w-full h-full object-cover rounded-2xl"
           />
         </div>
-
-        <div className="relative overflow-hidden w-full h-64 rounded-lg shadow-md">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.6688828602255!2d106.6495054753234!3d-6.307160461725305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e568e98fa857%3A0xa49db4b8d8052195!2sSaveria%20Apartment!5e0!3m2!1sen!2sid!4v1738236607210!5m2!1sen!2sid"
-            width="600"
-            height="450"
-            style={{ border: 0 }}
-            allowFullScreen={true}
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
       </Container>
 
       <Container>
