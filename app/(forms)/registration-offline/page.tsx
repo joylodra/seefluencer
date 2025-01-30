@@ -228,7 +228,7 @@ const SeefluencerForm = () => {
 
     try {
       // Validate and submit form data
-      const response = await fetch("/api/submit", {
+      const response = await fetch("/api/submit-offline", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
