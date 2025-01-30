@@ -62,9 +62,9 @@ const CreatorAcceleratorProgram = () => {
       {/* Hero Section */}
       <Container>
         <Hero
-          title="Dapatkan 10.000 Followers Pertamamu & Hasilkan Cuan Dalam 2 Bulan Dengan Creator Accelerator Bootcamp Kami!"
+          title={`Dapatkan 10.000 Followers Pertamamu & Hasilkan Cuan Dalam 2 Bulan Dengan Creator Accelerator Bootcamp Kami!`}
           description={
-            <div className="flex flex-col gap-5 text-center items-center md:items-start md:text-left">
+            <div className="flex flex-col gap-5 items-center">
               <div>
                 Garansi <b>uang kembali 100%</b> jika mencapai target yang
                 diberikan.
@@ -72,7 +72,7 @@ const CreatorAcceleratorProgram = () => {
 
               <div className="text-base flex flex-row gap-5 py-2 px-4 rounded-lg border-[#0b64be] border w-fit bg-blue-50">
                 <div className="text-right">
-                  <div className="font-bold">Batch #2</div>
+                  <div className="font-bold">Batch #3</div>
                   <div className="">30 SLOTS ONLY! 🟢</div>
                 </div>
 
@@ -83,16 +83,11 @@ const CreatorAcceleratorProgram = () => {
                   <div className="font-bold">Mar 2025 🗓</div>
                 </div>
               </div>
-
-              <div className="text-lg">
-                <b>📍 Lokasi Pembelajaran:</b> BSD, Tangerang
-              </div>
             </div>
           }
-          withImage
-          imageSrc="/images/class.png"
-          buttonHref="/registration-offline"
-          buttonText="Apply Now"
+          buttonHref={"/registration-offline"}
+          buttonText={"Apply Now"}
+          additionalNotes="Program selanjutnya akan dimulai di bulan Maret 2025"
           external
         />
       </Container>
@@ -108,6 +103,47 @@ const CreatorAcceleratorProgram = () => {
           height={800}
         />
       </Container> */}
+
+      <Container>
+        <div className="flex flex-col gap-2">
+          <Text title bold text="Lokasi pembelajaran di BSD, Tangerang 📍" />
+          <Text
+            text="Sekarang, kami sudah menyediakan tempat pembelajaran yang nyaman untuk para murid agar bisa belajar secara efektif dan efisien."
+            paragraph
+            secondaryColor
+          />
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+          <Image
+            src="/images/class-2.png"
+            alt="Ruangan Kelas"
+            width={500}
+            height={500}
+            className="w-full h-full object-cover rounded-2xl"
+          />
+
+          <Image
+            src="/images/class.png"
+            alt="Ruangan Kelas"
+            width={500}
+            height={500}
+            className="w-full h-full object-cover rounded-2xl"
+          />
+        </div>
+
+        <div className="relative overflow-hidden w-full h-64 rounded-lg shadow-md">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.6688828602255!2d106.6495054753234!3d-6.307160461725305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e568e98fa857%3A0xa49db4b8d8052195!2sSaveria%20Apartment!5e0!3m2!1sen!2sid!4v1738236607210!5m2!1sen!2sid"
+            width="600"
+            height="450"
+            style={{ border: 0 }}
+            allowFullScreen={true}
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </Container>
 
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-5">
