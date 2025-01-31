@@ -88,17 +88,50 @@ const CreatorAcceleratorProgram = () => {
         />
       </Container>
 
-      {/* <Container bgColor="bg-gradient-to-r from-neutral-200 via-neutral-50 to-neutral-100 text-center">
-        <Text text="We are Officially Supported by" title bold />
+      <Container>
+        <div className="flex flex-col gap-2">
+          <Text title bold text="Seefluencer Graduation Night 2024 👨‍🎓" />
+          <Text
+            text="Seefluencer mengadakan acara Graduation Night setiap tahunnya sebagai simbol kelulusan para alumni. Pastinya, acara graduation di tahun 2025 ini bakalan makin besar dan heboh!"
+            paragraph
+            secondaryColor
+          />
+        </div>
 
-        <Image
-          className="flex w-full"
-          src="/images/partners.png"
-          alt="Brand Yang Sudah Pernah Bekerja Sama"
-          width={800}
-          height={800}
-        />
-      </Container> */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+          <Image
+            src="/images/graduation.png"
+            alt="Graduation Night Seefluencer 2024"
+            width={500}
+            height={500}
+            className="w-full h-full object-cover rounded-2xl"
+          />
+
+          <Image
+            src="/images/graduation-2.png"
+            alt="Graduation Night Seefluencer 2024"
+            width={500}
+            height={500}
+            className="w-full h-full object-cover rounded-2xl"
+          />
+
+          <Image
+            src="/images/graduation-3.png"
+            alt="Graduation Night Seefluencer 2024"
+            width={500}
+            height={500}
+            className="w-full h-full object-cover rounded-2xl"
+          />
+
+          <Image
+            src="/images/graduation-4.png"
+            alt="Graduation Night Seefluencer 2024"
+            width={500}
+            height={500}
+            className="w-full h-full object-cover rounded-2xl"
+          />
+        </div>
+      </Container>
 
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-5">
