@@ -3,7 +3,7 @@ export async function POST(req: Request) {
     const formData = await req.json();
 
     const scriptUrl =
-      "https://script.google.com/macros/s/AKfycbxK6S6L8ppGuXljLSkOik0emxbwjq4ucxWCGLK7hQB0u1aZ6YbvWfJAt5Hd_9Kr35ZVQg/exec"; // Replace with your Web App URL
+      "https://script.google.com/macros/s/AKfycbzCxEa7mdsZlyD-WoHVibKs8g6QJk9JXxMCVMXODBXiz5KbwUd8QbI2HuDJZ15FzDQ/exec";
 
     const response = await fetch(scriptUrl, {
       method: "POST",
