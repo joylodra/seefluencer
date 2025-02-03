@@ -228,6 +228,7 @@ const SeefluencerForm = () => {
 - Nama: ${formData.nama}
 - Email: ${formData.email}
 - Nomor WhatsApp: ${formData.countryCode}${formData.phoneNumber}
+- Domisili: ${formData.domisili}
 - Alasan: ${formData.reason}`;
 
     return `https://wa.me/${salesNumber}?text=${encodeURIComponent(message)}`;
