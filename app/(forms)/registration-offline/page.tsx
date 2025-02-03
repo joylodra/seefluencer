@@ -2,11 +2,6 @@
 
 import { useState } from "react";
 
-type FieldErrors = {
-  email: string;
-  phoneNumber: string;
-};
-
 // Full list of country codes
 const countryCodes = [
   { code: "+1", country: "United States" },
@@ -176,14 +171,17 @@ const SeefluencerForm = () => {
     countryCode: "+62", // Default to Indonesia
     phoneNumber: "",
     reason: "",
+    domisili: "",
   });
   const [loading, setLoading] = useState(false);
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState("");
-  const [fieldErrors, setFieldErrors] = useState<FieldErrors>({
-    email: "",
-    phoneNumber: "",
-  });
+  const [fieldErrors, setFieldErrors] = useState<{
+    email?: string;
+    phoneNumber?: string;
+    domisili?: string;
+    reason?: string;
+  }>({});
   const [whatsAppLink, setWhatsAppLink] = useState<string | null>(null);
   const [trackingFired, setTrackingFired] = useState(false);
 
@@ -226,7 +224,7 @@ const SeefluencerForm = () => {
     const randomIndex = Math.floor(Math.random() * salesTeam.length);
     const salesNumber = salesTeam[randomIndex];
 
-    const message = `Halo, saya ingin mendaftar bootcamp OFFLINE di Seefluencer BSD, Tangerang. Berikut adalah data saya:
+    const message = `Halo, saya ingin mendaftar bootcamp ONLINE di Seefluencer. Berikut adalah data saya:
 - Nama: ${formData.nama}
 - Email: ${formData.email}
 - Nomor WhatsApp: ${formData.countryCode}${formData.phoneNumber}
@@ -239,17 +237,37 @@ const SeefluencerForm = () => {
     e.preventDefault();
     setLoading(true);
     setError("");
+    const newFieldErrors: { [key: string]: string } = {};
+
+    // Validate email
+    if (!validateEmail(formData.email)) {
+      newFieldErrors.email = "Email tidak valid.";
+    }
+
+    // Validate phone number
+    if (!validatePhoneNumber(formData.phoneNumber)) {
+      newFieldErrors.phoneNumber = "Nomor WhatsApp tidak valid.";
+    }
+
+    // Validate domisili
+    if (!formData.domisili) {
+      newFieldErrors.domisili = "Pilih domisili Anda.";
+    }
+
+    const wordCount = formData.reason.trim().split(/\s+/).length;
+    if (wordCount < 20) {
+      newFieldErrors.reason = "Alasan harus memiliki minimal 20 kata.";
+    }
+
+    // If there are validation errors, stop submission
+    if (Object.keys(newFieldErrors).length > 0) {
+      setFieldErrors(newFieldErrors);
+      setLoading(false);
+      return;
+    }
 
     try {
-      if (typeof window !== "undefined" && window.fbq) {
-        window.fbq("track", "Lead", {
-          content_name: "Registration Completed",
-          value: 8499000,
-          currency: "IDR",
-        });
-      }
-
-      // Validate and submit form data
+      // Send data to your API endpoint
       const response = await fetch("/api/submit-offline", {
         method: "POST",
         headers: {
@@ -261,7 +279,9 @@ const SeefluencerForm = () => {
         }),
       });
 
+      // Parse API response
       const result = await response.json();
+
       if (result.success) {
         // Generate WhatsApp link and save it in state
         const whatsAppLink = getWhatsAppLink(formData);
@@ -271,10 +291,10 @@ const SeefluencerForm = () => {
         // Open WhatsApp link in a new tab immediately
         window.open(whatsAppLink, "_blank");
       } else {
-        throw new Error(result.error || "Terjadi kesalahan.");
+        throw new Error(result.error || "Terjadi kesalahan pada server.");
       }
     } catch (err: any) {
-      setError(err.message);
+      setError(err.message || "Terjadi kesalahan.");
     } finally {
       setLoading(false);
     }
@@ -304,7 +324,7 @@ const SeefluencerForm = () => {
             </div>
             <h2 className="text-2xl font-bold ">🎉 Pendaftaran Berhasil!</h2>
             <p className="text-gray-600 text-sm">
-              Terima kasih telah mendaftar ke bootcamp offline di Seefluencer.
+              Terima kasih telah mendaftar ke bootcamp online di Seefluencer.
               Klik tombol di bawah untuk menghubungi tim sales kami melalui
               WhatsApp.
             </p>
@@ -407,6 +427,42 @@ const SeefluencerForm = () => {
               )}
             </div>
 
+            {/* Domisili */}
+            <div>
+              <label className="block text-sm font-medium text-gray-700">
+                Kamu berdomisili dimana?
+              </label>
+              <div className="mt-2 space-y-2">
+                <label className="flex items-center">
+                  <input
+                    type="radio"
+                    name="domisili"
+                    value="Jabodetabek"
+                    checked={formData.domisili === "Jabodetabek"}
+                    onChange={handleChange}
+                    className="h-4 w-4 text-[#0b64be] border-gray-300 focus:ring-[#0b64be]"
+                  />
+                  <span className="ml-2 text-gray-700">Jabodetabek</span>
+                </label>
+                <label className="flex items-center">
+                  <input
+                    type="radio"
+                    name="domisili"
+                    value="Luar Jabodetabek"
+                    checked={formData.domisili === "Luar Jabodetabek"}
+                    onChange={handleChange}
+                    className="h-4 w-4 text-[#0b64be] border-gray-300 focus:ring-[#0b64be]"
+                  />
+                  <span className="ml-2 text-gray-700">Luar Jabodetabek</span>
+                </label>
+              </div>
+              {fieldErrors.domisili && (
+                <p className="text-red-500 text-sm mt-1">
+                  {fieldErrors.domisili}
+                </p>
+              )}
+            </div>
+
             {/* Reason */}
             <div>
               <label
@@ -424,6 +480,11 @@ const SeefluencerForm = () => {
                 onChange={handleChange}
                 className="mt-1 block w-full px-4 py-2 border rounded-md focus:ring-[#0b64be] focus:border-[#0b64be] h-32"
               ></textarea>
+              {fieldErrors.reason && (
+                <p className="text-red-500 text-sm mt-1">
+                  {fieldErrors.reason}
+                </p>
+              )}
             </div>
 
             {/* Submit Button */}
