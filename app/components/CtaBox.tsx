@@ -14,6 +14,7 @@ interface CtaBoxProps {
   benefits: React.ReactNode;
   whatsappNumbers?: string[];
   whatsappText?: string;
+  onClick?: () => void;
 }
 
 const CtaBox = ({
@@ -25,6 +26,7 @@ const CtaBox = ({
   benefits,
   whatsappNumbers,
   whatsappText,
+  onClick,
 }: CtaBoxProps) => {
   return (
     <div className="bg-white p-5 rounded-md max-w-xl w-full flex flex-col gap-5">
@@ -46,6 +48,7 @@ const CtaBox = ({
               buttonText={ctaButtonText}
               hrefLink={ctaButtonHref}
               external
+              onClick={onClick}
             />
           )}
 

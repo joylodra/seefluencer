@@ -12,6 +12,7 @@ interface SideBoxProps {
   additionalNotes?: string;
   whatsappNumbers?: string[];
   whatsappText?: string;
+  onClick?: () => void;
 }
 
 const SideBox = ({
@@ -21,6 +22,7 @@ const SideBox = ({
   additionalNotes,
   whatsappNumbers,
   whatsappText,
+  onClick,
 }: SideBoxProps) => {
   return (
     <div className="md:sticky top-5 border border-blue-200 shadow-sm h-fit rounded-sm w-full flex flex-col">
@@ -46,6 +48,7 @@ const SideBox = ({
             buttonText={ctaButtonText}
             hrefLink={ctaButtonHref}
             external
+            onClick={onClick}
           />
         )}
 

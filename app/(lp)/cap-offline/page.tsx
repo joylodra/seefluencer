@@ -40,6 +40,16 @@ const CreatorAcceleratorProgram = () => {
     }
   }, []);
 
+  const handleApplyClick = () => {
+    if (typeof window !== "undefined" && window.fbq) {
+      window.fbq("track", "Lead", {
+        content_name: "Apply Now Button Clicked",
+        value: 0.0,
+        currency: "USD",
+      });
+    }
+  };
+
   return (
     <div className="flex flex-col">
       {/* Navigation Bar */}
@@ -62,6 +72,7 @@ const CreatorAcceleratorProgram = () => {
             hrefLink="/registration-offline"
             buttonText="Apply Now"
             external
+            onClick={handleApplyClick}
           />
         }
       />
@@ -94,6 +105,7 @@ const CreatorAcceleratorProgram = () => {
           }
           buttonHref={"/registration-offline"}
           buttonText={"Apply Now"}
+          onClick={handleApplyClick}
           additionalNotes="Program selanjutnya akan dimulai di bulan Maret 2025"
           external
         />
@@ -179,6 +191,7 @@ const CreatorAcceleratorProgram = () => {
             <SideBox
               ctaButtonHref="/registration-offline"
               ctaButtonText="Apply Now"
+              onClick={handleApplyClick}
               content={
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-row gap-3">
@@ -426,6 +439,7 @@ const CreatorAcceleratorProgram = () => {
           src="/images/cap-cap.png"
           href="/registration-offline"
           buttonText="Apply Now"
+          onClick={handleApplyClick}
           external
         />
       </Container>
@@ -649,6 +663,7 @@ const CreatorAcceleratorProgram = () => {
               }
               ctaButtonHref="/registration-offline"
               ctaButtonText="Apply Now"
+              onClick={handleApplyClick}
             />
           </div>
         </div>
@@ -671,6 +686,7 @@ const CreatorAcceleratorProgram = () => {
             priceAfter="Rp8.499.000"
             ctaButtonHref="/registration-offline"
             ctaButtonText="Apply Now"
+            onClick={handleApplyClick}
             additionalNotes="*Harga bisa naik sewaktu-waktu."
             benefits={
               <>
@@ -703,6 +719,7 @@ const CreatorAcceleratorProgram = () => {
           src="/images/student-card.png"
           href="/registration-offline"
           buttonText="Apply Now"
+          onClick={handleApplyClick}
           title="Semua Murid Seefluencer Akan Mendapatkan Fine Gold 24k Student ID dan Powerbank"
           description="Kamu akan dikirimkan langsung Creator Kit yang berisikan Fine Gold 24K Student ID dan Powerbank. Ini khusus berlaku untuk 30 orang yang lolos ke dalam Creator Accelerator Program ini."
         />

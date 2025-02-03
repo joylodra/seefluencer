@@ -17,6 +17,7 @@ interface FeatureCardProps {
   external?: boolean;
   whatsappNumbers?: string[];
   whatsappText?: string;
+  onClick?: () => void;
 }
 
 const FeatureCard = ({
@@ -29,6 +30,7 @@ const FeatureCard = ({
   external,
   whatsappNumbers,
   whatsappText,
+  onClick,
 }: FeatureCardProps) => {
   return (
     <div
@@ -51,6 +53,7 @@ const FeatureCard = ({
             buttonText={buttonText}
             external={external}
             regular
+            onClick={onClick}
           />
         )}
 

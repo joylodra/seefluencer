@@ -11,6 +11,7 @@ interface ButtonProps {
   full?: boolean;
   noFull?: boolean;
   regular?: boolean;
+  onClick?: () => void;
 }
 
 const Button = ({
@@ -20,9 +21,11 @@ const Button = ({
   full,
   noFull,
   regular,
+  onClick,
 }: ButtonProps) => {
   return (
     <Link
+      onClick={onClick}
       scroll={false}
       href={`${hrefLink}`}
       target={external ? "_blank" : ""}

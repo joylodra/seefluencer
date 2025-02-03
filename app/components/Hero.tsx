@@ -21,6 +21,7 @@ interface TitleProps {
   whatsappNumbers?: string[];
   reverse?: boolean;
   whatsappText?: string;
+  onClick?: () => void;
 }
 
 const Hero = ({
@@ -36,6 +37,7 @@ const Hero = ({
   whatsappNumbers,
   reverse,
   whatsappText,
+  onClick,
 }: TitleProps) => {
   return (
     <>
@@ -57,6 +59,7 @@ const Hero = ({
                   hrefLink={buttonHref}
                   buttonText={buttonText}
                   external={external}
+                  onClick={onClick}
                 />
               )}
 
@@ -101,6 +104,7 @@ const Hero = ({
                 hrefLink={buttonHref}
                 buttonText={buttonText}
                 external={external}
+                onClick={onClick}
               />
             )}
 
