@@ -1,3 +1,7 @@
+"use client";
+// React Components
+import { useEffect } from "react";
+
 // Custom Components
 import Hero from "@/app/components/Hero";
 import Navbar from "@/app/components/Navbar";
@@ -14,18 +18,18 @@ import SideBox from "@/app/components/SideBox";
 import { ImSad } from "react-icons/im";
 import { BsClock, BsCalendar } from "react-icons/bs";
 
-export const metadata = {
-  title: "The Next Creator",
-  keywords: [
-    "konsultasi",
-    "konten kreator",
-    "media sosial",
-    "influencer marketing",
-  ],
-  description: "Indonesia’s #1 Live Online Learning For Creators 💙",
-};
-
 const IntroductionClass = () => {
+  useEffect(() => {
+    if (typeof window !== "undefined" && window.fbq) {
+      window.fbq("track", "ViewContent", {
+        content_name: "Free Webinar Landing Page",
+        content_category: "Lead Generation",
+        value: 0.0,
+        currency: "IDR",
+      });
+    }
+  }, []);
+
   return (
     <div className="flex flex-col">
       {/* Navigation Bar */}

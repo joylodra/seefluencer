@@ -1,5 +1,7 @@
+"use client";
 // React & Next Components
 import Image from "next/image";
+import { useEffect } from "react";
 
 // Custom Components
 import Navbar from "@/app/components/Navbar";
@@ -26,13 +28,18 @@ import {
 } from "react-icons/bs";
 import { ImSad } from "react-icons/im";
 
-export const metadata = {
-  title: "8-week Creator Accelerator Program",
-  keywords: ["kelas konten kreator", "kelas intensif", "bootcamp", "community"],
-  description: "Indonesia’s #1 Live Online Learning For Creators 💙",
-};
-
 const CreatorAcceleratorProgram = () => {
+  useEffect(() => {
+    if (typeof window !== "undefined" && window.fbq) {
+      window.fbq("track", "ViewContent", {
+        content_name: "Bootcamp Offline Landing Page",
+        content_category: "Lead Generation",
+        value: 8499000,
+        currency: "IDR",
+      });
+    }
+  }, []);
+
   return (
     <div className="flex flex-col">
       {/* Navigation Bar */}

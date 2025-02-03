@@ -32,9 +32,9 @@ const CreatorAcceleratorProgram = () => {
   useEffect(() => {
     if (typeof window !== "undefined" && window.fbq) {
       window.fbq("track", "ViewContent", {
-        content_name: "Landing Page",
+        content_name: "Online Bootcamp Landing Page",
         content_category: "Lead Generation",
-        value: 0.0,
+        value: 6499000,
         currency: "IDR",
       });
     }
