@@ -244,8 +244,8 @@ const SeefluencerForm = () => {
       if (typeof window !== "undefined" && window.fbq) {
         window.fbq("track", "Lead", {
           content_name: "Registration Completed",
-          value: 0.0,
-          currency: "USD",
+          value: 8499000,
+          currency: "IDR",
         });
       }
 

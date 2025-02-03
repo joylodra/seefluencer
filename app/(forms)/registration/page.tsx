@@ -192,6 +192,18 @@ const SeefluencerForm = () => {
 
   const validatePhoneNumber = (phone: string) => /^\d{10,15}$/.test(phone); // 10–15 digits, no "+" in the number
 
+  // Track "InitiateCheckout" when user starts interacting with the form
+  const handleInteraction = () => {
+    if (!trackingFired && typeof window !== "undefined" && window.fbq) {
+      window.fbq("track", "InitiateCheckout", {
+        content_name: "User Started Registration",
+        value: 0.0,
+        currency: "USD",
+      });
+      setTrackingFired(true);
+    }
+  };
+
   const handleChange = (
     e: React.ChangeEvent<
       HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
@@ -202,6 +214,7 @@ const SeefluencerForm = () => {
 
     // Reset field-specific errors on change
     setFieldErrors((prev) => ({ ...prev, [name]: "" }));
+    handleInteraction();
   };
 
   const getWhatsAppLink = (formData: any) => {
@@ -228,6 +241,14 @@ const SeefluencerForm = () => {
     setError("");
 
     try {
+      if (typeof window !== "undefined" && window.fbq) {
+        window.fbq("track", "Lead", {
+          content_name: "Registration Completed",
+          value: 6499000,
+          currency: "IDR",
+        });
+      }
+
       // Validate and submit form data
       const response = await fetch("/api/submit", {
         method: "POST",
