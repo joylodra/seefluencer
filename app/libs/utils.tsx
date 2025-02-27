@@ -79,24 +79,9 @@ export const capFAQ = [
       "Tentu sangat-sangat cocok! Kamu bisa mengaplikasikan banyak hal untuk pengembangan sosial media di perusahaan tempat kamu kerja. Kamu pun bisa coba ajukan untuk dibayarkan oleh perusahaan untuk mengikuti training ini.",
   },
   {
-    question: "Bagaimana biar bisa dapat uang kembali 100%?",
+    question: "Bagaimana biar bisa dapat reward cashback 100%?",
     answer:
-      "Kami memberikan hadiah uang kembali 100% kepada siapapun yang bisa mencapai 100 ribu followers selama program 2 Bulan ini.",
-  },
-  // {
-  //   question:
-  //     "Apakah Creator Accelerator Program online, in-person, atau kelas yang sudah direkam?",
-  //   answer:
-  //     "Creator Accelerator Program adalah program 2 Bulan yang dilakukan secara live dan online melalui platform Zoom.",
-  // },
-  // {
-  //   question: "Dalam satu kelas, isinya berapa orang sih?",
-  //   answer: "Setiap kelas akan diisi oleh maksimum 50 orang.",
-  // },
-  {
-    question: "Jadwal untuk live sessionnya itu kapan aja sih?",
-    answer:
-      "CS kami siap memberikan detail dari kurikulum dan semua penjadwalan. Langsung kirim pesan ke nomor WA +6285175449955",
+      "Kami memberikan hadiah uang kembali 100% kepada siapapun yang bisa mencapai atau menambah 100 ribu followers selama program 2 Bulan ini.",
   },
   {
     question: "Gimana kalo aku sibuk dan tidak bisa hadir ke kelas?",

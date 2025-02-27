@@ -367,7 +367,7 @@ const SeefluencerForm = () => {
                 required
                 value={formData.nama}
                 onChange={handleChange}
-                className="mt-1 block w-full px-4 py-2 border rounded-md focus:ring-[#0b64be] focus:border-[#0b64be]"
+                className="mt-1 block w-full px-4 py-2 border rounded-md focus:ring-brand focus:border-brand"
               />
             </div>
 
@@ -386,7 +386,7 @@ const SeefluencerForm = () => {
                 required
                 value={formData.email}
                 onChange={handleChange}
-                className="mt-1 block w-full px-4 py-2 border rounded-md focus:ring-[#0b64be] focus:border-[#0b64be]"
+                className="mt-1 block w-full px-4 py-2 border rounded-md focus:ring-brand focus:border-brand"
               />
               {fieldErrors.email && (
                 <p className="text-red-500 text-sm mt-1">{fieldErrors.email}</p>
@@ -403,7 +403,7 @@ const SeefluencerForm = () => {
                   name="countryCode"
                   value={formData.countryCode}
                   onChange={handleChange}
-                  className="block w-full sm:w-1/3 px-4 py-2 border rounded-md focus:ring-[#0b64be] focus:border-[#0b64be]"
+                  className="block w-full sm:w-1/3 px-4 py-2 border rounded-md focus:ring-brand focus:border-brand"
                 >
                   {countryCodes.map(({ code, country }) => (
                     <option key={code} value={code}>
@@ -418,7 +418,7 @@ const SeefluencerForm = () => {
                   required
                   value={formData.phoneNumber}
                   onChange={handleChange}
-                  className="block w-full sm:flex-1 px-4 py-2 border rounded-md focus:ring-[#0b64be] focus:border-[#0b64be]"
+                  className="block w-full sm:flex-1 px-4 py-2 border rounded-md focus:ring-brand focus:border-brand"
                 />
               </div>
               {fieldErrors.phoneNumber && (
@@ -441,7 +441,7 @@ const SeefluencerForm = () => {
                     value="Jabodetabek"
                     checked={formData.domisili === "Jabodetabek"}
                     onChange={handleChange}
-                    className="h-4 w-4 text-[#0b64be] border-gray-300 focus:ring-[#0b64be]"
+                    className="h-4 w-4 text-brand border-gray-300 focus:ring-brand"
                   />
                   <span className="ml-2 text-gray-700">Jabodetabek</span>
                 </label>
@@ -452,7 +452,7 @@ const SeefluencerForm = () => {
                     value="Luar Jabodetabek"
                     checked={formData.domisili === "Luar Jabodetabek"}
                     onChange={handleChange}
-                    className="h-4 w-4 text-[#0b64be] border-gray-300 focus:ring-[#0b64be]"
+                    className="h-4 w-4 text-brand border-gray-300 focus:ring-brand"
                   />
                   <span className="ml-2 text-gray-700">Luar Jabodetabek</span>
                 </label>
@@ -479,7 +479,7 @@ const SeefluencerForm = () => {
                 required
                 value={formData.reason}
                 onChange={handleChange}
-                className="mt-1 block w-full px-4 py-2 border rounded-md focus:ring-[#0b64be] focus:border-[#0b64be] h-32"
+                className="mt-1 block w-full px-4 py-2 border rounded-md focus:ring-brand focus:border-brand h-32"
               ></textarea>
               {fieldErrors.reason && (
                 <p className="text-red-500 text-sm mt-1">
@@ -495,7 +495,7 @@ const SeefluencerForm = () => {
               className={`w-full px-4 py-2 text-white rounded-md shadow ${
                 loading
                   ? "bg-gray-400 cursor-not-allowed"
-                  : "bg-[#0b64be] hover:shadow-lg transition"
+                  : "bg-brand hover:shadow-lg transition"
               }`}
             >
               {loading ? "Sending..." : "Apply Now"}

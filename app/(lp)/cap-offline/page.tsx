@@ -4,18 +4,18 @@ import Image from "next/image";
 import { useEffect } from "react";
 
 // Custom Components
-import Navbar from "@/app/components/Navbar";
-import Hero from "@/app/components/Hero";
+import Navbar from "@/app/components/layout/Navbar";
+import Hero from "@/app/components/sections/Hero";
 import Container from "@/app/components/ui/Container";
 import Text from "@/app/components/ui/Text";
 import Button from "@/app/components/ui/Button";
-import IconCardReverse from "@/app/components/IconCardReverse";
-import IconCard from "@/app/components/IconCard";
-import Accordion from "@/app/components/Accordion";
-import CtaBox from "@/app/components/CtaBox";
-import SideBox from "@/app/components/SideBox";
-import FeatureCard from "@/app/components/FeatureCard";
-import FaqSection from "@/app/components/FaqSection";
+import IconCardReverse from "@/app/components/shared/IconCardReverse";
+import IconCard from "@/app/components/shared/IconCard";
+import Accordion from "@/app/components/ui/Accordion";
+import CtaBox from "@/app/components/shared/CtaBox";
+import SideBox from "@/app/components/shared/SideBox";
+import FeatureCard from "@/app/components/shared/FeatureCard";
+import FaqSection from "@/app/components/sections/FaqSection";
 
 // Icons & Images
 import {
@@ -88,13 +88,13 @@ const CreatorAcceleratorProgram = () => {
                 diberikan.
               </div>
 
-              <div className="text-base flex flex-row gap-5 py-2 px-4 rounded-lg border-[#0b64be] border w-fit bg-blue-50">
+              <div className="text-base flex flex-row gap-5 py-2 px-4 rounded-lg border-brand border w-fit bg-blue-50">
                 <div className="text-right">
                   <div className="font-bold">Batch #3</div>
                   <div className="">30 SLOTS ONLY! 🟢</div>
                 </div>
 
-                <div className="border-r border-[#0b64be] border-2" />
+                <div className="border-r border-brand border-2" />
 
                 <div className="text-left">
                   <div className="">Next Batch Starts on</div>
@@ -195,7 +195,7 @@ const CreatorAcceleratorProgram = () => {
               content={
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-row gap-3">
-                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
+                    <div className="text-brand text-xl font-bold">✓</div>
                     <Text
                       paragraph
                       text="Sekolah konten kreator yang dijalankan selama 8 minggu secara live."
@@ -203,7 +203,7 @@ const CreatorAcceleratorProgram = () => {
                   </div>
 
                   <div className="flex flex-row gap-3">
-                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
+                    <div className="text-brand text-xl font-bold">✓</div>
                     <Text
                       paragraph
                       text="5 minggu pertama OFFLINE hari Sabtu jam 9:00 - 16:00 WIB di BSD, Tangerang dan 3 minggu terakhir ONLINE"
@@ -211,7 +211,7 @@ const CreatorAcceleratorProgram = () => {
                   </div>
 
                   <div className="flex flex-row gap-3">
-                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
+                    <div className="text-brand text-xl font-bold">✓</div>
                     <Text
                       paragraph
                       text="Dibimbing hingga bisa menghasilkan minimal 25 konten yang diupload."
@@ -219,7 +219,7 @@ const CreatorAcceleratorProgram = () => {
                   </div>
 
                   <div className="flex flex-row gap-3">
-                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
+                    <div className="text-brand text-xl font-bold">✓</div>
                     <Text
                       paragraph
                       text="Jaminan UANG KEMBALI 100% jika mencapai target."
@@ -262,35 +262,35 @@ const CreatorAcceleratorProgram = () => {
 
             <div className="flex flex-wrap gap-8">
               <IconCardReverse
-                iconColor="text-[#0b64be]"
+                iconColor="text-brand"
                 icon={<BsClock />}
                 title="Maret 2025"
                 description="Tanggal Mulai"
               />
 
               <IconCardReverse
-                iconColor="text-[#0b64be]"
+                iconColor="text-brand"
                 icon={<BsCalendar />}
                 title="2 Bulan"
                 description="Durasi"
               />
 
               <IconCardReverse
-                iconColor="text-[#0b64be]"
+                iconColor="text-brand"
                 icon={<BsPersonBadge />}
                 title="30 Murid"
                 description="Slot Kelas"
               />
 
               <IconCardReverse
-                iconColor="text-[#0b64be]"
+                iconColor="text-brand"
                 icon={<BsLaptop />}
                 title="On-site di BSD, Tangerang"
                 description="Format"
               />
 
               <IconCardReverse
-                iconColor="text-[#0b64be]"
+                iconColor="text-brand"
                 icon={<BsGraphUp />}
                 title="Beginner"
                 description="Skill Level"
@@ -583,17 +583,17 @@ const CreatorAcceleratorProgram = () => {
 
         <div className="flex flex-wrap gap-5">
           <div className="flex flex-row gap-2 items-center">
-            <BsCalendar className="text-[#0b64be] text-xl" />
+            <BsCalendar className="text-brand text-xl" />
             <Text text="2 bulan" paragraph />
           </div>
 
           <div className="flex flex-row gap-2 items-center">
-            <BsLaptop className="text-[#0b64be] text-xl" />
+            <BsLaptop className="text-brand text-xl" />
             <Text text="1-2 Live Session Per Minggu" paragraph />
           </div>
 
           <div className="flex flex-row gap-2 items-center">
-            <BsStopwatch className="text-[#0b64be] text-xl" />
+            <BsStopwatch className="text-brand text-xl" />
             <Text text="Komitmen 6-8 Jam Per Minggu" paragraph />
           </div>
         </div>
@@ -637,7 +637,7 @@ const CreatorAcceleratorProgram = () => {
               content={
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-row gap-3">
-                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
+                    <div className="text-brand text-xl font-bold">✓</div>
                     <Text
                       paragraph
                       text="Dibimbing hingga bisa menghasilkan minimal 25 konten yang diupload."
@@ -645,7 +645,7 @@ const CreatorAcceleratorProgram = () => {
                   </div>
 
                   <div className="flex flex-row gap-3">
-                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
+                    <div className="text-brand text-xl font-bold">✓</div>
                     <Text
                       paragraph
                       text="5 minggu pertama OFFLINE hari Sabtu jam 9:00 - 16:00 WIB di BSD, Tangerang dan 3 minggu terakhir ONLINE"
@@ -653,7 +653,7 @@ const CreatorAcceleratorProgram = () => {
                   </div>
 
                   <div className="flex flex-row gap-3">
-                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
+                    <div className="text-brand text-xl font-bold">✓</div>
                     <Text
                       paragraph
                       text="Belajar semua yang kamu butuhkan untuk menjadi konten kreator dari A sampai Z."
@@ -672,7 +672,7 @@ const CreatorAcceleratorProgram = () => {
       {/* Pricing */}
       <Container
         id="pricing"
-        bgColor="bg-gradient-to-r from-[#0b64be] to-[#117de9] text-center"
+        bgColor="bg-gradient-to-r from-brand to-[#117de9] text-center"
       >
         <div className="flex flex-col gap-5 justify-center items-center">
           <div className="text-white">
@@ -692,7 +692,7 @@ const CreatorAcceleratorProgram = () => {
               <>
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-row gap-3">
-                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
+                    <div className="text-brand text-xl font-bold">✓</div>
                     <Text
                       paragraph
                       text="5 minggu pertama OFFLINE hari Sabtu jam 9:00 - 16:00 WIB di BSD, Tangerang dan 3 minggu terakhir ONLINE"
@@ -700,7 +700,7 @@ const CreatorAcceleratorProgram = () => {
                   </div>
 
                   <div className="flex flex-row gap-3">
-                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
+                    <div className="text-brand text-xl font-bold">✓</div>
                     <Text
                       paragraph
                       text="Seefluencer University adalah Kelas Intensif yang akan memberikan tugas PR, dan membantu Kamu secara personal, sehingga pengembangan konten & personal branding-mu bisa jauh lebih efektif."

@@ -1,5 +1,87 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap");
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+/* Base Styles */
+html,
+body {
+  @apply bg-white font-sans;
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* Heading Sizes */
+  --text-h1: 3rem; /* 48px */
+  --text-h2: 2.5rem; /* 40px */
+  --text-h3: 2rem; /* 32px */
+  --text-h4: 1.75rem; /* 28px */
+  --text-h5: 1.5rem; /* 24px */
+  --text-h6: 1.25rem; /* 20px */
+
+  /* Body & Utility Text */
+  --text-body: 1rem; /* 16px */
+  --text-small: 0.875rem; /* 14px */
+  --text-xs: 0.75rem; /* 12px */
+}
+
+/* Consistent Typography */
+h1 {
+  font-size: var(--text-h1);
+  @apply font-bold leading-tight tracking-tight;
+}
+h2 {
+  font-size: var(--text-h2);
+  @apply font-bold leading-tight tracking-tight;
+}
+h3 {
+  font-size: var(--text-h3);
+  @apply font-semibold leading-tight tracking-tight;
+}
+h4 {
+  font-size: var(--text-h4);
+  @apply font-semibold leading-snug tracking-tight;
+}
+h5 {
+  font-size: var(--text-h5);
+  @apply leading-snug font-medium;
+}
+h6 {
+  font-size: var(--text-h6);
+  @apply leading-normal font-medium;
+}
+
+p {
+  font-size: var(--text-body);
+  @apply leading-normal;
+}
+small {
+  font-size: var(--text-small);
+  @apply text-muted;
+}
+
+/* Scroll */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Responsive Container */
+.container {
+  @apply max-w-container mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* Responsive Section Padding */
+.section {
+  @apply py-8 md:py-16 lg:py-24;
+}
+
+/* Button Styles */
+.btn {
+  @apply px-6 py-3 rounded-xl text-white bg-brand hover:bg-secondary transition-colors duration-300;
+}
+
+.btn-outline {
+  @apply px-6 py-3 rounded-xl border border-brand text-brand hover:bg-brand hover:text-white transition-colors duration-300;
+}

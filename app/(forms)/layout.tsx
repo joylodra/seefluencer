@@ -1,10 +1,6 @@
 // React & Next Hooks
 import { Metadata } from "next";
-import { Analytics } from "@vercel/analytics/react";
 import Script from "next/script";
-
-// Custom Components
-import Footer from "../components/Footer";
 
 // Styles
 import "../globals.css";
@@ -78,7 +74,7 @@ export default function RootLayout({
         />
       </head>
 
-      <body className="bg-gray-50 scroll-smooth">
+      <body>
         {/* GTM (noscript fallback) */}
         <noscript>
           <iframe

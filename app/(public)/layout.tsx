@@ -5,19 +5,20 @@ import dynamic from "next/dynamic";
 import Script from "next/script";
 
 // Custom Components
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import Navbar from "../components/layout/Navbar";
+import Footer from "../components/layout/Footer";
 
 // Styles
 import "../globals.css";
+import MovingBanner from "../components/shared/MovingBanner";
 
 export const metadata: Metadata = {
   title: {
     default: "Seefluencer",
-    template: "%s | Seefluencer",
+    template: "%s",
   },
   keywords: [
-    "Seefluencer",
+    "seefluencer",
     "social media",
     "influencer marketing platform",
     "content creator",
@@ -95,7 +96,7 @@ export default function RootLayout({
         />
       </head>
 
-      <body className="bg-gray-50">
+      <body>
         {/* GTM (noscript fallback) */}
         <noscript>
           <iframe
@@ -116,6 +117,7 @@ export default function RootLayout({
           />
         </noscript>
 
+        <MovingBanner hrefLink="/registration" />
         <Navbar />
         <main>{children}</main>
         <Footer complete />

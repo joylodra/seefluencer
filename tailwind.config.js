@@ -6,20 +6,31 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    aspectRatio: {
-      auto: "auto",
-      square: "1 / 1",
-      video: "16 / 9",
-      "3/4": "3 / 11",
-    },
     extend: {
-      fontFamily: {
-        poppins: ["Poppins"],
-        montserrat: ["Montserrat"],
-        helvetica: ["Helvetica"],
+      colors: {
+        brand: "#0d65c0", // Primary Brand Color
+        secondary: "#00509e", // Accent Color
+        light: "#f8f9fa", // Light Background
+        dark: "#212529", // Dark Background
+        muted: "#6c757d", // Muted Text
       },
-      boxShadow: {
-        "3xl": "0 0 10px rgba(0, 0, 0, 0.2)",
+      fontFamily: {
+        sans: ["Helvetica", "Arial", "sans-serif"], // Main Font
+      },
+      spacing: {
+        container: "1200px", // Max container width
+        section: "4rem", // Consistent section spacing
+      },
+      borderRadius: {
+        xl: "1.5rem", // Rounded corners for components
+      },
+      screens: {
+        xs: "480px", // For very small screens
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+        "2xl": "1536px",
       },
     },
   },

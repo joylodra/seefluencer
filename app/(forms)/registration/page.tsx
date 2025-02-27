@@ -172,6 +172,7 @@ const SeefluencerForm = () => {
     phoneNumber: "",
     reason: "",
     domisili: "",
+    trainingType: "",
   });
   const [loading, setLoading] = useState(false);
   const [submitted, setSubmitted] = useState(false);
@@ -224,11 +225,12 @@ const SeefluencerForm = () => {
     const randomIndex = Math.floor(Math.random() * salesTeam.length);
     const salesNumber = salesTeam[randomIndex];
 
-    const message = `Halo, saya ingin mendaftar bootcamp ONLINE di Seefluencer. Berikut adalah data saya:
+    const message = `Halo, saya ingin mendaftar ${formData.trainingType} di Seefluencer University. Berikut adalah data saya:
 - Nama: ${formData.nama}
 - Email: ${formData.email}
 - Nomor WhatsApp: ${formData.countryCode}${formData.phoneNumber}
 - Domisili: ${formData.domisili}
+- Program: ${formData.trainingType}
 - Alasan: ${formData.reason}`;
 
     return `https://wa.me/${salesNumber}?text=${encodeURIComponent(message)}`;
@@ -325,9 +327,9 @@ const SeefluencerForm = () => {
             </div>
             <h2 className="text-2xl font-bold ">🎉 Pendaftaran Berhasil!</h2>
             <p className="text-gray-600 text-sm">
-              Terima kasih telah mendaftar ke bootcamp online di Seefluencer.
-              Klik tombol di bawah untuk menghubungi tim sales kami melalui
-              WhatsApp.
+              Terima kasih telah mendaftar ke bootcamp di Seefluencer
+              University. Klik tombol di bawah untuk menghubungi tim sales kami
+              melalui WhatsApp.
             </p>
             <a
               href={whatsAppLink || "#"}
@@ -348,9 +350,13 @@ const SeefluencerForm = () => {
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="space-y-4">
-            <h1 className="text-2xl font-bold text-center mb-4">
-              Form Pendaftaran Bootcamp Online Seefluencer
-            </h1>
+            <div className="flex flex-col gap-3 text-center">
+              <small className="text-brand uppercase font-bold">
+                Seefluencer University
+              </small>
+
+              <h4>Form Pendaftaran Bootcamp Seefluencer University</h4>
+            </div>
 
             {/* Nama */}
             <div>
@@ -367,7 +373,7 @@ const SeefluencerForm = () => {
                 required
                 value={formData.nama}
                 onChange={handleChange}
-                className="mt-1 block w-full px-4 py-2 border rounded-md focus:ring-[#0b64be] focus:border-[#0b64be]"
+                className="mt-1 block w-full px-4 py-2 border rounded-md focus:ring-brand focus:border-brand"
               />
             </div>
 
@@ -386,7 +392,7 @@ const SeefluencerForm = () => {
                 required
                 value={formData.email}
                 onChange={handleChange}
-                className="mt-1 block w-full px-4 py-2 border rounded-md focus:ring-[#0b64be] focus:border-[#0b64be]"
+                className="mt-1 block w-full px-4 py-2 border rounded-md focus:ring-brand focus:border-brand"
               />
               {fieldErrors.email && (
                 <p className="text-red-500 text-sm mt-1">{fieldErrors.email}</p>
@@ -403,7 +409,7 @@ const SeefluencerForm = () => {
                   name="countryCode"
                   value={formData.countryCode}
                   onChange={handleChange}
-                  className="block w-full sm:w-1/3 px-4 py-2 border rounded-md focus:ring-[#0b64be] focus:border-[#0b64be]"
+                  className="block w-full sm:w-1/3 px-4 py-2 border rounded-md focus:ring-brand focus:border-brand"
                 >
                   {countryCodes.map(({ code, country }) => (
                     <option key={code} value={code}>
@@ -418,7 +424,7 @@ const SeefluencerForm = () => {
                   required
                   value={formData.phoneNumber}
                   onChange={handleChange}
-                  className="block w-full sm:flex-1 px-4 py-2 border rounded-md focus:ring-[#0b64be] focus:border-[#0b64be]"
+                  className="block w-full sm:flex-1 px-4 py-2 border rounded-md focus:ring-brand focus:border-brand"
                 />
               </div>
               {fieldErrors.phoneNumber && (
@@ -441,7 +447,7 @@ const SeefluencerForm = () => {
                     value="Jabodetabek"
                     checked={formData.domisili === "Jabodetabek"}
                     onChange={handleChange}
-                    className="h-4 w-4 text-[#0b64be] border-gray-300 focus:ring-[#0b64be]"
+                    className="h-4 w-4 text-brand border-gray-300 focus:ring-brand"
                   />
                   <span className="ml-2 text-gray-700">Jabodetabek</span>
                 </label>
@@ -452,7 +458,7 @@ const SeefluencerForm = () => {
                     value="Luar Jabodetabek"
                     checked={formData.domisili === "Luar Jabodetabek"}
                     onChange={handleChange}
-                    className="h-4 w-4 text-[#0b64be] border-gray-300 focus:ring-[#0b64be]"
+                    className="h-4 w-4 text-brand border-gray-300 focus:ring-brand"
                   />
                   <span className="ml-2 text-gray-700">Luar Jabodetabek</span>
                 </label>
@@ -464,13 +470,47 @@ const SeefluencerForm = () => {
               )}
             </div>
 
+            {/* Training Type Dropdown */}
+            <div>
+              <label
+                htmlFor="trainingType"
+                className="block text-sm font-medium text-gray-700"
+              >
+                Pilih jenis pelatihan
+              </label>
+              <select
+                id="trainingType"
+                name="trainingType"
+                required
+                value={formData.trainingType}
+                onChange={handleChange}
+                className="mt-1 block w-full px-4 py-2 border rounded-md focus:ring-brand focus:border-brand"
+              >
+                <option value="" disabled>
+                  Pilih jenis pelatihan...
+                </option>
+                <option value="Pelatihan ONLINE (Weekday)">
+                  Pelatihan ONLINE (Weekday)
+                </option>
+                <option value="Pelatihan ONLINE (Weekend)">
+                  Pelatihan ONLINE (Weekend)
+                </option>
+                <option value="Pelatihan OFFLINE di BSD, Tangerang (Weekday)">
+                  Pelatihan OFFLINE di BSD, Tangerang (Weekday)
+                </option>
+                <option value="Pelatihan OFFLINE di BSD, Tangerang (Weekend)">
+                  Pelatihan OFFLINE di BSD, Tangerang (Weekend)
+                </option>
+              </select>
+            </div>
+
             {/* Reason */}
             <div>
               <label
                 htmlFor="reason"
                 className="block text-sm font-medium text-gray-700"
               >
-                Kenapa anda mau join bootcamp online di Seefluencer?
+                Kenapa anda mau join bootcamp di Seefluencer University?
               </label>
               <textarea
                 id="reason"
@@ -478,7 +518,7 @@ const SeefluencerForm = () => {
                 required
                 value={formData.reason}
                 onChange={handleChange}
-                className="mt-1 block w-full px-4 py-2 border rounded-md focus:ring-[#0b64be] focus:border-[#0b64be] h-32"
+                className="mt-1 block w-full px-4 py-2 border rounded-md focus:ring-brand focus:border-brand h-32"
               ></textarea>
               {fieldErrors.reason && (
                 <p className="text-red-500 text-sm mt-1">
@@ -491,10 +531,10 @@ const SeefluencerForm = () => {
             <button
               type="submit"
               disabled={loading}
-              className={`w-full px-4 py-2 text-white rounded-md shadow ${
+              className={`w-full px-4 py-2 text-white rounded-full shadow font-bold ${
                 loading
                   ? "bg-gray-400 cursor-not-allowed"
-                  : "bg-[#0b64be] hover:shadow-lg transition"
+                  : "bg-brand hover:shadow-lg transition"
               }`}
             >
               {loading ? "Sending..." : "Apply Now"}

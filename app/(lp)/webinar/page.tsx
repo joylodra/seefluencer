@@ -3,16 +3,16 @@
 import { useEffect } from "react";
 
 // Custom Components
-import Hero from "@/app/components/Hero";
-import Navbar from "@/app/components/Navbar";
+import Hero from "@/app/components/sections/Hero";
+import Navbar from "@/app/components/layout/Navbar";
 import Button from "@/app/components/ui/Button";
 import Text from "@/app/components/ui/Text";
 import Container from "@/app/components/ui/Container";
-import IconCard from "@/app/components/IconCard";
-import FeatureCard from "@/app/components/FeatureCard";
-import CtaBox from "@/app/components/CtaBox";
-import Accordion from "@/app/components/Accordion";
-import SideBox from "@/app/components/SideBox";
+import IconCard from "@/app/components/shared/IconCard";
+import FeatureCard from "@/app/components/shared/FeatureCard";
+import CtaBox from "@/app/components/shared/CtaBox";
+import Accordion from "@/app/components/ui/Accordion";
+import SideBox from "@/app/components/shared/SideBox";
 
 // Icons & Images
 import { ImSad } from "react-icons/im";
@@ -38,7 +38,7 @@ const IntroductionClass = () => {
         logo={
           <div className="flex flex-col">
             <div className="font-bold">
-              <span className="bg-gradient-to-r from-[#0b64be] to-[#117de9] inline-block text-transparent bg-clip-text">
+              <span className="bg-gradient-to-r from-brand to-[#117de9] inline-block text-transparent bg-clip-text">
                 see
               </span>
               fluencer
@@ -231,7 +231,7 @@ const IntroductionClass = () => {
               content={
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-row gap-3">
-                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
+                    <div className="text-brand text-xl font-bold">✓</div>
                     <Text
                       paragraph
                       text="Pelajari proses pembuatan konten yang viral dari awal hingga akhir."
@@ -239,7 +239,7 @@ const IntroductionClass = () => {
                   </div>
 
                   <div className="flex flex-row gap-3">
-                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
+                    <div className="text-brand text-xl font-bold">✓</div>
                     <Text
                       paragraph
                       text="Maksimalkan pembelajaran dengan bertanya di sesi Q&A yang disediakan."
@@ -257,7 +257,7 @@ const IntroductionClass = () => {
       {/* Pricing */}
       <Container
         id="pricing"
-        bgColor="bg-gradient-to-r from-[#0b64be] to-[#117de9] text-center"
+        bgColor="bg-gradient-to-r from-brand to-[#117de9] text-center"
       >
         <div className="flex flex-col gap-5 justify-center items-center">
           <div className="text-white">
@@ -276,7 +276,7 @@ const IntroductionClass = () => {
               <>
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-row gap-3">
-                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
+                    <div className="text-brand text-xl font-bold">✓</div>
                     <Text
                       paragraph
                       text="Pelajari proses pembuatan konten yang viral dari awal hingga akhir."
@@ -284,7 +284,7 @@ const IntroductionClass = () => {
                   </div>
 
                   <div className="flex flex-row gap-3">
-                    <div className="text-[#0b64be] text-xl font-bold">✓</div>
+                    <div className="text-brand text-xl font-bold">✓</div>
                     <Text
                       paragraph
                       text="Maksimalkan pemebelajaranmu dengan bertanya di sesi Q&A yang disediakan."

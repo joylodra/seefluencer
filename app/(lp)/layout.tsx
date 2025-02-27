@@ -4,15 +4,15 @@ import { Analytics } from "@vercel/analytics/react";
 import Script from "next/script";
 
 // Custom Components
-import Footer from "../components/Footer";
+import Footer from "../components/layout/Footer";
 
 // Styles
 import "../globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "seefluencer",
-    template: "%s | seefluencer",
+    default: "Seefluencer",
+    template: "%s",
   },
   keywords: [
     "seefluencer",
@@ -94,7 +94,7 @@ export default function RootLayout({
         />
       </head>
 
-      <body className="bg-gray-50 scroll-smooth">
+      <body>
         {/* GTM (noscript fallback) */}
         <noscript>
           <iframe

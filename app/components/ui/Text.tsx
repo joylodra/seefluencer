@@ -29,11 +29,11 @@ const Text = ({
       ${title && "text-3xl md:text-5xl"}
       ${subtitle && "text-2xl md:text-4xls"}
       ${heading && "text-xl md:text-2xl"} 
-      ${paragraph && "text-base md:text-lg"}
+      ${paragraph && "text-base md:text-md"}
       ${small && "text-xs md:text-sm"}
       ${bold && "font-bold"}
       ${secondaryColor && "text-gray-500"}
-      ${primaryColor && "text-[#0b64be]"}
+      ${primaryColor && "text-brand"}
       font-helvetica`}
     >
       {text}
